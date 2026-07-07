@@ -1,0 +1,191 @@
+{
+  "category": "character",
+  "updated": "2026-07-07",
+  "asset_types": {
+    "playing-cards": "撲克牌",
+    "mahjong": "麻將",
+    "ui": "UI",
+    "mixed": "綜合性",
+    "sound": "音效",
+    "character": "角色"
+  },
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範"
+  },
+  "packs": [
+    {
+      "id": "chromoxi-good-and-evil",
+      "name": "Good and Evil Character Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://chromoxi.itch.io/good-and-evil",
+      "status": "pending-manual-download",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/character/pixel-art/chromoxi-good-and-evil"
+    },
+    {
+      "id": "booliebuilds-chrome-district",
+      "name": "Chrome District — 20 Cyberpunk Pixel Characters",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://booliebuilds.itch.io/chrome-district",
+      "status": "pending-manual-download",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/character/pixel-art/booliebuilds-chrome-district"
+    },
+    {
+      "id": "felipemartelo-saveboy",
+      "name": "SaveBoy 32x32 Pixel Art Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://felipemartelo.itch.io/saveboy",
+      "status": "pending-manual-download",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/character/pixel-art/felipemartelo-saveboy"
+    },
+    {
+      "id": "tiopalada-tiny-rpg-cc0",
+      "name": "Tiny RPG CC0 Characters and Portraits",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/tiny-rpg-cc0-characters-and-portraits",
+      "status": "pending-manual-download",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/character/pixel-art/tiopalada-tiny-rpg-cc0"
+    },
+    {
+      "id": "lpc-universal-spritesheet",
+      "name": "Universal LPC Spritesheet Character Generator",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC-BY-SA 3.0（部分素材 GPL）",
+      "source_url": "https://github.com/liberatedpixelcup/Universal-LPC-Spritesheet-Character-Generator",
+      "status": "pending-manual-download",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/character/pixel-art/lpc-universal-spritesheet"
+    },
+    {
+      "id": "kenney-toon-characters",
+      "name": "Kenney Toon Characters 1",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/toon-characters",
+      "status": "pending-manual-download",
+      "style": "toon-cartoon",
+      "local_path": "assets/1-free-commercial/character/toon-cartoon/kenney-toon-characters"
+    },
+    {
+      "id": "kenney-modular-characters",
+      "name": "Kenney Modular Characters",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/modular-characters",
+      "status": "pending-manual-download",
+      "style": "vector-flat",
+      "local_path": "assets/1-free-commercial/character/vector-flat/kenney-modular-characters"
+    },
+    {
+      "id": "kenney-shape-characters",
+      "name": "Kenney Shape Characters",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney-assets.itch.io/shape-characters",
+      "status": "pending-manual-download",
+      "style": "vector-flat",
+      "local_path": "assets/1-free-commercial/character/vector-flat/kenney-shape-characters"
+    },
+    {
+      "id": "rgsdev-modular-vector",
+      "name": "Free CC0 Modular Animated Vector Characters 2D",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://rgsdev.itch.io/free-cc0-modular-animated-vector-characters-2d",
+      "status": "pending-manual-download",
+      "style": "vector-flat",
+      "local_path": "assets/1-free-commercial/character/vector-flat/rgsdev-modular-vector"
+    },
+    {
+      "id": "dennis960-female-portrait",
+      "name": "Female Character Portrait 64x64",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://dennis960.itch.io/female-character-portrait",
+      "status": "pending-manual-download",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/dennis960-female-portrait"
+    },
+    {
+      "id": "screensmith-pokemon-townspeople",
+      "name": "Pokemon Style Characters — Townspeople",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://screensmith.itch.io/pokemon-style-characters-townspeople",
+      "status": "pending-manual-download",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/screensmith-pokemon-townspeople"
+    },
+    {
+      "id": "sutemo-female-vn-sprite",
+      "name": "Sutemo Female Character Sprite for Visual Novel",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://sutemo.itch.io/female-character",
+      "status": "pending-manual-download",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/sutemo-female-vn-sprite"
+    },
+    {
+      "id": "sutemo-male-vn-sprite",
+      "name": "Sutemo Male Character Sprite for Visual Novel",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://sutemo.itch.io/male-character-sprite-for-visual-novel",
+      "status": "pending-manual-download",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/sutemo-male-vn-sprite"
+    },
+    {
+      "id": "quaternius-ultimate-animated-character",
+      "name": "Quaternius Ultimate Animated Character Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://quaternius.com/packs/ultimatedanimatedcharacter.html",
+      "status": "pending-manual-download",
+      "style": "low-poly-3d",
+      "local_path": "assets/1-free-commercial/character/low-poly-3d/quaternius-ultimate-animated-character"
+    },
+    {
+      "id": "quaternius-universal-base-characters",
+      "name": "Quaternius Universal Base Characters",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://quaternius.com/packs/universalbasecharacters.html",
+      "status": "pending-manual-download",
+      "style": "low-poly-3d",
+      "local_path": "assets/1-free-commercial/character/low-poly-3d/quaternius-universal-base-characters"
+    }
+  ],
+  "styles": {
+    "pixel-art": "像素風",
+    "toon-cartoon": "卡通／Q版",
+    "vector-flat": "向量／扁平",
+    "anime-2d": "動漫／立繪",
+    "low-poly-3d": "3D 低多邊形"
+  }
+}

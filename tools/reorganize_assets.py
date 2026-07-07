@@ -12,7 +12,12 @@ REGISTRY = Path(__file__).with_name("pack_registry.json")
 TODAY = date.today().isoformat()
 
 
-def render_source_license(pack: dict, asset_type_label: str, license_category_label: str) -> str:
+def render_source_license(
+    pack: dict,
+    asset_type_label: str,
+    license_category_label: str,
+    style_label: str | None = None,
+) -> str:
     lines = [
         "# 來源與授權聲明",
         "",
@@ -22,6 +27,10 @@ def render_source_license(pack: dict, asset_type_label: str, license_category_la
         "|------|------|",
         f"| 套件名稱 | {pack['name']} |",
         f"| 素材類型 | {asset_type_label} |",
+    ]
+    if style_label:
+        lines.append(f"| 風格 | {style_label} |")
+    lines += [
         f"| 授權分類 | {license_category_label} |",
         f"| 授權條款 | {pack['license']} |",
         f"| 作者 | {pack['author']} |",
@@ -34,15 +43,17 @@ def render_source_license(pack: dict, asset_type_label: str, license_category_la
         lines.append(f"| 本機參照路徑 | `{pack['local_path']}` |")
     if pack.get("note"):
         lines.append(f"| 備註 | {pack['note']} |")
+    summary = ["", "## 授權摘要", "", f"- 素材類型：**{asset_type_label}**"]
+    if style_label:
+        summary.append(f"- 風格：**{style_label}**")
+    summary += [
+        f"- 授權分類：**{license_category_label}**",
+        f"- 條款：**{pack['license']}**",
+        "",
+    ]
     lines.extend(
         [
-            "",
-            "## 授權摘要",
-            "",
-            f"- 素材類型：**{asset_type_label}**",
-            f"- 授權分類：**{license_category_label}**",
-            f"- 條款：**{pack['license']}**",
-            "",
+            *summary,
             "## 原始授權連結",
             "",
             f"- {pack['source_url']}",
@@ -63,8 +74,23 @@ def ensure_type_readme(type_dir: Path, asset_type: str, label: str) -> None:
     )
 
 
+def ensure_style_readme(style_dir: Path, asset_type: str, style: str, label: str) -> None:
+    style_dir.mkdir(parents=True, exist_ok=True)
+    readme = style_dir / "README.md"
+    if readme.exists():
+        return
+    readme.write_text(
+        f"# {label}\n\n風格：`{style}`（隸屬素材類型 `{asset_type}`）\n\n"
+        f"本目錄收錄**{label}**風格的{asset_type}素材套件。\n",
+        encoding="utf-8",
+    )
+
+
 def target_dir(pack: dict) -> Path:
-    return ASSETS_DIR / pack["license_category"] / pack["asset_type"] / pack["folder"]
+    base = ASSETS_DIR / pack["license_category"] / pack["asset_type"]
+    if pack.get("style"):
+        base = base / pack["style"]
+    return base / pack["folder"]
 
 
 def migrate_downloaded_packs(packs: list[dict]) -> list[str]:
@@ -96,7 +122,10 @@ def migrate_downloaded_packs(packs: list[dict]) -> list[str]:
 
 
 def write_source_licenses(
-    packs: list[dict], asset_types: dict[str, str], license_categories: dict[str, str]
+    packs: list[dict],
+    asset_types: dict[str, str],
+    license_categories: dict[str, str],
+    character_styles: dict[str, str],
 ) -> int:
     count = 0
     for pack in packs:
@@ -123,11 +152,21 @@ def write_source_licenses(
 
         type_label = asset_types[pack["asset_type"]]
         cat_label = license_categories[pack["license_category"]]
-        ensure_type_readme(dest.parent, pack["asset_type"], type_label)
+        style = pack.get("style")
+        if style:
+            style_dir = dest.parent
+            type_dir = style_dir.parent
+            ensure_type_readme(type_dir, pack["asset_type"], type_label)
+            ensure_style_readme(
+                style_dir, pack["asset_type"], style, character_styles.get(style, style)
+            )
+        else:
+            ensure_type_readme(dest.parent, pack["asset_type"], type_label)
 
+        style_label = character_styles.get(style) if style else None
         license_file = dest / "SOURCE_LICENSE.md"
         license_file.write_text(
-            render_source_license(pack, type_label, cat_label),
+            render_source_license(pack, type_label, cat_label, style_label),
             encoding="utf-8",
         )
         count += 1
@@ -165,7 +204,11 @@ def cleanup_empty_dirs() -> None:
                     child.rmdir()
 
 
-def update_catalog_json(packs: list[dict], asset_types: dict[str, str]) -> None:
+def update_catalog_json(
+    packs: list[dict],
+    asset_types: dict[str, str],
+    character_styles: dict[str, str],
+) -> None:
     license_categories = json.loads(REGISTRY.read_text(encoding="utf-8"))[
         "license_categories"
     ]
@@ -185,6 +228,8 @@ def update_catalog_json(packs: list[dict], asset_types: dict[str, str]) -> None:
             "license_categories": license_categories,
             "packs": [],
         }
+        if any(pack.get("style") for pack in type_packs):
+            catalog["styles"] = character_styles
         for pack in type_packs:
             entry = {
                 "id": pack["id"],
@@ -195,6 +240,9 @@ def update_catalog_json(packs: list[dict], asset_types: dict[str, str]) -> None:
                 "source_url": pack["source_url"],
                 "status": pack["status"],
             }
+            if pack.get("style"):
+                entry["style"] = pack["style"]
+            style_seg = f"{pack['style']}/" if pack.get("style") else ""
             if pack["status"] == "local-reference":
                 entry["local_path"] = pack.get("local_path")
                 entry["local_path_short"] = (
@@ -202,7 +250,7 @@ def update_catalog_json(packs: list[dict], asset_types: dict[str, str]) -> None:
                 )
             elif pack["status"] != "catalog-only":
                 entry["local_path"] = (
-                    f"assets/{pack['license_category']}/{pack['asset_type']}/{pack['folder']}"
+                    f"assets/{pack['license_category']}/{pack['asset_type']}/{style_seg}{pack['folder']}"
                 )
             catalog["packs"].append(entry)
 
@@ -218,6 +266,7 @@ def main() -> None:
     packs: list[dict] = data["packs"]
     asset_types: dict[str, str] = data["asset_types"]
     license_categories: dict[str, str] = data["license_categories"]
+    character_styles: dict[str, str] = data.get("character_styles", {})
 
     # Ensure top-level type placeholders
     for lic in license_categories:
@@ -234,9 +283,9 @@ def main() -> None:
         ensure_type_readme(ref_root / asset_type, asset_type, label)
 
     moved = migrate_downloaded_packs(packs)
-    count = write_source_licenses(packs, asset_types, license_categories)
+    count = write_source_licenses(packs, asset_types, license_categories, character_styles)
     cleanup_empty_dirs()
-    update_catalog_json(packs, asset_types)
+    update_catalog_json(packs, asset_types, character_styles)
 
     print(f"Moved {len(moved)} pack folders")
     for line in moved:

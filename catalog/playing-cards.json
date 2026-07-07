@@ -160,7 +160,7 @@
       "name": "RevK SVG Playing Cards Generator",
       "asset_type": "playing-cards",
       "license_category": "1-free-commercial",
-      "license": "CC0 1.0 Universal",
+      "license": "牌面 CC0 1.0；生成器 GPL-3.0",
       "source_url": "https://codeberg.org/RevK/SVG-playing-cards",
       "status": "downloaded",
       "local_path": "assets/1-free-commercial/playing-cards/revk-svg-cards"

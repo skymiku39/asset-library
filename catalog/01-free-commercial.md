@@ -37,18 +37,13 @@
 | Kenney Playing Cards | `local-references/playing-cards/kenney-playing-cards-pack/` |
 | Kenney Board Game（牌+骰子等） | `local-references/mixed/kenney-boardgame-pack/` |
 
-## 麻將（mahjong）— 3 套已下載
+## 麻將（mahjong）— 6 套
 
 | 套件 | 路徑 | 說明 |
 |------|------|------|
 | FluffyStuff Riichi | `mahjong/fluffystuff-riichi-mahjong-tiles/` | 立直麻將 CC0，SVG+PNG |
 | samoheen Multi-Region | `mahjong/samoheen-mahjong-tiles/` | 多地區 CC0 |
 | Pyrano Ivory Tiles | `mahjong/pyrano-ivory-tiles/` | OGA-BY 4.0，32×32 |
-
-### 待手動下載
-
-| 套件 | 路徑 |
-|------|------|
-| natonato Simple Tiny | `mahjong/natonato-simple-tiny/` |
-| Blueeyedrat Pixel | `mahjong/blueeyedrat-pixel-mahjong/` |
-| DemChing 免費 SVG | `mahjong/demching-mahjong-free/` |
+| natonato Simple Tiny | `mahjong/natonato-simple-tiny/` | 20×28 / 32×32 像素 |
+| Blueeyedrat Pixel | `mahjong/blueeyedrat-pixel-mahjong/` | 64×64 精靈圖 |
+| DemChing 免費 SVG | `mahjong/demching-mahjong-free/` | CC-BY-SA 4.0，多地區 SVG |

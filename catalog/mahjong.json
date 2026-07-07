@@ -52,7 +52,7 @@
       "license_category": "1-free-commercial",
       "license": "免費商用（作者聲明）",
       "source_url": "https://natonato.itch.io/simple-tiny-mahjong-tiles",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "local_path": "assets/1-free-commercial/mahjong/natonato-simple-tiny"
     },
     {
@@ -62,7 +62,7 @@
       "license_category": "1-free-commercial",
       "license": "免費商用（作者聲明）",
       "source_url": "https://blueeyedrat.itch.io/pixel-assets-mahjong-tiles",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "local_path": "assets/1-free-commercial/mahjong/blueeyedrat-pixel-mahjong"
     },
     {
@@ -72,7 +72,7 @@
       "license_category": "1-free-commercial",
       "license": "CC-BY-SA 4.0（衍生自 Cangjie6）",
       "source_url": "https://demching.itch.io/mahjong",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "local_path": "assets/1-free-commercial/mahjong/demching-mahjong-free"
     },
     {
