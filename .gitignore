@@ -1,3 +1,6 @@
 # macOS 解壓殘留
 __MACOSX/
 .DS_Store
+
+# Python
+.venv/

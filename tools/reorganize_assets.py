@@ -1,0 +1,235 @@
+"""Reorganize asset folders by type and write SOURCE_LICENSE.md for each pack."""
+from __future__ import annotations
+
+import json
+import shutil
+from datetime import date
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+ASSETS_DIR = PROJECT_ROOT / "assets"
+REGISTRY = Path(__file__).with_name("pack_registry.json")
+TODAY = date.today().isoformat()
+
+
+def render_source_license(pack: dict, asset_type_label: str, license_category_label: str) -> str:
+    lines = [
+        "# 來源與授權聲明",
+        "",
+        "> 本檔案由素材庫自動維護，供授權稽核使用。",
+        "",
+        "| 項目 | 內容 |",
+        "|------|------|",
+        f"| 套件名稱 | {pack['name']} |",
+        f"| 素材類型 | {asset_type_label} |",
+        f"| 授權分類 | {license_category_label} |",
+        f"| 授權條款 | {pack['license']} |",
+        f"| 作者 | {pack['author']} |",
+        f"| 來源網址 | {pack['source_url']} |",
+        f"| 收錄日期 | {TODAY} |",
+        f"| 商用 | {pack['commercial']} |",
+        f"| 署名 | {pack['attribution']} |",
+    ]
+    if pack.get("local_path"):
+        lines.append(f"| 本機參照路徑 | `{pack['local_path']}` |")
+    if pack.get("note"):
+        lines.append(f"| 備註 | {pack['note']} |")
+    lines.extend(
+        [
+            "",
+            "## 授權摘要",
+            "",
+            f"- 素材類型：**{asset_type_label}**",
+            f"- 授權分類：**{license_category_label}**",
+            f"- 條款：**{pack['license']}**",
+            "",
+            "## 原始授權連結",
+            "",
+            f"- {pack['source_url']}",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def ensure_type_readme(type_dir: Path, asset_type: str, label: str) -> None:
+    type_dir.mkdir(parents=True, exist_ok=True)
+    readme = type_dir / "README.md"
+    if readme.exists():
+        return
+    readme.write_text(
+        f"# {label}\n\n素材類型：`{asset_type}`\n\n本目錄收錄**{label}**相關素材套件。\n",
+        encoding="utf-8",
+    )
+
+
+def target_dir(pack: dict) -> Path:
+    return ASSETS_DIR / pack["license_category"] / pack["asset_type"] / pack["folder"]
+
+
+def migrate_downloaded_packs(packs: list[dict]) -> list[str]:
+    moved: list[str] = []
+    for pack in packs:
+        if pack["status"] not in {"downloaded", "pending-manual-download"}:
+            continue
+        if pack["license_category"] == "local-references":
+            continue
+
+        old_candidates = [
+            ASSETS_DIR / pack["license_category"] / pack["folder"],
+            ASSETS_DIR / pack["license_category"] / pack["asset_type"] / pack["folder"],
+        ]
+        dest = target_dir(pack)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+
+        for old in old_candidates:
+            if old.exists() and old.resolve() != dest.resolve():
+                if dest.exists():
+                    shutil.rmtree(dest)
+                shutil.move(str(old), str(dest))
+                moved.append(f"{old} -> {dest}")
+                break
+        else:
+            dest.mkdir(parents=True, exist_ok=True)
+
+    return moved
+
+
+def write_source_licenses(
+    packs: list[dict], asset_types: dict[str, str], license_categories: dict[str, str]
+) -> int:
+    count = 0
+    for pack in packs:
+        if pack["status"] == "catalog-only":
+            dest = target_dir(pack)
+            dest.mkdir(parents=True, exist_ok=True)
+        elif pack["status"] == "local-reference":
+            ref_dir = ASSETS_DIR / "local-references" / pack["asset_type"]
+            ref_dir.mkdir(parents=True, exist_ok=True)
+            dest = ref_dir
+            url_file = ref_dir / f"{pack['folder']}.url"
+            local = pack.get("local_path", "")
+            if local and not url_file.exists():
+                url_file.write_text(
+                    f"[InternetShortcut]\nURL=file:///{local.replace(chr(92), '/')}/\n",
+                    encoding="utf-8",
+                )
+            dest = ref_dir / pack["folder"]
+            dest.mkdir(parents=True, exist_ok=True)
+        else:
+            dest = target_dir(pack)
+            if not dest.exists():
+                dest.mkdir(parents=True, exist_ok=True)
+
+        type_label = asset_types[pack["asset_type"]]
+        cat_label = license_categories[pack["license_category"]]
+        ensure_type_readme(dest.parent, pack["asset_type"], type_label)
+
+        license_file = dest / "SOURCE_LICENSE.md"
+        license_file.write_text(
+            render_source_license(pack, type_label, cat_label),
+            encoding="utf-8",
+        )
+        count += 1
+    return count
+
+
+def cleanup_empty_dirs() -> None:
+    for license_dir in ASSETS_DIR.iterdir():
+        if not license_dir.is_dir() or license_dir.name == "local-references":
+            continue
+        for child in list(license_dir.iterdir()):
+            if child.is_dir() and child.name in {
+                "playing-cards",
+                "mahjong",
+                "ui",
+                "mixed",
+                "sound",
+                "character",
+            }:
+                continue
+            if child.is_dir() and not any(child.iterdir()):
+                child.rmdir()
+            elif child.is_dir() and child.name not in {
+                "playing-cards",
+                "mahjong",
+                "ui",
+                "mixed",
+                "sound",
+                "character",
+            }:
+                # legacy flat pack folder with content -> should have been moved
+                if (child / "SOURCE_LICENSE.md").exists():
+                    continue
+                if not any(child.rglob("*")):
+                    child.rmdir()
+
+
+def update_catalog_json(packs: list[dict], asset_types: dict[str, str]) -> None:
+    catalog = {
+        "updated": TODAY,
+        "asset_types": asset_types,
+        "license_categories": json.loads(REGISTRY.read_text(encoding="utf-8"))[
+            "license_categories"
+        ],
+        "packs": [],
+    }
+    for pack in packs:
+        entry = {
+            "id": pack["id"],
+            "name": pack["name"],
+            "asset_type": pack["asset_type"],
+            "license_category": pack["license_category"],
+            "license": pack["license"],
+            "source_url": pack["source_url"],
+            "status": pack["status"],
+        }
+        if pack["status"] == "local-reference":
+            entry["local_path"] = pack.get("local_path")
+            entry["local_path_short"] = (
+                f"assets/local-references/{pack['asset_type']}/{pack['folder']}"
+            )
+        elif pack["status"] != "catalog-only":
+            entry["local_path"] = (
+                f"assets/{pack['license_category']}/{pack['asset_type']}/{pack['folder']}"
+            )
+        catalog["packs"].append(entry)
+
+    out = PROJECT_ROOT / "catalog" / "playing-cards.json"
+    out.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def main() -> None:
+    data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    packs: list[dict] = data["packs"]
+    asset_types: dict[str, str] = data["asset_types"]
+    license_categories: dict[str, str] = data["license_categories"]
+
+    # Ensure top-level type placeholders
+    for lic in license_categories:
+        lic_dir = ASSETS_DIR / lic
+        lic_dir.mkdir(parents=True, exist_ok=True)
+        for asset_type, label in asset_types.items():
+            type_dir = lic_dir / asset_type
+            type_dir.mkdir(parents=True, exist_ok=True)
+            ensure_type_readme(type_dir, asset_type, label)
+
+    ref_root = ASSETS_DIR / "local-references"
+    ref_root.mkdir(parents=True, exist_ok=True)
+    for asset_type, label in asset_types.items():
+        ensure_type_readme(ref_root / asset_type, asset_type, label)
+
+    moved = migrate_downloaded_packs(packs)
+    count = write_source_licenses(packs, asset_types, license_categories)
+    cleanup_empty_dirs()
+    update_catalog_json(packs, asset_types)
+
+    print(f"Moved {len(moved)} pack folders")
+    for line in moved:
+        print(f"  {line}")
+    print(f"Wrote {count} SOURCE_LICENSE.md files")
+    print("Updated catalog/playing-cards.json")
+
+
+if __name__ == "__main__":
+    main()
