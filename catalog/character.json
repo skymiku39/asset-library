@@ -180,6 +180,47 @@
       "status": "pending-manual-download",
       "style": "low-poly-3d",
       "local_path": "assets/1-free-commercial/character/low-poly-3d/quaternius-universal-base-characters"
+    },
+    {
+      "id": "chiewaters-neon-spire-dealer",
+      "name": "Neon-Spire: The Devil's Dealer — 2D VN Assets",
+      "asset_type": "character",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://chiewaters.itch.io/neon-spire-the-devils-dealer-2d-visual-novel-assets",
+      "status": "catalog-only",
+      "style": "anime-2d"
+    },
+    {
+      "id": "unity-2d-pixel-character-147",
+      "name": "2D Pixel Character Pack — 147 Characters",
+      "asset_type": "character",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/characters/2d-pixel-character-pack-147-characters-20-weapons-369348",
+      "status": "catalog-only",
+      "style": "pixel-art"
+    },
+    {
+      "id": "unity-topdown-hd-characters",
+      "name": "TopDown HD Character Pack — Animated 2D",
+      "asset_type": "character",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/characters/topdown-hd-character-pack-animated-2d-pixel-characters-282727",
+      "status": "catalog-only",
+      "style": "pixel-art"
+    },
+    {
+      "id": "bullseye-avatar-pack",
+      "name": "Avatar Pack by Bullseye",
+      "asset_type": "character",
+      "license_category": "3-license-unclear",
+      "license": "未標示標準授權",
+      "source_url": "https://opengameart.org/content/avatar-pack-by-bullseye",
+      "status": "pending-manual-download",
+      "style": "vector-flat",
+      "local_path": "assets/3-license-unclear/character/vector-flat/bullseye-avatar-pack"
     }
   ],
   "styles": {

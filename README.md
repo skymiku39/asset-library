@@ -104,6 +104,7 @@ character/
 | UI 總覽（先分風格） | [catalog/ui.md](catalog/ui.md) |
 | 音效總覽（先分風格） | [catalog/sound.md](catalog/sound.md) |
 | 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |
+| 角色總覽（先分風格） | [catalog/character.md](catalog/character.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
 

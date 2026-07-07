@@ -144,6 +144,28 @@
       "source_url": "https://assetstore.unity.com/packages/2d/casino-game-ui-icons-pack-for-slots-poker-blackjack-roulette-and-361052",
       "status": "catalog-only",
       "style": "flat-clean"
+    },
+    {
+      "id": "oga-gui-pack-7binary",
+      "name": "GUI Pack (Black/White Buttons)",
+      "asset_type": "ui",
+      "license_category": "3-license-unclear",
+      "license": "未標示標準授權",
+      "source_url": "https://opengameart.org/content/gui-pack",
+      "status": "pending-manual-download",
+      "style": "flat-clean",
+      "local_path": "assets/3-license-unclear/ui/flat-clean/oga-gui-pack-7binary"
+    },
+    {
+      "id": "game-assets-66-ui-1",
+      "name": "Game User Interface #1",
+      "asset_type": "ui",
+      "license_category": "3-license-unclear",
+      "license": "未標示標準授權",
+      "source_url": "https://opengameart.org/content/game-user-interface-1",
+      "status": "pending-manual-download",
+      "style": "flat-clean",
+      "local_path": "assets/3-license-unclear/ui/flat-clean/game-assets-66-ui-1"
     }
   ],
   "styles": {

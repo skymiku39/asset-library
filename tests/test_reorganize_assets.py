@@ -152,8 +152,32 @@ class ReorganizeAssetsTest(unittest.TestCase):
             for p in data["packs"]
             if p["asset_type"] == "sound" and p["license_category"] == "2-paid-commercial"
         ]
+        paid_character = [
+            p
+            for p in data["packs"]
+            if p["asset_type"] == "character" and p["license_category"] == "2-paid-commercial"
+        ]
         self.assertGreaterEqual(len(paid_ui), 3)
         self.assertGreaterEqual(len(paid_sound), 3)
+        self.assertGreaterEqual(len(paid_character), 3)
+
+    def test_registry_unclear_ui_sound_character_entries_exist(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        unclear_types = ("ui", "sound", "character")
+        for asset_type in unclear_types:
+            entries = [
+                p
+                for p in data["packs"]
+                if p["asset_type"] == asset_type
+                and p["license_category"] == "3-license-unclear"
+            ]
+            self.assertGreaterEqual(
+                len(entries),
+                1,
+                f"expected at least one 3-license-unclear {asset_type} pack",
+            )
 
     def test_target_dir_playing_cards_inserts_style_level(self) -> None:
         pack = {

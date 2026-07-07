@@ -19,7 +19,7 @@
 | UI | `ui` | [ui.md](ui.md)｜機器可讀：[ui.json](ui.json) |
 | 綜合性 | `mixed` | [mixed.md](mixed.md)｜機器可讀：[mixed.json](mixed.json) |
 | 音效 | `sound` | [sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
-| 角色 | `character` | 機器可讀：[character.json](character.json) |
+| 角色 | `character` | [character.md](character.md)｜機器可讀：[character.json](character.json) |
 
 ## 風格母分類（先分風格）
 

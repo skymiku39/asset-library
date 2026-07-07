@@ -54,4 +54,12 @@
 | Magory Mega Collection | pixel | `mahjong/pixel/magory-mahjong-mega-collection/` | $7.50+ |
 | Almond Blossoms Pixel Icons | pixel | `mahjong/pixel/almond-blossoms-pixel-mahjong-icons/` | $9 |
 
+## 角色（character）— 3 套清單
+
+| 套件 | 風格 | 路徑 | 價格 |
+|------|------|------|------|
+| Neon-Spire: The Devil's Dealer | anime-2d | `character/anime-2d/chiewaters-neon-spire-dealer/` | $10.99+ |
+| 2D Pixel Character Pack (147) | pixel-art | `character/pixel-art/unity-2d-pixel-character-147/` | 約 €4.59 |
+| TopDown HD Character Pack | pixel-art | `character/pixel-art/unity-topdown-hd-characters/` | 約 €9.19 |
+
 詳細連結見各目錄內 `SOURCE_LICENSE.md`。
