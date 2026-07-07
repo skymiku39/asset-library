@@ -111,7 +111,7 @@
       "license_category": "1-free-commercial",
       "license": "免費商用（作者聲明）",
       "source_url": "https://gamblemountain.itch.io/riichi-asset",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "riichi",
       "local_path": "assets/1-free-commercial/mahjong/riichi/gamblemountain-riichi-asset"
     },
@@ -122,7 +122,7 @@
       "license_category": "1-free-commercial",
       "license": "免費商用（作者聲明）",
       "source_url": "https://moxica.itch.io/mahjong",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vector",
       "local_path": "assets/1-free-commercial/mahjong/vector/moxica-tile-mahjong"
     },
@@ -133,7 +133,7 @@
       "license_category": "1-free-commercial",
       "license": "免費商用（作者聲明）",
       "source_url": "https://anisimova.itch.io/anisimovas-mahjong-game-pack",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vector",
       "local_path": "assets/1-free-commercial/mahjong/vector/anisimova-vector-mahjong"
     },
@@ -144,7 +144,7 @@
       "license_category": "1-free-commercial",
       "license": "CC-BY 4.0",
       "source_url": "https://magory.itch.io/mahjong-collection",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "pixel",
       "local_path": "assets/1-free-commercial/mahjong/pixel/magory-free-pixel-set"
     },

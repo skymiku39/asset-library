@@ -466,7 +466,7 @@
       "commercial": "允許但建議付費",
       "attribution": "待確認",
       "note": "商用時作者建議支付建議價格",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "pixel"
     },
     {
@@ -601,7 +601,7 @@
       "commercial": "允許",
       "attribution": "未要求",
       "note": "32×32 像素立直麻將",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "riichi"
     },
     {
@@ -616,7 +616,7 @@
       "commercial": "允許",
       "attribution": "未要求",
       "note": "43 張傳統牌 + 牌背；禁止轉售",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vector"
     },
     {
@@ -631,7 +631,7 @@
       "commercial": "允許",
       "attribution": "未要求",
       "note": "42 張向量牌；禁止轉售",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vector"
     },
     {
@@ -646,7 +646,7 @@
       "commercial": "允許",
       "attribution": "需署名 Tomasz Kucza / magory.net",
       "note": "36×48 DB8 像素示範組；完整合集需付費",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "pixel"
     },
     {
@@ -913,7 +913,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "4 個像素角色，含含／不含武器動畫、UI 與 tilemap；附 Aseprite 原始檔",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "booliebuilds-chrome-district",
@@ -928,7 +928,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "20 角色 × 5 視角，8 方向 6 幀行走循環（56×84）",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "felipemartelo-saveboy",
@@ -943,7 +943,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "32×32 角色 + tileset + 背景",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "tiopalada-tiny-rpg-cc0",
@@ -958,7 +958,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "像素角色與頭像樣本",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "lpc-universal-spritesheet",
@@ -973,7 +973,7 @@
       "commercial": "允許",
       "attribution": "需署名所有作者，且衍生美術須同為 CC-BY-SA",
       "note": "可組合大量像素角色；注意部分素材僅 GPL",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-toon-characters",
@@ -988,7 +988,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "卡通風可組合角色",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-modular-characters",
@@ -1003,7 +1003,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "425 個部件 + 向量檔，可組合上千造型",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-shape-characters",
@@ -1018,7 +1018,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "100+ 幾何造型角色，含分離臉部與手部",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "rgsdev-modular-vector",
@@ -1033,7 +1033,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "可著色的白模身體部件 + 8 個預製動畫角色（2048×2048）",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "dennis960-female-portrait",
@@ -1048,7 +1048,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "64×64 動漫頭像",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "screensmith-pokemon-townspeople",
@@ -1063,7 +1063,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "16 個四向行走 overworld 角色含頭像；素材為 AI 生成，使用時須揭露",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "sutemo-female-vn-sprite",
@@ -1078,7 +1078,7 @@
       "commercial": "允許",
       "attribution": "建議但非必須",
       "note": "動漫半身立繪 PSD，多髮色／表情；禁止單獨轉售或製作 NFT",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "sutemo-male-vn-sprite",
@@ -1093,7 +1093,7 @@
       "commercial": "允許",
       "attribution": "建議但非必須",
       "note": "動漫半身立繪 PSD，多髮色／表情；禁止單獨轉售或製作 NFT",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "quaternius-ultimate-animated-character",
@@ -1108,7 +1108,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "50+ 動畫角色，FBX／OBJ／Blend",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "quaternius-universal-base-characters",
@@ -1123,7 +1123,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "6 個 humanoid rig 基礎角色，可重定向；OBJ／FBX／glTF",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-casino-audio",
@@ -1228,7 +1228,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "400+ sprites，每個元件 5 種顏色，含向量原始檔",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "jamiecross-gui-kit",
@@ -1243,7 +1243,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "60+ 資產：圖示／進度條／按鈕／視窗背景，含 EPS/SVG 向量與 sprite sheet",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-pixel-ui-pack",
@@ -1258,7 +1258,7 @@
       "commercial": "允許",
       "attribution": "不需要（建議署名 Kenney.nl）",
       "note": "750 個像素 UI 元件：面板／按鈕／游標／進度條，含 9-slice PNG 與 sprite sheet",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "joytree-pixel-gui",
@@ -1273,7 +1273,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "16×16 像素 GUI：面板／按鈕／進度條／圖示與自訂字型；可修改但禁止轉售",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-fantasy-ui-borders",
@@ -1288,7 +1288,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "130+ 奇幻/RPG 視窗與對話框 9-slice 邊框，含 tilesheet 與獨立 sprite",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-ui-rpg-expansion",
@@ -1303,7 +1303,7 @@
       "commercial": "允許",
       "attribution": "不需要（建議署名 Kenney.nl）",
       "note": "87 個 RPG/奇幻 UI sprite + 向量檔；OGA 亦有鏡像",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "kenney-ui-pack-scifi",
@@ -1318,7 +1318,7 @@
       "commercial": "允許",
       "attribution": "不需要（建議署名 Kenney.nl）",
       "note": "130 個太空/現代玻璃感 UI sprite + 向量 + 2 套字型",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "wenrexa-scifi-minimalism",
@@ -1333,7 +1333,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "33 個極簡科幻 UI 元件（PSD 分層 + 透明 PNG）",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "wenrexa-ui-casual",
@@ -1348,7 +1348,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "717 個休閒風 UI：按鈕／滑桿／面板，3 色（黃/紫/藍）",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "unity-playmat-casinoui",
