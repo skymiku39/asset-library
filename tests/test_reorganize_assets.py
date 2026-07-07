@@ -35,7 +35,55 @@ class ReorganizeAssetsTest(unittest.TestCase):
             "folder": "cards2-cc0",
         }
         path = mod.target_dir(pack)
-        self.assertTrue(str(path).endswith("1-free-commercial/playing-cards/cards2-cc0".replace("/", "\\")) or str(path).endswith("1-free-commercial\\playing-cards\\cards2-cc0"))
+        expected = ("1-free-commercial", "playing-cards", "cards2-cc0")
+        self.assertEqual(path.parts[-3:], expected)
+
+    def test_target_dir_inserts_style_level_when_present(self) -> None:
+        pack = {
+            "license_category": "1-free-commercial",
+            "asset_type": "character",
+            "style": "pixel-art",
+            "folder": "chromoxi-good-and-evil",
+        }
+        path = mod.target_dir(pack)
+        self.assertEqual(
+            path.parts[-4:],
+            ("1-free-commercial", "character", "pixel-art", "chromoxi-good-and-evil"),
+        )
+
+    def test_target_dir_without_style_has_no_extra_level(self) -> None:
+        pack = {
+            "license_category": "1-free-commercial",
+            "asset_type": "character",
+            "folder": "some-pack",
+        }
+        path = mod.target_dir(pack)
+        self.assertEqual(path.parts[-3:], ("1-free-commercial", "character", "some-pack"))
+
+    def test_render_source_license_includes_style_when_provided(self) -> None:
+        pack = {
+            "name": "Styled Pack",
+            "license": "CC0 1.0 Universal",
+            "author": "Tester",
+            "source_url": "https://example.com/pack",
+            "commercial": "允許",
+            "attribution": "不需要",
+        }
+        text = mod.render_source_license(pack, "角色", "完全免費授權商用", "像素風")
+        self.assertIn("| 風格 | 像素風 |", text)
+        self.assertIn("風格：**像素風**", text)
+
+    def test_render_source_license_omits_style_when_absent(self) -> None:
+        pack = {
+            "name": "Plain Pack",
+            "license": "CC0 1.0 Universal",
+            "author": "Tester",
+            "source_url": "https://example.com/pack",
+            "commercial": "允許",
+            "attribution": "不需要",
+        }
+        text = mod.render_source_license(pack, "撲克牌", "完全免費授權商用")
+        self.assertNotIn("風格", text)
 
 
 if __name__ == "__main__":

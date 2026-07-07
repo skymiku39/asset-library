@@ -74,16 +74,27 @@ def ensure_type_readme(type_dir: Path, asset_type: str, label: str) -> None:
     )
 
 
-def ensure_style_readme(style_dir: Path, asset_type: str, style: str, label: str) -> None:
+def ensure_style_readme(
+    style_dir: Path, asset_type: str, type_label: str, style: str, label: str
+) -> None:
     style_dir.mkdir(parents=True, exist_ok=True)
     readme = style_dir / "README.md"
     if readme.exists():
         return
     readme.write_text(
-        f"# {label}\n\n風格：`{style}`（隸屬素材類型 `{asset_type}`）\n\n"
-        f"本目錄收錄**{label}**風格的{asset_type}素材套件。\n",
+        f"# {label}\n\n風格：`{style}`（隸屬素材類型 `{asset_type}`／{type_label}）\n\n"
+        f"本目錄收錄**{label}**風格的{type_label}素材套件。\n",
         encoding="utf-8",
     )
+
+
+def collect_styles(data: dict) -> dict[str, str]:
+    """Merge every ``*_styles`` map in the registry into one slug→label lookup."""
+    styles: dict[str, str] = {}
+    for key, value in data.items():
+        if key.endswith("_styles") and isinstance(value, dict):
+            styles.update(value)
+    return styles
 
 
 def target_dir(pack: dict) -> Path:
@@ -125,7 +136,7 @@ def write_source_licenses(
     packs: list[dict],
     asset_types: dict[str, str],
     license_categories: dict[str, str],
-    character_styles: dict[str, str],
+    styles: dict[str, str],
 ) -> int:
     count = 0
     for pack in packs:
@@ -158,12 +169,16 @@ def write_source_licenses(
             type_dir = style_dir.parent
             ensure_type_readme(type_dir, pack["asset_type"], type_label)
             ensure_style_readme(
-                style_dir, pack["asset_type"], style, character_styles.get(style, style)
+                style_dir,
+                pack["asset_type"],
+                type_label,
+                style,
+                styles.get(style, style),
             )
         else:
             ensure_type_readme(dest.parent, pack["asset_type"], type_label)
 
-        style_label = character_styles.get(style) if style else None
+        style_label = styles.get(style, style) if style else None
         license_file = dest / "SOURCE_LICENSE.md"
         license_file.write_text(
             render_source_license(pack, type_label, cat_label, style_label),
@@ -207,7 +222,7 @@ def cleanup_empty_dirs() -> None:
 def update_catalog_json(
     packs: list[dict],
     asset_types: dict[str, str],
-    character_styles: dict[str, str],
+    styles: dict[str, str],
 ) -> None:
     license_categories = json.loads(REGISTRY.read_text(encoding="utf-8"))[
         "license_categories"
@@ -228,8 +243,13 @@ def update_catalog_json(
             "license_categories": license_categories,
             "packs": [],
         }
-        if any(pack.get("style") for pack in type_packs):
-            catalog["styles"] = character_styles
+        used_styles = {
+            pack["style"]: styles.get(pack["style"], pack["style"])
+            for pack in type_packs
+            if pack.get("style")
+        }
+        if used_styles:
+            catalog["styles"] = used_styles
         for pack in type_packs:
             entry = {
                 "id": pack["id"],
@@ -266,7 +286,7 @@ def main() -> None:
     packs: list[dict] = data["packs"]
     asset_types: dict[str, str] = data["asset_types"]
     license_categories: dict[str, str] = data["license_categories"]
-    character_styles: dict[str, str] = data.get("character_styles", {})
+    styles: dict[str, str] = collect_styles(data)
 
     # Ensure top-level type placeholders
     for lic in license_categories:
@@ -283,9 +303,9 @@ def main() -> None:
         ensure_type_readme(ref_root / asset_type, asset_type, label)
 
     moved = migrate_downloaded_packs(packs)
-    count = write_source_licenses(packs, asset_types, license_categories, character_styles)
+    count = write_source_licenses(packs, asset_types, license_categories, styles)
     cleanup_empty_dirs()
-    update_catalog_json(packs, asset_types, character_styles)
+    update_catalog_json(packs, asset_types, styles)
 
     print(f"Moved {len(moved)} pack folders")
     for line in moved:

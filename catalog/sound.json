@@ -1,0 +1,91 @@
+{
+  "category": "sound",
+  "updated": "2026-07-07",
+  "asset_types": {
+    "playing-cards": "撲克牌",
+    "mahjong": "麻將",
+    "ui": "UI",
+    "mixed": "綜合性",
+    "sound": "音效",
+    "character": "角色"
+  },
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範"
+  },
+  "packs": [
+    {
+      "id": "kenney-casino-audio",
+      "name": "Kenney Casino Audio",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/54-casino-sound-effects-cards-dice-chips",
+      "status": "downloaded",
+      "style": "realistic-foley",
+      "local_path": "assets/1-free-commercial/sound/realistic-foley/kenney-casino-audio"
+    },
+    {
+      "id": "bmaczero-card-sounds",
+      "name": "BMacZero Playing Card Sounds",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/playing-card-sounds",
+      "status": "downloaded",
+      "style": "realistic-foley",
+      "local_path": "assets/1-free-commercial/sound/realistic-foley/bmaczero-card-sounds"
+    },
+    {
+      "id": "kenney-interface-sounds",
+      "name": "Kenney Interface Sounds",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/interface-sounds",
+      "status": "downloaded",
+      "style": "ui-modern",
+      "local_path": "assets/1-free-commercial/sound/ui-modern/kenney-interface-sounds"
+    },
+    {
+      "id": "shades-8bit-sfx-001",
+      "name": "Shades 8-Bit Sound Effect Pack (Vol. 001)",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/8-bit-sound-effect-pack-vol-001",
+      "status": "downloaded",
+      "style": "retro-8bit",
+      "local_path": "assets/1-free-commercial/sound/retro-8bit/shades-8bit-sfx-001"
+    },
+    {
+      "id": "iamoneabe-drunken-saloon",
+      "name": "Drunken Saloon (Loopable Jazz/Blues)",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/drunken-saloon",
+      "status": "downloaded",
+      "style": "casino-bgm",
+      "local_path": "assets/1-free-commercial/sound/casino-bgm/iamoneabe-drunken-saloon"
+    },
+    {
+      "id": "jazznbrass-loop",
+      "name": "Jazz n' Brass Loop",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "CC0 / Public Domain",
+      "source_url": "https://opengameart.org/content/jazz-n-brass-loop",
+      "status": "downloaded",
+      "style": "casino-bgm",
+      "local_path": "assets/1-free-commercial/sound/casino-bgm/jazznbrass-loop"
+    }
+  ],
+  "styles": {
+    "realistic-foley": "寫實擬音（牌／籌碼／骰子）",
+    "ui-modern": "現代 UI 介面音",
+    "retro-8bit": "復古 8-bit／街機",
+    "casino-bgm": "賭場／爵士氛圍 BGM"
+  }
+}

@@ -76,6 +76,66 @@
       "local_path": "assets/1-free-commercial/mahjong/demching-mahjong-free"
     },
     {
+      "id": "lietxia-riichi-vector",
+      "name": "lietxia Riichi Mahjong Graphics",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "M+ 字型授權條款（商用允許）",
+      "source_url": "https://github.com/lietxia/mahjong_graphic",
+      "status": "downloaded",
+      "local_path": "assets/1-free-commercial/mahjong/lietxia-riichi-vector"
+    },
+    {
+      "id": "tempai-riichi-svg",
+      "name": "tempai-dev Riichi Mahjong SVG",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "MIT 或 CC-PDDC",
+      "source_url": "https://github.com/tempai-dev/riichi-mahjong-tiles-svg",
+      "status": "downloaded",
+      "local_path": "assets/1-free-commercial/mahjong/tempai-riichi-svg"
+    },
+    {
+      "id": "gamblemountain-riichi",
+      "name": "GambleMountain Riichi Mahjong Assets",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://gamblemountain.itch.io/riichi-asset",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/gamblemountain-riichi-asset"
+    },
+    {
+      "id": "moxica-tile-mahjong",
+      "name": "moxica Tile-based Mahjong Set",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://moxica.itch.io/mahjong",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/moxica-tile-mahjong"
+    },
+    {
+      "id": "anisimova-vector-mahjong",
+      "name": "Anisimova Vector Mahjong Pack",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://anisimova.itch.io/anisimovas-mahjong-game-pack",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/anisimova-vector-mahjong"
+    },
+    {
+      "id": "magory-free-pixel-set",
+      "name": "Magory Mahjong Free Pixel Set",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "CC-BY 4.0",
+      "source_url": "https://magory.itch.io/mahjong-collection",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/magory-free-pixel-set"
+    },
+    {
       "id": "codeinferno-mahjong",
       "name": "Code Inferno Mahjong Tileset",
       "asset_type": "mahjong",
@@ -94,6 +154,15 @@
       "source_url": "https://opengameart.org/content/pixel-art-mahjong-tiles",
       "status": "downloaded",
       "local_path": "assets/3-license-unclear/mahjong/devurandom-pixel-mahjong"
+    },
+    {
+      "id": "ffalt-mah-tile-sets",
+      "name": "ffalt Mah — 13 Tile Image Sets (reference)",
+      "asset_type": "mahjong",
+      "license_category": "3-license-unclear",
+      "license": "混合授權（依各牌組而異）",
+      "source_url": "https://github.com/ffalt/mah",
+      "status": "catalog-only"
     },
     {
       "id": "unity-mahjong-hires",
@@ -120,6 +189,87 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://demching.itch.io/mahjong",
+      "status": "catalog-only"
+    },
+    {
+      "id": "pzuh-mahjong-pack",
+      "name": "pzUH Mahjong Game Assets Pack",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://pzuh.itch.io/mahjong-game-assets-pack",
+      "status": "catalog-only"
+    },
+    {
+      "id": "royalgraphics-mahjong-basic",
+      "name": "Royal Graphics Mahjong Tile Set",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://royalgraphicsresources.itch.io/mahjong-tile-set",
+      "status": "catalog-only"
+    },
+    {
+      "id": "royalgraphics-mahjong-premium",
+      "name": "Royal Graphics Mahjong Premium Masterpack",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://royalgraphicsresources.itch.io/mahjong-premium-masterpack",
+      "status": "catalog-only"
+    },
+    {
+      "id": "royalgraphics-mahjong-dark-premium",
+      "name": "Royal Graphics Mahjong Dark Premium",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://royalgraphicsresources.itch.io/mahjong-dark-premium-masterpack",
+      "status": "catalog-only"
+    },
+    {
+      "id": "magory-mahjong-collection",
+      "name": "Magory Mahjong Tiles Mega Collection",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用（限 2 專案）",
+      "source_url": "https://magory.itch.io/mahjong-collection",
+      "status": "catalog-only"
+    },
+    {
+      "id": "almond-blossoms-mahjong-icons",
+      "name": "Almond Blossoms Pixel Mahjong Icons 41",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://almond-blossoms.itch.io/pixel-art-mahjong-icons-41",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-mahjong-mobile",
+      "name": "Mahjong Mobile Assets Pack (3D)",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/3d/mahjong-mobile-assets-pack-82375",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-mahjong-complete-set",
+      "name": "Mahjong Complete Set (3D)",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/3d/props/mahjong-complete-set-149329",
+      "status": "catalog-only"
+    },
+    {
+      "id": "gameart2d-mahjong-pack",
+      "name": "GameArt2D Mahjong Game Assets Pack",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://www.gameart2d.com/mahjong-game-assets-pack.html",
       "status": "catalog-only"
     }
   ]

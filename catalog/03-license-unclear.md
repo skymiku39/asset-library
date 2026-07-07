@@ -24,3 +24,9 @@
 |------|------|------|
 | Code Inferno Tileset | `mahjong/codeinferno-mahjong-tileset/` | 需連結官網，未標準授權 |
 | devurandom Pixel | `mahjong/devurandom-pixel-mahjong/` | OGA 未標準授權 |
+
+## 參考清單（未下載）
+
+| 套件 | 路徑 | 疑慮 |
+|------|------|------|
+| ffalt Mah 13 套牌面 | `mahjong/ffalt-mah-tile-sets-ref/` | 混合 CC-BY / GPL 等，需逐套確認 |

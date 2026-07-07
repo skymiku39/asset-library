@@ -71,6 +71,15 @@
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/2d/gui/mahjong-game-assets-pack-324218",
       "status": "catalog-only"
+    },
+    {
+      "id": "unity-mahjong-solitaire-kit",
+      "name": "Mahjong Solitaire Kit",
+      "asset_type": "mixed",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/templates/packs/mahjong-solitaire-kit-259637",
+      "status": "catalog-only"
     }
   ]
 }

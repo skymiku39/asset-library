@@ -22,6 +22,29 @@ assets/
 
 每個套件資料夾內必有 **`SOURCE_LICENSE.md`**，記錄來源網址、授權條款與商用／署名要求。
 
+### 先分風格（風格母分類）
+
+`sound`、`character` 類型在套件之上**多一層風格母分類**，方便先依風格挑選：
+
+```
+sound/
+├── realistic-foley/   # 寫實擬音（牌／籌碼／骰子）
+├── ui-modern/         # 現代 UI 介面音
+├── retro-8bit/        # 復古 8-bit／街機
+└── casino-bgm/        # 賭場／爵士氛圍 BGM
+    └── {套件名}/SOURCE_LICENSE.md
+
+character/
+├── pixel-art/       # 像素風
+├── toon-cartoon/    # 卡通／Q版
+├── vector-flat/     # 向量／扁平
+├── anime-2d/        # 動漫／立繪
+└── low-poly-3d/     # 3D 低多邊形
+    └── {套件名}/SOURCE_LICENSE.md
+```
+
+風格清單集中定義於 `tools/pack_registry.json` 的 `sound_styles`、`character_styles`；套件只要加上 `style` 欄位即可自動歸位。
+
 ## 授權分類
 
 | 目錄 | 說明 |
@@ -47,11 +70,13 @@ assets/
 |------|------|
 | 撲克牌總覽 | [catalog/playing-cards.md](catalog/playing-cards.md) |
 | 麻將總覽 | [catalog/mahjong.md](catalog/mahjong.md) |
+| 音效總覽（先分風格） | [catalog/sound.md](catalog/sound.md) |
+| 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
 
 ## 新增素材流程
 
-1. 在 `tools/pack_registry.json` 登記套件（含 `asset_type`、`license_category`）
+1. 在 `tools/pack_registry.json` 登記套件（含 `asset_type`、`license_category`；音效／角色另加 `style`）
 2. 將檔案放入對應目錄
 3. 執行 `uv run python tools/reorganize_assets.py` 產生 `SOURCE_LICENSE.md` 並更新 catalog
