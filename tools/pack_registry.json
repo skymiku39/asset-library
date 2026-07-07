@@ -1498,7 +1498,7 @@
       "commercial": "待確認",
       "attribution": "作者要求連結官網（口頭授權）",
       "note": "OGA「授權問題」收錄；網站無授權文件",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "lokif-gui-sounds",
@@ -1513,7 +1513,7 @@
       "commercial": "待確認",
       "attribution": "待確認",
       "note": "OGA 2009 上傳，頁面未選擇標準授權條款",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "oga-gui-pack-7binary",
@@ -1528,7 +1528,7 @@
       "commercial": "待確認",
       "attribution": "建議署名（非強制）",
       "note": "OGA 頁面 License 欄位空白，僅有建議署名說明",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "game-assets-66-ui-1",
@@ -1543,7 +1543,7 @@
       "commercial": "待確認",
       "attribution": "待確認",
       "note": "OGA 頁面未選擇標準授權；作者僅要求回報使用",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     }
   ],
   "playing_cards_styles": {

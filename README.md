@@ -107,6 +107,9 @@ character/
 | 角色總覽（先分風格） | [catalog/character.md](catalog/character.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
+| 一致性稽核 | `uv run python tools/audit_catalog.py` |
+| OpenGameArt 下載 | `uv run python tools/oga_download.py <url> <dest_dir>` |
+| itch.io 免費下載 | `uv run python tools/itch_download.py <url> <dest_dir>` |
 
 ## 新增素材流程
 
