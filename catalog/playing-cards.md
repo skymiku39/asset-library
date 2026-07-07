@@ -10,7 +10,7 @@ assets/{授權分類}/{素材類型}/{套件名}/SOURCE_LICENSE.md
 
 | 分類 | 清單 | 已下載 |
 |------|------|--------|
-| 完全免費授權商用 | [01-free-commercial.md](01-free-commercial.md) | 撲克牌 15 套 + 綜合 1 套 |
+| 完全免費授權商用 | [01-free-commercial.md](01-free-commercial.md) | 撲克牌 18 套 + 綜合 1 套 |
 | 商用需購買授權 | [02-paid-commercial.md](02-paid-commercial.md) | 清單 5 套 |
 | 不確定相關規範 | [03-license-unclear.md](03-license-unclear.md) | 撲克牌 3 套 |
 

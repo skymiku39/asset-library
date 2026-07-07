@@ -4,7 +4,7 @@
 
 每個套件資料夾內含 **`SOURCE_LICENSE.md`**。
 
-## 撲克牌（playing-cards）— 15 套
+## 撲克牌（playing-cards）— 18 套
 
 | 套件 | 路徑 |
 |------|------|
@@ -20,14 +20,9 @@
 | JunusErgin 4-Color | `playing-cards/junus-ergin-4color/` |
 | letele SVG | `playing-cards/letele-svg-cards/` |
 | RevK SVG Generator | `playing-cards/revk-svg-cards/` |
-
-### 待手動下載（已有 SOURCE_LICENSE.md 占位）
-
-| 套件 | 路徑 |
-|------|------|
 | MrEliptik Stylized | `playing-cards/mreliptik-stylized/` |
 | Kajiru 8-bit | `playing-cards/kajiru-8bit/` |
-| Super Dev Resources | `playing-cards/superdev-flat-cards/` |
+| Super Dev Resources Flat | `playing-cards/superdev-flat-cards/` |
 
 ## 綜合性（mixed）— 1 套
 
