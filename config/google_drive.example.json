@@ -1,0 +1,5 @@
+{
+  "google_drive_root": "G:\\My Drive",
+  "remote_assets_dir": "找素材專案/assets",
+  "comment": "google_drive_root 請改成你的 Google 雲端硬碟本機路徑。複製此檔為 google_drive.json 後修改。"
+}

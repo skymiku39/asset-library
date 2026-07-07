@@ -13,3 +13,6 @@ assets/**
 !assets/
 !assets/**/
 !assets/**/SOURCE_LICENSE.md
+
+# 本機 Google 雲端路徑設定（每人不同）
+config/google_drive.json

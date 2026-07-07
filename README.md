@@ -110,6 +110,39 @@ character/
 | 一致性稽核 | `uv run python tools/audit_catalog.py` |
 | OpenGameArt 下載 | `uv run python tools/oga_download.py <url> <dest_dir>` |
 | itch.io 免費下載 | `uv run python tools/itch_download.py <url> <dest_dir>` |
+| Google 雲端同步 assets | 見下方「Google 雲端同步」 |
+
+## Google 雲端同步（僅 assets/）
+
+素材本體不進 Git，改由 **Google 雲端硬碟** 同步。專案內的 `assets/` 會透過 junction 指向雲端資料夾，下載工具無需改路徑。
+
+### 前置
+
+1. 安裝並登入 [Google 雲端硬碟桌面版](https://www.google.com/drive/download/)
+2. 建議對素材資料夾使用 **鏡像檔案**（非僅串流），大量小檔讀取較穩定
+
+### 一次性設定
+
+```powershell
+# 1. 偵測本機 Google 雲端路徑
+.\tools\google_drive_sync.ps1 detect
+
+# 2. 複製設定範本並填入 google_drive_root
+Copy-Item config\google_drive.example.json config\google_drive.json
+# 編輯 config\google_drive.json
+
+# 3. 搬移 assets/ 到雲端並建立 junction
+.\tools\google_drive_sync.ps1 setup
+
+# 4. 確認狀態
+.\tools\google_drive_sync.ps1 status
+```
+
+### 日常
+
+- 在本機跑 `download_pending.py` 等下載工具 → 檔案寫入 `assets/` → Google 自動上傳同步
+- 其他電腦：clone 本 repo + 同樣執行 `setup`（或手動建立 junction 指向已同步的雲端 `assets/`）
+- **避免兩台同時下載同一套件**，以單一主機下載、其他裝置只讀為宜
 
 ## 新增素材流程
 
