@@ -1,46 +1,84 @@
 {
   "category": "playing-cards",
   "updated": "2026-07-07",
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範"
+  },
   "packs": [
     {
       "id": "cards2-cc0",
       "name": "Cards2 Simple Playing Cards",
-      "style": "flat-minimal",
+      "license_category": "1-free-commercial",
       "license": "CC0",
-      "formats": ["png", "svg", "jpeg"],
-      "card_count": 54,
-      "local_path": "assets/external/cards2-cc0",
+      "style": "flat-minimal",
+      "local_path": "assets/1-free-commercial/cards2-cc0",
       "source_url": "https://github.com/Kouhei-Takagi/Cards2",
       "status": "downloaded"
     },
     {
       "id": "sbs-2d-poker-pack",
       "name": "Screaming Brain Studios 2D Poker Pack",
-      "style": "isometric-topdown",
+      "license_category": "1-free-commercial",
       "license": "CC0",
-      "formats": ["png"],
-      "card_count": 52,
-      "local_path": "assets/external/sbs-2d-poker-pack",
+      "style": "isometric-topdown",
+      "local_path": "assets/1-free-commercial/sbs-2d-poker-pack",
       "source_url": "https://opengameart.org/content/2d-poker-pack",
+      "status": "downloaded"
+    },
+    {
+      "id": "byron-knoll-vector",
+      "name": "Byron Knoll Vector Playing Cards",
+      "license_category": "1-free-commercial",
+      "license": "CC0",
+      "local_path": "assets/1-free-commercial/byron-knoll-vector",
+      "source_url": "https://opengameart.org/content/playing-cards-vector-png",
+      "status": "downloaded"
+    },
+    {
+      "id": "hayeah-vector-cards",
+      "name": "hayeah Playing Cards Assets",
+      "license_category": "1-free-commercial",
+      "license": "MIT",
+      "local_path": "assets/1-free-commercial/hayeah-vector-cards",
+      "source_url": "https://github.com/hayeah/playing-cards-assets",
+      "status": "downloaded"
+    },
+    {
+      "id": "gilded-deck",
+      "name": "The Gilded Deck",
+      "license_category": "1-free-commercial",
+      "license": "MIT",
+      "style": "luxury-gilded",
+      "local_path": "assets/1-free-commercial/gilded-deck",
+      "source_url": "https://github.com/DataJuggler/TheGildedDeck",
+      "status": "downloaded"
+    },
+    {
+      "id": "ivoryred-pixel-poker",
+      "name": "IvoryRed Pixel Poker Cards",
+      "license_category": "1-free-commercial",
+      "license": "CC-BY-4.0",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/ivoryred-pixel-poker",
+      "source_url": "https://opengameart.org/content/pixel-poker-cards",
       "status": "downloaded"
     },
     {
       "id": "kenney-playing-cards",
       "name": "Kenney Playing Cards Pack",
-      "style": "pixel-art",
+      "license_category": "1-free-commercial",
       "license": "CC0",
-      "formats": ["png", "tilesheet", "vector"],
-      "card_count": 276,
       "local_path": "d:/skymiku/kenney/assets/2d/playing-cards-pack",
       "source_url": "https://kenney.nl/assets/playing-cards-pack",
       "status": "local-reference"
     },
     {
       "id": "kenney-boardgame",
-      "name": "Kenney Board Game Pack (cards subset)",
-      "style": "pixel-art-spritesheet",
+      "name": "Kenney Board Game Pack (cards)",
+      "license_category": "1-free-commercial",
       "license": "CC0",
-      "formats": ["png", "svg"],
       "local_path": "d:/skymiku/kenney/assets/2d/boardgame-pack",
       "source_url": "https://kenney.nl/assets/boardgame-pack",
       "status": "local-reference"
@@ -48,22 +86,104 @@
     {
       "id": "mreliptik-stylized",
       "name": "MrEliptik Stylized Playing Cards",
-      "style": "hand-drawn-bw",
+      "license_category": "1-free-commercial",
       "license": "CC0",
-      "formats": ["png", "svg"],
-      "card_count": 52,
       "source_url": "https://mreliptik.itch.io/playing-cards-packs-52-cards",
-      "status": "recommended"
+      "status": "pending-manual-download"
     },
     {
-      "id": "gilded-deck",
-      "name": "The Gilded Deck",
-      "style": "luxury-gilded",
+      "id": "kajiru-8bit",
+      "name": "Kajiru 8-bit Playing Cards",
+      "license_category": "1-free-commercial",
       "license": "free-commercial",
-      "formats": ["png"],
-      "card_count": 57,
-      "source_url": "https://github.com/DataJuggler/TheGildedDeck",
-      "status": "recommended"
+      "source_url": "https://sdkfz181tiger.itch.io/assets-for-8bit-playing-card-games",
+      "status": "pending-manual-download"
+    },
+    {
+      "id": "superdev-flat-cards",
+      "name": "Super Dev Resources Flat Playing Cards",
+      "license_category": "1-free-commercial",
+      "license": "free-commercial-no-resale",
+      "source_url": "https://superdevresources.com/free-playing-cards-set/",
+      "status": "pending-manual-download"
+    },
+    {
+      "id": "unity-playing-card-pack",
+      "name": "Playing Card Game Assets Pack",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "price": "$12.99",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/playing-card-game-assets-pack-354514",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-card-pack-vol2",
+      "name": "Card Pack Vol. 2",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "price": "$4.99",
+      "source_url": "https://assetstore.unity.com/packages/2d/card-pack-vol-2-78181",
+      "status": "catalog-only"
+    },
+    {
+      "id": "aarnituli-3d-cards",
+      "name": "Ultimate 3D Playing Card Pack",
+      "license_category": "2-paid-commercial",
+      "license": "commercial-on-purchase",
+      "price": "$3.50+",
+      "source_url": "https://aarnituli.itch.io/card-game-asset-pack",
+      "status": "catalog-only"
+    },
+    {
+      "id": "craftpix-poker-kit",
+      "name": "CraftPix Poker Game Kit",
+      "license_category": "2-paid-commercial",
+      "source_url": "https://craftpix.net/product/poker-game-kit/",
+      "status": "catalog-only"
+    },
+    {
+      "id": "pv-project-cards",
+      "name": "P.V. Project High-Quality PNG Cards",
+      "license_category": "2-paid-commercial",
+      "license": "non-commercial-only",
+      "note": "商用需另行洽詢作者",
+      "source_url": "https://pvproject.free.nf/",
+      "status": "catalog-only"
+    },
+    {
+      "id": "lempf-pixel-art-cards",
+      "name": "Lempf Pixel Art Cards",
+      "license_category": "3-license-unclear",
+      "license": "unspecified",
+      "local_path": "assets/3-license-unclear/lempf-pixel-art-cards",
+      "source_url": "https://opengameart.org/content/pixel-art-cards",
+      "status": "downloaded"
+    },
+    {
+      "id": "devurandom-pc-style",
+      "name": "devurandom PC-style Playing Cards",
+      "license_category": "3-license-unclear",
+      "license": "unspecified",
+      "local_path": "assets/3-license-unclear/devurandom-pc-style",
+      "source_url": "https://opengameart.org/content/pc-style-playing-cards",
+      "status": "downloaded"
+    },
+    {
+      "id": "magnesus-cute-cards",
+      "name": "Magnesus Cute Cards 32x42",
+      "license_category": "3-license-unclear",
+      "license": "unspecified",
+      "local_path": "assets/3-license-unclear/magnesus-cute-cards",
+      "source_url": "https://opengameart.org/content/cute-playing-cards-32x42",
+      "status": "downloaded"
+    },
+    {
+      "id": "george-blackwell-pixel",
+      "name": "George Blackwell Pixel Playing Cards",
+      "license_category": "3-license-unclear",
+      "license": "free-but-payment-appreciated-for-commercial",
+      "source_url": "https://georgeblackwell.itch.io/playing-cards-sprite-pack",
+      "status": "pending-manual-download"
     }
   ]
 }

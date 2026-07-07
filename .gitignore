@@ -1,2 +1,3 @@
-# Cards2 以 git submodule 方式管理，其餘 external 素材保留
-assets/external/cards2-cc0/.git/
+# macOS 解壓殘留
+__MACOSX/
+.DS_Store
