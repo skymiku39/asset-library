@@ -12,7 +12,7 @@ assets/
 │   ├── playing-cards/          # 撲克牌（先分風格）
 │   ├── mahjong/                # 麻將（先分風格）
 │   ├── ui/                     # UI（先分風格）
-│   ├── mixed/                  # 綜合性（牌+籌碼+介面等）
+│   ├── mixed/                  # 綜合性（先分子類）
 │   ├── sound/                  # 音效（先分風格）
 │   └── character/              # 角色（先分風格）
 ├── 2-paid-commercial/          # 商用需購買授權
@@ -24,9 +24,15 @@ assets/
 
 ### 先分風格（風格母分類）
 
-`playing-cards`、`mahjong`、`ui`、`sound`、`character` 類型在套件之上**多一層風格母分類**，方便先依風格挑選：
+`playing-cards`、`mahjong`、`ui`、`sound`、`character`、`mixed` 類型在套件之上**多一層風格或子類母分類**，方便先依類型挑選：
 
 ```
+mixed/
+├── poker-kit/        # 撲克遊戲包（牌+籌碼+牌桌）
+├── mahjong-kit/      # 麻將遊戲包（牌+UI+範本）
+└── boardgame/        # 棋盤／通用遊戲包
+    └── {套件名}/SOURCE_LICENSE.md
+
 playing-cards/
 ├── pixel/            # 像素風
 ├── vector/           # 向量／SVG
@@ -84,7 +90,7 @@ character/
 | `playing-cards` | 撲克牌牌面、牌背 |
 | `mahjong` | 麻將牌、麻將 UI |
 | `ui` | 介面元件、按鈕、面板 |
-| `mixed` | 綜合性遊戲包（如牌+籌碼+牌桌） |
+| `mixed` | 綜合性遊戲包（牌+籌碼+牌桌等，先分子類） |
 | `sound` | 音效、BGM |
 | `character` | 角色立繪、sprite |
 
@@ -94,6 +100,7 @@ character/
 |------|------|
 | 撲克牌總覽 | [catalog/playing-cards.md](catalog/playing-cards.md) |
 | 麻將總覽 | [catalog/mahjong.md](catalog/mahjong.md) |
+| 綜合性總覽（先分子類） | [catalog/mixed.md](catalog/mixed.md) |
 | UI 總覽（先分風格） | [catalog/ui.md](catalog/ui.md) |
 | 音效總覽（先分風格） | [catalog/sound.md](catalog/sound.md) |
 | 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |

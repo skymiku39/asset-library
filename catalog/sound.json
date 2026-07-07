@@ -81,6 +81,36 @@
       "status": "downloaded",
       "style": "casino-bgm",
       "local_path": "assets/1-free-commercial/sound/casino-bgm/jazznbrass-loop"
+    },
+    {
+      "id": "unity-essential-card-sfx",
+      "name": "Essential Card Game Sound Effects",
+      "asset_type": "sound",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/audio/sound-fx/essential-card-game-sound-effects-365118",
+      "status": "catalog-only",
+      "style": "realistic-foley"
+    },
+    {
+      "id": "unity-aaa-card-game-sfx",
+      "name": "AAA Card Game (DCCG Sound Effects)",
+      "asset_type": "sound",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/audio/sound-fx/card-game-sounds-112743",
+      "status": "catalog-only",
+      "style": "realistic-foley"
+    },
+    {
+      "id": "unity-card-board-sfx-music",
+      "name": "Card & Board Games SFX and Music Pack",
+      "asset_type": "sound",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/audio/sound-fx/card-board-games-sound-effects-and-music-pack-230753",
+      "status": "catalog-only",
+      "style": "casino-bgm"
     }
   ],
   "styles": {

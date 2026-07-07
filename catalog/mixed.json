@@ -24,7 +24,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/2d-poker-pack",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mixed/sbs-2d-poker-pack"
+      "style": "poker-kit",
+      "local_path": "assets/1-free-commercial/mixed/poker-kit/sbs-2d-poker-pack"
     },
     {
       "id": "kenney-boardgame-ref",
@@ -34,8 +35,9 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://kenney.nl/assets/boardgame-pack",
       "status": "local-reference",
+      "style": "boardgame",
       "local_path": "d:/skymiku/kenney/assets/2d/boardgame-pack",
-      "local_path_short": "assets/local-references/mixed/kenney-boardgame-pack"
+      "local_path_short": "assets/local-references/mixed/boardgame/kenney-boardgame-pack"
     },
     {
       "id": "unity-playing-card-pack",
@@ -44,7 +46,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/2d/gui/playing-card-game-assets-pack-354514",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "poker-kit"
     },
     {
       "id": "aarnituli-3d-cards",
@@ -53,7 +56,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://aarnituli.itch.io/card-game-asset-pack",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "poker-kit"
     },
     {
       "id": "craftpix-poker-kit",
@@ -62,7 +66,8 @@
       "license_category": "2-paid-commercial",
       "license": "CraftPix 商用授權",
       "source_url": "https://craftpix.net/product/poker-game-kit/",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "poker-kit"
     },
     {
       "id": "unity-mahjong-assets",
@@ -71,7 +76,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/2d/gui/mahjong-game-assets-pack-324218",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "mahjong-kit"
     },
     {
       "id": "unity-mahjong-solitaire-kit",
@@ -80,7 +86,13 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/templates/packs/mahjong-solitaire-kit-259637",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "mahjong-kit"
     }
-  ]
+  ],
+  "styles": {
+    "poker-kit": "撲克遊戲包（牌+籌碼+牌桌）",
+    "boardgame": "棋盤／通用遊戲包",
+    "mahjong-kit": "麻將遊戲包（牌+UI+範本）"
+  }
 }

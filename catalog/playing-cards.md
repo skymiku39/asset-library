@@ -42,5 +42,5 @@ assets/{授權分類}/playing-cards/{風格}/{套件名}/SOURCE_LICENSE.md
 
 以下套件含多類內容，歸於 `mixed/`：
 
-- `1-free-commercial/mixed/sbs-2d-poker-pack/` — 牌面 + 籌碼
-- `local-references/mixed/kenney-boardgame-pack/` — 牌 + 骰子 + 棋盤遊戲
+- `1-free-commercial/mixed/poker-kit/sbs-2d-poker-pack/` — 牌面 + 籌碼
+- `local-references/mixed/boardgame/kenney-boardgame-pack/` — 牌 + 骰子 + 棋盤遊戲

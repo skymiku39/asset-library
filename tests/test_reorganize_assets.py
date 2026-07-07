@@ -128,6 +128,33 @@ class ReorganizeAssetsTest(unittest.TestCase):
         for pack in mahjong_packs:
             self.assertIn(pack.get("style"), mahjong_styles)
 
+    def test_registry_mixed_packs_use_declared_styles(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        mixed_styles = data.get("mixed_styles", {})
+        mixed_packs = [p for p in data["packs"] if p["asset_type"] == "mixed"]
+        self.assertTrue(mixed_packs, "registry should contain mixed packs")
+        for pack in mixed_packs:
+            self.assertIn(pack.get("style"), mixed_styles)
+
+    def test_registry_paid_ui_and_sound_catalog_entries_exist(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        paid_ui = [
+            p
+            for p in data["packs"]
+            if p["asset_type"] == "ui" and p["license_category"] == "2-paid-commercial"
+        ]
+        paid_sound = [
+            p
+            for p in data["packs"]
+            if p["asset_type"] == "sound" and p["license_category"] == "2-paid-commercial"
+        ]
+        self.assertGreaterEqual(len(paid_ui), 3)
+        self.assertGreaterEqual(len(paid_sound), 3)
+
     def test_target_dir_playing_cards_inserts_style_level(self) -> None:
         pack = {
             "license_category": "1-free-commercial",

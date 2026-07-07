@@ -114,6 +114,36 @@
       "status": "pending-manual-download",
       "style": "casual-cartoon",
       "local_path": "assets/1-free-commercial/ui/casual-cartoon/wenrexa-ui-casual"
+    },
+    {
+      "id": "unity-playmat-casinoui",
+      "name": "Playmat CasinoUI Set",
+      "asset_type": "ui",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/playmat-casinoui-set-258570",
+      "status": "catalog-only",
+      "style": "flat-clean"
+    },
+    {
+      "id": "unity-lucky-seven-casino-ui",
+      "name": "Lucky Seven Casino Game UI",
+      "asset_type": "ui",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/lucky-seven-casino-game-ui-162267",
+      "status": "catalog-only",
+      "style": "casual-cartoon"
+    },
+    {
+      "id": "unity-casino-ui-icons",
+      "name": "Casino Game UI Icons Pack",
+      "asset_type": "ui",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/casino-game-ui-icons-pack-for-slots-poker-blackjack-roulette-and-361052",
+      "status": "catalog-only",
+      "style": "flat-clean"
     }
   ],
   "styles": {

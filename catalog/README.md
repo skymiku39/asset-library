@@ -17,7 +17,7 @@
 | 撲克牌 | `playing-cards` | [playing-cards.md](playing-cards.md)｜機器可讀：[playing-cards.json](playing-cards.json) |
 | 麻將 | `mahjong` | [mahjong.md](mahjong.md)｜機器可讀：[mahjong.json](mahjong.json) |
 | UI | `ui` | [ui.md](ui.md)｜機器可讀：[ui.json](ui.json) |
-| 綜合性 | `mixed` | 牌+籌碼+牌桌等多類素材 |
+| 綜合性 | `mixed` | [mixed.md](mixed.md)｜機器可讀：[mixed.json](mixed.json) |
 | 音效 | `sound` | [sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
 | 角色 | `character` | 機器可讀：[character.json](character.json) |
 
@@ -43,6 +43,14 @@
 | `vector` | 向量／傳統牌面 |
 | `riichi` | 立直麻將 |
 | `3d` | 3D |
+
+綜合性 `mixed`：
+
+| 子類 slug | 說明 |
+|-----------|------|
+| `poker-kit` | 撲克遊戲包（牌+籌碼+牌桌） |
+| `mahjong-kit` | 麻將遊戲包（牌+UI+範本） |
+| `boardgame` | 棋盤／通用遊戲包 |
 
 UI `ui`：
 
@@ -81,7 +89,9 @@ UI `ui`：
 ```
 
 範例：
+範例：
 - `assets/1-free-commercial/playing-cards/flat/cards2-cc0/SOURCE_LICENSE.md`
+- `assets/1-free-commercial/mixed/poker-kit/sbs-2d-poker-pack/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/mahjong/riichi/fluffystuff-riichi-mahjong-tiles/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/ui/flat-clean/kenney-ui-pack/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/sound/realistic-foley/kenney-casino-audio/SOURCE_LICENSE.md`

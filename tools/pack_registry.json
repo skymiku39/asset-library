@@ -60,7 +60,8 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "含撲克牌面與籌碼",
-      "status": "downloaded"
+      "status": "downloaded",
+      "style": "poker-kit"
     },
     {
       "id": "byron-knoll-vector",
@@ -332,7 +333,8 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "含撲克牌、骰子、棋盤遊戲素材",
-      "status": "local-reference"
+      "status": "local-reference",
+      "style": "boardgame"
     },
     {
       "id": "unity-playing-card-pack",
@@ -346,7 +348,8 @@
       "commercial": "需購買（約 $12.99）",
       "attribution": "依 EULA",
       "note": "含牌面與 UI",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "poker-kit"
     },
     {
       "id": "unity-card-pack-vol2",
@@ -374,7 +377,8 @@
       "commercial": "需購買（$3.50+）",
       "attribution": "依作者條款",
       "note": "含 3D 牌、籌碼",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "poker-kit"
     },
     {
       "id": "craftpix-poker-kit",
@@ -388,7 +392,8 @@
       "commercial": "需購買或訂閱",
       "attribution": "依 CraftPix 條款",
       "note": "含牌面、籌碼、牌桌、UI",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "poker-kit"
     },
     {
       "id": "pv-project-cards",
@@ -700,7 +705,8 @@
       "commercial": "需購買（約 €11）",
       "attribution": "依 EULA",
       "note": "144 張牌 + UI",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "mahjong-kit"
     },
     {
       "id": "unity-mahjong-hires",
@@ -876,7 +882,8 @@
       "commercial": "需購買（約 €14）",
       "attribution": "依 EULA",
       "note": "完整麻雀接龍範本 + 3D 牌",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "mahjong-kit"
     },
     {
       "id": "gameart2d-mahjong-pack",
@@ -1342,6 +1349,96 @@
       "attribution": "不需要",
       "note": "717 個休閒風 UI：按鈕／滑桿／面板，3 色（黃/紫/藍）",
       "status": "pending-manual-download"
+    },
+    {
+      "id": "unity-playmat-casinoui",
+      "folder": "unity-playmat-casinoui",
+      "name": "Playmat CasinoUI Set",
+      "asset_type": "ui",
+      "style": "flat-clean",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "author": "Playmat",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/playmat-casinoui-set-258570",
+      "commercial": "需購買",
+      "attribution": "依 EULA",
+      "note": "賭場撲克介面：按鈕、籌碼、牌桌 UI",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-lucky-seven-casino-ui",
+      "folder": "unity-lucky-seven-casino-ui",
+      "name": "Lucky Seven Casino Game UI",
+      "asset_type": "ui",
+      "style": "casual-cartoon",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "author": "Unity Asset Store",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/lucky-seven-casino-game-ui-162267",
+      "commercial": "需購買（$15）",
+      "attribution": "依 EULA",
+      "note": "完整賭場遊戲 UI 場景與元件",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-casino-ui-icons",
+      "folder": "unity-casino-ui-icons",
+      "name": "Casino Game UI Icons Pack",
+      "asset_type": "ui",
+      "style": "flat-clean",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "author": "Unity Asset Store",
+      "source_url": "https://assetstore.unity.com/packages/2d/casino-game-ui-icons-pack-for-slots-poker-blackjack-roulette-and-361052",
+      "commercial": "需購買（$21.99）",
+      "attribution": "依 EULA",
+      "note": "老虎機／撲克／輪盤賭場圖示集",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-essential-card-sfx",
+      "folder": "unity-essential-card-sfx",
+      "name": "Essential Card Game Sound Effects",
+      "asset_type": "sound",
+      "style": "realistic-foley",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "author": "Cyberwave Orchestra",
+      "source_url": "https://assetstore.unity.com/packages/audio/sound-fx/essential-card-game-sound-effects-365118",
+      "commercial": "需購買（$29）",
+      "attribution": "依 EULA",
+      "note": "113 個洗牌／發牌／翻牌／骰子擬音（WAV）",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-aaa-card-game-sfx",
+      "folder": "unity-aaa-card-game-sfx",
+      "name": "AAA Card Game (DCCG Sound Effects)",
+      "asset_type": "sound",
+      "style": "realistic-foley",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "author": "Epic Stock Media",
+      "source_url": "https://assetstore.unity.com/packages/audio/sound-fx/card-game-sounds-112743",
+      "commercial": "需購買",
+      "attribution": "依 EULA",
+      "note": "503 個 DCCG 音效：UI、發牌、魔法、環境",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-card-board-sfx-music",
+      "folder": "unity-card-board-sfx-music",
+      "name": "Card & Board Games SFX and Music Pack",
+      "asset_type": "sound",
+      "style": "casino-bgm",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "author": "Unity Asset Store",
+      "source_url": "https://assetstore.unity.com/packages/audio/sound-fx/card-board-games-sound-effects-and-music-pack-230753",
+      "commercial": "需購買（約 €46）",
+      "attribution": "依 EULA",
+      "note": "520+ SFX 與 3 首爵士 BGM，適用撲克／麻將／棋類",
+      "status": "catalog-only"
     }
   ],
   "playing_cards_styles": {
@@ -1356,5 +1453,10 @@
     "vector": "向量／傳統牌面",
     "riichi": "立直麻將",
     "3d": "3D"
+  },
+  "mixed_styles": {
+    "poker-kit": "撲克遊戲包（牌+籌碼+牌桌）",
+    "mahjong-kit": "麻將遊戲包（牌+UI+範本）",
+    "boardgame": "棋盤／通用遊戲包"
   }
 }

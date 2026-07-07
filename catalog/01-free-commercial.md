@@ -28,9 +28,9 @@
 
 ## 綜合性（mixed）— 1 套
 
-| 套件 | 說明 | 路徑 |
-|------|------|------|
-| SBS 2D Poker Pack | 撲克牌 + 籌碼 | `mixed/sbs-2d-poker-pack/` |
+| 套件 | 子類 | 說明 | 路徑 |
+|------|------|------|------|
+| SBS 2D Poker Pack | poker-kit | 撲克牌 + 籌碼 | `mixed/poker-kit/sbs-2d-poker-pack/` |
 
 ## 角色（character）— 15 套（先分風格）
 
@@ -123,7 +123,7 @@
 | 套件 | 路徑 |
 |------|------|
 | Kenney Playing Cards | `local-references/playing-cards/flat/kenney-playing-cards-pack/` |
-| Kenney Board Game（牌+骰子等） | `local-references/mixed/kenney-boardgame-pack/` |
+| Kenney Board Game（牌+骰子等） | `local-references/mixed/boardgame/kenney-boardgame-pack/` |
 
 ## 麻將（mahjong）— 12 套（8 已下載 + 4 待手動下載）
 
