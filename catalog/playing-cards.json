@@ -1,0 +1,69 @@
+{
+  "category": "playing-cards",
+  "updated": "2026-07-07",
+  "packs": [
+    {
+      "id": "cards2-cc0",
+      "name": "Cards2 Simple Playing Cards",
+      "style": "flat-minimal",
+      "license": "CC0",
+      "formats": ["png", "svg", "jpeg"],
+      "card_count": 54,
+      "local_path": "assets/external/cards2-cc0",
+      "source_url": "https://github.com/Kouhei-Takagi/Cards2",
+      "status": "downloaded"
+    },
+    {
+      "id": "sbs-2d-poker-pack",
+      "name": "Screaming Brain Studios 2D Poker Pack",
+      "style": "isometric-topdown",
+      "license": "CC0",
+      "formats": ["png"],
+      "card_count": 52,
+      "local_path": "assets/external/sbs-2d-poker-pack",
+      "source_url": "https://opengameart.org/content/2d-poker-pack",
+      "status": "downloaded"
+    },
+    {
+      "id": "kenney-playing-cards",
+      "name": "Kenney Playing Cards Pack",
+      "style": "pixel-art",
+      "license": "CC0",
+      "formats": ["png", "tilesheet", "vector"],
+      "card_count": 276,
+      "local_path": "d:/skymiku/kenney/assets/2d/playing-cards-pack",
+      "source_url": "https://kenney.nl/assets/playing-cards-pack",
+      "status": "local-reference"
+    },
+    {
+      "id": "kenney-boardgame",
+      "name": "Kenney Board Game Pack (cards subset)",
+      "style": "pixel-art-spritesheet",
+      "license": "CC0",
+      "formats": ["png", "svg"],
+      "local_path": "d:/skymiku/kenney/assets/2d/boardgame-pack",
+      "source_url": "https://kenney.nl/assets/boardgame-pack",
+      "status": "local-reference"
+    },
+    {
+      "id": "mreliptik-stylized",
+      "name": "MrEliptik Stylized Playing Cards",
+      "style": "hand-drawn-bw",
+      "license": "CC0",
+      "formats": ["png", "svg"],
+      "card_count": 52,
+      "source_url": "https://mreliptik.itch.io/playing-cards-packs-52-cards",
+      "status": "recommended"
+    },
+    {
+      "id": "gilded-deck",
+      "name": "The Gilded Deck",
+      "style": "luxury-gilded",
+      "license": "free-commercial",
+      "formats": ["png"],
+      "card_count": 57,
+      "source_url": "https://github.com/DataJuggler/TheGildedDeck",
+      "status": "recommended"
+    }
+  ]
+}
