@@ -10,20 +10,39 @@
 
 ## 素材類型
 
-目前以 **撲克牌**、**麻將** 為主：
+目前以 **撲克牌**、**麻將** 為主；`playing-cards`、`mahjong`、`ui`、`sound`、`character` 皆**先分風格**再放套件：
 
 | 類型 | 目錄 slug | 清單 |
 |------|-----------|------|
-| 撲克牌 | `playing-cards` | [playing-cards.md](playing-cards.md) |
-| 麻將 | `mahjong` | [mahjong.md](mahjong.md) |
-| UI | `ui` | **先分風格**，再放套件（見下）｜清單：[ui.md](ui.md)｜機器可讀：[ui.json](ui.json) |
+| 撲克牌 | `playing-cards` | [playing-cards.md](playing-cards.md)｜機器可讀：[playing-cards.json](playing-cards.json) |
+| 麻將 | `mahjong` | [mahjong.md](mahjong.md)｜機器可讀：[mahjong.json](mahjong.json) |
+| UI | `ui` | [ui.md](ui.md)｜機器可讀：[ui.json](ui.json) |
 | 綜合性 | `mixed` | 牌+籌碼+牌桌等多類素材 |
-| 音效 | `sound` | **先分風格**，再放套件（見下）｜清單：[sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
-| 角色 | `character` | **先分風格**，再放套件（見下）｜機器可讀：[character.json](character.json) |
+| 音效 | `sound` | [sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
+| 角色 | `character` | 機器可讀：[character.json](character.json) |
 
 ## 風格母分類（先分風格）
 
-**UI `ui`**、**音效 `sound`** 與 **角色 `character`** 在套件之上多一層**風格母分類**，方便先依風格挑選。
+**撲克牌 `playing-cards`**、**麻將 `mahjong`**、**UI `ui`**、**音效 `sound`** 與 **角色 `character`** 在套件之上多一層**風格母分類**，方便先依風格挑選。
+
+撲克牌 `playing-cards`：
+
+| 風格 slug | 說明 |
+|-----------|------|
+| `pixel` | 像素風 |
+| `vector` | 向量／SVG |
+| `flat` | 扁平／標準牌面 |
+| `stylized` | 藝術／裝飾風 |
+| `3d` | 3D |
+
+麻將 `mahjong`：
+
+| 風格 slug | 說明 |
+|-----------|------|
+| `pixel` | 像素風 |
+| `vector` | 向量／傳統牌面 |
+| `riichi` | 立直麻將 |
+| `3d` | 3D |
 
 UI `ui`：
 
@@ -62,7 +81,8 @@ UI `ui`：
 ```
 
 範例：
-- `assets/1-free-commercial/playing-cards/cards2-cc0/SOURCE_LICENSE.md`
+- `assets/1-free-commercial/playing-cards/flat/cards2-cc0/SOURCE_LICENSE.md`
+- `assets/1-free-commercial/mahjong/riichi/fluffystuff-riichi-mahjong-tiles/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/ui/flat-clean/kenney-ui-pack/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/sound/realistic-foley/kenney-casino-audio/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/character/pixel-art/chromoxi-good-and-evil/SOURCE_LICENSE.md`

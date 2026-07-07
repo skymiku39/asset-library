@@ -116,6 +116,15 @@ def migrate_downloaded_packs(packs: list[dict]) -> list[str]:
             ASSETS_DIR / pack["license_category"] / pack["folder"],
             ASSETS_DIR / pack["license_category"] / pack["asset_type"] / pack["folder"],
         ]
+        if pack.get("style"):
+            old_candidates.insert(
+                0,
+                ASSETS_DIR
+                / pack["license_category"]
+                / pack["asset_type"]
+                / pack["style"]
+                / pack["folder"],
+            )
         dest = target_dir(pack)
         dest.parent.mkdir(parents=True, exist_ok=True)
 
@@ -132,6 +141,28 @@ def migrate_downloaded_packs(packs: list[dict]) -> list[str]:
     return moved
 
 
+def migrate_local_reference_packs(packs: list[dict]) -> list[str]:
+    moved: list[str] = []
+    for pack in packs:
+        if pack["status"] != "local-reference":
+            continue
+        dest = ASSETS_DIR / "local-references" / pack["asset_type"]
+        if pack.get("style"):
+            dest = dest / pack["style"]
+        dest = dest / pack["folder"]
+        old = ASSETS_DIR / "local-references" / pack["asset_type"] / pack["folder"]
+        if old.exists() and old.resolve() != dest.resolve():
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            if dest.exists():
+                shutil.rmtree(dest)
+            shutil.move(str(old), str(dest))
+            moved.append(f"{old} -> {dest}")
+            stale_url = old.parent / f"{pack['folder']}.url"
+            if stale_url.exists():
+                stale_url.unlink()
+    return moved
+
+
 def write_source_licenses(
     packs: list[dict],
     asset_types: dict[str, str],
@@ -145,8 +176,9 @@ def write_source_licenses(
             dest.mkdir(parents=True, exist_ok=True)
         elif pack["status"] == "local-reference":
             ref_dir = ASSETS_DIR / "local-references" / pack["asset_type"]
+            if pack.get("style"):
+                ref_dir = ref_dir / pack["style"]
             ref_dir.mkdir(parents=True, exist_ok=True)
-            dest = ref_dir
             url_file = ref_dir / f"{pack['folder']}.url"
             local = pack.get("local_path", "")
             if local and not url_file.exists():
@@ -156,6 +188,16 @@ def write_source_licenses(
                 )
             dest = ref_dir / pack["folder"]
             dest.mkdir(parents=True, exist_ok=True)
+            type_label = asset_types[pack["asset_type"]]
+            style = pack.get("style")
+            if style:
+                ensure_style_readme(
+                    ref_dir,
+                    pack["asset_type"],
+                    type_label,
+                    style,
+                    styles.get(style, style),
+                )
         else:
             dest = target_dir(pack)
             if not dest.exists():
@@ -266,7 +308,7 @@ def update_catalog_json(
             if pack["status"] == "local-reference":
                 entry["local_path"] = pack.get("local_path")
                 entry["local_path_short"] = (
-                    f"assets/local-references/{pack['asset_type']}/{pack['folder']}"
+                    f"assets/local-references/{pack['asset_type']}/{style_seg}{pack['folder']}"
                 )
             elif pack["status"] != "catalog-only":
                 entry["local_path"] = (
@@ -303,6 +345,7 @@ def main() -> None:
         ensure_type_readme(ref_root / asset_type, asset_type, label)
 
     moved = migrate_downloaded_packs(packs)
+    moved.extend(migrate_local_reference_packs(packs))
     count = write_source_licenses(packs, asset_types, license_categories, styles)
     cleanup_empty_dirs()
     update_catalog_json(packs, asset_types, styles)

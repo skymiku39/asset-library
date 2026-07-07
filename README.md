@@ -9,12 +9,12 @@
 ```
 assets/
 ├── 1-free-commercial/          # 完全免費授權商用
-│   ├── playing-cards/          # 撲克牌
-│   ├── mahjong/                # 麻將
-│   ├── ui/                     # UI
+│   ├── playing-cards/          # 撲克牌（先分風格）
+│   ├── mahjong/                # 麻將（先分風格）
+│   ├── ui/                     # UI（先分風格）
 │   ├── mixed/                  # 綜合性（牌+籌碼+介面等）
-│   ├── sound/                  # 音效
-│   └── character/              # 角色
+│   ├── sound/                  # 音效（先分風格）
+│   └── character/              # 角色（先分風格）
 ├── 2-paid-commercial/          # 商用需購買授權
 ├── 3-license-unclear/          # 不確定相關規範
 └── local-references/           # 本機其他專案參照
@@ -24,9 +24,24 @@ assets/
 
 ### 先分風格（風格母分類）
 
-`ui`、`sound`、`character` 類型在套件之上**多一層風格母分類**，方便先依風格挑選：
+`playing-cards`、`mahjong`、`ui`、`sound`、`character` 類型在套件之上**多一層風格母分類**，方便先依風格挑選：
 
 ```
+playing-cards/
+├── pixel/            # 像素風
+├── vector/           # 向量／SVG
+├── flat/             # 扁平／標準牌面
+├── stylized/         # 藝術／裝飾風
+└── 3d/               # 3D
+    └── {套件名}/SOURCE_LICENSE.md
+
+mahjong/
+├── pixel/            # 像素風
+├── vector/           # 向量／傳統牌面
+├── riichi/           # 立直麻將
+└── 3d/               # 3D
+    └── {套件名}/SOURCE_LICENSE.md
+
 ui/
 ├── flat-clean/       # 扁平／簡潔
 ├── pixel-ui/         # 像素 UI
@@ -51,7 +66,7 @@ character/
     └── {套件名}/SOURCE_LICENSE.md
 ```
 
-風格清單集中定義於 `tools/pack_registry.json` 的 `ui_styles`、`sound_styles`、`character_styles`；套件只要加上 `style` 欄位即可自動歸位（工具會自動合併所有 `*_styles` 對照表）。
+風格清單集中定義於 `tools/pack_registry.json` 的 `*_styles` 對照表；套件加上 `style` 欄位即可自動歸位。
 
 ## 授權分類
 
@@ -60,6 +75,7 @@ character/
 | `1-free-commercial` | CC0、MIT、明確允許免費商用 |
 | `2-paid-commercial` | 需付費購買後方可商用（僅清單或已購買檔案） |
 | `3-license-unclear` | 授權不明確，使用前需確認 |
+| `local-references` | 本機其他專案已有副本，僅作參照連結 |
 
 ## 素材類型
 

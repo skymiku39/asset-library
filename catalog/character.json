@@ -12,7 +12,8 @@
   "license_categories": {
     "1-free-commercial": "完全免費授權商用",
     "2-paid-commercial": "商用需購買授權",
-    "3-license-unclear": "不確定相關規範"
+    "3-license-unclear": "不確定相關規範",
+    "local-references": "本機參照"
   },
   "packs": [
     {

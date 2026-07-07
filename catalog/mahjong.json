@@ -12,7 +12,8 @@
   "license_categories": {
     "1-free-commercial": "完全免費授權商用",
     "2-paid-commercial": "商用需購買授權",
-    "3-license-unclear": "不確定相關規範"
+    "3-license-unclear": "不確定相關規範",
+    "local-references": "本機參照"
   },
   "packs": [
     {
@@ -23,7 +24,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://github.com/FluffyStuff/riichi-mahjong-tiles",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/fluffystuff-riichi-mahjong-tiles"
+      "style": "riichi",
+      "local_path": "assets/1-free-commercial/mahjong/riichi/fluffystuff-riichi-mahjong-tiles"
     },
     {
       "id": "samoheen-mahjong",
@@ -33,7 +35,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://github.com/samoheen/mahjong-tiles",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/samoheen-mahjong-tiles"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/mahjong/vector/samoheen-mahjong-tiles"
     },
     {
       "id": "pyrano-ivory-tiles",
@@ -43,7 +46,8 @@
       "license": "OGA-BY 4.0",
       "source_url": "https://opengameart.org/content/ivory-tile-alphabet",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/pyrano-ivory-tiles"
+      "style": "pixel",
+      "local_path": "assets/1-free-commercial/mahjong/pixel/pyrano-ivory-tiles"
     },
     {
       "id": "natonato-simple-tiny",
@@ -53,7 +57,8 @@
       "license": "免費商用（作者聲明）",
       "source_url": "https://natonato.itch.io/simple-tiny-mahjong-tiles",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/natonato-simple-tiny"
+      "style": "pixel",
+      "local_path": "assets/1-free-commercial/mahjong/pixel/natonato-simple-tiny"
     },
     {
       "id": "blueeyedrat-pixel",
@@ -63,7 +68,8 @@
       "license": "免費商用（作者聲明）",
       "source_url": "https://blueeyedrat.itch.io/pixel-assets-mahjong-tiles",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/blueeyedrat-pixel-mahjong"
+      "style": "pixel",
+      "local_path": "assets/1-free-commercial/mahjong/pixel/blueeyedrat-pixel-mahjong"
     },
     {
       "id": "demching-mahjong-free",
@@ -73,7 +79,8 @@
       "license": "CC-BY-SA 4.0（衍生自 Cangjie6）",
       "source_url": "https://demching.itch.io/mahjong",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/demching-mahjong-free"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/mahjong/vector/demching-mahjong-free"
     },
     {
       "id": "lietxia-riichi-vector",
@@ -83,7 +90,8 @@
       "license": "M+ 字型授權條款（商用允許）",
       "source_url": "https://github.com/lietxia/mahjong_graphic",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/lietxia-riichi-vector"
+      "style": "riichi",
+      "local_path": "assets/1-free-commercial/mahjong/riichi/lietxia-riichi-vector"
     },
     {
       "id": "tempai-riichi-svg",
@@ -93,7 +101,8 @@
       "license": "MIT 或 CC-PDDC",
       "source_url": "https://github.com/tempai-dev/riichi-mahjong-tiles-svg",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/mahjong/tempai-riichi-svg"
+      "style": "riichi",
+      "local_path": "assets/1-free-commercial/mahjong/riichi/tempai-riichi-svg"
     },
     {
       "id": "gamblemountain-riichi",
@@ -103,7 +112,8 @@
       "license": "免費商用（作者聲明）",
       "source_url": "https://gamblemountain.itch.io/riichi-asset",
       "status": "pending-manual-download",
-      "local_path": "assets/1-free-commercial/mahjong/gamblemountain-riichi-asset"
+      "style": "riichi",
+      "local_path": "assets/1-free-commercial/mahjong/riichi/gamblemountain-riichi-asset"
     },
     {
       "id": "moxica-tile-mahjong",
@@ -113,7 +123,8 @@
       "license": "免費商用（作者聲明）",
       "source_url": "https://moxica.itch.io/mahjong",
       "status": "pending-manual-download",
-      "local_path": "assets/1-free-commercial/mahjong/moxica-tile-mahjong"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/mahjong/vector/moxica-tile-mahjong"
     },
     {
       "id": "anisimova-vector-mahjong",
@@ -123,7 +134,8 @@
       "license": "免費商用（作者聲明）",
       "source_url": "https://anisimova.itch.io/anisimovas-mahjong-game-pack",
       "status": "pending-manual-download",
-      "local_path": "assets/1-free-commercial/mahjong/anisimova-vector-mahjong"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/mahjong/vector/anisimova-vector-mahjong"
     },
     {
       "id": "magory-free-pixel-set",
@@ -133,7 +145,8 @@
       "license": "CC-BY 4.0",
       "source_url": "https://magory.itch.io/mahjong-collection",
       "status": "pending-manual-download",
-      "local_path": "assets/1-free-commercial/mahjong/magory-free-pixel-set"
+      "style": "pixel",
+      "local_path": "assets/1-free-commercial/mahjong/pixel/magory-free-pixel-set"
     },
     {
       "id": "codeinferno-mahjong",
@@ -143,7 +156,8 @@
       "license": "未標示標準授權",
       "source_url": "https://opengameart.org/content/mahjong-tileset",
       "status": "downloaded",
-      "local_path": "assets/3-license-unclear/mahjong/codeinferno-mahjong-tileset"
+      "style": "pixel",
+      "local_path": "assets/3-license-unclear/mahjong/pixel/codeinferno-mahjong-tileset"
     },
     {
       "id": "devurandom-pixel-mahjong",
@@ -153,7 +167,8 @@
       "license": "未標示標準授權",
       "source_url": "https://opengameart.org/content/pixel-art-mahjong-tiles",
       "status": "downloaded",
-      "local_path": "assets/3-license-unclear/mahjong/devurandom-pixel-mahjong"
+      "style": "pixel",
+      "local_path": "assets/3-license-unclear/mahjong/pixel/devurandom-pixel-mahjong"
     },
     {
       "id": "ffalt-mah-tile-sets",
@@ -162,7 +177,8 @@
       "license_category": "3-license-unclear",
       "license": "混合授權（依各牌組而異）",
       "source_url": "https://github.com/ffalt/mah",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "unity-mahjong-hires",
@@ -171,7 +187,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/2d/2d-modern-mahjong-tiles-hi-res-png-202797",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "unity-mahjong-3d",
@@ -180,7 +197,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/3d/mahjong-tiles-pack-21326",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "3d"
     },
     {
       "id": "demching-mahjong-paid",
@@ -189,7 +207,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://demching.itch.io/mahjong",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "pzuh-mahjong-pack",
@@ -198,7 +217,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://pzuh.itch.io/mahjong-game-assets-pack",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "royalgraphics-mahjong-basic",
@@ -207,7 +227,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://royalgraphicsresources.itch.io/mahjong-tile-set",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "royalgraphics-mahjong-premium",
@@ -216,7 +237,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://royalgraphicsresources.itch.io/mahjong-premium-masterpack",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "royalgraphics-mahjong-dark-premium",
@@ -225,7 +247,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://royalgraphicsresources.itch.io/mahjong-dark-premium-masterpack",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     },
     {
       "id": "magory-mahjong-collection",
@@ -234,7 +257,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用（限 2 專案）",
       "source_url": "https://magory.itch.io/mahjong-collection",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "pixel"
     },
     {
       "id": "almond-blossoms-mahjong-icons",
@@ -243,7 +267,8 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://almond-blossoms.itch.io/pixel-art-mahjong-icons-41",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "pixel"
     },
     {
       "id": "unity-mahjong-mobile",
@@ -252,7 +277,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/3d/mahjong-mobile-assets-pack-82375",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "3d"
     },
     {
       "id": "unity-mahjong-complete-set",
@@ -261,7 +287,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/3d/props/mahjong-complete-set-149329",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "3d"
     },
     {
       "id": "gameart2d-mahjong-pack",
@@ -270,7 +297,14 @@
       "license_category": "2-paid-commercial",
       "license": "購買後可商用",
       "source_url": "https://www.gameart2d.com/mahjong-game-assets-pack.html",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "vector"
     }
-  ]
+  ],
+  "styles": {
+    "riichi": "立直麻將",
+    "vector": "向量／傳統牌面",
+    "pixel": "像素風",
+    "3d": "3D"
+  }
 }

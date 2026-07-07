@@ -108,6 +108,39 @@ class ReorganizeAssetsTest(unittest.TestCase):
         for pack in ui_packs:
             self.assertIn(pack.get("style"), ui_styles)
 
+    def test_registry_playing_cards_packs_use_declared_styles(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        card_styles = data.get("playing_cards_styles", {})
+        card_packs = [p for p in data["packs"] if p["asset_type"] == "playing-cards"]
+        self.assertTrue(card_packs, "registry should contain playing-cards packs")
+        for pack in card_packs:
+            self.assertIn(pack.get("style"), card_styles)
+
+    def test_registry_mahjong_packs_use_declared_styles(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        mahjong_styles = data.get("mahjong_styles", {})
+        mahjong_packs = [p for p in data["packs"] if p["asset_type"] == "mahjong"]
+        self.assertTrue(mahjong_packs, "registry should contain mahjong packs")
+        for pack in mahjong_packs:
+            self.assertIn(pack.get("style"), mahjong_styles)
+
+    def test_target_dir_playing_cards_inserts_style_level(self) -> None:
+        pack = {
+            "license_category": "1-free-commercial",
+            "asset_type": "playing-cards",
+            "style": "vector",
+            "folder": "byron-knoll-vector",
+        }
+        path = mod.target_dir(pack)
+        self.assertEqual(
+            path.parts[-4:],
+            ("1-free-commercial", "playing-cards", "vector", "byron-knoll-vector"),
+        )
+
 
 REGISTRY = TOOLS / "pack_registry.json"
 

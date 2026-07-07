@@ -1,28 +1,30 @@
 # 1. 完全免費授權商用
 
-> 路徑格式：`assets/1-free-commercial/{素材類型}/{套件名}/`
+> 路徑格式：`assets/1-free-commercial/{素材類型}/{風格}/{套件名}/`（撲克牌、麻將、UI、音效、角色先分風格）
 
 每個套件資料夾內含 **`SOURCE_LICENSE.md`**。
 
 ## 撲克牌（playing-cards）— 18 套
 
-| 套件 | 路徑 |
-|------|------|
-| Cards2 | `playing-cards/cards2-cc0/` |
-| Byron Knoll Vector | `playing-cards/byron-knoll-vector/` |
-| hayeah Vector | `playing-cards/hayeah-vector-cards/` |
-| Gilded Deck | `playing-cards/gilded-deck/` |
-| IvoryRed Pixel Poker | `playing-cards/ivoryred-pixel-poker/` |
-| Kenney Playing Cards | `playing-cards/kenney-playing-cards/` |
-| Mesmedir Bridge Size | `playing-cards/mesmedir-bridge-size/` |
-| GreyWyvern（PNG / SVG / 中 / 小） | `playing-cards/greywyvern-*/` |
-| Heratexx 4-Color | `playing-cards/heratexx-4color-deck/` |
-| JunusErgin 4-Color | `playing-cards/junus-ergin-4color/` |
-| letele SVG | `playing-cards/letele-svg-cards/` |
-| RevK SVG Generator | `playing-cards/revk-svg-cards/` |
-| MrEliptik Stylized | `playing-cards/mreliptik-stylized/` |
-| Kajiru 8-bit | `playing-cards/kajiru-8bit/` |
-| Super Dev Resources Flat | `playing-cards/superdev-flat-cards/` |
+> 路徑範例：`playing-cards/{風格}/{套件名}/`
+
+| 套件 | 風格 | 路徑 |
+|------|------|------|
+| Cards2 | flat | `playing-cards/flat/cards2-cc0/` |
+| Byron Knoll Vector | vector | `playing-cards/vector/byron-knoll-vector/` |
+| hayeah Vector | vector | `playing-cards/vector/hayeah-vector-cards/` |
+| Gilded Deck | stylized | `playing-cards/stylized/gilded-deck/` |
+| IvoryRed Pixel Poker | pixel | `playing-cards/pixel/ivoryred-pixel-poker/` |
+| Kenney Playing Cards | flat | `playing-cards/flat/kenney-playing-cards/` |
+| Mesmedir Bridge Size | flat | `playing-cards/flat/mesmedir-bridge-size/` |
+| GreyWyvern（PNG / SVG / 中 / 小） | flat / vector | `playing-cards/flat/greywyvern-*/`、`playing-cards/vector/greywyvern-cardset-svg/` |
+| Heratexx 4-Color | vector | `playing-cards/vector/heratexx-4color-deck/` |
+| JunusErgin 4-Color | vector | `playing-cards/vector/junus-ergin-4color/` |
+| letele SVG | vector | `playing-cards/vector/letele-svg-cards/` |
+| RevK SVG Generator | vector | `playing-cards/vector/revk-svg-cards/` |
+| MrEliptik Stylized | stylized | `playing-cards/stylized/mreliptik-stylized/` |
+| Kajiru 8-bit | pixel | `playing-cards/pixel/kajiru-8bit/` |
+| Super Dev Resources Flat | flat | `playing-cards/flat/superdev-flat-cards/` |
 
 ## 綜合性（mixed）— 1 套
 
@@ -120,27 +122,31 @@
 
 | 套件 | 路徑 |
 |------|------|
-| Kenney Playing Cards | `local-references/playing-cards/kenney-playing-cards-pack/` |
+| Kenney Playing Cards | `local-references/playing-cards/flat/kenney-playing-cards-pack/` |
 | Kenney Board Game（牌+骰子等） | `local-references/mixed/kenney-boardgame-pack/` |
 
-## 麻將（mahjong）— 8 套已下載
+## 麻將（mahjong）— 12 套（8 已下載 + 4 待手動下載）
 
-| 套件 | 路徑 | 說明 |
-|------|------|------|
-| FluffyStuff Riichi | `mahjong/fluffystuff-riichi-mahjong-tiles/` | 立直麻將 CC0，SVG+PNG |
-| samoheen Multi-Region | `mahjong/samoheen-mahjong-tiles/` | 多地區 CC0 |
-| Pyrano Ivory Tiles | `mahjong/pyrano-ivory-tiles/` | OGA-BY 4.0，32×32 |
-| natonato Simple Tiny | `mahjong/natonato-simple-tiny/` | 20×28 / 32×32 像素 |
-| Blueeyedrat Pixel | `mahjong/blueeyedrat-pixel-mahjong/` | 64×64 精靈圖 |
-| DemChing 免費 SVG | `mahjong/demching-mahjong-free/` | CC-BY-SA 4.0，多地區 SVG |
-| lietxia Riichi Graphics | `mahjong/lietxia-riichi-vector/` | M+ 授權，多風格 SVG/PNG |
-| tempai-dev Riichi SVG | `mahjong/tempai-riichi-svg/` | MIT / CC-PDDC，2 套 SVG |
+> 路徑範例：`mahjong/{風格}/{套件名}/`
 
-### 待手動下載
+### 已下載（8 套）
 
-| 套件 | 路徑 | 說明 |
-|------|------|------|
-| GambleMountain Riichi | `mahjong/gamblemountain-riichi-asset/` | 32×32 像素 |
-| moxica Tile Set | `mahjong/moxica-tile-mahjong/` | 43 張傳統牌 |
-| Anisimova Vector | `mahjong/anisimova-vector-mahjong/` | 42 張向量 |
-| Magory Free Pixel | `mahjong/magory-free-pixel-set/` | CC-BY 4.0 示範組 |
+| 套件 | 風格 | 路徑 | 說明 |
+|------|------|------|------|
+| FluffyStuff Riichi | riichi | `mahjong/riichi/fluffystuff-riichi-mahjong-tiles/` | 立直麻將 CC0，SVG+PNG |
+| samoheen Multi-Region | vector | `mahjong/vector/samoheen-mahjong-tiles/` | 多地區 CC0 |
+| Pyrano Ivory Tiles | pixel | `mahjong/pixel/pyrano-ivory-tiles/` | OGA-BY 4.0，32×32 |
+| natonato Simple Tiny | pixel | `mahjong/pixel/natonato-simple-tiny/` | 20×28 / 32×32 像素 |
+| Blueeyedrat Pixel | pixel | `mahjong/pixel/blueeyedrat-pixel-mahjong/` | 64×64 精靈圖 |
+| DemChing 免費 SVG | vector | `mahjong/vector/demching-mahjong-free/` | CC-BY-SA 4.0，多地區 SVG |
+| lietxia Riichi Graphics | riichi | `mahjong/riichi/lietxia-riichi-vector/` | M+ 授權，多風格 SVG/PNG |
+| tempai-dev Riichi SVG | riichi | `mahjong/riichi/tempai-riichi-svg/` | MIT / CC-PDDC，2 套 SVG |
+
+### 待手動下載（4 套）
+
+| 套件 | 風格 | 路徑 | 說明 |
+|------|------|------|------|
+| GambleMountain Riichi | riichi | `mahjong/riichi/gamblemountain-riichi-asset/` | 32×32 像素 |
+| moxica Tile Set | vector | `mahjong/vector/moxica-tile-mahjong/` | 43 張傳統牌 |
+| Anisimova Vector | vector | `mahjong/vector/anisimova-vector-mahjong/` | 42 張向量 |
+| Magory Free Pixel | pixel | `mahjong/pixel/magory-free-pixel-set/` | CC-BY 4.0 示範組 |

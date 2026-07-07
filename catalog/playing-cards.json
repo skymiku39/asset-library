@@ -12,7 +12,8 @@
   "license_categories": {
     "1-free-commercial": "完全免費授權商用",
     "2-paid-commercial": "商用需購買授權",
-    "3-license-unclear": "不確定相關規範"
+    "3-license-unclear": "不確定相關規範",
+    "local-references": "本機參照"
   },
   "packs": [
     {
@@ -23,7 +24,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://github.com/Kouhei-Takagi/Cards2",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/cards2-cc0"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/cards2-cc0"
     },
     {
       "id": "byron-knoll-vector",
@@ -33,7 +35,8 @@
       "license": "CC0 / Public Domain",
       "source_url": "https://opengameart.org/content/playing-cards-vector-png",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/byron-knoll-vector"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/byron-knoll-vector"
     },
     {
       "id": "hayeah-vector-cards",
@@ -43,7 +46,8 @@
       "license": "MIT",
       "source_url": "https://github.com/hayeah/playing-cards-assets",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/hayeah-vector-cards"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/hayeah-vector-cards"
     },
     {
       "id": "gilded-deck",
@@ -53,7 +57,8 @@
       "license": "MIT",
       "source_url": "https://github.com/DataJuggler/TheGildedDeck",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/gilded-deck"
+      "style": "stylized",
+      "local_path": "assets/1-free-commercial/playing-cards/stylized/gilded-deck"
     },
     {
       "id": "ivoryred-pixel-poker",
@@ -63,7 +68,8 @@
       "license": "CC-BY 4.0",
       "source_url": "https://opengameart.org/content/pixel-poker-cards",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/ivoryred-pixel-poker"
+      "style": "pixel",
+      "local_path": "assets/1-free-commercial/playing-cards/pixel/ivoryred-pixel-poker"
     },
     {
       "id": "kenney-playing-cards-local",
@@ -73,7 +79,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://kenney.nl/assets/playing-cards-pack",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/kenney-playing-cards"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/kenney-playing-cards"
     },
     {
       "id": "mesmedir-bridge-size",
@@ -83,7 +90,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/bridge-sized-playing-card-deck-png-cc0",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/mesmedir-bridge-size"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/mesmedir-bridge-size"
     },
     {
       "id": "greywyvern-cardset",
@@ -93,7 +101,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/greywyvern-playing-card-set",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/greywyvern-cardset"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/greywyvern-cardset"
     },
     {
       "id": "greywyvern-cardset-svg",
@@ -103,7 +112,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/greywyvern-playing-card-set",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/greywyvern-cardset-svg"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/greywyvern-cardset-svg"
     },
     {
       "id": "greywyvern-pysol-medium",
@@ -113,7 +123,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/greywyvern-playing-card-set",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/greywyvern-pysol-medium"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/greywyvern-pysol-medium"
     },
     {
       "id": "greywyvern-pysol-small",
@@ -123,7 +134,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/greywyvern-playing-card-set",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/greywyvern-pysol-small"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/greywyvern-pysol-small"
     },
     {
       "id": "heratexx-4color-deck",
@@ -133,7 +145,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://opengameart.org/content/classic-4-color-poker-deck-svg",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/heratexx-4color-deck"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/heratexx-4color-deck"
     },
     {
       "id": "junus-ergin-4color",
@@ -143,7 +156,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://github.com/JunusErgin/playing_cards",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/junus-ergin-4color"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/junus-ergin-4color"
     },
     {
       "id": "letele-svg-cards",
@@ -153,7 +167,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://github.com/letele/playing-cards",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/letele-svg-cards"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/letele-svg-cards"
     },
     {
       "id": "revk-svg-cards",
@@ -163,7 +178,8 @@
       "license": "牌面 CC0 1.0；生成器 GPL-3.0",
       "source_url": "https://codeberg.org/RevK/SVG-playing-cards",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/revk-svg-cards"
+      "style": "vector",
+      "local_path": "assets/1-free-commercial/playing-cards/vector/revk-svg-cards"
     },
     {
       "id": "mreliptik-stylized",
@@ -173,7 +189,8 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://mreliptik.itch.io/playing-cards-packs-52-cards",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/mreliptik-stylized"
+      "style": "stylized",
+      "local_path": "assets/1-free-commercial/playing-cards/stylized/mreliptik-stylized"
     },
     {
       "id": "kajiru-8bit",
@@ -183,7 +200,8 @@
       "license": "免費商用（作者聲明）",
       "source_url": "https://sdkfz181tiger.itch.io/assets-for-8bit-playing-card-games",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/kajiru-8bit"
+      "style": "pixel",
+      "local_path": "assets/1-free-commercial/playing-cards/pixel/kajiru-8bit"
     },
     {
       "id": "superdev-flat-cards",
@@ -193,7 +211,8 @@
       "license": "免費商用",
       "source_url": "https://superdevresources.com/free-playing-cards-set/",
       "status": "downloaded",
-      "local_path": "assets/1-free-commercial/playing-cards/superdev-flat-cards"
+      "style": "flat",
+      "local_path": "assets/1-free-commercial/playing-cards/flat/superdev-flat-cards"
     },
     {
       "id": "kenney-playing-cards-ref",
@@ -203,8 +222,9 @@
       "license": "CC0 1.0 Universal",
       "source_url": "https://kenney.nl/assets/playing-cards-pack",
       "status": "local-reference",
+      "style": "flat",
       "local_path": "d:/skymiku/kenney/assets/2d/playing-cards-pack",
-      "local_path_short": "assets/local-references/playing-cards/kenney-playing-cards-pack"
+      "local_path_short": "assets/local-references/playing-cards/flat/kenney-playing-cards-pack"
     },
     {
       "id": "unity-card-pack-vol2",
@@ -213,7 +233,8 @@
       "license_category": "2-paid-commercial",
       "license": "Unity Asset Store EULA",
       "source_url": "https://assetstore.unity.com/packages/2d/card-pack-vol-2-78181",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "stylized"
     },
     {
       "id": "pv-project-cards",
@@ -222,7 +243,8 @@
       "license_category": "2-paid-commercial",
       "license": "僅限非商用",
       "source_url": "https://pvproject.free.nf/",
-      "status": "catalog-only"
+      "status": "catalog-only",
+      "style": "flat"
     },
     {
       "id": "lempf-pixel-art-cards",
@@ -232,7 +254,8 @@
       "license": "未標示標準授權",
       "source_url": "https://opengameart.org/content/pixel-art-cards",
       "status": "downloaded",
-      "local_path": "assets/3-license-unclear/playing-cards/lempf-pixel-art-cards"
+      "style": "pixel",
+      "local_path": "assets/3-license-unclear/playing-cards/pixel/lempf-pixel-art-cards"
     },
     {
       "id": "devurandom-pc-style",
@@ -242,7 +265,8 @@
       "license": "未標示標準授權",
       "source_url": "https://opengameart.org/content/pc-style-playing-cards",
       "status": "downloaded",
-      "local_path": "assets/3-license-unclear/playing-cards/devurandom-pc-style"
+      "style": "flat",
+      "local_path": "assets/3-license-unclear/playing-cards/flat/devurandom-pc-style"
     },
     {
       "id": "magnesus-cute-cards",
@@ -252,7 +276,8 @@
       "license": "未標示標準授權",
       "source_url": "https://opengameart.org/content/cute-playing-cards-32x42",
       "status": "downloaded",
-      "local_path": "assets/3-license-unclear/playing-cards/magnesus-cute-cards"
+      "style": "pixel",
+      "local_path": "assets/3-license-unclear/playing-cards/pixel/magnesus-cute-cards"
     },
     {
       "id": "george-blackwell-pixel",
@@ -262,7 +287,14 @@
       "license": "未標準化（作者自訂）",
       "source_url": "https://georgeblackwell.itch.io/playing-cards-sprite-pack",
       "status": "pending-manual-download",
-      "local_path": "assets/3-license-unclear/playing-cards/george-blackwell-pixel"
+      "style": "pixel",
+      "local_path": "assets/3-license-unclear/playing-cards/pixel/george-blackwell-pixel"
     }
-  ]
+  ],
+  "styles": {
+    "flat": "扁平／標準牌面",
+    "vector": "向量／傳統牌面",
+    "stylized": "藝術／裝飾風",
+    "pixel": "像素風"
+  }
 }
