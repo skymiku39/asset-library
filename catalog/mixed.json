@@ -1,0 +1,76 @@
+{
+  "category": "mixed",
+  "updated": "2026-07-07",
+  "asset_types": {
+    "playing-cards": "撲克牌",
+    "mahjong": "麻將",
+    "ui": "UI",
+    "mixed": "綜合性",
+    "sound": "音效",
+    "character": "角色"
+  },
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範"
+  },
+  "packs": [
+    {
+      "id": "sbs-2d-poker-pack",
+      "name": "Screaming Brain Studios 2D Poker Pack",
+      "asset_type": "mixed",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/2d-poker-pack",
+      "status": "downloaded",
+      "local_path": "assets/1-free-commercial/mixed/sbs-2d-poker-pack"
+    },
+    {
+      "id": "kenney-boardgame-ref",
+      "name": "Kenney Board Game Pack",
+      "asset_type": "mixed",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/boardgame-pack",
+      "status": "local-reference",
+      "local_path": "d:/skymiku/kenney/assets/2d/boardgame-pack",
+      "local_path_short": "assets/local-references/mixed/kenney-boardgame-pack"
+    },
+    {
+      "id": "unity-playing-card-pack",
+      "name": "Playing Card Game Assets Pack",
+      "asset_type": "mixed",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/playing-card-game-assets-pack-354514",
+      "status": "catalog-only"
+    },
+    {
+      "id": "aarnituli-3d-cards",
+      "name": "Ultimate 3D Playing Card Pack",
+      "asset_type": "mixed",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://aarnituli.itch.io/card-game-asset-pack",
+      "status": "catalog-only"
+    },
+    {
+      "id": "craftpix-poker-kit",
+      "name": "CraftPix Poker Game Kit",
+      "asset_type": "mixed",
+      "license_category": "2-paid-commercial",
+      "license": "CraftPix 商用授權",
+      "source_url": "https://craftpix.net/product/poker-game-kit/",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-mahjong-assets",
+      "name": "Mahjong Game Assets Pack",
+      "asset_type": "mixed",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/gui/mahjong-game-assets-pack-324218",
+      "status": "catalog-only"
+    }
+  ]
+}

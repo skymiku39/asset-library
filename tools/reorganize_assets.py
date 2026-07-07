@@ -166,37 +166,51 @@ def cleanup_empty_dirs() -> None:
 
 
 def update_catalog_json(packs: list[dict], asset_types: dict[str, str]) -> None:
-    catalog = {
-        "updated": TODAY,
-        "asset_types": asset_types,
-        "license_categories": json.loads(REGISTRY.read_text(encoding="utf-8"))[
-            "license_categories"
-        ],
-        "packs": [],
-    }
+    license_categories = json.loads(REGISTRY.read_text(encoding="utf-8"))[
+        "license_categories"
+    ]
+    by_type: dict[str, list[dict]] = {}
     for pack in packs:
-        entry = {
-            "id": pack["id"],
-            "name": pack["name"],
-            "asset_type": pack["asset_type"],
-            "license_category": pack["license_category"],
-            "license": pack["license"],
-            "source_url": pack["source_url"],
-            "status": pack["status"],
-        }
-        if pack["status"] == "local-reference":
-            entry["local_path"] = pack.get("local_path")
-            entry["local_path_short"] = (
-                f"assets/local-references/{pack['asset_type']}/{pack['folder']}"
-            )
-        elif pack["status"] != "catalog-only":
-            entry["local_path"] = (
-                f"assets/{pack['license_category']}/{pack['asset_type']}/{pack['folder']}"
-            )
-        catalog["packs"].append(entry)
+        by_type.setdefault(pack["asset_type"], []).append(pack)
 
-    out = PROJECT_ROOT / "catalog" / "playing-cards.json"
-    out.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+    catalog_dir = PROJECT_ROOT / "catalog"
+    catalog_dir.mkdir(parents=True, exist_ok=True)
+    updated_types: list[str] = []
+
+    for asset_type, type_packs in sorted(by_type.items()):
+        catalog = {
+            "category": asset_type,
+            "updated": TODAY,
+            "asset_types": asset_types,
+            "license_categories": license_categories,
+            "packs": [],
+        }
+        for pack in type_packs:
+            entry = {
+                "id": pack["id"],
+                "name": pack["name"],
+                "asset_type": pack["asset_type"],
+                "license_category": pack["license_category"],
+                "license": pack["license"],
+                "source_url": pack["source_url"],
+                "status": pack["status"],
+            }
+            if pack["status"] == "local-reference":
+                entry["local_path"] = pack.get("local_path")
+                entry["local_path_short"] = (
+                    f"assets/local-references/{pack['asset_type']}/{pack['folder']}"
+                )
+            elif pack["status"] != "catalog-only":
+                entry["local_path"] = (
+                    f"assets/{pack['license_category']}/{pack['asset_type']}/{pack['folder']}"
+                )
+            catalog["packs"].append(entry)
+
+        out = catalog_dir / f"{asset_type}.json"
+        out.write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8")
+        updated_types.append(asset_type)
+
+    print(f"Updated catalogs: {', '.join(updated_types)}")
 
 
 def main() -> None:
@@ -228,7 +242,6 @@ def main() -> None:
     for line in moved:
         print(f"  {line}")
     print(f"Wrote {count} SOURCE_LICENSE.md files")
-    print("Updated catalog/playing-cards.json")
 
 
 if __name__ == "__main__":

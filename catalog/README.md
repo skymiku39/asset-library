@@ -10,12 +10,12 @@
 
 ## 素材類型
 
-目前以 **撲克牌** 為主，其他類型目錄已預留：
+目前以 **撲克牌**、**麻將** 為主：
 
-| 類型 | 目錄 slug | 說明 |
+| 類型 | 目錄 slug | 清單 |
 |------|-----------|------|
-| 撲克牌 | `playing-cards` | 牌面、牌背 |
-| 麻將 | `mahjong` | 待收錄 |
+| 撲克牌 | `playing-cards` | [playing-cards.md](playing-cards.md) |
+| 麻將 | `mahjong` | [mahjong.md](mahjong.md) |
 | UI | `ui` | 待收錄 |
 | 綜合性 | `mixed` | 牌+籌碼+牌桌等多類素材 |
 | 音效 | `sound` | 待收錄 |

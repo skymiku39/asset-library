@@ -1,0 +1,126 @@
+{
+  "category": "mahjong",
+  "updated": "2026-07-07",
+  "asset_types": {
+    "playing-cards": "撲克牌",
+    "mahjong": "麻將",
+    "ui": "UI",
+    "mixed": "綜合性",
+    "sound": "音效",
+    "character": "角色"
+  },
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範"
+  },
+  "packs": [
+    {
+      "id": "fluffystuff-riichi",
+      "name": "FluffyStuff Riichi Mahjong Tiles",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://github.com/FluffyStuff/riichi-mahjong-tiles",
+      "status": "downloaded",
+      "local_path": "assets/1-free-commercial/mahjong/fluffystuff-riichi-mahjong-tiles"
+    },
+    {
+      "id": "samoheen-mahjong",
+      "name": "samoheen Mahjong Tiles (Multi-Region)",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://github.com/samoheen/mahjong-tiles",
+      "status": "downloaded",
+      "local_path": "assets/1-free-commercial/mahjong/samoheen-mahjong-tiles"
+    },
+    {
+      "id": "pyrano-ivory-tiles",
+      "name": "Pyrano Ivory Tile Alphabet",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "OGA-BY 4.0",
+      "source_url": "https://opengameart.org/content/ivory-tile-alphabet",
+      "status": "downloaded",
+      "local_path": "assets/1-free-commercial/mahjong/pyrano-ivory-tiles"
+    },
+    {
+      "id": "natonato-simple-tiny",
+      "name": "natonato Simple Tiny Mahjong Tiles",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://natonato.itch.io/simple-tiny-mahjong-tiles",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/natonato-simple-tiny"
+    },
+    {
+      "id": "blueeyedrat-pixel",
+      "name": "Blueeyedrat Pixel Mahjong Tiles",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://blueeyedrat.itch.io/pixel-assets-mahjong-tiles",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/blueeyedrat-pixel-mahjong"
+    },
+    {
+      "id": "demching-mahjong-free",
+      "name": "DemChing Mahjong (Free SVG Set)",
+      "asset_type": "mahjong",
+      "license_category": "1-free-commercial",
+      "license": "CC-BY-SA 4.0（衍生自 Cangjie6）",
+      "source_url": "https://demching.itch.io/mahjong",
+      "status": "pending-manual-download",
+      "local_path": "assets/1-free-commercial/mahjong/demching-mahjong-free"
+    },
+    {
+      "id": "codeinferno-mahjong",
+      "name": "Code Inferno Mahjong Tileset",
+      "asset_type": "mahjong",
+      "license_category": "3-license-unclear",
+      "license": "未標示標準授權",
+      "source_url": "https://opengameart.org/content/mahjong-tileset",
+      "status": "downloaded",
+      "local_path": "assets/3-license-unclear/mahjong/codeinferno-mahjong-tileset"
+    },
+    {
+      "id": "devurandom-pixel-mahjong",
+      "name": "devurandom Pixel Mahjong Tiles",
+      "asset_type": "mahjong",
+      "license_category": "3-license-unclear",
+      "license": "未標示標準授權",
+      "source_url": "https://opengameart.org/content/pixel-art-mahjong-tiles",
+      "status": "downloaded",
+      "local_path": "assets/3-license-unclear/mahjong/devurandom-pixel-mahjong"
+    },
+    {
+      "id": "unity-mahjong-hires",
+      "name": "2D Modern Mahjong Tiles Hi-Res PNG",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/2d/2d-modern-mahjong-tiles-hi-res-png-202797",
+      "status": "catalog-only"
+    },
+    {
+      "id": "unity-mahjong-3d",
+      "name": "Mahjong Tiles Pack (3D)",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "Unity Asset Store EULA",
+      "source_url": "https://assetstore.unity.com/packages/3d/mahjong-tiles-pack-21326",
+      "status": "catalog-only"
+    },
+    {
+      "id": "demching-mahjong-paid",
+      "name": "DemChing Mahjong Color Packs",
+      "asset_type": "mahjong",
+      "license_category": "2-paid-commercial",
+      "license": "購買後可商用",
+      "source_url": "https://demching.itch.io/mahjong",
+      "status": "catalog-only"
+    }
+  ]
+}

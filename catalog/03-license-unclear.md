@@ -17,3 +17,10 @@
 | 套件 | 路徑 | 疑慮 |
 |------|------|------|
 | George Blackwell Pixel | `playing-cards/george-blackwell-pixel/` | 商用建議付費 |
+
+## 麻將（mahjong）— 2 套已下載
+
+| 套件 | 路徑 | 疑慮 |
+|------|------|------|
+| Code Inferno Tileset | `mahjong/codeinferno-mahjong-tileset/` | 需連結官網，未標準授權 |
+| devurandom Pixel | `mahjong/devurandom-pixel-mahjong/` | OGA 未標準授權 |

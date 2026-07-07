@@ -19,4 +19,18 @@
 | AarniTuli 3D Card Pack | `mixed/aarnituli-3d-cards/` | 3D 牌 + 籌碼，$3.50+ |
 | CraftPix Poker Game Kit | `mixed/craftpix-poker-kit/` | 牌 + 籌碼 + 牌桌 + UI |
 
+## 麻將（mahjong）
+
+| 套件 | 路徑 | 價格 |
+|------|------|------|
+| 2D Modern Mahjong Hi-Res | `mahjong/unity-mahjong-hires-png/` | ~$4.99 |
+| Mahjong Tiles Pack (3D) | `mahjong/unity-mahjong-3d-pack/` | 付費 |
+| DemChing 彩色組合包 | `mahjong/demching-mahjong-paid-colors/` | $2+ 各色 |
+
+## 綜合性（mixed）— 麻將相關
+
+| 套件 | 路徑 | 說明 |
+|------|------|------|
+| Unity Mahjong Game Assets | `mixed/unity-mahjong-assets-pack/` | 144 張牌 + UI，~€11 |
+
 詳細連結見各目錄內 `SOURCE_LICENSE.md`。

@@ -46,6 +46,7 @@ assets/
 | 項目 | 路徑 |
 |------|------|
 | 撲克牌總覽 | [catalog/playing-cards.md](catalog/playing-cards.md) |
+| 麻將總覽 | [catalog/mahjong.md](catalog/mahjong.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
 
