@@ -16,14 +16,24 @@
 |------|-----------|------|
 | 撲克牌 | `playing-cards` | [playing-cards.md](playing-cards.md) |
 | 麻將 | `mahjong` | [mahjong.md](mahjong.md) |
-| UI | `ui` | 待收錄 |
+| UI | `ui` | **先分風格**，再放套件（見下）｜清單：[ui.md](ui.md)｜機器可讀：[ui.json](ui.json) |
 | 綜合性 | `mixed` | 牌+籌碼+牌桌等多類素材 |
 | 音效 | `sound` | **先分風格**，再放套件（見下）｜清單：[sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
 | 角色 | `character` | **先分風格**，再放套件（見下）｜機器可讀：[character.json](character.json) |
 
 ## 風格母分類（先分風格）
 
-**音效 `sound`** 與 **角色 `character`** 在套件之上多一層**風格母分類**，方便先依風格挑選。
+**UI `ui`**、**音效 `sound`** 與 **角色 `character`** 在套件之上多一層**風格母分類**，方便先依風格挑選。
+
+UI `ui`：
+
+| 風格 slug | 說明 |
+|-----------|------|
+| `flat-clean` | 扁平／簡潔 |
+| `pixel-ui` | 像素 UI |
+| `casual-cartoon` | 休閒卡通 |
+| `fantasy-rpg` | 奇幻 RPG |
+| `sci-fi` | 科幻 |
 
 音效 `sound`：
 
@@ -53,5 +63,6 @@
 
 範例：
 - `assets/1-free-commercial/playing-cards/cards2-cc0/SOURCE_LICENSE.md`
+- `assets/1-free-commercial/ui/flat-clean/kenney-ui-pack/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/sound/realistic-foley/kenney-casino-audio/SOURCE_LICENSE.md`
 - `assets/1-free-commercial/character/pixel-art/chromoxi-good-and-evil/SOURCE_LICENSE.md`

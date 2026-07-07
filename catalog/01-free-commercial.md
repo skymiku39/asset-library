@@ -76,6 +76,46 @@
 
 > 以上角色套件目前狀態為 `pending-manual-download`（目錄與 `SOURCE_LICENSE.md` 已建立，檔案本體待由來源網址手動下載）。
 
+## UI（ui）— 9 套（先分風格）
+
+> UI 在 `ui/` 底下**先依風格分組**：`ui/{風格}/{套件名}/`｜詳見 [ui.md](ui.md)
+
+### 扁平／簡潔（flat-clean）
+
+| 套件 | 授權 | 路徑 |
+|------|------|------|
+| Kenney UI Pack | CC0 | `ui/flat-clean/kenney-ui-pack/` |
+| Jamie Cross GUI Graphics Kit | CC0 | `ui/flat-clean/jamiecross-gui-kit/` |
+
+### 像素 UI（pixel-ui）
+
+| 套件 | 授權 | 路徑 |
+|------|------|------|
+| Kenney Pixel UI Pack | CC0 | `ui/pixel-ui/kenney-pixel-ui-pack/` |
+| JoyTree 2D Pixel Art GUI | CC0（禁轉售） | `ui/pixel-ui/joytree-pixel-gui/` |
+
+### 奇幻 RPG（fantasy-rpg）
+
+| 套件 | 授權 | 路徑 |
+|------|------|------|
+| Kenney Fantasy UI Borders | CC0 | `ui/fantasy-rpg/kenney-fantasy-ui-borders/` |
+| Kenney UI Pack (RPG Expansion) | CC0 | `ui/fantasy-rpg/kenney-ui-rpg-expansion/` |
+
+### 科幻（sci-fi）
+
+| 套件 | 授權 | 路徑 |
+|------|------|------|
+| Kenney UI Pack - Sci-Fi | CC0 | `ui/sci-fi/kenney-ui-pack-scifi/` |
+| Wenrexa UI Sci-Fi Minimalism | 免費商用 | `ui/sci-fi/wenrexa-scifi-minimalism/` |
+
+### 休閒卡通（casual-cartoon）
+
+| 套件 | 授權 | 路徑 |
+|------|------|------|
+| Wenrexa UI Casual Free #5 | 免費商用 | `ui/casual-cartoon/wenrexa-ui-casual/` |
+
+> 以上 UI 套件目前狀態為 `pending-manual-download`（目錄與 `SOURCE_LICENSE.md` 已建立，檔案本體待由來源網址手動下載）。
+
 ## 本機參照
 
 | 套件 | 路徑 |

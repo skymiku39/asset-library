@@ -24,9 +24,17 @@ assets/
 
 ### 先分風格（風格母分類）
 
-`sound`、`character` 類型在套件之上**多一層風格母分類**，方便先依風格挑選：
+`ui`、`sound`、`character` 類型在套件之上**多一層風格母分類**，方便先依風格挑選：
 
 ```
+ui/
+├── flat-clean/       # 扁平／簡潔
+├── pixel-ui/         # 像素 UI
+├── casual-cartoon/   # 休閒卡通
+├── fantasy-rpg/      # 奇幻 RPG
+└── sci-fi/           # 科幻
+    └── {套件名}/SOURCE_LICENSE.md
+
 sound/
 ├── realistic-foley/   # 寫實擬音（牌／籌碼／骰子）
 ├── ui-modern/         # 現代 UI 介面音
@@ -43,7 +51,7 @@ character/
     └── {套件名}/SOURCE_LICENSE.md
 ```
 
-風格清單集中定義於 `tools/pack_registry.json` 的 `sound_styles`、`character_styles`；套件只要加上 `style` 欄位即可自動歸位。
+風格清單集中定義於 `tools/pack_registry.json` 的 `ui_styles`、`sound_styles`、`character_styles`；套件只要加上 `style` 欄位即可自動歸位（工具會自動合併所有 `*_styles` 對照表）。
 
 ## 授權分類
 
@@ -70,6 +78,7 @@ character/
 |------|------|
 | 撲克牌總覽 | [catalog/playing-cards.md](catalog/playing-cards.md) |
 | 麻將總覽 | [catalog/mahjong.md](catalog/mahjong.md) |
+| UI 總覽（先分風格） | [catalog/ui.md](catalog/ui.md) |
 | 音效總覽（先分風格） | [catalog/sound.md](catalog/sound.md) |
 | 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
@@ -77,6 +86,6 @@ character/
 
 ## 新增素材流程
 
-1. 在 `tools/pack_registry.json` 登記套件（含 `asset_type`、`license_category`；音效／角色另加 `style`）
+1. 在 `tools/pack_registry.json` 登記套件（含 `asset_type`、`license_category`；UI／音效／角色另加 `style`）
 2. 將檔案放入對應目錄
 3. 執行 `uv run python tools/reorganize_assets.py` 產生 `SOURCE_LICENSE.md` 並更新 catalog

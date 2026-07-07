@@ -1,0 +1,125 @@
+{
+  "category": "ui",
+  "updated": "2026-07-07",
+  "asset_types": {
+    "playing-cards": "撲克牌",
+    "mahjong": "麻將",
+    "ui": "UI",
+    "mixed": "綜合性",
+    "sound": "音效",
+    "character": "角色"
+  },
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範"
+  },
+  "packs": [
+    {
+      "id": "kenney-ui-pack",
+      "name": "Kenney UI Pack",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/ui-pack",
+      "status": "pending-manual-download",
+      "style": "flat-clean",
+      "local_path": "assets/1-free-commercial/ui/flat-clean/kenney-ui-pack"
+    },
+    {
+      "id": "jamiecross-gui-kit",
+      "name": "Jamie Cross GUI Graphics Kit (Free)",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://jamiecross.itch.io/graphical-user-interface-graphics-kit-free",
+      "status": "pending-manual-download",
+      "style": "flat-clean",
+      "local_path": "assets/1-free-commercial/ui/flat-clean/jamiecross-gui-kit"
+    },
+    {
+      "id": "kenney-pixel-ui-pack",
+      "name": "Kenney Pixel UI Pack",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/pixel-ui-pack",
+      "status": "pending-manual-download",
+      "style": "pixel-ui",
+      "local_path": "assets/1-free-commercial/ui/pixel-ui/kenney-pixel-ui-pack"
+    },
+    {
+      "id": "joytree-pixel-gui",
+      "name": "JoyTree 2D Pixel Art GUI Elements",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://joytree-studios.itch.io/2d-pixel-art-gui-asset-pack-elements",
+      "status": "pending-manual-download",
+      "style": "pixel-ui",
+      "local_path": "assets/1-free-commercial/ui/pixel-ui/joytree-pixel-gui"
+    },
+    {
+      "id": "kenney-fantasy-ui-borders",
+      "name": "Kenney Fantasy UI Borders",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney-assets.itch.io/fantasy-ui-borders",
+      "status": "pending-manual-download",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/kenney-fantasy-ui-borders"
+    },
+    {
+      "id": "kenney-ui-rpg-expansion",
+      "name": "Kenney UI Pack (RPG Expansion)",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/ui-pack-rpg-expansion",
+      "status": "pending-manual-download",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/kenney-ui-rpg-expansion"
+    },
+    {
+      "id": "kenney-ui-pack-scifi",
+      "name": "Kenney UI Pack - Sci-Fi",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/ui-pack-sci-fi",
+      "status": "pending-manual-download",
+      "style": "sci-fi",
+      "local_path": "assets/1-free-commercial/ui/sci-fi/kenney-ui-pack-scifi"
+    },
+    {
+      "id": "wenrexa-scifi-minimalism",
+      "name": "Wenrexa UI Sci-Fi Minimalism",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://wenrexa.itch.io/kit-nesia2",
+      "status": "pending-manual-download",
+      "style": "sci-fi",
+      "local_path": "assets/1-free-commercial/ui/sci-fi/wenrexa-scifi-minimalism"
+    },
+    {
+      "id": "wenrexa-ui-casual",
+      "name": "Wenrexa UI Casual Free #5",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（作者聲明）",
+      "source_url": "https://opengameart.org/content/assets-ui-casual-free-5-buttons-bars-panels",
+      "status": "pending-manual-download",
+      "style": "casual-cartoon",
+      "local_path": "assets/1-free-commercial/ui/casual-cartoon/wenrexa-ui-casual"
+    }
+  ],
+  "styles": {
+    "flat-clean": "扁平／簡潔",
+    "pixel-ui": "像素 UI",
+    "fantasy-rpg": "奇幻 RPG",
+    "sci-fi": "科幻",
+    "casual-cartoon": "休閒卡通"
+  }
+}

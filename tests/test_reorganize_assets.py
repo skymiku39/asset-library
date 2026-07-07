@@ -85,6 +85,32 @@ class ReorganizeAssetsTest(unittest.TestCase):
         text = mod.render_source_license(pack, "撲克牌", "完全免費授權商用")
         self.assertNotIn("風格", text)
 
+    def test_collect_styles_merges_every_style_map(self) -> None:
+        data = {
+            "character_styles": {"pixel-art": "像素風"},
+            "sound_styles": {"ui-modern": "現代 UI 介面音"},
+            "ui_styles": {"flat-clean": "扁平／簡潔"},
+            "asset_types": {"ui": "UI"},
+        }
+        styles = mod.collect_styles(data)
+        self.assertEqual(styles["pixel-art"], "像素風")
+        self.assertEqual(styles["ui-modern"], "現代 UI 介面音")
+        self.assertEqual(styles["flat-clean"], "扁平／簡潔")
+        self.assertNotIn("ui", styles)
+
+    def test_registry_ui_packs_use_declared_styles(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        ui_styles = data.get("ui_styles", {})
+        ui_packs = [p for p in data["packs"] if p["asset_type"] == "ui"]
+        self.assertTrue(ui_packs, "registry should contain UI packs")
+        for pack in ui_packs:
+            self.assertIn(pack.get("style"), ui_styles)
+
+
+REGISTRY = TOOLS / "pack_registry.json"
+
 
 if __name__ == "__main__":
     unittest.main()
