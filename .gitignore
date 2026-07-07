@@ -4,3 +4,12 @@ __MACOSX/
 
 # Python
 .venv/
+__pycache__/
+*.pyc
+
+# 素材本體不進版控：只用 pack_registry.json + 下載工具重建。
+# 保留每套的 SOURCE_LICENSE.md 作為授權索引。
+assets/**
+!assets/
+!assets/**/
+!assets/**/SOURCE_LICENSE.md
