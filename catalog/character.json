@@ -8,7 +8,8 @@
     "mixed": "綜合性",
     "sound": "音效",
     "character": "角色",
-    "vfx": "特效"
+    "vfx": "特效",
+    "adult-18plus": "18+ 成人向"
   },
   "license_categories": {
     "1-free-commercial": "完全免費授權商用",
@@ -225,10 +226,10 @@
     }
   ],
   "styles": {
-    "pixel-art": "像素風",
+    "pixel-art": "像素風 NSFW",
     "toon-cartoon": "卡通／Q版",
     "vector-flat": "向量／扁平",
-    "anime-2d": "動漫／立繪",
+    "anime-2d": "動漫 2D 立繪（含 AI 生成）",
     "low-poly-3d": "3D 低多邊形"
   }
 }

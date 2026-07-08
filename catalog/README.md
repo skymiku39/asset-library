@@ -21,6 +21,7 @@
 | 音效 | `sound` | [sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
 | 角色 | `character` | [character.md](character.md)｜機器可讀：[character.json](character.json) |
 | 特效 | `vfx` | [vfx.md](vfx.md)｜機器可讀：[vfx.json](vfx.json) |
+| 18+ 成人向 | `adult-18plus` | [adult-18plus.md](adult-18plus.md)｜機器可讀：[adult-18plus.json](adult-18plus.json) |
 
 ## 風格母分類（先分風格）
 
@@ -90,6 +91,16 @@ UI `ui`：
 | `particle-texture` | 粒子貼圖（火花、煙霧、光暈） |
 | `ui-juice` | UI 回饋特效（加分、閃光、收集） |
 | `impact-hit` | 命中／打擊特效 |
+
+**18+ 成人向 `adult-18plus`**：
+
+| 風格 slug | 說明 |
+|-----------|------|
+| `vn-sprite` | 視覺小說立繪（靜態 PNG／PSD） |
+| `anime-2d` | 動漫 2D 立繪（含 AI 生成） |
+| `animation` | 角色動畫（序列影格／影片） |
+| `pixel-art` | 像素風 NSFW |
+| `background` | 成人向背景場景 |
 
 ## 路徑格式
 

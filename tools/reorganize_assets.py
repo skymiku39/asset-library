@@ -243,6 +243,7 @@ def cleanup_empty_dirs() -> None:
                 "sound",
                 "character",
                 "vfx",
+                "adult-18plus",
             }:
                 continue
             if child.is_dir() and not any(child.iterdir()):
@@ -255,6 +256,7 @@ def cleanup_empty_dirs() -> None:
                 "sound",
                 "character",
                 "vfx",
+                "adult-18plus",
             }:
                 # legacy flat pack folder with content -> should have been moved
                 if (child / "SOURCE_LICENSE.md").exists():

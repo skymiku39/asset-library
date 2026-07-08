@@ -15,7 +15,8 @@ assets/
 │   ├── mixed/                  # 綜合性（先分子類）
 │   ├── sound/                  # 音效（先分風格）
 │   ├── character/              # 角色（先分風格）
-│   └── vfx/                    # 特效（先分風格）
+│   ├── vfx/                    # 特效（先分風格）
+│   └── adult-18plus/           # 18+ 成人向（先分風格）
 ├── 2-paid-commercial/          # 商用需購買授權
 ├── 3-license-unclear/          # 不確定相關規範
 └── local-references/           # 本機其他專案參照
@@ -78,6 +79,14 @@ vfx/
 ├── ui-juice/        # UI 回饋特效
 └── impact-hit/      # 命中／打擊特效
     └── {套件名}/SOURCE_LICENSE.md
+
+adult-18plus/
+├── vn-sprite/       # 視覺小說立繪
+├── anime-2d/        # 動漫 2D 立繪
+├── animation/       # 角色動畫
+├── pixel-art/       # 像素風 NSFW
+└── background/      # 成人向背景
+    └── {套件名}/SOURCE_LICENSE.md
 ```
 
 風格清單集中定義於 `tools/pack_registry.json` 的 `*_styles` 對照表；套件加上 `style` 欄位即可自動歸位。
@@ -102,6 +111,7 @@ vfx/
 | `sound` | 音效、BGM |
 | `character` | 角色立繪、sprite |
 | `vfx` | 視覺特效、粒子、打擊動畫 |
+| `adult-18plus` | 18+ 成人向（裸露／性暗示／露骨內容） |
 
 ## 清單與工具
 
@@ -115,6 +125,7 @@ vfx/
 | 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |
 | 角色總覽（先分風格） | [catalog/character.md](catalog/character.md) |
 | 特效總覽（先分風格） | [catalog/vfx.md](catalog/vfx.md) |
+| 18+ 成人向總覽（先分風格） | [catalog/adult-18plus.md](catalog/adult-18plus.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
 | 一致性稽核 | `uv run python tools/audit_catalog.py` |

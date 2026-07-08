@@ -148,6 +148,16 @@ class ReorganizeAssetsTest(unittest.TestCase):
         for pack in vfx_packs:
             self.assertIn(pack.get("style"), vfx_styles)
 
+    def test_registry_adult_18plus_packs_use_declared_styles(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        adult_styles = data.get("adult_18plus_styles", {})
+        adult_packs = [p for p in data["packs"] if p["asset_type"] == "adult-18plus"]
+        self.assertTrue(adult_packs, "registry should contain adult-18plus packs")
+        for pack in adult_packs:
+            self.assertIn(pack.get("style"), adult_styles)
+
     def test_registry_paid_ui_and_sound_catalog_entries_exist(self) -> None:
         import json
 
