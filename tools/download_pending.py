@@ -54,6 +54,8 @@ KENNEY_NL_SLUG: dict[str, str] = {
     "kenney-fantasy-ui-borders": "fantasy-ui-borders",
     "kenney-shape-characters": "shape-characters",
     "kenney-particle-pack": "particle-pack",
+    "kenney-smoke-particles": "smoke-particles",
+    "kenney-splat-pack": "splat-pack",
 }
 
 # itch.io mirrors for Kenney assets not present locally.
@@ -66,6 +68,7 @@ KENNEY_ITCH: dict[str, str] = {
     "kenney-modular-characters": "https://kenney-assets.itch.io/modular-characters",
     "kenney-ui-rpg-expansion": "https://kenney-assets.itch.io/ui-pack-rpg-expansion",
     "kenney-ui-pack-scifi": "https://kenney-assets.itch.io/ui-pack-sci-fi",
+    "kenney-splat-pack": "https://kenney-assets.itch.io/splat-pack",
 }
 
 GITHUB_ZIPS: dict[str, str] = {
