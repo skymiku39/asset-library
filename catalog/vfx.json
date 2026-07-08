@@ -1,0 +1,102 @@
+{
+  "category": "vfx",
+  "updated": "2026-07-08",
+  "asset_types": {
+    "playing-cards": "撲克牌",
+    "mahjong": "麻將",
+    "ui": "UI",
+    "mixed": "綜合性",
+    "sound": "音效",
+    "character": "角色",
+    "vfx": "特效"
+  },
+  "license_categories": {
+    "1-free-commercial": "完全免費授權商用",
+    "2-paid-commercial": "商用需購買授權",
+    "3-license-unclear": "不確定相關規範",
+    "local-references": "本機參照"
+  },
+  "packs": [
+    {
+      "id": "kenney-particle-pack",
+      "name": "Kenney Particle Pack",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/particle-pack-80-sprites",
+      "status": "downloaded",
+      "style": "particle-texture",
+      "local_path": "assets/1-free-commercial/vfx/particle-texture/kenney-particle-pack"
+    },
+    {
+      "id": "codemanu-pixel-effects",
+      "name": "CodeManu Free Pixel Effects Pack",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 / Public Domain",
+      "source_url": "https://opengameart.org/content/free-pixel-effects-pack",
+      "status": "downloaded",
+      "style": "pixel-vfx",
+      "local_path": "assets/1-free-commercial/vfx/pixel-vfx/codemanu-pixel-effects"
+    },
+    {
+      "id": "codemanu-vfx-free-pack",
+      "name": "CodeManu Free VFX Asset Pack",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 / Public Domain",
+      "source_url": "https://opengameart.org/content/free-vfx-asset-pack",
+      "status": "catalog-only",
+      "style": "pixel-vfx"
+    },
+    {
+      "id": "brackeys-vfx-bundle",
+      "name": "Brackeys VFX Bundle",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://brackeysgames.itch.io/brackeys-vfx-bundle",
+      "status": "downloaded",
+      "style": "particle-texture",
+      "local_path": "assets/1-free-commercial/vfx/particle-texture/brackeys-vfx-bundle"
+    },
+    {
+      "id": "kekkorider-impact-vfx",
+      "name": "Pixel Art Impact VFX",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（禁止轉售）",
+      "source_url": "https://kekkorider.itch.io/free-pixel-art-impact-vfx",
+      "status": "downloaded",
+      "style": "impact-hit",
+      "local_path": "assets/1-free-commercial/vfx/impact-hit/kekkorider-impact-vfx"
+    },
+    {
+      "id": "bevouliin-shining-items",
+      "name": "Bevouliin Shining Items Sprite Sheets",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/shining-coin-shining-health-shining-power-up-sprite-sheets",
+      "status": "downloaded",
+      "style": "ui-juice",
+      "local_path": "assets/1-free-commercial/vfx/ui-juice/bevouliin-shining-items"
+    },
+    {
+      "id": "kronbits-particle-pack-1000",
+      "name": "Kronbits 1000 Free Game Assets (Particles)",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kronbits.itch.io/particle-pack",
+      "status": "catalog-only",
+      "style": "particle-texture"
+    }
+  ],
+  "styles": {
+    "particle-texture": "粒子貼圖（火花、煙霧、光暈）",
+    "pixel-vfx": "像素特效（爆炸、魔法、打擊動畫）",
+    "impact-hit": "命中／打擊特效",
+    "ui-juice": "UI 回饋特效（加分、閃光、收集）"
+  }
+}

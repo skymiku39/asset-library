@@ -5,7 +5,8 @@
     "ui": "UI",
     "mixed": "綜合性",
     "sound": "音效",
-    "character": "角色"
+    "character": "角色",
+    "vfx": "特效"
   },
   "license_categories": {
     "1-free-commercial": "完全免費授權商用",
@@ -32,6 +33,12 @@
     "casual-cartoon": "休閒卡通",
     "fantasy-rpg": "奇幻 RPG",
     "sci-fi": "科幻"
+  },
+  "vfx_styles": {
+    "pixel-vfx": "像素特效（爆炸、魔法、打擊動畫）",
+    "particle-texture": "粒子貼圖（火花、煙霧、光暈）",
+    "ui-juice": "UI 回饋特效（加分、閃光、收集）",
+    "impact-hit": "命中／打擊特效"
   },
   "packs": [
     {
@@ -1544,6 +1551,111 @@
       "attribution": "待確認",
       "note": "OGA 頁面未選擇標準授權；作者僅要求回報使用",
       "status": "downloaded"
+    },
+    {
+      "id": "kenney-particle-pack",
+      "folder": "kenney-particle-pack",
+      "name": "Kenney Particle Pack",
+      "asset_type": "vfx",
+      "style": "particle-texture",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "author": "Kenney",
+      "source_url": "https://opengameart.org/content/particle-pack-80-sprites",
+      "commercial": "允許",
+      "attribution": "建議署名 Kenney.nl（非必須）",
+      "note": "80+ 粒子貼圖；含火焰、煙霧、魔法、愛心、火花、電流範例",
+      "status": "downloaded"
+    },
+    {
+      "id": "codemanu-pixel-effects",
+      "folder": "codemanu-pixel-effects",
+      "name": "CodeManu Free Pixel Effects Pack",
+      "asset_type": "vfx",
+      "style": "pixel-vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 / Public Domain",
+      "author": "CodeManu",
+      "source_url": "https://opengameart.org/content/free-pixel-effects-pack",
+      "commercial": "允許",
+      "attribution": "不需要",
+      "note": "20 個像素特效動畫，100×100px 單幀",
+      "status": "downloaded"
+    },
+    {
+      "id": "codemanu-vfx-free-pack",
+      "folder": "codemanu-vfx-free-pack",
+      "name": "CodeManu Free VFX Asset Pack",
+      "asset_type": "vfx",
+      "style": "pixel-vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 / Public Domain",
+      "author": "CodeManu",
+      "source_url": "https://opengameart.org/content/free-vfx-asset-pack",
+      "commercial": "允許",
+      "attribution": "不需要",
+      "note": "22 個像素特效，含 30/60fps 與 SpriteMancer 專案檔（約 95MB）",
+      "status": "catalog-only"
+    },
+    {
+      "id": "brackeys-vfx-bundle",
+      "folder": "brackeys-vfx-bundle",
+      "name": "Brackeys VFX Bundle",
+      "asset_type": "vfx",
+      "style": "particle-texture",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "author": "Brackeys（彙整 Kenney、Picster、Thomas Iché、CodeManu）",
+      "source_url": "https://brackeysgames.itch.io/brackeys-vfx-bundle",
+      "commercial": "允許",
+      "attribution": "不需要",
+      "note": "粒子貼圖、flipbook 與預繪 spritesheet 合集",
+      "status": "downloaded"
+    },
+    {
+      "id": "kekkorider-impact-vfx",
+      "folder": "kekkorider-impact-vfx",
+      "name": "Pixel Art Impact VFX",
+      "asset_type": "vfx",
+      "style": "impact-hit",
+      "license_category": "1-free-commercial",
+      "license": "免費商用（禁止轉售）",
+      "author": "kekkorider",
+      "source_url": "https://kekkorider.itch.io/free-pixel-art-impact-vfx",
+      "commercial": "允許",
+      "attribution": "建議署名（非必須）",
+      "note": "7 種變體 × 5 色，共 35 組命中特效，128×128px",
+      "status": "downloaded"
+    },
+    {
+      "id": "bevouliin-shining-items",
+      "folder": "bevouliin-shining-items",
+      "name": "Bevouliin Shining Items Sprite Sheets",
+      "asset_type": "vfx",
+      "style": "ui-juice",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "author": "Bevouliin",
+      "source_url": "https://opengameart.org/content/shining-coin-shining-health-shining-power-up-sprite-sheets",
+      "commercial": "允許",
+      "attribution": "建議連結 bevouliin.com（非必須）",
+      "note": "閃光金幣、生命、強化道具旋轉動畫",
+      "status": "downloaded"
+    },
+    {
+      "id": "kronbits-particle-pack-1000",
+      "folder": "kronbits-particle-pack-1000",
+      "name": "Kronbits 1000 Free Game Assets (Particles)",
+      "asset_type": "vfx",
+      "style": "particle-texture",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "author": "Kronbits",
+      "source_url": "https://kronbits.itch.io/particle-pack",
+      "commercial": "允許",
+      "attribution": "不需要",
+      "note": "1000 張 512×512 粒子貼圖（約 92MB）",
+      "status": "catalog-only"
     }
   ],
   "playing_cards_styles": {

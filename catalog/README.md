@@ -20,6 +20,7 @@
 | 綜合性 | `mixed` | [mixed.md](mixed.md)｜機器可讀：[mixed.json](mixed.json) |
 | 音效 | `sound` | [sound.md](sound.md)｜機器可讀：[sound.json](sound.json) |
 | 角色 | `character` | [character.md](character.md)｜機器可讀：[character.json](character.json) |
+| 特效 | `vfx` | [vfx.md](vfx.md)｜機器可讀：[vfx.json](vfx.json) |
 
 ## 風格母分類（先分風格）
 
@@ -80,6 +81,15 @@ UI `ui`：
 | `vector-flat` | 向量／扁平 |
 | `anime-2d` | 動漫／立繪 |
 | `low-poly-3d` | 3D 低多邊形 |
+
+特效 `vfx`：
+
+| 風格 slug | 說明 |
+|-----------|------|
+| `pixel-vfx` | 像素特效（爆炸、魔法、打擊動畫） |
+| `particle-texture` | 粒子貼圖（火花、煙霧、光暈） |
+| `ui-juice` | UI 回饋特效（加分、閃光、收集） |
+| `impact-hit` | 命中／打擊特效 |
 
 ## 路徑格式
 

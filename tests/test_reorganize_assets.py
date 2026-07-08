@@ -138,6 +138,16 @@ class ReorganizeAssetsTest(unittest.TestCase):
         for pack in mixed_packs:
             self.assertIn(pack.get("style"), mixed_styles)
 
+    def test_registry_vfx_packs_use_declared_styles(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        vfx_styles = data.get("vfx_styles", {})
+        vfx_packs = [p for p in data["packs"] if p["asset_type"] == "vfx"]
+        self.assertTrue(vfx_packs, "registry should contain vfx packs")
+        for pack in vfx_packs:
+            self.assertIn(pack.get("style"), vfx_styles)
+
     def test_registry_paid_ui_and_sound_catalog_entries_exist(self) -> None:
         import json
 

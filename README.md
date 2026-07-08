@@ -14,7 +14,8 @@ assets/
 │   ├── ui/                     # UI（先分風格）
 │   ├── mixed/                  # 綜合性（先分子類）
 │   ├── sound/                  # 音效（先分風格）
-│   └── character/              # 角色（先分風格）
+│   ├── character/              # 角色（先分風格）
+│   └── vfx/                    # 特效（先分風格）
 ├── 2-paid-commercial/          # 商用需購買授權
 ├── 3-license-unclear/          # 不確定相關規範
 └── local-references/           # 本機其他專案參照
@@ -70,6 +71,13 @@ character/
 ├── anime-2d/        # 動漫／立繪
 └── low-poly-3d/     # 3D 低多邊形
     └── {套件名}/SOURCE_LICENSE.md
+
+vfx/
+├── pixel-vfx/       # 像素特效
+├── particle-texture/ # 粒子貼圖
+├── ui-juice/        # UI 回饋特效
+└── impact-hit/      # 命中／打擊特效
+    └── {套件名}/SOURCE_LICENSE.md
 ```
 
 風格清單集中定義於 `tools/pack_registry.json` 的 `*_styles` 對照表；套件加上 `style` 欄位即可自動歸位。
@@ -93,6 +101,7 @@ character/
 | `mixed` | 綜合性遊戲包（牌+籌碼+牌桌等，先分子類） |
 | `sound` | 音效、BGM |
 | `character` | 角色立繪、sprite |
+| `vfx` | 視覺特效、粒子、打擊動畫 |
 
 ## 清單與工具
 
@@ -105,6 +114,7 @@ character/
 | 音效總覽（先分風格） | [catalog/sound.md](catalog/sound.md) |
 | 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |
 | 角色總覽（先分風格） | [catalog/character.md](catalog/character.md) |
+| 特效總覽（先分風格） | [catalog/vfx.md](catalog/vfx.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
 | 一致性稽核 | `uv run python tools/audit_catalog.py` |

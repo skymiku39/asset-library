@@ -1,13 +1,14 @@
 {
   "category": "mahjong",
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
     "ui": "UI",
     "mixed": "綜合性",
     "sound": "音效",
-    "character": "角色"
+    "character": "角色",
+    "vfx": "特效"
   },
   "license_categories": {
     "1-free-commercial": "完全免費授權商用",

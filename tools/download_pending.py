@@ -53,6 +53,7 @@ KENNEY_NL_SLUG: dict[str, str] = {
     "kenney-ui-pack-scifi": "ui-pack-sci-fi",
     "kenney-fantasy-ui-borders": "fantasy-ui-borders",
     "kenney-shape-characters": "shape-characters",
+    "kenney-particle-pack": "particle-pack",
 }
 
 # itch.io mirrors for Kenney assets not present locally.
