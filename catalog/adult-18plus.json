@@ -1,6 +1,6 @@
 {
   "category": "adult-18plus",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -25,7 +25,7 @@
       "license_category": "1-free-commercial",
       "license": "CC0 1.0 Universal (Public Domain)",
       "source_url": "https://spicylyon.itch.io/seductive-linh",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "anime-2d",
       "local_path": "assets/1-free-commercial/adult-18plus/anime-2d/spicylyon-seductive-linh"
     },
@@ -57,7 +57,7 @@
       "license_category": "1-free-commercial",
       "license": "作者明示可任意商用／修改（含 NSFW）",
       "source_url": "https://leafletgames.itch.io/free-elf-character-sprites",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/leafletgames-sprites-1"
     },
@@ -68,7 +68,7 @@
       "license_category": "1-free-commercial",
       "license": "作者明示可任意商用／修改（含 NSFW）",
       "source_url": "https://leafletgames.itch.io/free-character-sprites-2",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/leafletgames-sprites-2"
     },
@@ -90,7 +90,7 @@
       "license_category": "1-free-commercial",
       "license": "作者明示可任意商用／修改（含 NSFW）",
       "source_url": "https://leafletgames.itch.io/free-sprites-4-nudity",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/leafletgames-sprites-4"
     },
@@ -101,7 +101,7 @@
       "license_category": "1-free-commercial",
       "license": "CC0 1.0 Universal (Public Domain)",
       "source_url": "https://residentrabbit.itch.io/femfemale-visual-novel-sprite-set-2",
-      "status": "pending-manual-download",
+      "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/eros-fem-vn-sprite-set-2"
     },
@@ -124,12 +124,95 @@
       "source_url": "https://niborset66.itch.io/pixel-nude",
       "status": "catalog-only",
       "style": "pixel-art"
+    },
+    {
+      "id": "dlsite-morinooku-modern-heroine-r18",
+      "name": "立ち絵素材集-現代ヒロインR18版-",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html",
+      "status": "catalog-only",
+      "style": "vn-sprite"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-hero-r18",
+      "name": "立ち絵素材集-ファンタジーヒーローR18版-",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html",
+      "status": "catalog-only",
+      "style": "vn-sprite"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-heroine-r",
+      "name": "立ち絵素材集-ファンタジーヒロインR版-",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ242573.html",
+      "status": "catalog-only",
+      "style": "vn-sprite"
+    },
+    {
+      "id": "dlsite-fatchu-standing-total-1",
+      "name": "全クリエイターの皆様のための立ち絵素材〜総集編1〜",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者明示可商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html",
+      "status": "catalog-only",
+      "style": "vn-sprite"
+    },
+    {
+      "id": "dlsite-fatchu-standing-total-2",
+      "name": "全クリエイターの皆様のための立ち絵素材〜総集編2〜",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者明示可商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html",
+      "status": "catalog-only",
+      "style": "vn-sprite"
+    },
+    {
+      "id": "dlsite-fatchu-onomatopoeia-trial",
+      "name": "擬音素材集 お試し版（成人向けOK）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示商用・成人向けOK（お試し版）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html",
+      "status": "pending-manual-download",
+      "style": "ui",
+      "local_path": "assets/1-free-commercial/adult-18plus/ui/dlsite-fatchu-onomatopoeia-trial"
+    },
+    {
+      "id": "dlsite-familia-voice-oneesan",
+      "name": "R18ゲーム用ボイス素材【おっとり敬語お姉さん】",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（商業利用可）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html",
+      "status": "catalog-only",
+      "style": "sound"
+    },
+    {
+      "id": "dlsite-nyancheru-speech-bubble",
+      "name": "エロ漫画で使える！えっちな吹き出し素材集",
+      "asset_type": "adult-18plus",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html",
+      "status": "catalog-only",
+      "style": "ui"
     }
   ],
   "styles": {
     "anime-2d": "動漫 2D 立繪（含 AI 生成）",
     "animation": "角色動畫（序列影格／影片）",
     "vn-sprite": "視覺小說立繪（靜態 PNG／PSD）",
-    "pixel-art": "像素風 NSFW"
+    "pixel-art": "像素風 NSFW",
+    "ui": "成人向 UI（擬音、吹き出し等）",
+    "sound": "成人向音效／語音"
   }
 }

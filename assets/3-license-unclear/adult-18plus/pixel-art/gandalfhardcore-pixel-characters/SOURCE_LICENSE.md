@@ -11,7 +11,7 @@
 | 授權條款 | Name Your Own Price（$0）；條款未明示 CC0 |
 | 作者 | GandalfHardcore |
 | 來源網址 | https://gandalfhardcore.itch.io/2d-pixel-art-male-and-female-character |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 待確認 |
 | 署名 | 待確認 |
 | 備註 | 男女像素角色＋服裝圖層＋6 膚色；含 spicy 配件；使用前請確認 itch 頁面條款 |

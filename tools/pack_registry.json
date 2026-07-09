@@ -1851,7 +1851,7 @@
       "commercial": "允許",
       "attribution": "不需要（建議署名）",
       "note": "含 5 套露骨情趣服裝＋7 套一般服裝；AI 生成立繪（Stable Diffusion ReV Animated）",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "spicylyon-rachel",
@@ -1896,7 +1896,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "精靈角色立繪；含內衣與全裸；1920×1080 PNG；另附無精靈耳變體",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "leafletgames-sprites-2",
@@ -1911,7 +1911,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "多種表情與姿勢；含穿衣與裸露；1920×1080 PNG",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "leafletgames-sprites-3",
@@ -1941,7 +1941,7 @@
       "commercial": "允許",
       "attribution": "不需要",
       "note": "兩名角色＋合照；含穿衣與全裸；附一張含背景場景；1920×1080 PNG",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "eros-fem-vn-sprite-set-2",
@@ -1956,7 +1956,7 @@
       "commercial": "允許",
       "attribution": "不需要（強烈建議署名）",
       "note": "2688×5810 PSD；14 髮色×9 膚色；含可選裸體基底；禁止用於 AI／NFT",
-      "status": "pending-manual-download"
+      "status": "downloaded"
     },
     {
       "id": "gandalfhardcore-pixel-characters",
@@ -1987,6 +1987,126 @@
       "attribution": "待確認",
       "note": "3 組像素裸體角色 PNG（64／128／6500px）；使用前請確認授權",
       "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-morinooku-modern-heroine-r18",
+      "folder": "dlsite-morinooku-modern-heroine-r18",
+      "name": "立ち絵素材集-現代ヒロインR18版-",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者條款）",
+      "author": "森の奥の隠れ里（るるが）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html",
+      "commercial": "需購買（約 ¥3,850）後可商用",
+      "attribution": "不需要",
+      "note": "8 體現代ヒロイン；13 衣裝×32 表情；未統合 PSD＋MZ/Unite 臉圖；含體驗版可試用 1 體 PSD",
+      "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-hero-r18",
+      "folder": "dlsite-morinooku-fantasy-hero-r18",
+      "name": "立ち絵素材集-ファンタジーヒーローR18版-",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者條款）",
+      "author": "森の奥の隠れ里（るるが）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html",
+      "commercial": "需購買（約 ¥3,300）後可商用",
+      "attribution": "不需要",
+      "note": "18 體男性ファンタジーヒーロー；9 衣裝×20 表情；約 5.95 GB；含體驗版",
+      "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-heroine-r",
+      "folder": "dlsite-morinooku-fantasy-heroine-r",
+      "name": "立ち絵素材集-ファンタジーヒロインR版-",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者條款）",
+      "author": "森の奥の隠れ里（るるが）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ242573.html",
+      "commercial": "需購買（約 ¥3,630）後可商用",
+      "attribution": "不需要",
+      "note": "21 體女性ファンタジーヒロイン；豐富衣裝與表情差分；局部描写あり",
+      "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-fatchu-standing-total-1",
+      "folder": "dlsite-fatchu-standing-total-1",
+      "name": "全クリエイターの皆様のための立ち絵素材〜総集編1〜",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者明示可商用）",
+      "author": "ふぁっちゅ",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html",
+      "commercial": "需購買後可商用",
+      "attribution": "不需要（建議署名）",
+      "note": "立繪素材 1–5 總集；含全裸差分與豐富表情；無複雜利用規約",
+      "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-fatchu-standing-total-2",
+      "folder": "dlsite-fatchu-standing-total-2",
+      "name": "全クリエイターの皆様のための立ち絵素材〜総集編2〜",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者明示可商用）",
+      "author": "ふぁっちゅ",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html",
+      "commercial": "需購買後可商用",
+      "attribution": "不需要（建議署名）",
+      "note": "總集編第二彈；含立繪、バストアップ、歩行シート等",
+      "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-fatchu-onomatopoeia-trial",
+      "folder": "dlsite-fatchu-onomatopoeia-trial",
+      "name": "擬音素材集 お試し版（成人向けOK）",
+      "asset_type": "adult-18plus",
+      "style": "ui",
+      "license_category": "1-free-commercial",
+      "license": "作者明示商用・成人向けOK（お試し版）",
+      "author": "ふぁっちゅ",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html",
+      "commercial": "允許（お試し版）",
+      "attribution": "不需要",
+      "note": "DLsite 免費お試し版；擬音・効果文字；完整版需付費購買",
+      "status": "pending-manual-download"
+    },
+    {
+      "id": "dlsite-familia-voice-oneesan",
+      "folder": "dlsite-familia-voice-oneesan",
+      "name": "R18ゲーム用ボイス素材【おっとり敬語お姉さん】",
+      "asset_type": "adult-18plus",
+      "style": "sound",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（商業利用可）",
+      "author": "ふぁみりあ",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html",
+      "commercial": "需購買（約 ¥1,320）後可商用",
+      "attribution": "依作者條款",
+      "note": "含 R18 シーン；おっとり敬語お姉さんキャラ向けボイス",
+      "status": "catalog-only"
+    },
+    {
+      "id": "dlsite-nyancheru-speech-bubble",
+      "folder": "dlsite-nyancheru-speech-bubble",
+      "name": "エロ漫画で使える！えっちな吹き出し素材集",
+      "asset_type": "adult-18plus",
+      "style": "ui",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權",
+      "author": "にゃんちぇると",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html",
+      "commercial": "需購買（約 ¥880）",
+      "attribution": "依作者條款",
+      "note": "えっちな漫画／CG 向け吹き出し PNG；詳見 DLsite 製作ソフト・素材フロア",
+      "status": "catalog-only"
     }
   ],
   "playing_cards_styles": {
@@ -2012,6 +2132,8 @@
     "anime-2d": "動漫 2D 立繪（含 AI 生成）",
     "animation": "角色動畫（序列影格／影片）",
     "pixel-art": "像素風 NSFW",
-    "background": "成人向背景場景"
+    "background": "成人向背景場景",
+    "sound": "成人向音效／語音",
+    "ui": "成人向 UI（擬音、吹き出し等）"
   }
 }

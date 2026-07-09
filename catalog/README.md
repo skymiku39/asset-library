@@ -101,6 +101,8 @@ UI `ui`：
 | `animation` | 角色動畫（序列影格／影片） |
 | `pixel-art` | 像素風 NSFW |
 | `background` | 成人向背景場景 |
+| `sound` | 成人向音效／語音 |
+| `ui` | 成人向 UI（擬音、吹き出し等） |
 
 ## 路徑格式
 
