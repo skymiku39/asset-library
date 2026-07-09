@@ -212,6 +212,20 @@ class ReorganizeAssetsTest(unittest.TestCase):
             ("1-free-commercial", "playing-cards", "vector", "byron-knoll-vector"),
         )
 
+    def test_registry_includes_free_noncommercial_category(self) -> None:
+        import json
+
+        data = json.loads(REGISTRY.read_text(encoding="utf-8"))
+        categories = data["license_categories"]
+        self.assertIn("4-free-noncommercial", categories)
+        self.assertIn("測試版", categories["4-free-noncommercial"])
+        noncommercial = [
+            p
+            for p in data["packs"]
+            if p["license_category"] == "4-free-noncommercial"
+        ]
+        self.assertGreaterEqual(len(noncommercial), 1)
+
 
 REGISTRY = TOOLS / "pack_registry.json"
 

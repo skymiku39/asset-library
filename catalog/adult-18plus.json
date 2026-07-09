@@ -15,6 +15,7 @@
     "1-free-commercial": "完全免費授權商用",
     "2-paid-commercial": "商用需購買授權",
     "3-license-unclear": "不確定相關規範",
+    "4-free-noncommercial": "免費不可商用（含測試版）",
     "local-references": "本機參照"
   },
   "packs": [
@@ -113,8 +114,9 @@
       "license_category": "3-license-unclear",
       "license": "Name Your Own Price（$0）；條款未明示 CC0",
       "source_url": "https://gandalfhardcore.itch.io/2d-pixel-art-male-and-female-character",
-      "status": "catalog-only",
-      "style": "pixel-art"
+      "status": "downloaded",
+      "style": "pixel-art",
+      "local_path": "assets/3-license-unclear/adult-18plus/pixel-art/gandalfhardcore-pixel-characters"
     },
     {
       "id": "niborset66-pixel-nude",
@@ -123,8 +125,9 @@
       "license_category": "3-license-unclear",
       "license": "Name Your Own Price（$0）；條款未明示",
       "source_url": "https://niborset66.itch.io/pixel-nude",
-      "status": "catalog-only",
-      "style": "pixel-art"
+      "status": "downloaded",
+      "style": "pixel-art",
+      "local_path": "assets/3-license-unclear/adult-18plus/pixel-art/niborset66-pixel-nude"
     },
     {
       "id": "dlsite-morinooku-modern-heroine-r18-trial",

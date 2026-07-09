@@ -13,6 +13,7 @@
     "1-free-commercial": "完全免費授權商用",
     "2-paid-commercial": "商用需購買授權",
     "3-license-unclear": "不確定相關規範",
+    "4-free-noncommercial": "免費不可商用（含測試版）",
     "local-references": "本機參照"
   },
   "character_styles": {
@@ -423,7 +424,7 @@
       "folder": "pv-project-cards",
       "name": "P.V. Project High-Quality PNG Cards",
       "asset_type": "playing-cards",
-      "license_category": "2-paid-commercial",
+      "license_category": "4-free-noncommercial",
       "license": "僅限非商用",
       "author": "Paul Verbitsky (P.V. Project)",
       "source_url": "https://pvproject.free.nf/",
@@ -2001,7 +2002,7 @@
       "commercial": "待確認",
       "attribution": "待確認",
       "note": "男女像素角色＋服裝圖層＋6 膚色；含 spicy 配件；使用前請確認 itch 頁面條款",
-      "status": "catalog-only"
+      "status": "downloaded"
     },
     {
       "id": "niborset66-pixel-nude",
@@ -2016,7 +2017,7 @@
       "commercial": "待確認",
       "attribution": "待確認",
       "note": "3 組像素裸體角色 PNG（64／128／6500px）；使用前請確認授權",
-      "status": "catalog-only"
+      "status": "downloaded"
     },
     {
       "id": "dlsite-morinooku-modern-heroine-r18-trial",

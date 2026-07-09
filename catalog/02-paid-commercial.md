@@ -9,7 +9,6 @@
 | 套件 | 風格 | 路徑 | 價格 |
 |------|------|------|------|
 | Unity Card Pack Vol. 2 | stylized | `playing-cards/stylized/unity-card-pack-vol2/` | ~$4.99 |
-| P.V. Project 高品質 PNG | flat | `playing-cards/flat/pv-project-cards/` | 僅非商用 |
 
 ## 綜合性（mixed）
 

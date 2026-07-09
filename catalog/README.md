@@ -7,6 +7,7 @@
 | 完全免費授權商用 | [01-free-commercial.md](01-free-commercial.md) |
 | 商用需購買授權 | [02-paid-commercial.md](02-paid-commercial.md) |
 | 不確定相關規範 | [03-license-unclear.md](03-license-unclear.md) |
+| 免費不可商用（含測試版） | [04-free-noncommercial.md](04-free-noncommercial.md) |
 
 ## 素材類型
 

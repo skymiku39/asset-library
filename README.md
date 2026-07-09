@@ -19,6 +19,7 @@ assets/
 │   └── adult-18plus/           # 18+ 成人向（先分風格）
 ├── 2-paid-commercial/          # 商用需購買授權
 ├── 3-license-unclear/          # 不確定相關規範
+├── 4-free-noncommercial/       # 免費不可商用（含測試版）
 └── local-references/           # 本機其他專案參照
 ```
 
@@ -98,6 +99,7 @@ adult-18plus/
 | `1-free-commercial` | CC0、MIT、明確允許免費商用 |
 | `2-paid-commercial` | 需付費購買後方可商用（僅清單或已購買檔案） |
 | `3-license-unclear` | 授權不明確，使用前需確認 |
+| `4-free-noncommercial` | 免費取得但禁止商用；含 0 円體驗版、示範組與個人／非商用授權素材 |
 | `local-references` | 本機其他專案已有副本，僅作參照連結 |
 
 ## 素材類型
@@ -123,6 +125,7 @@ adult-18plus/
 | UI 總覽（先分風格） | [catalog/ui.md](catalog/ui.md) |
 | 音效總覽（先分風格） | [catalog/sound.md](catalog/sound.md) |
 | 免費商用清單（含角色風格分類） | [catalog/01-free-commercial.md](catalog/01-free-commercial.md) |
+| 免費不可商用清單（含測試版） | [catalog/04-free-noncommercial.md](catalog/04-free-noncommercial.md) |
 | 角色總覽（先分風格） | [catalog/character.md](catalog/character.md) |
 | 特效總覽（先分風格） | [catalog/vfx.md](catalog/vfx.md) |
 | 18+ 成人向總覽（先分風格） | [catalog/adult-18plus.md](catalog/adult-18plus.md) |

@@ -25,8 +25,9 @@ assets/{授權分類}/playing-cards/{風格}/{套件名}/SOURCE_LICENSE.md
 | 分類 | 清單 | 收錄 |
 |------|------|------|
 | 完全免費授權商用 | [01-free-commercial.md](01-free-commercial.md) | 18 套 |
-| 商用需購買授權 | [02-paid-commercial.md](02-paid-commercial.md) | 清單 2 套（另 3 套歸 `mixed`） |
+| 商用需購買授權 | [02-paid-commercial.md](02-paid-commercial.md) | 清單 1 套（另 3 套歸 `mixed`） |
 | 不確定相關規範 | [03-license-unclear.md](03-license-unclear.md) | 4 套（3 已下載 + 1 待下載） |
+| 免費不可商用（含測試版） | [04-free-noncommercial.md](04-free-noncommercial.md) | 1 套 |
 
 機器可讀：[playing-cards.json](playing-cards.json)｜套件登錄：[../tools/pack_registry.json](../tools/pack_registry.json)
 
