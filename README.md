@@ -134,6 +134,8 @@ adult-18plus/
 | 一致性稽核 | `uv run python tools/audit_catalog.py` |
 | OpenGameArt 下載 | `uv run python tools/oga_download.py <url> <dest_dir>` |
 | itch.io 免費下載 | `uv run python tools/itch_download.py <url> <dest_dir>` |
+| DLsite 體驗版下載 | `uv run python tools/dlsite_download.py <product_url> <dest_dir>` |
+| DLsite 體驗版檢查 | `uv run python tools/dlsite_download.py --check-only <product_url>` |
 | Google 雲端同步 assets | 見下方「Google 雲端同步」 |
 
 ## Google 雲端同步（僅 assets/）

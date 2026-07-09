@@ -9,7 +9,7 @@
 | 來源 | 已下載 | 說明 |
 |------|--------|------|
 | itch.io（CC0／明示商用） | 9 套 | 全數已在本機 |
-| DLsite 体験版（森の奥の隠れ里） | 6 套 | 各含 1 體完整 PSD，可商用 |
+| DLsite 体験版（森の奥の隠れ里） | 8 套 | 各含 1 體完整 PSD，可商用 |
 | itch.io（授權待確認） | 2 套 | NYOP $0，已下載但使用前請確認條款 |
 
 機器可讀：[adult-18plus.json](adult-18plus.json)
@@ -50,14 +50,16 @@ DLsite 多數 R18 素材為付費，但部分作者提供 **体験版（trial）
 uv run python tools/dlsite_download.py <商品頁URL> <dest_dir>
 ```
 
-### 森の奥の隠れ里（已全部下載，6 套）
+### 森の奥の隠れ里（已全部下載，8 套）
 
 作者 [森の奥の隠れ里](https://fayforest.sakura.ne.jp/asset.html) 的立繪系列普遍提供体験版。
 
 | 体験版 | RJ | 本機路徑 | 完整版價格 |
 |--------|-----|----------|-----------|
 | [現代ヒロイン R18](https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html) | RJ01279308 | `vn-sprite/dlsite-morinooku-modern-heroine-r18-trial/` | ¥3,850 |
+| [現代ヒロイン 全年齢](https://www.dlsite.com/maniax/work/=/product_id/RJ01280767.html) | RJ01280767 | `vn-sprite/dlsite-morinooku-modern-heroine-allages-trial/` | ¥3,300 |
 | [ファンタジーヒーロー R18](https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html) | RJ436699 | `vn-sprite/dlsite-morinooku-fantasy-hero-r18-trial/` | ¥3,300 |
+| [ファンタジーヒーロー 全年齢](https://www.dlsite.com/maniax/work/=/product_id/RJ436573.html) | RJ436573 | `vn-sprite/dlsite-morinooku-fantasy-hero-allages-trial/` | ¥2,750 |
 | [ファンタジーヒロイン R版](https://www.dlsite.com/maniax/work/=/product_id/RJ242573.html) | RJ242573 | `vn-sprite/dlsite-morinooku-fantasy-heroine-r-trial/` | ¥3,630 |
 | [ならず者 R18](https://www.dlsite.com/maniax/work/=/product_id/RJ297367.html) | RJ297367 | `vn-sprite/dlsite-morinooku-outlaw-r18-trial/` | ¥2,200 |
 | [ならず者 全年齢](https://www.dlsite.com/maniax/work/=/product_id/RJ298054.html) | RJ298054 | `vn-sprite/dlsite-morinooku-outlaw-allage-trial/` | ¥1,980 |

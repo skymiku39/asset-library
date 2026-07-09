@@ -30,6 +30,11 @@ def parse_trial_zip_url(product_url: str, html: str | None = None) -> str | None
     return "https:" + match.group("url")
 
 
+def has_usable_trial(product_url: str, html: str | None = None) -> bool:
+    """True when a product page exposes a downloadable trial zip."""
+    return parse_trial_zip_url(product_url, html) is not None
+
+
 def _has_assets(folder: Path) -> bool:
     if not folder.exists():
         return False
@@ -80,6 +85,16 @@ def download_trial(product_url: str, dest_dir: Path) -> bool:
 def main() -> int:
     import sys
 
+    if len(sys.argv) < 2:
+        print("Usage: dlsite_download.py [--check-only] <product_url> [dest_dir]")
+        return 1
+    if sys.argv[1] == "--check-only":
+        if len(sys.argv) < 3:
+            print("Usage: dlsite_download.py --check-only <product_url>")
+            return 1
+        ok = has_usable_trial(sys.argv[2])
+        print("OK" if ok else "FAIL")
+        return 0 if ok else 1
     if len(sys.argv) < 3:
         print("Usage: dlsite_download.py <product_url> <dest_dir>")
         return 1

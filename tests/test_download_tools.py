@@ -83,6 +83,18 @@ class DlsiteDownloadTest(unittest.TestCase):
     def test_parse_trial_zip_url_missing(self) -> None:
         self.assertIsNone(dlsite_mod.parse_trial_zip_url("https://example.com", "<html></html>"))
 
+    def test_has_usable_trial_true(self) -> None:
+        html = (
+            '<a href="//trial.dlsite.com/doujin/RJ01281000/'
+            'RJ01280767_trial.zip">trial</a>'
+        )
+        self.assertTrue(
+            dlsite_mod.has_usable_trial(
+                "https://www.dlsite.com/maniax/work/=/product_id/RJ01280767.html",
+                html,
+            )
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

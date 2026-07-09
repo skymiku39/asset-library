@@ -196,6 +196,28 @@
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-fantasy-heroine-allage-trial"
     },
     {
+      "id": "dlsite-morinooku-modern-heroine-allages-trial",
+      "name": "立ち絵素材集-現代ヒロイン全年齢版-（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01280767.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-modern-heroine-allages-trial"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-hero-allages-trial",
+      "name": "立ち絵素材集-ファンタジーヒーロー全年齢版-（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436573.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-fantasy-hero-allages-trial"
+    },
+    {
       "id": "dlsite-morinooku-modern-heroine-r18",
       "name": "立ち絵素材集-現代ヒロインR18版-",
       "asset_type": "adult-18plus",
