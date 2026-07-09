@@ -218,6 +218,39 @@
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-fantasy-hero-allages-trial"
     },
     {
+      "id": "dlsite-morinooku-heroines-r-trial",
+      "name": "2D characters pack JRPG HEROINES R（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245095.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-heroines-r-trial"
+    },
+    {
+      "id": "dlsite-morinooku-heroines-a-trial",
+      "name": "2D characters pack JRPG HEROINES A（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245098.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-heroines-a-trial"
+    },
+    {
+      "id": "dlsite-nyancheruto-draw-text-trial",
+      "name": "えっちな描き文字素材集（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01631094.html",
+      "status": "downloaded",
+      "style": "ui",
+      "local_path": "assets/1-free-commercial/adult-18plus/ui/dlsite-nyancheruto-draw-text-trial"
+    },
+    {
       "id": "dlsite-morinooku-modern-heroine-r18",
       "name": "立ち絵素材集-現代ヒロインR18版-",
       "asset_type": "adult-18plus",

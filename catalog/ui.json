@@ -169,6 +169,116 @@
       "status": "downloaded",
       "style": "flat-clean",
       "local_path": "assets/3-license-unclear/ui/flat-clean/game-assets-66-ui-1"
+    },
+    {
+      "id": "dlsite-morinooku-icon-vol1-trial",
+      "name": "イラストアイコン素材集Vol.1（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ154599.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-icon-vol1-trial"
+    },
+    {
+      "id": "dlsite-morinooku-icon-vol2-wa-trial",
+      "name": "イラストアイコン素材集Vol.2-和-（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209220.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-icon-vol2-wa-trial"
+    },
+    {
+      "id": "dlsite-morinooku-icon-vol3-tavern-trial",
+      "name": "イラストアイコン素材集Vol.3-冒険酒場飯-（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ274136.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-icon-vol3-tavern-trial"
+    },
+    {
+      "id": "dlsite-morinooku-icon-vol4-modern-trial",
+      "name": "イラストアイコン素材集Vol.4-現代・近未来-（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01152885.html",
+      "status": "downloaded",
+      "style": "sci-fi",
+      "local_path": "assets/1-free-commercial/ui/sci-fi/dlsite-morinooku-icon-vol4-modern-trial"
+    },
+    {
+      "id": "dlsite-morinooku-ui-modern-trial",
+      "name": "UI画像素材集-現代・近未来-（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01431644.html",
+      "status": "downloaded",
+      "style": "sci-fi",
+      "local_path": "assets/1-free-commercial/ui/sci-fi/dlsite-morinooku-ui-modern-trial"
+    },
+    {
+      "id": "dlsite-morinooku-horror-gui-trial",
+      "name": "ホラー探索GUI・イラスト素材集（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ159887.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-horror-gui-trial"
+    },
+    {
+      "id": "dlsite-morinooku-emotion-icon-trial",
+      "name": "立ち絵向けエモーションアイコン素材集（体験版）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ212838.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-emotion-icon-trial"
+    },
+    {
+      "id": "dlsite-morinooku-horror-gui-en-trial",
+      "name": "Horror GUI & Icons pack（trial）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ161081.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-horror-gui-en-trial"
+    },
+    {
+      "id": "dlsite-morinooku-icon-vol2-samurai-en-trial",
+      "name": "Fantasy game icons pack Vol.2-SAMURAI-（trial）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ209226.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-icon-vol2-samurai-en-trial"
+    },
+    {
+      "id": "dlsite-morinooku-icon-vol3-tavern-en-trial",
+      "name": "Fantasy game icons pack Vol.3: Adventurers' Tavern（trial）",
+      "asset_type": "ui",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ274414.html",
+      "status": "downloaded",
+      "style": "fantasy-rpg",
+      "local_path": "assets/1-free-commercial/ui/fantasy-rpg/dlsite-morinooku-icon-vol3-tavern-en-trial"
     }
   ],
   "styles": {
