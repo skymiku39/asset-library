@@ -77,3 +77,10 @@ assets/{授權分類}/vfx/{風格}/{套件名}/SOURCE_LICENSE.md
 | 火球投射物 | `pixel-vfx/vitalyez-fireball-vfx/` |
 | 金幣／得分閃光動畫 | `ui-juice/bevouliin-shining-items/`、`evercrazy-coin-gem-8x8/` |
 | 打擊／命中回饋 | `impact-hit/kekkorider-impact-vfx/`、`gustavoplima-hit-confirm/` |
+
+## 本輪再擴充
+
+- `particle-texture`：新增 `para-animated-particle-effects-1`、`para-animated-particle-effects-2`、`kenney-smoke-particle-assets`、`rubberduck-teleporter-effect`
+- `pixel-vfx`：新增 `ansimuz-warped-shooting-fx`、`systemg6-rpg-vfx-pack`
+- `ui-juice`：新增 `vwolfdog-sparkle-animations`
+- `impact-hit`：新增 `metashinryu-slash-effect-collection`

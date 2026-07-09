@@ -227,6 +227,94 @@
       "status": "downloaded",
       "style": "pixel-vfx",
       "local_path": "assets/1-free-commercial/vfx/pixel-vfx/tornadogames-magic-sparks"
+    },
+    {
+      "id": "para-animated-particle-effects-1",
+      "name": "Animated particle effects #1",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/animated-particle-effects-1",
+      "status": "downloaded",
+      "style": "particle-texture",
+      "local_path": "assets/1-free-commercial/vfx/particle-texture/para-animated-particle-effects-1"
+    },
+    {
+      "id": "para-animated-particle-effects-2",
+      "name": "Animated particle effects #2",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/animated-particle-effects-2",
+      "status": "downloaded",
+      "style": "particle-texture",
+      "local_path": "assets/1-free-commercial/vfx/particle-texture/para-animated-particle-effects-2"
+    },
+    {
+      "id": "ansimuz-warped-shooting-fx",
+      "name": "Warped Shooting Fx",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/warped-shooting-fx",
+      "status": "downloaded",
+      "style": "pixel-vfx",
+      "local_path": "assets/1-free-commercial/vfx/pixel-vfx/ansimuz-warped-shooting-fx"
+    },
+    {
+      "id": "systemg6-rpg-vfx-pack",
+      "name": "RPG VFX pack",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/rpg-vfx-pack",
+      "status": "downloaded",
+      "style": "pixel-vfx",
+      "local_path": "assets/1-free-commercial/vfx/pixel-vfx/systemg6-rpg-vfx-pack"
+    },
+    {
+      "id": "vwolfdog-sparkle-animations",
+      "name": "Multiple Colors of Sparkle Animations",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "Public Domain",
+      "source_url": "https://opengameart.org/content/multiple-colors-of-sparkle-animations",
+      "status": "downloaded",
+      "style": "ui-juice",
+      "local_path": "assets/1-free-commercial/vfx/ui-juice/vwolfdog-sparkle-animations"
+    },
+    {
+      "id": "metashinryu-slash-effect-collection",
+      "name": "Slash Effect Collection",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "可自由使用（作者允許任意用途）",
+      "source_url": "https://opengameart.org/content/slash-effect-collection",
+      "status": "downloaded",
+      "style": "impact-hit",
+      "local_path": "assets/1-free-commercial/vfx/impact-hit/metashinryu-slash-effect-collection"
+    },
+    {
+      "id": "kenney-smoke-particle-assets",
+      "name": "Smoke particle assets",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/smoke-particle-assets",
+      "status": "downloaded",
+      "style": "particle-texture",
+      "local_path": "assets/1-free-commercial/vfx/particle-texture/kenney-smoke-particle-assets"
+    },
+    {
+      "id": "rubberduck-teleporter-effect",
+      "name": "teleporter effect",
+      "asset_type": "vfx",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://opengameart.org/content/teleporter-effect",
+      "status": "downloaded",
+      "style": "particle-texture",
+      "local_path": "assets/1-free-commercial/vfx/particle-texture/rubberduck-teleporter-effect"
     }
   ],
   "styles": {
