@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Kenney |
 | 來源網址 | https://opengameart.org/content/interface-sounds |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要（建議署名 Kenney.nl） |
 | 備註 | 100 個 UI 音效：按鈕／確認／切換（OGG） |

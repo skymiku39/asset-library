@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | tiopalada |
 | 來源網址 | https://opengameart.org/content/spring-vfx-pack |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 7 組春季主題 RPG 魔法特效 |

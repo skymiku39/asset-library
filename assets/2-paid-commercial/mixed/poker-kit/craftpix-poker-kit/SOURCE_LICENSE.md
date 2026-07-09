@@ -11,7 +11,7 @@
 | 授權條款 | CraftPix 商用授權 |
 | 作者 | CraftPix |
 | 來源網址 | https://craftpix.net/product/poker-game-kit/ |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 需購買或訂閱 |
 | 署名 | 依 CraftPix 條款 |
 | 備註 | 含牌面、籌碼、牌桌、UI |

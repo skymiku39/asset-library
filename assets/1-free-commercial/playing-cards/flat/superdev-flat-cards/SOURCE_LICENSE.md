@@ -11,7 +11,7 @@
 | 授權條款 | 免費商用 |
 | 作者 | Super Dev Resources |
 | 來源網址 | https://superdevresources.com/free-playing-cards-set/ |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 禁止轉售素材本身 |

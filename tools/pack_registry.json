@@ -345,6 +345,21 @@
       "style": "boardgame"
     },
     {
+      "id": "kenney-boardgame-pack",
+      "folder": "kenney-boardgame-pack",
+      "name": "Kenney Board Game Pack",
+      "asset_type": "mixed",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "author": "Kenney",
+      "source_url": "https://kenney.nl/assets/boardgame-pack",
+      "commercial": "允許",
+      "attribution": "不需要",
+      "note": "含撲克牌、骰子、棋盤遊戲素材",
+      "status": "downloaded",
+      "style": "boardgame"
+    },
+    {
       "id": "unity-playing-card-pack",
       "folder": "unity-playing-card-pack",
       "name": "Playing Card Game Assets Pack",
@@ -1149,6 +1164,21 @@
       "status": "downloaded"
     },
     {
+      "id": "tstudio-mahjong-sound-pack",
+      "folder": "tstudio-mahjong-sound-pack",
+      "name": "T-STUDIO Free Mahjong Sound Pack",
+      "asset_type": "sound",
+      "style": "realistic-foley",
+      "license_category": "1-free-commercial",
+      "license": "Royalty Free（T-STUDIO 條款）",
+      "author": "みんなの創作支援サイトＴスタ / T-STUDIO",
+      "source_url": "https://t-studio-tst.itch.io/free-sound-mahjong-sound-pack",
+      "commercial": "允許",
+      "attribution": "建議署名「みんなの創作支援サイトＴスタ」",
+      "note": "麻將牌碰撞等擬音；詳見 https://tnosite.com/en/agreement-4/",
+      "status": "downloaded"
+    },
+    {
       "id": "bmaczero-card-sounds",
       "folder": "bmaczero-card-sounds",
       "name": "BMacZero Playing Card Sounds",
@@ -1835,8 +1865,8 @@
       "source_url": "https://tornadogames.itch.io/magic-sparksattacks-for-the-devs",
       "commercial": "允許",
       "attribution": "不需要",
-      "note": "魔法火花／火球／爆炸／煙霧軌跡 spritesheet（多檔，itch 需逐檔或手動全下）",
-      "status": "catalog-only"
+      "note": "魔法火花／火球／爆炸／煙霧軌跡 spritesheet",
+      "status": "downloaded"
     },
     {
       "id": "spicylyon-seductive-linh",
@@ -1881,7 +1911,7 @@
       "commercial": "允許",
       "attribution": "不需要（建議署名）",
       "note": "21 組 1080p 動畫＋8 表情；含 8 組情色動畫；另有像素化版本（Koikatsu 渲染）",
-      "status": "catalog-only"
+      "status": "downloaded"
     },
     {
       "id": "leafletgames-sprites-1",
@@ -1989,6 +2019,51 @@
       "status": "catalog-only"
     },
     {
+      "id": "dlsite-morinooku-modern-heroine-r18-trial",
+      "folder": "dlsite-morinooku-modern-heroine-r18-trial",
+      "name": "立ち絵素材集-現代ヒロインR18版-（体験版）",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "author": "森の奥の隠れ里（るるが）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html",
+      "commercial": "允許（体験版 1 體）",
+      "attribution": "不需要",
+      "note": "含 1 體完整 PSD＋全角色低解析參考 PSD；完整版需購買",
+      "status": "downloaded"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-hero-r18-trial",
+      "folder": "dlsite-morinooku-fantasy-hero-r18-trial",
+      "name": "立ち絵素材集-ファンタジーヒーローR18版-（体験版）",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "author": "森の奥の隠れ里（るるが）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html",
+      "commercial": "允許（体験版 1 體）",
+      "attribution": "不需要",
+      "note": "含 1 體完整 PSD＋全角色樣本；完整版約 5.95 GB 需購買",
+      "status": "downloaded"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-heroine-r-trial",
+      "folder": "dlsite-morinooku-fantasy-heroine-r-trial",
+      "name": "立ち絵素材集-ファンタジーヒロインR版-（体験版）",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "author": "森の奥の隠れ里（るるが）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ242573.html",
+      "commercial": "允許（体験版 1 體）",
+      "attribution": "不需要",
+      "note": "含 1 體完整 PSD＋全角色樣本；完整版需購買",
+      "status": "downloaded"
+    },
+    {
       "id": "dlsite-morinooku-modern-heroine-r18",
       "folder": "dlsite-morinooku-modern-heroine-r18",
       "name": "立ち絵素材集-現代ヒロインR18版-",
@@ -2069,14 +2144,14 @@
       "name": "擬音素材集 お試し版（成人向けOK）",
       "asset_type": "adult-18plus",
       "style": "ui",
-      "license_category": "1-free-commercial",
-      "license": "作者明示商用・成人向けOK（お試し版）",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者明示商用・成人向けOK）",
       "author": "ふぁっちゅ",
       "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html",
-      "commercial": "允許（お試し版）",
-      "attribution": "不需要",
-      "note": "DLsite 免費お試し版；擬音・効果文字；完整版需付費購買",
-      "status": "pending-manual-download"
+      "commercial": "需購買（約 ¥110 お試し版）",
+      "attribution": "不需要（建議署名）",
+      "note": "DLsite 低價お試し版（200 個擬音 PNG）；非 0 円體驗版，需登入購買後下載",
+      "status": "catalog-only"
     },
     {
       "id": "dlsite-familia-voice-oneesan",

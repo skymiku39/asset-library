@@ -6,12 +6,12 @@
 |------|------|
 | 套件名稱 | Tiny RPG CC0 Characters and Portraits |
 | 素材類型 | 角色 |
-| 風格 | 像素風 |
+| 風格 | 像素風 NSFW |
 | 授權分類 | 完全免費授權商用 |
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | tiopalada |
 | 來源網址 | https://opengameart.org/content/tiny-rpg-cc0-characters-and-portraits |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 像素角色與頭像樣本 |
@@ -19,7 +19,7 @@
 ## 授權摘要
 
 - 素材類型：**角色**
-- 風格：**像素風**
+- 風格：**像素風 NSFW**
 - 授權分類：**完全免費授權商用**
 - 條款：**CC0 1.0 Universal**
 

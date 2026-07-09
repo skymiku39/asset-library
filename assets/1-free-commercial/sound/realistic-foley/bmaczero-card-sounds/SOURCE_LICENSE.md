@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Brian MacIntosh (BMacZero) |
 | 來源網址 | https://opengameart.org/content/playing-card-sounds |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要（可選署名 Brian MacIntosh） |
 | 備註 | 洗牌／切牌／接觸音（WAV） |

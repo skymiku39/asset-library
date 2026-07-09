@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/2d/2d-modern-mahjong-tiles-hi-res-png-202797 |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 需購買（$4.99） |
 | 署名 | 依 EULA |
 

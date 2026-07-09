@@ -11,7 +11,7 @@
 | 授權條款 | CC0 / Public Domain |
 | 作者 | CodeManu |
 | 來源網址 | https://opengameart.org/content/free-pixel-effects-pack |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 20 個像素特效動畫，100×100px 單幀 |

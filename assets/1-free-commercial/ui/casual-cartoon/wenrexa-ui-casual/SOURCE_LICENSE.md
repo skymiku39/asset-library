@@ -11,7 +11,7 @@
 | 授權條款 | 免費商用（作者聲明） |
 | 作者 | Wenrexa |
 | 來源網址 | https://opengameart.org/content/assets-ui-casual-free-5-buttons-bars-panels |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 717 個休閒風 UI：按鈕／滑桿／面板，3 色（黃/紫/藍） |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Bevouliin |
 | 來源網址 | https://opengameart.org/content/shining-coin-shining-health-shining-power-up-sprite-sheets |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 建議連結 bevouliin.com（非必須） |
 | 備註 | 閃光金幣、生命、強化道具旋轉動畫 |

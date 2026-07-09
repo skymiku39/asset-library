@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Brian Huisman (GreyWyvern) |
 | 來源網址 | https://opengameart.org/content/greywyvern-playing-card-set |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 

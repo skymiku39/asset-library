@@ -11,7 +11,7 @@
 | 授權條款 | 未標示標準授權 |
 | 作者 | 7binaryStudios（OGA 上傳者） |
 | 來源網址 | https://opengameart.org/content/gui-pack |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 待確認 |
 | 署名 | 建議署名（非強制） |
 | 備註 | OGA 頁面 License 欄位空白，僅有建議署名說明 |

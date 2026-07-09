@@ -1,6 +1,6 @@
 {
   "category": "sound",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -28,6 +28,17 @@
       "status": "downloaded",
       "style": "realistic-foley",
       "local_path": "assets/1-free-commercial/sound/realistic-foley/kenney-casino-audio"
+    },
+    {
+      "id": "tstudio-mahjong-sound-pack",
+      "name": "T-STUDIO Free Mahjong Sound Pack",
+      "asset_type": "sound",
+      "license_category": "1-free-commercial",
+      "license": "Royalty Free（T-STUDIO 條款）",
+      "source_url": "https://t-studio-tst.itch.io/free-sound-mahjong-sound-pack",
+      "status": "downloaded",
+      "style": "realistic-foley",
+      "local_path": "assets/1-free-commercial/sound/realistic-foley/tstudio-mahjong-sound-pack"
     },
     {
       "id": "bmaczero-card-sounds",

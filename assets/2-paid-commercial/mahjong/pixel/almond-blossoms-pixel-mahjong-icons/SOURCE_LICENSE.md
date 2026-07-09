@@ -11,7 +11,7 @@
 | 授權條款 | 購買後可商用 |
 | 作者 | Almond Blossoms |
 | 來源網址 | https://almond-blossoms.itch.io/pixel-art-mahjong-icons-41 |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 需購買（$9） |
 | 署名 | 依購買條款 |
 

@@ -11,7 +11,7 @@
 | 授權條款 | 未標示標準授權 |
 | 作者 | devurandom |
 | 來源網址 | https://opengameart.org/content/pixel-art-mahjong-tiles |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 待確認 |
 | 署名 | 建議署名 /dev/urandom |
 

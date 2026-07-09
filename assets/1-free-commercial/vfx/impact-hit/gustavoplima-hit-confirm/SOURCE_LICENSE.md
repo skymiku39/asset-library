@@ -11,7 +11,7 @@
 | 授權條款 | OGA-BY 4.0 |
 | 作者 | GustavoPlima |
 | 來源網址 | https://opengameart.org/content/small-hit-confirm-vfx-animation |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 建議署名 GustavoPlima |
 | 備註 | 6 組小型命中確認爆炸特效 |

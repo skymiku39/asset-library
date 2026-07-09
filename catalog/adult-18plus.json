@@ -47,8 +47,9 @@
       "license_category": "1-free-commercial",
       "license": "CC0 1.0 Universal (Public Domain)",
       "source_url": "https://spicylyon.itch.io/tactical-bikini-agent",
-      "status": "catalog-only",
-      "style": "animation"
+      "status": "downloaded",
+      "style": "animation",
+      "local_path": "assets/1-free-commercial/adult-18plus/animation/spicylyon-tactical-bikini"
     },
     {
       "id": "leafletgames-sprites-1",
@@ -126,6 +127,39 @@
       "style": "pixel-art"
     },
     {
+      "id": "dlsite-morinooku-modern-heroine-r18-trial",
+      "name": "立ち絵素材集-現代ヒロインR18版-（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-modern-heroine-r18-trial"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-hero-r18-trial",
+      "name": "立ち絵素材集-ファンタジーヒーローR18版-（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-fantasy-hero-r18-trial"
+    },
+    {
+      "id": "dlsite-morinooku-fantasy-heroine-r-trial",
+      "name": "立ち絵素材集-ファンタジーヒロインR版-（体験版）",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ242573.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-morinooku-fantasy-heroine-r-trial"
+    },
+    {
       "id": "dlsite-morinooku-modern-heroine-r18",
       "name": "立ち絵素材集-現代ヒロインR18版-",
       "asset_type": "adult-18plus",
@@ -179,12 +213,11 @@
       "id": "dlsite-fatchu-onomatopoeia-trial",
       "name": "擬音素材集 お試し版（成人向けOK）",
       "asset_type": "adult-18plus",
-      "license_category": "1-free-commercial",
-      "license": "作者明示商用・成人向けOK（お試し版）",
+      "license_category": "2-paid-commercial",
+      "license": "DLsite 購買授權（作者明示商用・成人向けOK）",
       "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html",
-      "status": "pending-manual-download",
-      "style": "ui",
-      "local_path": "assets/1-free-commercial/adult-18plus/ui/dlsite-fatchu-onomatopoeia-trial"
+      "status": "catalog-only",
+      "style": "ui"
     },
     {
       "id": "dlsite-familia-voice-oneesan",

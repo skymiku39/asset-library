@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/templates/packs/mahjong-solitaire-kit-259637 |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 需購買（約 €14） |
 | 署名 | 依 EULA |
 | 備註 | 完整麻雀接龍範本 + 3D 牌 |

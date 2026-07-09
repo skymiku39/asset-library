@@ -11,7 +11,7 @@
 | 授權條款 | CC0 / Public Domain |
 | 作者 | Setuniman |
 | 來源網址 | https://opengameart.org/content/jazz-n-brass-loop |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 90 年代 PC 風短爵士循環（WAV） |

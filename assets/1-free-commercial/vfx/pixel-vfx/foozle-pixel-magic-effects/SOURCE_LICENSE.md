@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Foozle |
 | 來源網址 | https://foozlecc.itch.io/pixel-magic-sprite-effects |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 10 組 32×32 魔法特效（火／水／土／風／傳送門／爆炸） |

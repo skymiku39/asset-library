@@ -36,12 +36,18 @@ assert SPEC4 and SPEC4.loader
 kenney_dl = importlib.util.module_from_spec(SPEC4)
 SPEC4.loader.exec_module(kenney_dl)
 
+SPEC5 = importlib.util.spec_from_file_location("dlsite_download", TOOLS / "dlsite_download.py")
+assert SPEC5 and SPEC5.loader
+dlsite_dl = importlib.util.module_from_spec(SPEC5)
+SPEC5.loader.exec_module(dlsite_dl)
+
 # Optional local Kenney mirror to avoid re-downloading CC0 packs.
 KENNEY_LOCAL: dict[str, str] = {
     "kenney-ui-pack": "d:/skymiku/kenney/assets/ui/ui-pack",
     "kenney-ui-pack-scifi": "d:/skymiku/kenney/assets/ui/ui-pack---sci-fi",
     "kenney-fantasy-ui-borders": "d:/skymiku/kenney/assets/ui/fantasy-ui-borders",
     "kenney-shape-characters": "d:/skymiku/kenney/assets/2d/shape-characters",
+    "kenney-boardgame-pack": "d:/skymiku/kenney/assets/2d/boardgame-pack",
 }
 
 KENNEY_NL_SLUG: dict[str, str] = {
@@ -179,6 +185,10 @@ def try_download(pack: dict) -> tuple[bool, str]:
         if "opengameart.org" in alt and oga.download_page(alt, dest):
             if has_assets(dest):
                 return True, f"oga {alt}"
+
+    if "dlsite.com" in url and dlsite_dl.download_trial(url, dest):
+        if has_assets(dest):
+            return True, f"dlsite trial {url}"
 
     return False, "no source succeeded"
 

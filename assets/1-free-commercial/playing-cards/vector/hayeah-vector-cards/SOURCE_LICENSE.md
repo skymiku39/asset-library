@@ -11,7 +11,7 @@
 | 授權條款 | MIT |
 | 作者 | Howard Yeh (hayeah) |
 | 來源網址 | https://github.com/hayeah/playing-cards-assets |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 需保留版權聲明 |
 

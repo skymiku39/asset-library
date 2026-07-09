@@ -11,7 +11,7 @@
 | 授權條款 | 購買後可商用 |
 | 作者 | Royal Graphics Resources |
 | 來源網址 | https://royalgraphicsresources.itch.io/mahjong-dark-premium-masterpack |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 需購買（$5+） |
 | 署名 | 建議但非必須 |
 | 備註 | 5 套暗色主題 |

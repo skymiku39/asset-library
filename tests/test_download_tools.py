@@ -20,6 +20,7 @@ def load_module(name: str, filename: str):
 
 itch_mod = load_module("itch_download", "itch_download.py")
 kenney_mod = load_module("kenney_download", "kenney_download.py")
+dlsite_mod = load_module("dlsite_download", "dlsite_download.py")
 
 
 class ItchDownloadTest(unittest.TestCase):
@@ -65,6 +66,22 @@ class KenneyDownloadTest(unittest.TestCase):
 
         self.assertEqual(len(links), 1)
         self.assertIn("kenney_pixel-ui-pack.zip", links[0])
+
+
+class DlsiteDownloadTest(unittest.TestCase):
+    def test_parse_trial_zip_url_from_html(self) -> None:
+        html = (
+            '<a href="//trial.dlsite.com/doujin/RJ01280000/'
+            'RJ01279308_trial.zip">trial</a>'
+        )
+        url = dlsite_mod.parse_trial_zip_url("https://example.com", html)
+        self.assertEqual(
+            url,
+            "https://trial.dlsite.com/doujin/RJ01280000/RJ01279308_trial.zip",
+        )
+
+    def test_parse_trial_zip_url_missing(self) -> None:
+        self.assertIsNone(dlsite_mod.parse_trial_zip_url("https://example.com", "<html></html>"))
 
 
 if __name__ == "__main__":

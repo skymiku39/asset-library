@@ -11,7 +11,7 @@
 | 授權條款 | Public Domain |
 | 作者 | Master484 |
 | 來源網址 | https://opengameart.org/content/explosion-set-2-m484-games |
-| 收錄日期 | 2026-07-08 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 3 種爆炸 × 4 配色 × 30/16px 兩種尺寸 |

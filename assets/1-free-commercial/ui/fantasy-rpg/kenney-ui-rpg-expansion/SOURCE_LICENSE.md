@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Kenney |
 | 來源網址 | https://kenney.nl/assets/ui-pack-rpg-expansion |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要（建議署名 Kenney.nl） |
 | 備註 | 87 個 RPG/奇幻 UI sprite + 向量檔；OGA 亦有鏡像 |

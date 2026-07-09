@@ -1,6 +1,6 @@
 {
   "category": "mixed",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -40,6 +40,17 @@
       "style": "boardgame",
       "local_path": "d:/skymiku/kenney/assets/2d/boardgame-pack",
       "local_path_short": "assets/local-references/mixed/boardgame/kenney-boardgame-pack"
+    },
+    {
+      "id": "kenney-boardgame-pack",
+      "name": "Kenney Board Game Pack",
+      "asset_type": "mixed",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://kenney.nl/assets/boardgame-pack",
+      "status": "downloaded",
+      "style": "boardgame",
+      "local_path": "assets/1-free-commercial/mixed/boardgame/kenney-boardgame-pack"
     },
     {
       "id": "unity-playing-card-pack",

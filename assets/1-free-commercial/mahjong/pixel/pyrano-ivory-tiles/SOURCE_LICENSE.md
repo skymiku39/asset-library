@@ -11,7 +11,7 @@
 | 授權條款 | OGA-BY 4.0 |
 | 作者 | Pyrano Studios |
 | 來源網址 | https://opengameart.org/content/ivory-tile-alphabet |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 需署名 Pyrano Studios |
 | 備註 | 象牙風格 32×32，略帶麻將感 |

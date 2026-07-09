@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | FluffyStuff |
 | 來源網址 | https://github.com/FluffyStuff/riichi-mahjong-tiles |
-| 收錄日期 | 2026-07-07 |
+| 收錄日期 | 2026-07-09 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 日本立直麻將，含 Regular/Black 變體 |
