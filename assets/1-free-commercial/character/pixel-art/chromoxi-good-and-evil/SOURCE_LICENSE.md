@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Chromoxi |
 | 來源網址 | https://chromoxi.itch.io/good-and-evil |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 4 個像素角色，含含／不含武器動畫、UI 與 tilemap；附 Aseprite 原始檔 |

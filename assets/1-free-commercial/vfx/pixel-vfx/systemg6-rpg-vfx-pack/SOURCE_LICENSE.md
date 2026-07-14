@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | System G6 |
 | 來源網址 | https://opengameart.org/content/rpg-vfx-pack |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 各式技能與粒子序列特效，部分可循環播放 |

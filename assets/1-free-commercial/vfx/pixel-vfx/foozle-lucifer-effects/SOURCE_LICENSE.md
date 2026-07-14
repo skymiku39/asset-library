@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Foozle（美術：David / chroma_dave） |
 | 來源網址 | https://foozlecc.itch.io/lucifer-effects |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 拾取物、裝備、攻擊用像素特效，含 Aseprite 原始檔 |

@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/3d/mahjong-mobile-assets-pack-82375 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（$5） |
 | 署名 | 依 EULA |
 | 備註 | 低多邊形 36 張 3D 牌 |

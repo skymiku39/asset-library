@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/2d/characters/2d-pixel-character-pack-147-characters-20-weapons-369348 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（約 €4.59） |
 | 署名 | 依 EULA |
 | 備註 | 147 個像素角色 + 20 種武器 |

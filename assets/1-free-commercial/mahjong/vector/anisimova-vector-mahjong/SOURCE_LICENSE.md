@@ -11,7 +11,7 @@
 | 授權條款 | 免費商用（作者聲明） |
 | 作者 | anisimova |
 | 來源網址 | https://anisimova.itch.io/anisimovas-mahjong-game-pack |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 未要求 |
 | 備註 | 42 張向量牌；禁止轉售 |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | para |
 | 來源網址 | https://opengameart.org/content/animated-particle-effects-1 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 14 組粒子特效，1024x1024 spritesheet，含火焰／煙霧／魔法 |

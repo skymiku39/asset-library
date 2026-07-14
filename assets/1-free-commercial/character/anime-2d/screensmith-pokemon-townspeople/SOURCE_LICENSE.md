@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Screen Smith |
 | 來源網址 | https://screensmith.itch.io/pokemon-style-characters-townspeople |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 16 個四向行走 overworld 角色含頭像；素材為 AI 生成，使用時須揭露 |

@@ -11,7 +11,7 @@
 | 授權條款 | 可自由使用（作者允許任意用途） |
 | 作者 | MetaShinryu |
 | 來源網址 | https://opengameart.org/content/slash-effect-collection |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 30+ 小斬擊、3 個大突進斬、5 個大型斬擊特效 |

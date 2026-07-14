@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Kenney |
 | 來源網址 | https://opengameart.org/content/smoke-particle-assets |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 建議署名 Kenney.nl（非必須） |
 | 備註 | 77 張煙霧粒子貼圖，含爆炸、白煙與閃光風格 |

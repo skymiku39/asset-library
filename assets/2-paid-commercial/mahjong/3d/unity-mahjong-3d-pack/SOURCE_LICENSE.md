@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | GameSpring |
 | 來源網址 | https://assetstore.unity.com/packages/3d/mahjong-tiles-pack-21326 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買 |
 | 署名 | 依 EULA |
 

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Felipe Martelo |
 | 來源網址 | https://felipemartelo.itch.io/saveboy |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 32×32 角色 + tileset + 背景 |

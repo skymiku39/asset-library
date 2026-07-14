@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Cyberwave Orchestra |
 | 來源網址 | https://assetstore.unity.com/packages/audio/sound-fx/essential-card-game-sound-effects-365118 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（$29） |
 | 署名 | 依 EULA |
 | 備註 | 113 個洗牌／發牌／翻牌／骰子擬音（WAV） |

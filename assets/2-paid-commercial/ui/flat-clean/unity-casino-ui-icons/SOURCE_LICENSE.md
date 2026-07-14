@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/2d/casino-game-ui-icons-pack-for-slots-poker-blackjack-roulette-and-361052 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（$21.99） |
 | 署名 | 依 EULA |
 | 備註 | 老虎機／撲克／輪盤賭場圖示集 |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Shades |
 | 來源網址 | https://opengameart.org/content/8-bit-sound-effect-pack-vol-001 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要（作者請求署名 @Shades） |
 | 備註 | 46 個 8-bit 音效：金幣／命中／錯誤等（WAV） |

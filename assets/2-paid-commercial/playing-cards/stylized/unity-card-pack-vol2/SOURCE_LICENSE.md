@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | University of Games |
 | 來源網址 | https://assetstore.unity.com/packages/2d/card-pack-vol-2-78181 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（約 $4.99） |
 | 署名 | 依 EULA |
 

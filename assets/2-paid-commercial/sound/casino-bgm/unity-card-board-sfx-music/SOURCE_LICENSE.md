@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/audio/sound-fx/card-board-games-sound-effects-and-music-pack-230753 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（約 €46） |
 | 署名 | 依 EULA |
 | 備註 | 520+ SFX 與 3 首爵士 BGM，適用撲克／麻將／棋類 |

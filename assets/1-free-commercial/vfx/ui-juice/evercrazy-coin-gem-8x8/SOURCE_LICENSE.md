@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | EverCrazy |
 | 來源網址 | https://opengameart.org/content/8x8-free-coin-gem-collection |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 90+ 個 8×8 金幣／寶石動畫 sprite |

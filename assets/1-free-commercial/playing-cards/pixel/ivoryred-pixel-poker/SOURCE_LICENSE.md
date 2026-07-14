@@ -11,7 +11,7 @@
 | 授權條款 | CC-BY 4.0 |
 | 作者 | IvoryRed |
 | 來源網址 | https://opengameart.org/content/pixel-poker-cards |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 需署名 IvoryRed |
 

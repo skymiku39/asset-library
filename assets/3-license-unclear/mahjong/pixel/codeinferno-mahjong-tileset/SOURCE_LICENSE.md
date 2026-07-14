@@ -11,7 +11,7 @@
 | 授權條款 | 未標示標準授權 |
 | 作者 | Code Inferno |
 | 來源網址 | https://opengameart.org/content/mahjong-tileset |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 待確認 |
 | 署名 | 需連結 codeinferno.com |
 | 備註 | 含 PSD 與多種尺寸 PNG |

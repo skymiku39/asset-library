@@ -11,7 +11,7 @@
 | 授權條款 | 購買後可商用 |
 | 作者 | Royal Graphics Resources |
 | 來源網址 | https://royalgraphicsresources.itch.io/mahjong-tile-set |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（$2.50+） |
 | 署名 | 建議但非必須 |
 | 備註 | 184 張牌（亮/暗主題，含選取狀態） |

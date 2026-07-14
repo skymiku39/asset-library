@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Kenney |
 | 來源網址 | https://kenney.nl/assets/ui-pack-sci-fi |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要（建議署名 Kenney.nl） |
 | 備註 | 130 個太空/現代玻璃感 UI sprite + 向量 + 2 套字型 |

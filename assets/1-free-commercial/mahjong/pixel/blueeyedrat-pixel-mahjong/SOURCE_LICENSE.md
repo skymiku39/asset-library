@@ -11,7 +11,7 @@
 | 授權條款 | 免費商用（作者聲明） |
 | 作者 | Blueeyedrat |
 | 來源網址 | https://blueeyedrat.itch.io/pixel-assets-mahjong-tiles |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 建議署名 |
 | 備註 | 禁止轉售；64×64 精靈圖 |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Quaternius |
 | 來源網址 | https://quaternius.com/packs/universalbasecharacters.html |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 6 個 humanoid rig 基礎角色，可重定向；OBJ／FBX／glTF |

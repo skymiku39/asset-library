@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | ansimuz |
 | 來源網址 | https://opengameart.org/content/warped-shooting-fx |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 可選（作者註記 optional） |
 | 備註 | 12 種像素射擊特效，含光束與電擊風格 |

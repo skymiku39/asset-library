@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Epic Stock Media |
 | 來源網址 | https://assetstore.unity.com/packages/audio/sound-fx/card-game-sounds-112743 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買 |
 | 署名 | 依 EULA |
 | 備註 | 503 個 DCCG 音效：UI、發牌、魔法、環境 |

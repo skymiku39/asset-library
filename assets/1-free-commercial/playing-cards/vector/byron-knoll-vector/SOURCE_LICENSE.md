@@ -11,7 +11,7 @@
 | 授權條款 | CC0 / Public Domain |
 | 作者 | Byron Knoll |
 | 來源網址 | https://opengameart.org/content/playing-cards-vector-png |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 

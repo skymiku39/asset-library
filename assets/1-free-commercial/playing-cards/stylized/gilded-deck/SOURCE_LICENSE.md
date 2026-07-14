@@ -11,7 +11,7 @@
 | 授權條款 | MIT |
 | 作者 | DataJuggler |
 | 來源網址 | https://github.com/DataJuggler/TheGildedDeck |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 建議但非必須 |
 

@@ -11,7 +11,7 @@
 | 授權條款 | Public Domain |
 | 作者 | Master484 |
 | 來源網址 | https://opengameart.org/content/explosion-set-1-m484-games |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 經典 2D 爆炸動畫，3 種配色主題 |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | JoyTree Studios |
 | 來源網址 | https://joytree-studios.itch.io/2d-pixel-art-gui-asset-pack-elements |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 16×16 像素 GUI：面板／按鈕／進度條／圖示與自訂字型；可修改但禁止轉售 |

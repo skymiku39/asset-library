@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | iamoneabe |
 | 來源網址 | https://opengameart.org/content/drunken-saloon |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 可循環的爵士藍調賭場氛圍 BGM（MP3） |

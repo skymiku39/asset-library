@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Kenney |
 | 來源網址 | https://opengameart.org/content/particle-pack-80-sprites |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 建議署名 Kenney.nl（非必須） |
 | 備註 | 80+ 粒子貼圖；含火焰、煙霧、魔法、愛心、火花、電流範例 |

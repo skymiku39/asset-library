@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | RGS_Dev |
 | 來源網址 | https://rgsdev.itch.io/free-cc0-modular-animated-vector-characters-2d |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 可著色的白模身體部件 + 8 個預製動畫角色（2048×2048） |

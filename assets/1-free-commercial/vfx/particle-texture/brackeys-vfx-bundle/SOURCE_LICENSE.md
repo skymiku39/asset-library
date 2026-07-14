@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Brackeys（彙整 Kenney、Picster、Thomas Iché、CodeManu） |
 | 來源網址 | https://brackeysgames.itch.io/brackeys-vfx-bundle |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 粒子貼圖、flipbook 與預繪 spritesheet 合集 |

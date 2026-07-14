@@ -11,7 +11,7 @@
 | 授權條款 | CC-BY-SA 3.0（部分素材 GPL） |
 | 作者 | Liberated Pixel Cup 貢獻者 |
 | 來源網址 | https://github.com/liberatedpixelcup/Universal-LPC-Spritesheet-Character-Generator |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 需署名所有作者，且衍生美術須同為 CC-BY-SA |
 | 備註 | 可組合大量像素角色；注意部分素材僅 GPL |

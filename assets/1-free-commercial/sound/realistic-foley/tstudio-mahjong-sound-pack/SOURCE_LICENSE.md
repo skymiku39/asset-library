@@ -11,7 +11,7 @@
 | 授權條款 | Royalty Free（T-STUDIO 條款） |
 | 作者 | みんなの創作支援サイトＴスタ / T-STUDIO |
 | 來源網址 | https://t-studio-tst.itch.io/free-sound-mahjong-sound-pack |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 建議署名「みんなの創作支援サイトＴスタ」 |
 | 備註 | 麻將牌碰撞等擬音；詳見 https://tnosite.com/en/agreement-4/ |

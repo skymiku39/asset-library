@@ -11,7 +11,7 @@
 | 授權條款 | 購買後可商用 |
 | 作者 | Chie Waters |
 | 來源網址 | https://chiewaters.itch.io/neon-spire-the-devils-dealer-2d-visual-novel-assets |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（$10.99+） |
 | 署名 | 依購買條款 |
 | 備註 | 350 件賭場荷官／高 roller 立繪與場景，含作弊 UI |

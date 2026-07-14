@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Kenney |
 | 來源網址 | https://kenney-assets.itch.io/fantasy-ui-borders |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 130+ 奇幻/RPG 視窗與對話框 9-slice 邊框，含 tilesheet 與獨立 sprite |

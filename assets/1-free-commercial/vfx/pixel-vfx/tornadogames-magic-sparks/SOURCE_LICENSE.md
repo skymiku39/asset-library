@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | TornadoGames |
 | 來源網址 | https://tornadogames.itch.io/magic-sparksattacks-for-the-devs |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 魔法火花／火球／爆炸／煙霧軌跡 spritesheet |

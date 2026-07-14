@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Vitalyez |
 | 來源網址 | https://vitalyez.itch.io/fireball-pixel-vfx-pack-32x32 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 12 幀火球特效，32×32px |

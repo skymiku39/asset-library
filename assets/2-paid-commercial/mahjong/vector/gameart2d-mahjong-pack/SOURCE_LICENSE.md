@@ -11,7 +11,7 @@
 | 授權條款 | 購買後可商用 |
 | 作者 | GameArt2D / pzUH |
 | 來源網址 | https://www.gameart2d.com/mahjong-game-assets-pack.html |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買 |
 | 署名 | 依購買條款 |
 | 備註 | 與 pzUH itch 版同系列 |

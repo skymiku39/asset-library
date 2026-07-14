@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/2d/gui/playing-card-game-assets-pack-354514 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（約 $12.99） |
 | 署名 | 依 EULA |
 | 備註 | 含牌面與 UI |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Jamie Cross |
 | 來源網址 | https://jamiecross.itch.io/graphical-user-interface-graphics-kit-free |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 60+ 資產：圖示／進度條／按鈕／視窗背景，含 EPS/SVG 向量與 sprite sheet |

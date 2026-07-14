@@ -11,7 +11,7 @@
 | 授權條款 | Unity Asset Store EULA |
 | 作者 | Unity Asset Store |
 | 來源網址 | https://assetstore.unity.com/packages/2d/characters/topdown-hd-character-pack-animated-2d-pixel-characters-282727 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 需購買（約 €9.19） |
 | 署名 | 依 EULA |
 | 備註 | 9 角色 8 方向動畫，含頭像與部分 UI 元件 |

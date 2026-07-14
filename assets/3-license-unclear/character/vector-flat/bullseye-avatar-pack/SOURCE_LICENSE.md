@@ -11,7 +11,7 @@
 | 授權條款 | 未標示標準授權 |
 | 作者 | Bull's-Eye Graphic Design (Bullseye) |
 | 來源網址 | https://opengameart.org/content/avatar-pack-by-bullseye |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 待確認 |
 | 署名 | 作者要求連結官網（口頭授權） |
 | 備註 | OGA「授權問題」收錄；網站無授權文件 |

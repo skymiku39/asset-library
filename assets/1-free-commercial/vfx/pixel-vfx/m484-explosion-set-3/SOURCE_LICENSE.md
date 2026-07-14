@@ -11,7 +11,7 @@
 | 授權條款 | OGA-BY 4.0 |
 | 作者 | Master484 |
 | 來源網址 | https://opengameart.org/content/m484-explosion-set-3 |
-| 收錄日期 | 2026-07-09 |
+| 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 需署名 Master484 並連結 OGA 個人頁 |
 | 備註 | 多種風格爆炸，含 16/32px 與多配色 |
