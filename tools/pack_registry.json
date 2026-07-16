@@ -2888,6 +2888,36 @@
       "attribution": "待確認",
       "note": "Agatha sprite 包；使用前請確認授權",
       "status": "downloaded"
+    },
+    {
+      "id": "dejinyucu-agustina-vn-sprite",
+      "folder": "dejinyucu-agustina-vn-sprite",
+      "name": "Agustina - Visual Novel Sprite",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "MIT",
+      "author": "DejiNyucu",
+      "source_url": "https://dejinyucu.itch.io/agustina-visual-novel-sprite",
+      "commercial": "允許",
+      "attribution": "不需要（不可宣稱自作）",
+      "note": "PSD only；含內衣 base、2 套服裝、比基尼、眼鏡與表情組合",
+      "status": "downloaded"
+    },
+    {
+      "id": "breezy-visual-novel-sprites",
+      "folder": "breezy-visual-novel-sprites",
+      "name": "Visual Novel Sprites!",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "author": "Breezy",
+      "source_url": "https://breezy-the-sleazy.itch.io/visual-novel-sprites",
+      "commercial": "允許",
+      "attribution": "不需要",
+      "note": "4 名 VN 角色，含 PSD／PNG（pack.rar）；禁止用於生成式 AI",
+      "status": "downloaded"
     }
   ],
   "playing_cards_styles": {

@@ -3,12 +3,34 @@ from __future__ import annotations
 
 import json
 import re
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import zipfile
 from http.cookiejar import CookieJar
 from pathlib import Path
+
+LOG_PATH = "debug-4e8286.log"
+
+
+def _debug_log(hypothesis_id: str, location: str, message: str, data: dict) -> None:
+    # #region agent log
+    payload = {
+        "sessionId": "4e8286",
+        "runId": "itch-canonical-fix",
+        "hypothesisId": hypothesis_id,
+        "location": location,
+        "message": message,
+        "data": data,
+        "timestamp": int(time.time() * 1000),
+    }
+    try:
+        with open(LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(json.dumps(payload, ensure_ascii=False) + "\n")
+    except OSError:
+        pass
+    # #endregion
 
 
 def _opener() -> urllib.request.OpenerDirector:
@@ -44,6 +66,18 @@ def _parse_page(html: str) -> tuple[str, list[str]]:
     return (csrf_match.group(1) if csrf_match else "", list(dict.fromkeys(upload_ids)))
 
 
+def _canonical_page_url(html: str, page_url: str) -> str:
+    """Resolve itch alias domains to the page URL used by download APIs."""
+    for key in ("generate_download_url", "download_url"):
+        match = re.search(rf'"{key}"\s*:\s*"([^"]+)"', html)
+        if not match:
+            continue
+        url = match.group(1).replace("\\/", "/").rstrip("/")
+        if url.endswith("/download_url"):
+            return url[: -len("/download_url")]
+    return page_url.rstrip("/")
+
+
 def _cdn_url_from_file_post(
     opener: urllib.request.OpenerDirector,
     page_url: str,
@@ -71,6 +105,10 @@ def _save_content(content: bytes, dest_dir: Path, upload_id: str) -> bool:
         zip_path.unlink(missing_ok=True)
         return True
 
+    if content.startswith(b"Rar!"):
+        (dest_dir / "pack.rar").write_bytes(content)
+        return True
+
     ext = ".png" if content.startswith(b"\x89PNG") else ".bin"
     (dest_dir / f"download-{upload_id}{ext}").write_bytes(content)
     return True
@@ -87,13 +125,21 @@ def download_itch_free(page_url: str, dest_dir: Path) -> list[str]:
     except urllib.error.URLError:
         return []
 
+    api_url = _canonical_page_url(page_html, page_url)
+    _debug_log(
+        "H8",
+        "itch_download.py:download_itch_free",
+        "resolved api url",
+        {"requested": page_url, "api_url": api_url, "alias": api_url != page_url.rstrip("/")},
+    )
+
     csrf, upload_ids = _parse_page(page_html)
     if not csrf:
         return []
 
     # Demo / direct download shortcut (skips purchase wall on some paid pages).
     for upload_id in upload_ids:
-        cdn_url = _cdn_url_from_file_post(opener, page_url, upload_id, csrf, page_url)
+        cdn_url = _cdn_url_from_file_post(opener, api_url, upload_id, csrf, page_url)
         if not cdn_url:
             continue
         try:
@@ -108,7 +154,7 @@ def download_itch_free(page_url: str, dest_dir: Path) -> list[str]:
     ).encode()
 
     try:
-        raw = fetch(opener, f"{page_url}/download_url", body, "POST", referer=page_url)
+        raw = fetch(opener, f"{api_url}/download_url", body, "POST", referer=page_url)
         payload = json.loads(raw.decode("utf-8"))
         if payload.get("errors"):
             return []
@@ -130,7 +176,7 @@ def download_itch_free(page_url: str, dest_dir: Path) -> list[str]:
         return []
 
     csrf = dl_csrf or csrf
-    cdn_url = _cdn_url_from_file_post(opener, page_url, upload_id, csrf, dl_page_url)
+    cdn_url = _cdn_url_from_file_post(opener, api_url, upload_id, csrf, dl_page_url)
     if not cdn_url:
         return []
 

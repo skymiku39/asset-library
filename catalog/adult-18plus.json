@@ -1,6 +1,6 @@
 {
   "category": "adult-18plus",
-  "updated": "2026-07-14",
+  "updated": "2026-07-16",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -560,6 +560,28 @@
       "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/cool-devil-agatha"
+    },
+    {
+      "id": "dejinyucu-agustina-vn-sprite",
+      "name": "Agustina - Visual Novel Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "MIT",
+      "source_url": "https://dejinyucu.itch.io/agustina-visual-novel-sprite",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dejinyucu-agustina-vn-sprite"
+    },
+    {
+      "id": "breezy-visual-novel-sprites",
+      "name": "Visual Novel Sprites!",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://breezy-the-sleazy.itch.io/visual-novel-sprites",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/breezy-visual-novel-sprites"
     }
   ],
   "styles": {

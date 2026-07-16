@@ -50,6 +50,27 @@ class ItchDownloadTest(unittest.TestCase):
             self.assertTrue(itch_mod._save_content(png, dest, "42"))
             self.assertTrue((dest / "download-42.png").exists())
 
+    def test_save_content_writes_rar(self) -> None:
+        rar = b"Rar!\x1a\x07\x00" + b"\x00" * 8
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            self.assertTrue(itch_mod._save_content(rar, dest, "99"))
+            self.assertTrue((dest / "pack.rar").exists())
+
+    def test_canonical_page_url_resolves_alias_domain(self) -> None:
+        for html in (
+            '"download_url":"https:\\/\\/breezy-the-cat.itch.io\\/'
+            'visual-novel-sprites\\/download_url"',
+            '"generate_download_url":"https:\\/\\/breezy-the-cat.itch.io\\/'
+            'visual-novel-sprites\\/download_url"',
+        ):
+            with self.subTest(html=html[:20]):
+                url = itch_mod._canonical_page_url(
+                    html,
+                    "https://breezy-the-sleazy.itch.io/visual-novel-sprites",
+                )
+                self.assertEqual(url, "https://breezy-the-cat.itch.io/visual-novel-sprites")
+
 
 class KenneyDownloadTest(unittest.TestCase):
     def test_find_zip_links_parses_media_urls(self) -> None:
