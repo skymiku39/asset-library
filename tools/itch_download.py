@@ -3,34 +3,12 @@ from __future__ import annotations
 
 import json
 import re
-import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import zipfile
 from http.cookiejar import CookieJar
 from pathlib import Path
-
-LOG_PATH = "debug-4e8286.log"
-
-
-def _debug_log(hypothesis_id: str, location: str, message: str, data: dict) -> None:
-    # #region agent log
-    payload = {
-        "sessionId": "4e8286",
-        "runId": "itch-canonical-fix",
-        "hypothesisId": hypothesis_id,
-        "location": location,
-        "message": message,
-        "data": data,
-        "timestamp": int(time.time() * 1000),
-    }
-    try:
-        with open(LOG_PATH, "a", encoding="utf-8") as f:
-            f.write(json.dumps(payload, ensure_ascii=False) + "\n")
-    except OSError:
-        pass
-    # #endregion
 
 
 def _opener() -> urllib.request.OpenerDirector:
@@ -126,12 +104,6 @@ def download_itch_free(page_url: str, dest_dir: Path) -> list[str]:
         return []
 
     api_url = _canonical_page_url(page_html, page_url)
-    _debug_log(
-        "H8",
-        "itch_download.py:download_itch_free",
-        "resolved api url",
-        {"requested": page_url, "api_url": api_url, "alias": api_url != page_url.rstrip("/")},
-    )
 
     csrf, upload_ids = _parse_page(page_html)
     if not csrf:
