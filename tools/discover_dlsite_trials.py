@@ -72,6 +72,7 @@ def discover() -> None:
         "RG01051734",  # 月影
         "RG01010253",  # 空想番外地
         "RG01012324",  # Snow Material
+        "RG66647",  # 立ち絵素材RAIKO
     ]
     for maker_id in maker_ids:
         murl = f"https://www.dlsite.com/maniax/circle/profile/=/maker_id/{maker_id}.html"
