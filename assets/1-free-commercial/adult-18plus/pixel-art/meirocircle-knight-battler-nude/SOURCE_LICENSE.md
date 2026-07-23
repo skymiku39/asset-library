@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用（需署名 Meiro） |
 | 作者 | Meiro (meirocircle) |
 | 來源網址 | https://meirocircle.itch.io/fkb-nsfw |
-| 收錄日期 | 2026-07-14 |
+| 收錄日期 | 2026-07-23 |
 | 商用 | 允許 |
 | 署名 | 需署名 Meiro |
 | 備註 | 298×576 裸體女騎士 battler；不可單獨轉售素材 |

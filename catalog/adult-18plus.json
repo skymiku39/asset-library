@@ -1,6 +1,6 @@
 {
   "category": "adult-18plus",
-  "updated": "2026-07-16",
+  "updated": "2026-07-23",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -582,6 +582,171 @@
       "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/breezy-visual-novel-sprites"
+    },
+    {
+      "id": "recaff-heart-of-shadows",
+      "name": "Heart of Shadows - Free Character Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 ReCaff）",
+      "source_url": "https://re-caff.itch.io/heart-of-shadows",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/recaff-heart-of-shadows"
+    },
+    {
+      "id": "recaff-adria",
+      "name": "Adria - Free Character Sprite + CG",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名）",
+      "source_url": "https://re-caff.itch.io/adria",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/recaff-adria"
+    },
+    {
+      "id": "recaff-nora-windtalker",
+      "name": "Nora The Windtalker - Character Sprite + CG",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 ReCaff）",
+      "source_url": "https://re-caff.itch.io/nora-the-windtalker",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/recaff-nora-windtalker"
+    },
+    {
+      "id": "spicylyon-exhibitionist-girl",
+      "name": "Exhibitionist Girl Pack",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "CC0 1.0 Universal",
+      "source_url": "https://spicylyon.itch.io/exhibitionist-girl-pack",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/adult-18plus/anime-2d/spicylyon-exhibitionist-girl"
+    },
+    {
+      "id": "c10udpng-goth-nsfw",
+      "name": "Goth NSFW Female character",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可任意使用（無需署名）",
+      "source_url": "https://c10udpng.itch.io/goth-nsfw-female-character",
+      "status": "pending-manual-download",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/c10udpng-goth-nsfw"
+    },
+    {
+      "id": "lokianimations-haneko",
+      "name": "Haneko - Animated Visual Novel Sprites",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用",
+      "source_url": "https://lokianimations.itch.io/haneko",
+      "status": "downloaded",
+      "style": "animation",
+      "local_path": "assets/1-free-commercial/adult-18plus/animation/lokianimations-haneko"
+    },
+    {
+      "id": "purapiedra-nightclub-girls-free",
+      "name": "Free Nightclub Girls. Game Assets",
+      "asset_type": "adult-18plus",
+      "license_category": "3-license-unclear",
+      "license": "僅標示免費，商用條款未明寫",
+      "source_url": "https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png",
+      "status": "downloaded",
+      "style": "pixel-art",
+      "local_path": "assets/3-license-unclear/adult-18plus/pixel-art/purapiedra-nightclub-girls-free"
+    },
+    {
+      "id": "lokianimations-haneko-2",
+      "name": "Haneko - Animated Visual Novel Sprites 2",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用",
+      "source_url": "https://lokiarts.itch.io/haneko-animated-visual-novel-sprites2",
+      "status": "downloaded",
+      "style": "animation",
+      "local_path": "assets/1-free-commercial/adult-18plus/animation/lokianimations-haneko-2"
+    },
+    {
+      "id": "lokianimations-haneko-3",
+      "name": "Haneko - Animated Visual Novel Sprites 3",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用",
+      "source_url": "https://lokiarts.itch.io/haneko-animated-visual-novel-sprites-3",
+      "status": "downloaded",
+      "style": "animation",
+      "local_path": "assets/1-free-commercial/adult-18plus/animation/lokianimations-haneko-3"
+    },
+    {
+      "id": "gurokitty-neko-girl",
+      "name": "Neko Girl Sprite (censored/uncensored)",
+      "asset_type": "adult-18plus",
+      "license_category": "3-license-unclear",
+      "license": "條款待確認（PWYW，頁面未明寫商用）",
+      "source_url": "https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/gurokitty-neko-girl"
+    },
+    {
+      "id": "dlsite-kuusoubangaiichi-blonde-mage-r18-trial",
+      "name": "【立ち絵素材R18】金髪ショートの魔法使い少女 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "體驗版可試用；產品版商用 OK（不可二次配布／AI 學習）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01634272.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-kuusoubangaiichi-blonde-mage-r18-trial"
+    },
+    {
+      "id": "dlsite-rj01637333-trial",
+      "name": "【立ち絵素材】金髪ショートの魔法使い少女 フルセットPSDパック [空想番外地] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01637333.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01637333-trial"
+    },
+    {
+      "id": "dlsite-rj01638524-trial",
+      "name": "【立ち絵素材R18】金髪ポニテ褐色肌の少女剣士 フルセットPSDパック [空想番外地] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01638524.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01638524-trial"
+    },
+    {
+      "id": "dlsite-rj01644297-trial",
+      "name": "【立ち絵素材】金髪ポニテ褐色肌の少女剣士 フルセットPSDパック(表情14種・衣装5種) [空想番外地] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01644297.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01644297-trial"
+    },
+    {
+      "id": "dlsite-rj01677496-trial",
+      "name": "エロ漫画で使える！えっちな描き文字素材集【吹き出し・台詞・擬音(2)】 [にゃんちぇると] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01677496.html",
+      "status": "downloaded",
+      "style": "ui",
+      "local_path": "assets/1-free-commercial/adult-18plus/ui/dlsite-rj01677496-trial"
     }
   ],
   "styles": {

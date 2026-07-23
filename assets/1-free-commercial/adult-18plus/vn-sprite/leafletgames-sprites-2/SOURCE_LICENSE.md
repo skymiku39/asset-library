@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可任意商用／修改（含 NSFW） |
 | 作者 | LeafletGames |
 | 來源網址 | https://leafletgames.itch.io/free-character-sprites-2 |
-| 收錄日期 | 2026-07-14 |
+| 收錄日期 | 2026-07-23 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 多種表情與姿勢；含穿衣與裸露；1920×1080 PNG |
