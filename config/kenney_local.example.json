@@ -1,0 +1,8 @@
+{
+  "comment": "選用：本機 Kenney 素材鏡像路徑。複製為 kenney_local.json 後填入。鍵為 pack_id。",
+  "kenney-ui-pack": "",
+  "kenney-ui-pack-scifi": "",
+  "kenney-fantasy-ui-borders": "",
+  "kenney-shape-characters": "",
+  "kenney-boardgame-pack": ""
+}

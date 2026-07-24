@@ -1,7 +1,11 @@
 [project]
 name = "asset-library"
 version = "0.1.0"
+description = "Game asset library index and download tools (MIT); third-party assets keep their own licenses."
+readme = "README.md"
 requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "skymiku39" }]
 
 [dependency-groups]
 dev = []

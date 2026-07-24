@@ -1,6 +1,27 @@
 # 找素材專案
 
-從各種來源搜尋、下載並整理遊戲／專案所需素材的中央素材庫。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+從各種來源搜尋、下載並整理遊戲／專案所需素材的**中央素材庫索引與工具集**。
+
+> **重要**
+> - 倉庫授權（MIT）只涵蓋工具與索引，**不重新授權**第三方素材本體。詳見 [NOTICE.md](NOTICE.md) 與各套件 `SOURCE_LICENSE.md`。
+> - 素材二進位檔**預設不進 Git**；請用工具下載，或自行依來源網址取得。
+> - 含 **18+／成人向** 素材索引（`adult-18plus`）。未滿 18 歲請勿瀏覽該分類。
+
+## 快速開始
+
+```powershell
+git clone https://github.com/skymiku39/asset-library.git
+cd asset-library
+uv sync
+uv run python -m unittest discover -s tests -v
+uv run python tools/audit_catalog.py
+```
+
+選用：複製 `config/google_drive.example.json` → `config/google_drive.json` 以同步 `assets/` 到 Google 雲端（見下方）。
+
+貢獻方式見 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 目錄結構（雙軸分類）
 
@@ -130,8 +151,13 @@ adult-18plus/
 | 特效總覽（先分風格） | [catalog/vfx.md](catalog/vfx.md) |
 | 18+ 成人向總覽（先分風格） | [catalog/adult-18plus.md](catalog/adult-18plus.md) |
 | 套件登錄表（機器可讀） | [tools/pack_registry.json](tools/pack_registry.json) |
+| 搜尋履歷（18+） | [catalog/discovery-ledger.md](catalog/discovery-ledger.md) |
+| 授權（倉庫） | [LICENSE](LICENSE)（MIT） |
+| 第三方素材聲明 | [NOTICE.md](NOTICE.md) |
 | 目錄重整工具 | `uv run python tools/reorganize_assets.py` |
 | 一致性稽核 | `uv run python tools/audit_catalog.py` |
+| 繼續發現 18+ | `uv run python tools/run_adult_discovery.py` |
+| 驗證搜尋履歷 | `uv run python tools/verify_discovery_ledger.py` |
 | OpenGameArt 下載 | `uv run python tools/oga_download.py <url> <dest_dir>` |
 | itch.io 免費下載 | `uv run python tools/itch_download.py <url> <dest_dir>` |
 | DLsite 體驗版下載 | `uv run python tools/dlsite_download.py <product_url> <dest_dir>` |

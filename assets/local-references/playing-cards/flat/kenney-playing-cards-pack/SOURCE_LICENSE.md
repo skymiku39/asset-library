@@ -14,7 +14,7 @@
 | 收錄日期 | 2026-07-14 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
-| 本機參照路徑 | `d:/skymiku/kenney/assets/2d/playing-cards-pack` |
+| 本機參照路徑 | （請於本機自行設定，見 config/kenney_local.example.json） |
 
 ## 授權摘要
 

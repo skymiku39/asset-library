@@ -323,11 +323,12 @@
       "license": "CC0 1.0 Universal",
       "author": "Kenney",
       "source_url": "https://kenney.nl/assets/playing-cards-pack",
-      "local_path": "d:/skymiku/kenney/assets/2d/playing-cards-pack",
+      "local_path": "",
       "commercial": "允許",
       "attribution": "不需要",
       "status": "local-reference",
-      "style": "flat"
+      "style": "flat",
+      "note": "本機路徑改由使用者自行設定（開源前已清除絕對路徑）"
     },
     {
       "id": "kenney-boardgame-ref",
@@ -338,10 +339,10 @@
       "license": "CC0 1.0 Universal",
       "author": "Kenney",
       "source_url": "https://kenney.nl/assets/boardgame-pack",
-      "local_path": "d:/skymiku/kenney/assets/2d/boardgame-pack",
+      "local_path": "",
       "commercial": "允許",
       "attribution": "不需要",
-      "note": "含撲克牌、骰子、棋盤遊戲素材",
+      "note": "含撲克牌、骰子、棋盤遊戲素材；本機路徑改由使用者自行設定（開源前已清除絕對路徑）",
       "status": "local-reference",
       "style": "boardgame"
     },

@@ -42,13 +42,20 @@ dlsite_dl = importlib.util.module_from_spec(SPEC5)
 SPEC5.loader.exec_module(dlsite_dl)
 
 # Optional local Kenney mirror to avoid re-downloading CC0 packs.
-KENNEY_LOCAL: dict[str, str] = {
-    "kenney-ui-pack": "d:/skymiku/kenney/assets/ui/ui-pack",
-    "kenney-ui-pack-scifi": "d:/skymiku/kenney/assets/ui/ui-pack---sci-fi",
-    "kenney-fantasy-ui-borders": "d:/skymiku/kenney/assets/ui/fantasy-ui-borders",
-    "kenney-shape-characters": "d:/skymiku/kenney/assets/2d/shape-characters",
-    "kenney-boardgame-pack": "d:/skymiku/kenney/assets/2d/boardgame-pack",
-}
+# Copy config/kenney_local.example.json → config/kenney_local.json and fill paths.
+def _load_kenney_local() -> dict[str, str]:
+    cfg = PROJECT_ROOT / "config" / "kenney_local.json"
+    if not cfg.exists():
+        return {}
+    raw = json.loads(cfg.read_text(encoding="utf-8"))
+    return {
+        str(k): str(v)
+        for k, v in raw.items()
+        if k != "comment" and isinstance(v, str) and v.strip()
+    }
+
+
+KENNEY_LOCAL: dict[str, str] = _load_kenney_local()
 
 KENNEY_NL_SLUG: dict[str, str] = {
     "kenney-pixel-ui-pack": "pixel-ui-pack",

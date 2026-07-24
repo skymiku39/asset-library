@@ -6,6 +6,10 @@ __MACOSX/
 .venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Editor / agent
+.cursor/
 
 # Debug / discovery run logs
 debug-*.log
@@ -18,5 +22,6 @@ assets/**
 !assets/**/
 !assets/**/SOURCE_LICENSE.md
 
-# 本機 Google 雲端路徑設定（每人不同）
+# 本機路徑設定（每人不同，勿提交）
 config/google_drive.json
+config/kenney_local.json
