@@ -477,48 +477,12 @@ def seed_known_queries(data: dict) -> None:
         ensure_query(data, q)
 
 
-def _debug_log(message: str, data: dict, hypothesis_id: str = "H1") -> None:
-    # #region agent log
-    payload = {
-        "sessionId": "4e8286",
-        "runId": "ledger-bootstrap",
-        "hypothesisId": hypothesis_id,
-        "location": "discovery_ledger.py:bootstrap",
-        "message": message,
-        "data": data,
-        "timestamp": int(time.time() * 1000),
-    }
-    with open(ROOT / "debug-4e8286.log", "a", encoding="utf-8") as f:
-        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
-    # #endregion
-
-
 def bootstrap() -> dict:
     data = load_ledger()
     seed_known_queries(data)
-    synced = sync_ingested_from_registry(data)
+    sync_ingested_from_registry(data)
     save_ledger(data)
     write_markdown(data)
-    _debug_log(
-        "bootstrap_done",
-        {
-            "sites": len(data.get("sites", [])),
-            "queries": len(data.get("queries", [])),
-            "candidates": len(data.get("candidates", [])),
-            "synced_new": synced,
-            "verdicts": {
-                v: sum(1 for c in data.get("candidates", []) if c.get("verdict") == v)
-                for v in (
-                    "ingested",
-                    "pending",
-                    "rejected-broken",
-                    "rejected-paywall",
-                    "verified-downloadable",
-                )
-            },
-        },
-        "H1",
-    )
     return data
 
 

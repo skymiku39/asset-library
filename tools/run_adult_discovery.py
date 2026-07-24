@@ -26,7 +26,6 @@ from itch_download import download_itch_free  # noqa: E402
 
 REG = ROOT / "tools" / "pack_registry.json"
 RUN_LOG = ROOT / "tools" / "discovery_runs.ndjson"
-DEBUG_LOG = ROOT / "debug-4e8286.log"
 
 LIST_PAGES = [
     (
@@ -52,22 +51,16 @@ LIST_PAGES = [
 ]
 
 
-def log(msg: str, data: dict, hypothesis_id: str = "H2") -> None:
-    # #region agent log
+def log(msg: str, data: dict) -> None:
     payload = {
-        "sessionId": "4e8286",
         "runId": "discovery-continue",
-        "hypothesisId": hypothesis_id,
         "location": "run_adult_discovery.py",
         "message": msg,
         "data": data,
         "timestamp": int(time.time() * 1000),
     }
-    line = json.dumps(payload, ensure_ascii=False) + "\n"
-    for path in (RUN_LOG, DEBUG_LOG):
-        with open(path, "a", encoding="utf-8") as f:
-            f.write(line)
-    # #endregion
+    with open(RUN_LOG, "a", encoding="utf-8") as f:
+        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
 
 
 def fetch(url: str) -> str:
@@ -150,7 +143,7 @@ def continue_dlsite_makers(registry: dict, limit_per_maker: int = 6) -> list[str
             except Exception:
                 break
         maker_added = 0
-        log("maker_scan", {"maker_id": mid, "pids": len(pids)}, "H3")
+        log("maker_scan", {"maker_id": mid, "pids": len(pids)})
         for pid in sorted(pids):
             if pid in known:
                 continue
@@ -158,7 +151,7 @@ def continue_dlsite_makers(registry: dict, limit_per_maker: int = 6) -> list[str
             try:
                 ph = fetch(purl)
             except Exception as e:
-                log("dlsite_fail", {"pid": pid, "error": str(e)}, "H3")
+                log("dlsite_fail", {"pid": pid, "error": str(e)})
                 continue
             if not trial_re.search(ph):
                 continue
@@ -194,7 +187,7 @@ def continue_dlsite_makers(registry: dict, limit_per_maker: int = 6) -> list[str
             known.add(pid)
             added.append(pid)
             maker_added += 1
-            log("dlsite_ok", {"pid": pid, "maker_id": mid}, "H3")
+            log("dlsite_ok", {"pid": pid, "maker_id": mid})
             print("DLSITE", mid, pid)
             if maker_added >= limit_per_maker:
                 break
@@ -390,7 +383,7 @@ def main() -> int:
         "ledger_candidates": len(ledger.get("candidates", [])),
     }
     print("summary", summary)
-    log("summary", summary, "H4")
+    log("summary", summary)
     return 0
 
 

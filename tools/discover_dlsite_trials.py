@@ -2,27 +2,8 @@ from __future__ import annotations
 
 import json
 import re
-import time
 import urllib.parse
 import urllib.request
-
-LOG_PATH = "debug-4e8286.log"
-
-
-def log(hypothesis_id: str, location: str, message: str, data: dict) -> None:
-    # #region agent log
-    payload = {
-        "sessionId": "4e8286",
-        "runId": "dlsite-discovery-2",
-        "hypothesisId": hypothesis_id,
-        "location": location,
-        "message": message,
-        "data": data,
-        "timestamp": int(time.time() * 1000),
-    }
-    with open(LOG_PATH, "a", encoding="utf-8") as f:
-        f.write(json.dumps(payload, ensure_ascii=False) + "\n")
-    # #endregion
 
 
 def fetch(url: str) -> str:
@@ -50,9 +31,9 @@ def discover() -> None:
             html = fetch(url)
             ids = set(id_re.findall(html))
             product_ids.update(ids)
-            log("H1", "discover_dlsite_trials.py:50", "keyword scanned", {"keyword": kw, "ids_found": len(ids)})
+            print(f"keyword ok: {kw} -> {len(ids)}")
         except Exception as e:
-            log("H1", "discover_dlsite_trials.py:52", "keyword scan failed", {"keyword": kw, "error": str(e)})
+            print(f"keyword fail: {kw}: {e}")
 
     maker_ids = [
         "RG29726",  # 森の奥の隠れ里
@@ -80,19 +61,9 @@ def discover() -> None:
             html = fetch(murl)
             ids = set(id_re.findall(html))
             product_ids.update(ids)
-            log(
-                "H4",
-                "discover_dlsite_trials.py:maker",
-                "maker scanned",
-                {"maker_id": maker_id, "ids_found": len(ids)},
-            )
+            print(f"maker ok: {maker_id} -> {len(ids)}")
         except Exception as e:
-            log(
-                "H4",
-                "discover_dlsite_trials.py:maker",
-                "maker scan failed",
-                {"maker_id": maker_id, "error": str(e)},
-            )
+            print(f"maker fail: {maker_id}: {e}")
 
     checked = 0
     trial_hits: list[dict] = []
@@ -103,15 +74,17 @@ def discover() -> None:
             html = fetch(purl)
             m = trial_re.search(html)
             if m:
-                trial_hits.append({"product_id": pid, "product_url": purl, "trial_url": "https:" + m.group(0)})
-                log("H2", "discover_dlsite_trials.py:66", "trial found", {"product_id": pid})
-            else:
-                log("H2", "discover_dlsite_trials.py:68", "no trial", {"product_id": pid})
+                trial_hits.append(
+                    {
+                        "product_id": pid,
+                        "product_url": purl,
+                        "trial_url": "https:" + m.group(0),
+                    }
+                )
         except Exception as e:
-            log("H2", "discover_dlsite_trials.py:70", "product fetch failed", {"product_id": pid, "error": str(e)})
+            print(f"product fail: {pid}: {e}")
 
     print(json.dumps({"checked": checked, "trial_hits": trial_hits}, ensure_ascii=False, indent=2))
-    log("H3", "discover_dlsite_trials.py:74", "discovery finished", {"checked": checked, "trial_hits": len(trial_hits)})
 
 
 if __name__ == "__main__":
