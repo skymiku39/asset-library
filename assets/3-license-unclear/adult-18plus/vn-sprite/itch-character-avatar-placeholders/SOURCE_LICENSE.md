@@ -14,7 +14,7 @@
 | 收錄日期 | 2026-07-24 |
 | 商用 | 待確認 |
 | 署名 | 依來源頁 |
-| 備註 | auto-discovered via q-itch-free-nsfw-sprites |
+| 備註 | auto-discovered via q-itch-free-nsfw-sprites；2026-07-24 覆核仍 unclear：placeholder 用途說明，無商用條款 |
 
 ## 授權摘要
 

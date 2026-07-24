@@ -111,12 +111,12 @@
       "id": "gandalfhardcore-pixel-characters",
       "name": "GandalfHardcore 2D Pixel Art Characters (Sidescroller)",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "Name Your Own Price（$0）；條款未明示 CC0",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用與非商用（禁止轉售／AI 訓練／NFT）",
       "source_url": "https://gandalfhardcore.itch.io/2d-pixel-art-male-and-female-character",
       "status": "downloaded",
       "style": "pixel-art",
-      "local_path": "assets/3-license-unclear/adult-18plus/pixel-art/gandalfhardcore-pixel-characters"
+      "local_path": "assets/1-free-commercial/adult-18plus/pixel-art/gandalfhardcore-pixel-characters"
     },
     {
       "id": "niborset66-pixel-nude",
@@ -651,12 +651,12 @@
       "id": "purapiedra-nightclub-girls-free",
       "name": "Free Nightclub Girls. Game Assets",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "僅標示免費，商用條款未明寫",
+      "license_category": "1-free-commercial",
+      "license": "作者標 completely free of charge（AI Assisted）",
       "source_url": "https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png",
       "status": "downloaded",
       "style": "pixel-art",
-      "local_path": "assets/3-license-unclear/adult-18plus/pixel-art/purapiedra-nightclub-girls-free"
+      "local_path": "assets/1-free-commercial/adult-18plus/pixel-art/purapiedra-nightclub-girls-free"
     },
     {
       "id": "lokianimations-haneko-2",
@@ -911,12 +911,12 @@
       "id": "jaywaugh7-jade-nsfw-vn",
       "name": "NSFW - Visual Novel Sprite (Jade)",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認",
+      "license_category": "1-free-commercial",
+      "license": "作者寫 Use however you like（全裸圖需 $1+）",
       "source_url": "https://jaywaugh7.itch.io/nsfw-visual-novel-sprite-jade",
       "status": "downloaded",
       "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/jaywaugh7-jade-nsfw-vn"
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/jaywaugh7-jade-nsfw-vn"
     },
     {
       "id": "rilesu-nsfw-green-girl",
@@ -932,12 +932,12 @@
       "id": "mindshifter-basic-sprites-nsfw",
       "name": "Basic Looseleaf Sprites Package (NSFW)",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用與非商用（PWYW）",
       "source_url": "https://mindshifter.itch.io/basic-sprites-packagensfw",
       "status": "downloaded",
       "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/mindshifter-basic-sprites-nsfw"
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/mindshifter-basic-sprites-nsfw"
     },
     {
       "id": "recaff-rondo-mercenary",
@@ -1239,23 +1239,23 @@
       "id": "whiteknight-dancer-3-demo",
       "name": "FREE FPS/SIDE SCROLL SPRITES 2D \"DANCER 3\" DEMO",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "DEMO 條款待確認",
+      "license_category": "1-free-commercial",
+      "license": "CC BY-ND 4.0（商用可；禁止改作；需署名）",
       "source_url": "https://whiteknightstudios.itch.io/2d-fpsside-scroll-sprites-dancer-3",
       "status": "downloaded",
       "style": "animation",
-      "local_path": "assets/3-license-unclear/adult-18plus/animation/whiteknight-dancer-3-demo"
+      "local_path": "assets/1-free-commercial/adult-18plus/animation/whiteknight-dancer-3-demo"
     },
     {
       "id": "spritebase-spacediva",
       "name": "SpaceDiva",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認",
+      "license_category": "1-free-commercial",
+      "license": "作者標示可用於 Games／Books／VN／插畫（PWYW）",
       "source_url": "https://spritebase.itch.io/graphicset-spacediva",
       "status": "downloaded",
       "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/spritebase-spacediva"
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/spritebase-spacediva"
     },
     {
       "id": "jitsukoan-therealfusion-character-base",
@@ -1657,12 +1657,12 @@
       "id": "itch-ada-rendering-for-visual-novel",
       "name": "Ada Rendering For Visual Novel",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認（本輪自動發現）",
+      "license_category": "1-free-commercial",
+      "license": "作者提供給 visual novel games 使用（條款簡略）",
       "source_url": "https://hypnotrain.itch.io/ada-rendering-for-visual-novel",
       "status": "downloaded",
       "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/itch-ada-rendering-for-visual-novel"
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/itch-ada-rendering-for-visual-novel"
     },
     {
       "id": "dlsite-rj01128566-trial",

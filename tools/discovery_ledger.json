@@ -539,10 +539,16 @@
       "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "Name Your Own Price（$0）；條款未明示 CC0",
+      "license_hint": "作者明示可商用與非商用（禁止轉售／AI 訓練／NFT）",
       "verdict": "ingested",
       "pack_id": "gandalfhardcore-pixel-characters",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
+      }
     },
     {
       "id": "cand-niborset66-itch-io-pixel-nude",
@@ -709,9 +715,15 @@
       "found_at": "2026-07-24",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（作者明示可商用）",
-      "verdict": "pending",
+      "verdict": "rejected-paywall",
       "pack_id": "dlsite-fatchu-standing-total-1",
-      "verified_at": null
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "catalog-only paid product; not free download"
+      }
     },
     {
       "id": "cand-www-dlsite-com-maniax-work-product-id-rj01516580-html",
@@ -722,9 +734,15 @@
       "found_at": "2026-07-24",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（作者明示可商用）",
-      "verdict": "pending",
+      "verdict": "rejected-paywall",
       "pack_id": "dlsite-fatchu-standing-total-2",
-      "verified_at": null
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "catalog-only paid product; not free download"
+      }
     },
     {
       "id": "cand-www-dlsite-com-maniax-work-product-id-rj01572623-html",
@@ -735,9 +753,15 @@
       "found_at": "2026-07-24",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（作者明示商用・成人向けOK）",
-      "verdict": "pending",
+      "verdict": "rejected-paywall",
       "pack_id": "dlsite-fatchu-onomatopoeia-trial",
-      "verified_at": null
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "catalog-only paid product; not free download"
+      }
     },
     {
       "id": "cand-www-dlsite-com-maniax-work-product-id-rj01385427-html",
@@ -748,9 +772,15 @@
       "found_at": "2026-07-24",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（商業利用可）",
-      "verdict": "pending",
+      "verdict": "rejected-paywall",
       "pack_id": "dlsite-familia-voice-oneesan",
-      "verified_at": null
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "catalog-only paid product; not free download"
+      }
     },
     {
       "id": "cand-www-dlsite-com-maniax-work-product-id-rj01585745-html",
@@ -761,9 +791,15 @@
       "found_at": "2026-07-24",
       "downloadable": false,
       "license_hint": "DLsite 購買授權",
-      "verdict": "pending",
+      "verdict": "rejected-paywall",
       "pack_id": "dlsite-nyancheru-speech-bubble",
-      "verified_at": null
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "catalog-only paid product; not free download"
+      }
     },
     {
       "id": "cand-www-dlsite-com-maniax-work-product-id-rj01006109-html",
@@ -1150,10 +1186,16 @@
       "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "僅標示免費，商用條款未明寫",
+      "license_hint": "作者標 completely free of charge（AI Assisted）",
       "verdict": "ingested",
       "pack_id": "purapiedra-nightclub-girls-free",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
+      }
     },
     {
       "id": "cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites2",
@@ -1462,10 +1504,16 @@
       "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "條款待確認",
+      "license_hint": "作者寫 Use however you like（全裸圖需 $1+）",
       "verdict": "ingested",
       "pack_id": "jaywaugh7-jade-nsfw-vn",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
+      }
     },
     {
       "id": "cand-rilesu-itch-io-nsfw-green-girl-sprite",
@@ -1488,10 +1536,16 @@
       "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "條款待確認",
+      "license_hint": "作者明示可商用與非商用（PWYW）",
       "verdict": "ingested",
       "pack_id": "mindshifter-basic-sprites-nsfw",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
+      }
     },
     {
       "id": "cand-re-caff-itch-io-rondo-fantasy-mercenary",
@@ -1852,10 +1906,16 @@
       "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "DEMO 條款待確認",
+      "license_hint": "CC BY-ND 4.0（商用可；禁止改作；需署名）",
       "verdict": "ingested",
       "pack_id": "whiteknight-dancer-3-demo",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
+      }
     },
     {
       "id": "cand-spritebase-itch-io-graphicset-spacediva",
@@ -1865,10 +1925,16 @@
       "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "條款待確認",
+      "license_hint": "作者標示可用於 Games／Books／VN／插畫（PWYW）",
       "verdict": "ingested",
       "pack_id": "spritebase-spacediva",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
+      }
     },
     {
       "id": "cand-jitsukoan-itch-io-therealfusion-character-base",
@@ -2726,21 +2792,20 @@
     {
       "id": "cand-hypnotrain-itch-io-ada-rendering-for-visual-novel",
       "url": "https://hypnotrain.itch.io/ada-rendering-for-visual-novel",
-      "title": "ada-rendering-for-visual-novel",
+      "title": "Ada Rendering For Visual Novel",
       "site_id": "itch-io",
-      "query_ids": [
-        "q-itch-free-nsfw"
-      ],
+      "query_ids": [],
       "found_at": "2026-07-24",
       "downloadable": true,
-      "license_hint": "條款待確認（本輪自動發現）",
+      "license_hint": "作者提供給 visual novel games 使用（條款簡略）",
       "verdict": "ingested",
       "pack_id": "itch-ada-rendering-for-visual-novel",
       "verified_at": "2026-07-24",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24"
+        "last_verify_at": "2026-07-24",
+        "license_review": "upgraded-to-1-free-commercial"
       }
     },
     {

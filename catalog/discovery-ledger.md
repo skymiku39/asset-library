@@ -54,7 +54,7 @@
 | `cand-leafletgames-itch-io-free-character-sprites-3` | LeafletGames Free Sprites 3 [nudity] | https://leafletgames.itch.io/free-character-sprites-3 | 已收錄到素材庫 | `leafletgames-sprites-3` | — |
 | `cand-leafletgames-itch-io-free-sprites-4-nudity` | LeafletGames Free Sprites 4 [nudity] | https://leafletgames.itch.io/free-sprites-4-nudity | 已收錄到素材庫 | `leafletgames-sprites-4` | — |
 | `cand-residentrabbit-itch-io-femfemale-visual-novel-sprite-set-2` | Fem/Female Visual Novel Sprite Set 2 | https://residentrabbit.itch.io/femfemale-visual-novel-sprite-set-2 | 已收錄到素材庫 | `eros-fem-vn-sprite-set-2` | — |
-| `cand-gandalfhardcore-itch-io-2d-pixel-art-male-and-female-character` | GandalfHardcore 2D Pixel Art Characters  | https://gandalfhardcore.itch.io/2d-pixel-art-male-and-female-character | 已收錄到素材庫 | `gandalfhardcore-pixel-characters` | — |
+| `cand-gandalfhardcore-itch-io-2d-pixel-art-male-and-female-character` | GandalfHardcore 2D Pixel Art Characters  | https://gandalfhardcore.itch.io/2d-pixel-art-male-and-female-character | 已收錄到素材庫 | `gandalfhardcore-pixel-characters` | http_ok, downloadable, 2026-07-24 |
 | `cand-niborset66-itch-io-pixel-nude` | Niborset66 Pixel Nude Character | https://niborset66.itch.io/pixel-nude | 已收錄到素材庫 | `niborset66-pixel-nude` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01279308-html` | 立ち絵素材集-現代ヒロインR18版-（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html | 已收錄到素材庫 | `dlsite-morinooku-modern-heroine-r18` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj436699-html` | 立ち絵素材集-ファンタジーヒーローR18版-（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html | 已收錄到素材庫 | `dlsite-morinooku-fantasy-hero-r18` | — |
@@ -67,11 +67,11 @@
 | `cand-www-dlsite-com-maniax-work-product-id-rj245095-html` | 2D characters pack JRPG HEROINES R（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ245095.html | 已收錄到素材庫 | `dlsite-morinooku-heroines-r-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj245098-html` | 2D characters pack JRPG HEROINES A（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ245098.html | 已收錄到素材庫 | `dlsite-morinooku-heroines-a-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01631094-html` | えっちな描き文字素材集（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ01631094.html | 已收錄到素材庫 | `dlsite-nyancheruto-draw-text-trial` | — |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01464606-html` | 全クリエイターの皆様のための立ち絵素材〜総集編1〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html | 待確認 | `dlsite-fatchu-standing-total-1` | — |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01516580-html` | 全クリエイターの皆様のための立ち絵素材〜総集編2〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html | 待確認 | `dlsite-fatchu-standing-total-2` | — |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01572623-html` | 擬音素材集 お試し版（成人向けOK） | https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html | 待確認 | `dlsite-fatchu-onomatopoeia-trial` | — |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01385427-html` | R18ゲーム用ボイス素材【おっとり敬語お姉さん】 | https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html | 待確認 | `dlsite-familia-voice-oneesan` | — |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01585745-html` | エロ漫画で使える！えっちな吹き出し素材集 | https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html | 待確認 | `dlsite-nyancheru-speech-bubble` | — |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01464606-html` | 全クリエイターの皆様のための立ち絵素材〜総集編1〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html | 需付費／登入牆 | `dlsite-fatchu-standing-total-1` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01516580-html` | 全クリエイターの皆様のための立ち絵素材〜総集編2〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html | 需付費／登入牆 | `dlsite-fatchu-standing-total-2` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01572623-html` | 擬音素材集 お試し版（成人向けOK） | https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html | 需付費／登入牆 | `dlsite-fatchu-onomatopoeia-trial` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01385427-html` | R18ゲーム用ボイス素材【おっとり敬語お姉さん】 | https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html | 需付費／登入牆 | `dlsite-familia-voice-oneesan` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01585745-html` | エロ漫画で使える！えっちな吹き出し素材集 | https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html | 需付費／登入牆 | `dlsite-nyancheru-speech-bubble` | fail: catalog-only paid product; not free download |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01006109-html` | 格安!商用利用も可能なR18音声素材第8弾:龍涎 にこみ Full ver（体験 | https://www.dlsite.com/maniax/work/=/product_id/RJ01006109.html | 已收錄到素材庫 | `dlsite-格安-商用利用も可能なr18音声素材第8弾-龍涎-にこみ-full-ver-rj01006109-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01037100-html` | 格安!商用利用も可能なR18音声素材第9弾: 北上 つばさ Full ver（体 | https://www.dlsite.com/maniax/work/=/product_id/RJ01037100.html | 已收錄到素材庫 | `dlsite-格安-商用利用も可能なr18音声素材第9弾-北上-つばさ-full-ver-rj01037100-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01078386-html` | 格安!商用利用も可能なR18音声素材第10弾: 片桐秋 Full ver（体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01078386.html | 已收錄到素材庫 | `dlsite-格安-商用利用も可能なr18音声素材第10弾-片桐秋-full-ver-rj01078386-trial` | — |
@@ -101,7 +101,7 @@
 | `cand-spicylyon-itch-io-exhibitionist-girl-pack` | Exhibitionist Girl Pack | https://spicylyon.itch.io/exhibitionist-girl-pack | 已收錄到素材庫 | `spicylyon-exhibitionist-girl` | — |
 | `cand-c10udpng-itch-io-goth-nsfw-female-character` | Goth NSFW Female character | https://c10udpng.itch.io/goth-nsfw-female-character | 連結失效或無法下載 | `c10udpng-goth-nsfw` | — |
 | `cand-lokianimations-itch-io-haneko` | Haneko - Animated Visual Novel Sprites | https://lokianimations.itch.io/haneko | 已收錄到素材庫 | `lokianimations-haneko` | — |
-| `cand-purapiedra-itch-io-nsfw-nude-girl-sprite-assets-gif-png` | Free Nightclub Girls. Game Assets | https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png | 已收錄到素材庫 | `purapiedra-nightclub-girls-free` | — |
+| `cand-purapiedra-itch-io-nsfw-nude-girl-sprite-assets-gif-png` | Free Nightclub Girls. Game Assets | https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png | 已收錄到素材庫 | `purapiedra-nightclub-girls-free` | http_ok, downloadable, 2026-07-24 |
 | `cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites2` | Haneko - Animated Visual Novel Sprites 2 | https://lokiarts.itch.io/haneko-animated-visual-novel-sprites2 | 已收錄到素材庫 | `lokianimations-haneko-2` | — |
 | `cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites-3` | Haneko - Animated Visual Novel Sprites 3 | https://lokiarts.itch.io/haneko-animated-visual-novel-sprites-3 | 已收錄到素材庫 | `lokianimations-haneko-3` | — |
 | `cand-gurokitty-itch-io-neko-girl-sprite-censoreduncensored` | Neko Girl Sprite (censored/uncensored) | https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored | 已收錄到素材庫 | `gurokitty-neko-girl` | — |
@@ -125,9 +125,9 @@
 | `cand-zaphassets-itch-io-sam-the-tomboy` | Sam the Tomboy Character | https://zaphassets.itch.io/sam-the-tomboy | 已收錄到素材庫 | `zaphassets-sam-tomboy` | — |
 | `cand-quarkyifu-itch-io-jill-visual-novel-sprite-248-images` | Jill Visual Novel Sprite (Free 38 images | https://quarkyifu.itch.io/jill-visual-novel-sprite-248-images | 已收錄到素材庫 | `quarkyifu-jill-vn-free` | — |
 | `cand-quarkyifu-itch-io-sherry-visual-novel-sprite-with-transparency-and-photoshop-psd` | Sherry Visual Novel Character Sprite | https://quarkyifu.itch.io/sherry-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-n | 已收錄到素材庫 | `quarkyifu-sherry-vn` | — |
-| `cand-jaywaugh7-itch-io-nsfw-visual-novel-sprite-jade` | NSFW - Visual Novel Sprite (Jade) | https://jaywaugh7.itch.io/nsfw-visual-novel-sprite-jade | 已收錄到素材庫 | `jaywaugh7-jade-nsfw-vn` | — |
+| `cand-jaywaugh7-itch-io-nsfw-visual-novel-sprite-jade` | NSFW - Visual Novel Sprite (Jade) | https://jaywaugh7.itch.io/nsfw-visual-novel-sprite-jade | 已收錄到素材庫 | `jaywaugh7-jade-nsfw-vn` | http_ok, downloadable, 2026-07-24 |
 | `cand-rilesu-itch-io-nsfw-green-girl-sprite` | (NSFW) Green girl sprite | https://rilesu.itch.io/nsfw-green-girl-sprite | 連結失效或無法下載 | `rilesu-nsfw-green-girl` | — |
-| `cand-mindshifter-itch-io-basic-sprites-packagensfw` | Basic Looseleaf Sprites Package (NSFW) | https://mindshifter.itch.io/basic-sprites-packagensfw | 已收錄到素材庫 | `mindshifter-basic-sprites-nsfw` | — |
+| `cand-mindshifter-itch-io-basic-sprites-packagensfw` | Basic Looseleaf Sprites Package (NSFW) | https://mindshifter.itch.io/basic-sprites-packagensfw | 已收錄到素材庫 | `mindshifter-basic-sprites-nsfw` | http_ok, downloadable, 2026-07-24 |
 | `cand-re-caff-itch-io-rondo-fantasy-mercenary` | Rondo - the Mercenary | https://re-caff.itch.io/rondo-fantasy-mercenary | 已收錄到素材庫 | `recaff-rondo-mercenary` | — |
 | `cand-hou-uoh-itch-io-nsfw-blue-haired-nursity-archive` | NSFW blue haired Nursity archive - Free | https://hou-uoh.itch.io/nsfw-blue-haired-nursity-archive | 連結失效或無法下載 | `hou-uoh-nursity-archive` | — |
 | `cand-lokianimations-itch-io-kunoichi-project-hinata-3` | Kunoichi Project •Hinata #3 | https://lokianimations.itch.io/kunoichi-project-hinata-3 | 已收錄到素材庫 | `lokianimations-hinata-3` | — |
@@ -155,8 +155,8 @@
 | `cand-quarkyifu-itch-io-ruby4` | Ruby4 Visual Novel Sprite | https://quarkyifu.itch.io/ruby4 | 已收錄到素材庫 | `quarkyifu-ruby4` | — |
 | `cand-quarkyifu-itch-io-officegirlblonde1` | OfficeGirlBlonde1 | https://quarkyifu.itch.io/officegirlblonde1 | 已收錄到素材庫 | `quarkyifu-officegirlblonde1` | — |
 | `cand-quarkyifu-itch-io-officegirlblonde3` | OfficeGirlBlonde3 | https://quarkyifu.itch.io/officegirlblonde3 | 已收錄到素材庫 | `quarkyifu-officegirlblonde3` | — |
-| `cand-whiteknightstudios-itch-io-2d-fpsside-scroll-sprites-dancer-3` | FREE FPS/SIDE SCROLL SPRITES 2D "DANCER  | https://whiteknightstudios.itch.io/2d-fpsside-scroll-sprites-dancer-3 | 已收錄到素材庫 | `whiteknight-dancer-3-demo` | — |
-| `cand-spritebase-itch-io-graphicset-spacediva` | SpaceDiva | https://spritebase.itch.io/graphicset-spacediva | 已收錄到素材庫 | `spritebase-spacediva` | — |
+| `cand-whiteknightstudios-itch-io-2d-fpsside-scroll-sprites-dancer-3` | FREE FPS/SIDE SCROLL SPRITES 2D "DANCER  | https://whiteknightstudios.itch.io/2d-fpsside-scroll-sprites-dancer-3 | 已收錄到素材庫 | `whiteknight-dancer-3-demo` | http_ok, downloadable, 2026-07-24 |
+| `cand-spritebase-itch-io-graphicset-spacediva` | SpaceDiva | https://spritebase.itch.io/graphicset-spacediva | 已收錄到素材庫 | `spritebase-spacediva` | http_ok, downloadable, 2026-07-24 |
 | `cand-jitsukoan-itch-io-therealfusion-character-base` | TheRealFusion Character Base | https://jitsukoan.itch.io/therealfusion-character-base | 已收錄到素材庫 | `jitsukoan-therealfusion-character-base` | — |
 | `cand-vnparadise-itch-io-harvey-the-survivor` | Harvey the Survivor! VN Character | https://vnparadise.itch.io/harvey-the-survivor | 已收錄到素材庫 | `vnparadise-harvey-survivor` | — |
 | `cand-vnparadise-itch-io-tanaka-the-schoolboy` | Tanaka The Schoolboy! VN Character Asset | https://vnparadise.itch.io/tanaka-the-schoolboy | 已收錄到素材庫 | `vnparadise-tanaka-schoolboy` | — |
@@ -211,7 +211,7 @@
 | `cand-bunnightfury-itch-io-rayne-champion-of-venus-vrc-avatar` | Rayne Champion Of Venus Vrc Avatar | https://bunnightfury.itch.io/rayne-champion-of-venus-vrc-avatar | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
 | `cand-boisterousfox-itch-io-ankha-model-nsfw` | Ankha Model Nsfw | https://boisterousfox.itch.io/ankha-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
 | `cand-camseven-itch-io-mowtoof` | Mowtoof | https://camseven.itch.io/mowtoof | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-hypnotrain-itch-io-ada-rendering-for-visual-novel` | ada-rendering-for-visual-novel | https://hypnotrain.itch.io/ada-rendering-for-visual-novel | 已收錄到素材庫 | `itch-ada-rendering-for-visual-novel` | http_ok, downloadable, 2026-07-24 |
+| `cand-hypnotrain-itch-io-ada-rendering-for-visual-novel` | Ada Rendering For Visual Novel | https://hypnotrain.itch.io/ada-rendering-for-visual-novel | 已收錄到素材庫 | `itch-ada-rendering-for-visual-novel` | http_ok, downloadable, 2026-07-24 |
 | `cand-ravenholm-car-itch-io-mishuzoologistavatar` | Mishuzoologistavatar | https://ravenholm-car.itch.io/mishuzoologistavatar | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
 | `cand-boisterousfox-itch-io-pinkie-pie-model-nsfw` | Pinkie Pie Model Nsfw | https://boisterousfox.itch.io/pinkie-pie-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
 | `cand-kadstd-itch-io-flashmepack` | Flashmepack | https://kadstd.itch.io/flashmepack | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
