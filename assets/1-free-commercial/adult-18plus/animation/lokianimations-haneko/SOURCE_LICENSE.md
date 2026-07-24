@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用 |
 | 作者 | lokiロキ (lokianimations) |
 | 來源網址 | https://lokianimations.itch.io/haneko |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 建議／未強制 |
 | 備註 | 14 種動畫表情 sprite sheet（衣著版）；PWYW |

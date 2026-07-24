@@ -11,7 +11,7 @@
 | 授權條款 | DLsite 體驗版（RAIKO；產品版條款請核對） |
 | 作者 | 立ち絵素材RAIKO |
 | 來源網址 | https://www.dlsite.com/maniax/work/=/product_id/RJ01046879.html |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 體驗版可評估；產品版多為商用可 |
 | 署名 | 依作品頁 |
 | 備註 | work_type=IMT; maker=RG66647 |

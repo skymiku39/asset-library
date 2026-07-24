@@ -1,6 +1,6 @@
 {
   "category": "adult-18plus",
-  "updated": "2026-07-23",
+  "updated": "2026-07-24",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -546,9 +546,8 @@
       "license_category": "3-license-unclear",
       "license": "條款待確認",
       "source_url": "https://fahrenheitstudio.itch.io/amanda",
-      "status": "pending-manual-download",
-      "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/fahrenheit-amanda-p1"
+      "status": "catalog-only",
+      "style": "vn-sprite"
     },
     {
       "id": "cool-devil-agatha",
@@ -634,9 +633,8 @@
       "license_category": "1-free-commercial",
       "license": "作者明示可任意使用（無需署名）",
       "source_url": "https://c10udpng.itch.io/goth-nsfw-female-character",
-      "status": "pending-manual-download",
-      "style": "vn-sprite",
-      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/c10udpng-goth-nsfw"
+      "status": "catalog-only",
+      "style": "vn-sprite"
     },
     {
       "id": "lokianimations-haneko",
@@ -927,9 +925,8 @@
       "license_category": "3-license-unclear",
       "license": "條款待確認",
       "source_url": "https://rilesu.itch.io/nsfw-green-girl-sprite",
-      "status": "pending-manual-download",
-      "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/rilesu-nsfw-green-girl"
+      "status": "catalog-only",
+      "style": "vn-sprite"
     },
     {
       "id": "mindshifter-basic-sprites-nsfw",
@@ -960,9 +957,8 @@
       "license_category": "3-license-unclear",
       "license": "條款待確認",
       "source_url": "https://hou-uoh.itch.io/nsfw-blue-haired-nursity-archive",
-      "status": "pending-manual-download",
-      "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/hou-uoh-nursity-archive"
+      "status": "catalog-only",
+      "style": "vn-sprite"
     },
     {
       "id": "lokianimations-hinata-3",
@@ -1172,6 +1168,347 @@
       "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01069086-trial"
+    },
+    {
+      "id": "kuminer-character-sprites-nsfw",
+      "name": "Character Sprites -- Free -- NSFW",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用／非商用免費",
+      "source_url": "https://kuminer.itch.io/unstable-harem",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/kuminer-character-sprites-nsfw"
+    },
+    {
+      "id": "quarkyifu-ruby1",
+      "name": "Ruby1 Visual Novel Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示免權利金（以頁面為準）",
+      "source_url": "https://quarkyifu.itch.io/ruby1",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-ruby1"
+    },
+    {
+      "id": "quarkyifu-ruby3",
+      "name": "Ruby3 Visual Novel Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示免權利金（以頁面為準）",
+      "source_url": "https://quarkyifu.itch.io/ruby3",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-ruby3"
+    },
+    {
+      "id": "quarkyifu-ruby4",
+      "name": "Ruby4 Visual Novel Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示免權利金（以頁面為準）",
+      "source_url": "https://quarkyifu.itch.io/ruby4",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-ruby4"
+    },
+    {
+      "id": "quarkyifu-officegirlblonde1",
+      "name": "OfficeGirlBlonde1",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示免權利金（以頁面為準）",
+      "source_url": "https://quarkyifu.itch.io/officegirlblonde1",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-officegirlblonde1"
+    },
+    {
+      "id": "quarkyifu-officegirlblonde3",
+      "name": "OfficeGirlBlonde3",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示免權利金（以頁面為準）",
+      "source_url": "https://quarkyifu.itch.io/officegirlblonde3",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-officegirlblonde3"
+    },
+    {
+      "id": "whiteknight-dancer-3-demo",
+      "name": "FREE FPS/SIDE SCROLL SPRITES 2D \"DANCER 3\" DEMO",
+      "asset_type": "adult-18plus",
+      "license_category": "3-license-unclear",
+      "license": "DEMO 條款待確認",
+      "source_url": "https://whiteknightstudios.itch.io/2d-fpsside-scroll-sprites-dancer-3",
+      "status": "downloaded",
+      "style": "animation",
+      "local_path": "assets/3-license-unclear/adult-18plus/animation/whiteknight-dancer-3-demo"
+    },
+    {
+      "id": "spritebase-spacediva",
+      "name": "SpaceDiva",
+      "asset_type": "adult-18plus",
+      "license_category": "3-license-unclear",
+      "license": "條款待確認",
+      "source_url": "https://spritebase.itch.io/graphicset-spacediva",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/spritebase-spacediva"
+    },
+    {
+      "id": "jitsukoan-therealfusion-character-base",
+      "name": "TheRealFusion Character Base",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可編輯／商用（以頁面為準）",
+      "source_url": "https://jitsukoan.itch.io/therealfusion-character-base",
+      "status": "downloaded",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/adult-18plus/pixel-art/jitsukoan-therealfusion-character-base"
+    },
+    {
+      "id": "vnparadise-harvey-survivor",
+      "name": "Harvey the Survivor! VN Character",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/harvey-the-survivor",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-harvey-survivor"
+    },
+    {
+      "id": "vnparadise-tanaka-schoolboy",
+      "name": "Tanaka The Schoolboy! VN Character Asset",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/tanaka-the-schoolboy",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-tanaka-schoolboy"
+    },
+    {
+      "id": "vnparadise-derek-pe-teacher",
+      "name": "Derek The P.E. Teacher! VN Character",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/derek-the-pe-teacher-vn-character",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-derek-pe-teacher"
+    },
+    {
+      "id": "vnparadise-yusuke-schoolboy",
+      "name": "Yusuke The School Boy! VN Character",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/yusuke-the-school-boy-vn-character",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-yusuke-schoolboy"
+    },
+    {
+      "id": "vnparadise-himiko-schoolgirl",
+      "name": "Himiko The Schoolgirl",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/himiko-the-schoolgirl",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-himiko-schoolgirl"
+    },
+    {
+      "id": "vnparadise-sayaka-schoolgirl",
+      "name": "Sayaka the School Girl",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/sayaka-the-school-girl",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-sayaka-schoolgirl"
+    },
+    {
+      "id": "vnparadise-tomoko-schoolgirl",
+      "name": "Tomoko The Scoolgirl!",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "source_url": "https://vnparadise.itch.io/tomoko-the-scoolgirl",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/vnparadise-tomoko-schoolgirl"
+    },
+    {
+      "id": "dlsite-rj01071158-trial",
+      "name": "立ち絵素材_チャイナ服風の少女(緑) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01071158.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01071158-trial"
+    },
+    {
+      "id": "dlsite-rj01073117-trial",
+      "name": "立ち絵素材_チャイナ服風の青年(青) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01073117.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01073117-trial"
+    },
+    {
+      "id": "dlsite-rj01075704-trial",
+      "name": "立ち絵素材_師範師匠風の老人 [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01075704.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01075704-trial"
+    },
+    {
+      "id": "dlsite-rj01077097-trial",
+      "name": "立ち絵素材_不憫そうな眼鏡の女子学生 [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01077097.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01077097-trial"
+    },
+    {
+      "id": "dlsite-rj01079144-trial",
+      "name": "立ち絵素材_ギャル風な女子高生(褐色) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01079144.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01079144-trial"
+    },
+    {
+      "id": "dlsite-rj01081278-trial",
+      "name": "立ち絵素材_ブレザーの女子高生(黒髪ショート) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01081278.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01081278-trial"
+    },
+    {
+      "id": "dlsite-rj01083873-trial",
+      "name": "立ち絵素材_浴衣の青年(紫) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083873.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01083873-trial"
+    },
+    {
+      "id": "dlsite-rj01085943-trial",
+      "name": "立ち絵素材_お祭り法被の青年 [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01085943.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01085943-trial"
+    },
+    {
+      "id": "dlsite-rj01087353-trial",
+      "name": "立ち絵素材_和装の少年(白髪) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01087353.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01087353-trial"
+    },
+    {
+      "id": "dlsite-rj01089441-trial",
+      "name": "立ち絵素材_ドレスワンピの少女(ピンク) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01089441.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01089441-trial"
+    },
+    {
+      "id": "dlsite-rj01090584-trial",
+      "name": "立ち絵素材_ドレスの女性(紫) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01090584.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01090584-trial"
+    },
+    {
+      "id": "dlsite-rj01093976-trial",
+      "name": "立ち絵素材_ドレスの女性(黄色) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01093976.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01093976-trial"
+    },
+    {
+      "id": "dlsite-rj01095075-trial",
+      "name": "立ち絵素材_使用人の女性(老女) [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01095075.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01095075-trial"
+    },
+    {
+      "id": "dlsite-rj01098342-trial",
+      "name": "立ち絵素材_使用人風の男性 [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01098342.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01098342-trial"
+    },
+    {
+      "id": "dlsite-rj01100575-trial",
+      "name": "立ち絵素材_武器を持つメイドの少女 [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01100575.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01100575-trial"
     }
   ],
   "styles": {

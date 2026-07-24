@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用（以頁面為準） |
 | 作者 | lokiロキ (lokianimations) |
 | 來源網址 | https://lokianimations.itch.io/kunoichi-project-hinata-3 |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 建議 |
 | 備註 | Kunoichi Hinata 動畫素材 #3 |

@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示免權利金（以頁面為準） |
 | 作者 | Quark_Yifu |
 | 來源網址 | https://quarkyifu.itch.io/sherry-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-n |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 待確認／建議 |
 | 備註 | Sherry VN 立繪 PNG／PSD |

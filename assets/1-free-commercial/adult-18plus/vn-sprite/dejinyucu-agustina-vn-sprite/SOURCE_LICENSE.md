@@ -11,7 +11,7 @@
 | 授權條款 | MIT |
 | 作者 | DejiNyucu |
 | 來源網址 | https://dejinyucu.itch.io/agustina-visual-novel-sprite |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 不需要（不可宣稱自作） |
 | 備註 | PSD only；含內衣 base、2 套服裝、比基尼、眼鏡與表情組合 |

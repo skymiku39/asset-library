@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用 |
 | 作者 | lokiロキ (lokianimations) |
 | 來源網址 | https://lokiarts.itch.io/haneko-animated-visual-novel-sprites2 |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 建議／未強制 |
 | 備註 | Haneko 動畫立繪第二彈；PWYW |

@@ -11,7 +11,7 @@
 | 授權條款 | 僅標示免費，商用條款未明寫 |
 | 作者 | PuraPiedr4 |
 | 來源網址 | https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 待確認 |
 | 署名 | 待確認 |
 | 備註 | 4 名夜店女性像素／貼圖；AI Assisted；使用前請確認授權 |

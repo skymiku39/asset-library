@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用（需署名 ReCaff） |
 | 作者 | Re_Caff |
 | 來源網址 | https://re-caff.itch.io/nora-the-windtalker |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 需署名 ReCaff（含 itch 連結） |
 | 備註 | 5 套服裝含裸體／topless；含戰鬥姿勢與 CG；禁止 AI 訓練與轉售 |

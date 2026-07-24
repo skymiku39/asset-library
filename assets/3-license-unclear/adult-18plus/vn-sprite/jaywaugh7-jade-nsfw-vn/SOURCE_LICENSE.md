@@ -11,7 +11,7 @@
 | 授權條款 | 條款待確認 |
 | 作者 | jaywaugh7 |
 | 來源網址 | https://jaywaugh7.itch.io/nsfw-visual-novel-sprite-jade |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 待確認 |
 | 署名 | 待確認 |
 | 備註 | Jade NSFW VN 立繪 |

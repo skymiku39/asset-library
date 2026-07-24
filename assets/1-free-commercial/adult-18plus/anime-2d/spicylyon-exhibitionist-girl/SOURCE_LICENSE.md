@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | SpicyLyon |
 | 來源網址 | https://spicylyon.itch.io/exhibitionist-girl-pack |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 不需要（建議署名） |
 | 備註 | 6 服裝×多姿勢表情；含外套動畫影格；AI 生成（SD ReV Animated） |

@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal (Public Domain) |
 | 作者 | SpicyLyon |
 | 來源網址 | https://spicylyon.itch.io/rachel-free-character-sprite |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 不需要（建議署名） |
 | 備註 | 含 5 套服裝＋2 個情色姿勢；可組合 15 種表情；AI 生成立繪 |

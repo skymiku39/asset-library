@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal |
 | 作者 | Breezy |
 | 來源網址 | https://breezy-the-sleazy.itch.io/visual-novel-sprites |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
 | 備註 | 4 名 VN 角色，含 PSD／PNG（pack.rar）；禁止用於生成式 AI |

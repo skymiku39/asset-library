@@ -11,7 +11,7 @@
 | 授權條款 | 條款待確認（PWYW，頁面未明寫商用） |
 | 作者 | gurokitty |
 | 來源網址 | https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 待確認 |
 | 署名 | 待確認 |
 | 備註 | 貓耳女孩立繪；有打碼／無打碼兩版 PNG |

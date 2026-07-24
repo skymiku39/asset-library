@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用（需署名 Zaph Dev；以頁面為準） |
 | 作者 | Visual Novel Paradise / Zaph Dev |
 | 來源網址 | https://vnparadise.itch.io/sonny-the-boxer-thigh-up-vn-character |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 需署名 Zaph Dev |
 | 備註 | Boxer VN 角色（大腿以上） |

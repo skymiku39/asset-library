@@ -11,7 +11,7 @@
 | 授權條款 | 作者明示可商用（需署名 ReCaff；以頁面為準） |
 | 作者 | Re_Caff |
 | 來源網址 | https://re-caff.itch.io/rondo-fantasy-mercenary |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 需署名 ReCaff |
 | 備註 | Fantasy mercenary VN sprite |

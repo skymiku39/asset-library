@@ -11,7 +11,7 @@
 | 授權條款 | CC0 1.0 Universal (Public Domain) |
 | 作者 | Eros (residentrabbit) |
 | 來源網址 | https://residentrabbit.itch.io/femfemale-visual-novel-sprite-set-2 |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 不需要（強烈建議署名） |
 | 備註 | 2688×5810 PSD；14 髮色×9 膚色；含可選裸體基底；禁止用於 AI／NFT |

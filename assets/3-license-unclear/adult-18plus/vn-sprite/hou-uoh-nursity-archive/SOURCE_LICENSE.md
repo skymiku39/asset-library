@@ -11,10 +11,10 @@
 | 授權條款 | 條款待確認 |
 | 作者 | hou-uoh |
 | 來源網址 | https://hou-uoh.itch.io/nsfw-blue-haired-nursity-archive |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 待確認 |
 | 署名 | 待確認 |
-| 備註 | Blue haired Nursity NSFW archive |
+| 備註 | Blue haired Nursity NSFW archive｜連結失效或需付費，已停止待手動下載 |
 
 ## 授權摘要
 

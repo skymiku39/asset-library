@@ -11,10 +11,10 @@
 | 授權條款 | 作者明示可任意使用（無需署名） |
 | 作者 | c10ud.png |
 | 來源網址 | https://c10udpng.itch.io/goth-nsfw-female-character |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許 |
 | 署名 | 不需要 |
-| 備註 | 含 PSD／CLIP／Spine／VN 立繪；itch 頁面無 upload_id（可能需登入／PWYW），待手動下載 |
+| 備註 | 含 PSD／CLIP／Spine／VN 立繪；itch 頁面無 upload_id（可能需登入／PWYW），待手動下載｜連結失效或需付費，已停止待手動下載 |
 
 ## 授權摘要
 

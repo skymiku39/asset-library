@@ -11,7 +11,7 @@
 | 授權條款 | 付費可商用（禁止轉售素材） |
 | 作者 | Jitsu Koan / TheRealFusion |
 | 來源網址 | https://jitsukoan.itch.io/rpg-fantasy-girls-nsfw-edition |
-| 收錄日期 | 2026-07-23 |
+| 收錄日期 | 2026-07-24 |
 | 商用 | 允許（付費後） |
 | 署名 | 需署名 TheRealFusion |
 | 備註 | 14 bust PSD/XCF；最低約 $3.79 |
