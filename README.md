@@ -1,6 +1,9 @@
 # 找素材專案
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![CI](https://github.com/skymiku39/asset-library/actions/workflows/ci.yml/badge.svg)](https://github.com/skymiku39/asset-library/actions/workflows/ci.yml)
+
+[English](README.en.md)
 
 從各種來源搜尋、下載並整理遊戲／專案所需素材的**中央素材庫索引與工具集**。
 

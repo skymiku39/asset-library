@@ -2,6 +2,8 @@
 
 感謝你願意一起維護這份素材庫索引與工具。
 
+English summary: run `uv sync`, `uv run python -m unittest discover -s tests -v`, and `uv run python tools/audit_catalog.py` before opening a PR. See [README.en.md](README.en.md).
+
 ## 開發環境
 
 ```powershell
