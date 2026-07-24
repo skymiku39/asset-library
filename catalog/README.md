@@ -24,6 +24,14 @@
 | 特效 | `vfx` | [vfx.md](vfx.md)｜機器可讀：[vfx.json](vfx.json) |
 | 18+ 成人向 | `adult-18plus` | [adult-18plus.md](adult-18plus.md)｜機器可讀：[adult-18plus.json](adult-18plus.json) |
 
+## 搜尋履歷（自動化驗證）
+
+18+ 來源掃描紀錄（已查網站、關鍵字／篩選、已確認條目）見：
+
+- 人類可讀：[discovery-ledger.md](discovery-ledger.md)
+- 機器可讀：`tools/discovery_ledger.json`
+- 驗證：`uv run python tools/verify_discovery_ledger.py`
+
 ## 風格母分類（先分風格）
 
 **撲克牌 `playing-cards`**、**麻將 `mahjong`**、**UI `ui`**、**音效 `sound`** 與 **角色 `character`** 在套件之上多一層**風格母分類**，方便先依風格挑選。

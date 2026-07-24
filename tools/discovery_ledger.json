@@ -1,0 +1,2922 @@
+{
+  "version": 1,
+  "updated": "2026-07-24",
+  "scope": "adult-18plus",
+  "purpose": "記錄已查詢網站、關鍵字／篩選條件、候選與已確認條目，供後續自動化驗證",
+  "sites": [
+    {
+      "id": "itch-io",
+      "name": "itch.io",
+      "base_url": "https://itch.io",
+      "notes": "免費／PWYW 素材主來源；注意別名子網域下載 API"
+    },
+    {
+      "id": "dlsite-maniax",
+      "name": "DLsite Maniax",
+      "base_url": "https://www.dlsite.com/maniax",
+      "notes": "R18 素材；關鍵字搜尋常 403，改以 maker profile／作品頁 trial zip"
+    },
+    {
+      "id": "web-search",
+      "name": "Web Search (general)",
+      "base_url": "https://www.google.com",
+      "notes": "輔助發現作者／作品頁後再回 itch／DLsite 驗證"
+    }
+  ],
+  "queries": [
+    {
+      "id": "q-itch-free-nsfw-sprites",
+      "site_id": "itch-io",
+      "url": "https://itch.io/game-assets/free/tag-nsfw/tag-sprites",
+      "keywords": [
+        "nsfw",
+        "sprites",
+        "free"
+      ],
+      "filters": {
+        "price": "free",
+        "tags": [
+          "nsfw",
+          "sprites"
+        ]
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "免費 NSFW sprites 列表（約 80+）"
+    },
+    {
+      "id": "q-itch-free-nsfw",
+      "site_id": "itch-io",
+      "url": "https://itch.io/game-assets/free/tag-nsfw",
+      "keywords": [
+        "nsfw",
+        "free"
+      ],
+      "filters": {
+        "price": "free",
+        "tags": [
+          "nsfw"
+        ]
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "免費 NSFW assets 總表"
+    },
+    {
+      "id": "q-itch-cc0-vn",
+      "site_id": "itch-io",
+      "url": "https://itch.io/game-assets/free/assets-cc0/genre-visual-novel",
+      "keywords": [
+        "cc0",
+        "visual novel",
+        "free"
+      ],
+      "filters": {
+        "price": "free",
+        "license": "cc0",
+        "genre": "visual-novel"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "CC0 VN 素材列表"
+    },
+    {
+      "id": "q-itch-newest-free-nsfw",
+      "site_id": "itch-io",
+      "url": "https://itch.io/game-assets/newest/free/tag-nsfw",
+      "keywords": [
+        "nsfw",
+        "free",
+        "newest"
+      ],
+      "filters": {
+        "price": "free",
+        "tags": [
+          "nsfw"
+        ],
+        "sort": "newest"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "最新免費 NSFW（年齡牆可能擋爬蟲）"
+    },
+    {
+      "id": "q-dlsite-kw-tachie-trial",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/fsr/=/keyword/%E7%AB%8B%E3%81%A1%E7%B5%B5%E7%B4%A0%E6%9D%90%20%E4%BD%93%E9%A8%93%E7%89%88",
+      "keywords": [
+        "立ち絵素材",
+        "体験版"
+      ],
+      "filters": {
+        "keyword_search": true
+      },
+      "last_checked": "2026-07-24",
+      "status": "blocked",
+      "result_summary": "關鍵字搜尋常回 HTTP 403"
+    },
+    {
+      "id": "q-dlsite-maker-morinooku",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG29726.html",
+      "keywords": [
+        "maker_id:RG29726",
+        "森の奥の隠れ里"
+      ],
+      "filters": {
+        "maker_id": "RG29726"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "作者頁掃描；多套立繪 trial 已收"
+    },
+    {
+      "id": "q-dlsite-maker-raiko",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG66647.html",
+      "keywords": [
+        "maker_id:RG66647",
+        "立ち絵素材RAIKO"
+      ],
+      "filters": {
+        "maker_id": "RG66647"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "RAIKO 立繪 trial 分批收錄中"
+    },
+    {
+      "id": "q-dlsite-maker-kuusou",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01010253.html",
+      "keywords": [
+        "maker_id:RG01010253",
+        "空想番外地"
+      ],
+      "filters": {
+        "maker_id": "RG01010253"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "空想番外地 R18 立繪 trial"
+    },
+    {
+      "id": "q-dlsite-maker-snow",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01012324.html",
+      "keywords": [
+        "maker_id:RG01012324",
+        "Snow Material"
+      ],
+      "filters": {
+        "maker_id": "RG01012324"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "Snow Material；部分作品無 trial"
+    },
+    {
+      "id": "q-web-free-nsfw-cc0",
+      "site_id": "web-search",
+      "url": "websearch:itch.io free NSFW CC0 visual novel sprite",
+      "keywords": [
+        "itch.io",
+        "free",
+        "NSFW",
+        "CC0",
+        "visual novel",
+        "sprite"
+      ],
+      "filters": {
+        "engine": "web-search"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "用於發現 SpicyLyon／Eros／Leaflet／Kuminer 等"
+    },
+    {
+      "id": "q-itch-free-nsfw-tag-adult",
+      "site_id": "itch-io",
+      "url": "https://itch.io/game-assets/free/tag-adult/tag-sprites",
+      "keywords": [
+        "adult",
+        "sprites",
+        "free"
+      ],
+      "filters": {
+        "price": "free",
+        "tags": [
+          "adult",
+          "sprites",
+          "free"
+        ]
+      },
+      "last_checked": "2026-07-24",
+      "status": "failed",
+      "result_summary": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "q-dlsite-maker-nyancheruto",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01039776.html",
+      "keywords": [
+        "maker_id:RG01039776",
+        "にゃんちぇると"
+      ],
+      "filters": {
+        "maker_id": "RG01039776"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：にゃんちぇると"
+    },
+    {
+      "id": "q-dlsite-maker-fattyu",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG61015.html",
+      "keywords": [
+        "maker_id:RG61015",
+        "ふぁっちゅ"
+      ],
+      "filters": {
+        "maker_id": "RG61015"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：ふぁっちゅ"
+    },
+    {
+      "id": "q-dlsite-maker-pincree",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65563.html",
+      "keywords": [
+        "maker_id:RG65563",
+        "Pincree"
+      ],
+      "filters": {
+        "maker_id": "RG65563"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：Pincree"
+    },
+    {
+      "id": "q-dlsite-maker-wizpack",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01003985.html",
+      "keywords": [
+        "maker_id:RG01003985",
+        "素材WIZPACK"
+      ],
+      "filters": {
+        "maker_id": "RG01003985"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：素材WIZPACK"
+    },
+    {
+      "id": "q-dlsite-maker-ramuniku",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01062657.html",
+      "keywords": [
+        "maker_id:RG01062657",
+        "らむにくの素材屋さん"
+      ],
+      "filters": {
+        "maker_id": "RG01062657"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：らむにくの素材屋さん"
+    },
+    {
+      "id": "q-dlsite-maker-reigasou",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG63073.html",
+      "keywords": [
+        "maker_id:RG63073",
+        "れいが荘素材専門店"
+      ],
+      "filters": {
+        "maker_id": "RG63073"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：れいが荘素材専門店"
+    },
+    {
+      "id": "q-dlsite-maker-kinokoru",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG44045.html",
+      "keywords": [
+        "maker_id:RG44045",
+        "キノコル"
+      ],
+      "filters": {
+        "maker_id": "RG44045"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：キノコル"
+    },
+    {
+      "id": "q-dlsite-maker-bazuneko",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG53789.html",
+      "keywords": [
+        "maker_id:RG53789",
+        "バズ猫工務店"
+      ],
+      "filters": {
+        "maker_id": "RG53789"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：バズ猫工務店"
+    },
+    {
+      "id": "q-dlsite-maker-nozu",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01045611.html",
+      "keywords": [
+        "maker_id:RG01045611",
+        "乃図制作所"
+      ],
+      "filters": {
+        "maker_id": "RG01045611"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：乃図制作所"
+    },
+    {
+      "id": "q-dlsite-maker-kikunii",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG27887.html",
+      "keywords": [
+        "maker_id:RG27887",
+        "菊にぃ"
+      ],
+      "filters": {
+        "maker_id": "RG27887"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：菊にぃ"
+    },
+    {
+      "id": "q-dlsite-maker-waifukoubou",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01075080.html",
+      "keywords": [
+        "maker_id:RG01075080",
+        "WaifuKoubou"
+      ],
+      "filters": {
+        "maker_id": "RG01075080"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：WaifuKoubou"
+    },
+    {
+      "id": "q-dlsite-maker-mashiro-lab",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01066181.html",
+      "keywords": [
+        "maker_id:RG01066181",
+        "Mashiro Lab."
+      ],
+      "filters": {
+        "maker_id": "RG01066181"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：Mashiro Lab."
+    },
+    {
+      "id": "q-dlsite-maker-spacedoughnut",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65654.html",
+      "keywords": [
+        "maker_id:RG65654",
+        "スペースドーナツ"
+      ],
+      "filters": {
+        "maker_id": "RG65654"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：スペースドーナツ"
+    },
+    {
+      "id": "q-dlsite-maker-tsukikage",
+      "site_id": "dlsite-maniax",
+      "url": "https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01051734.html",
+      "keywords": [
+        "maker_id:RG01051734",
+        "月影"
+      ],
+      "filters": {
+        "maker_id": "RG01051734"
+      },
+      "last_checked": "2026-07-24",
+      "status": "checked",
+      "result_summary": "maker profile 掃描清單：月影"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand-spicylyon-itch-io-seductive-linh",
+      "url": "https://spicylyon.itch.io/seductive-linh",
+      "title": "Seductive Linh - NSFW Character Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal (Public Domain)",
+      "verdict": "ingested",
+      "pack_id": "spicylyon-seductive-linh",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-spicylyon-itch-io-rachel-free-character-sprite",
+      "url": "https://spicylyon.itch.io/rachel-free-character-sprite",
+      "title": "Rachel - NSFW Character Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal (Public Domain)",
+      "verdict": "ingested",
+      "pack_id": "spicylyon-rachel",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-spicylyon-itch-io-tactical-bikini-agent",
+      "url": "https://spicylyon.itch.io/tactical-bikini-agent",
+      "title": "Tactical Bikini Agent - Amelia Animations",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal (Public Domain)",
+      "verdict": "ingested",
+      "pack_id": "spicylyon-tactical-bikini",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-leafletgames-itch-io-free-elf-character-sprites",
+      "url": "https://leafletgames.itch.io/free-elf-character-sprites",
+      "title": "LeafletGames Free Sprites 1 [nudity]",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可任意商用／修改（含 NSFW）",
+      "verdict": "ingested",
+      "pack_id": "leafletgames-sprites-1",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-leafletgames-itch-io-free-character-sprites-2",
+      "url": "https://leafletgames.itch.io/free-character-sprites-2",
+      "title": "LeafletGames Free Sprites 2 [nudity]",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可任意商用／修改（含 NSFW）",
+      "verdict": "ingested",
+      "pack_id": "leafletgames-sprites-2",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-leafletgames-itch-io-free-character-sprites-3",
+      "url": "https://leafletgames.itch.io/free-character-sprites-3",
+      "title": "LeafletGames Free Sprites 3 [nudity]",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可任意商用／修改（含 NSFW）",
+      "verdict": "ingested",
+      "pack_id": "leafletgames-sprites-3",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-leafletgames-itch-io-free-sprites-4-nudity",
+      "url": "https://leafletgames.itch.io/free-sprites-4-nudity",
+      "title": "LeafletGames Free Sprites 4 [nudity]",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可任意商用／修改（含 NSFW）",
+      "verdict": "ingested",
+      "pack_id": "leafletgames-sprites-4",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-residentrabbit-itch-io-femfemale-visual-novel-sprite-set-2",
+      "url": "https://residentrabbit.itch.io/femfemale-visual-novel-sprite-set-2",
+      "title": "Fem/Female Visual Novel Sprite Set 2",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal (Public Domain)",
+      "verdict": "ingested",
+      "pack_id": "eros-fem-vn-sprite-set-2",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-gandalfhardcore-itch-io-2d-pixel-art-male-and-female-character",
+      "url": "https://gandalfhardcore.itch.io/2d-pixel-art-male-and-female-character",
+      "title": "GandalfHardcore 2D Pixel Art Characters (Sidescroller)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "Name Your Own Price（$0）；條款未明示 CC0",
+      "verdict": "ingested",
+      "pack_id": "gandalfhardcore-pixel-characters",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-niborset66-itch-io-pixel-nude",
+      "url": "https://niborset66.itch.io/pixel-nude",
+      "title": "Niborset66 Pixel Nude Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "Name Your Own Price（$0）；條款未明示",
+      "verdict": "ingested",
+      "pack_id": "niborset66-pixel-nude",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01279308-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01279308.html",
+      "title": "立ち絵素材集-現代ヒロインR18版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-modern-heroine-r18",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj436699-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436699.html",
+      "title": "立ち絵素材集-ファンタジーヒーローR18版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-fantasy-hero-r18",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj242573-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ242573.html",
+      "title": "立ち絵素材集-ファンタジーヒロインR版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-fantasy-heroine-r",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj297367-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ297367.html",
+      "title": "立ち絵素材集-ならず者R18版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-outlaw-r18-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj298054-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ298054.html",
+      "title": "立ち絵素材集-ならず者全年齢版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-outlaw-allage-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj242574-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ242574.html",
+      "title": "立ち絵素材集-ファンタジーヒロイン全年齢版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-fantasy-heroine-allage-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01280767-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01280767.html",
+      "title": "立ち絵素材集-現代ヒロイン全年齢版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-modern-heroine-allages-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj436573-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ436573.html",
+      "title": "立ち絵素材集-ファンタジーヒーロー全年齢版-（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款：1体 PSD 可免費商用）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-fantasy-hero-allages-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj245095-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245095.html",
+      "title": "2D characters pack JRPG HEROINES R（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-heroines-r-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj245098-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ245098.html",
+      "title": "2D characters pack JRPG HEROINES A（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-morinooku-heroines-a-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01631094-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01631094.html",
+      "title": "えっちな描き文字素材集（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（作者條款）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-nyancheruto-draw-text-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01464606-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html",
+      "title": "全クリエイターの皆様のための立ち絵素材〜総集編1〜",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "DLsite 購買授權（作者明示可商用）",
+      "verdict": "pending",
+      "pack_id": "dlsite-fatchu-standing-total-1",
+      "verified_at": null
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01516580-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html",
+      "title": "全クリエイターの皆様のための立ち絵素材〜総集編2〜",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "DLsite 購買授權（作者明示可商用）",
+      "verdict": "pending",
+      "pack_id": "dlsite-fatchu-standing-total-2",
+      "verified_at": null
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01572623-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html",
+      "title": "擬音素材集 お試し版（成人向けOK）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "DLsite 購買授權（作者明示商用・成人向けOK）",
+      "verdict": "pending",
+      "pack_id": "dlsite-fatchu-onomatopoeia-trial",
+      "verified_at": null
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01385427-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html",
+      "title": "R18ゲーム用ボイス素材【おっとり敬語お姉さん】",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "DLsite 購買授權（商業利用可）",
+      "verdict": "pending",
+      "pack_id": "dlsite-familia-voice-oneesan",
+      "verified_at": null
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01585745-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html",
+      "title": "エロ漫画で使える！えっちな吹き出し素材集",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "DLsite 購買授權",
+      "verdict": "pending",
+      "pack_id": "dlsite-nyancheru-speech-bubble",
+      "verified_at": null
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01006109-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01006109.html",
+      "title": "格安!商用利用も可能なR18音声素材第8弾:龍涎 にこみ Full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第8弾-龍涎-にこみ-full-ver-rj01006109-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01037100-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01037100.html",
+      "title": "格安!商用利用も可能なR18音声素材第9弾: 北上 つばさ Full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第9弾-北上-つばさ-full-ver-rj01037100-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01078386-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01078386.html",
+      "title": "格安!商用利用も可能なR18音声素材第10弾: 片桐秋 Full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第10弾-片桐秋-full-ver-rj01078386-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01122533-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01122533.html",
+      "title": "[菊屋素材集]エッチな擬音文字集 vol.1（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-菊屋素材集-エッチな擬音文字集-vol-1-rj01122533-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01123354-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01123354.html",
+      "title": "[菊屋素材集]エッチセリフ文字集 vol.1（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-菊屋素材集-エッチセリフ文字集-vol-1-rj01123354-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01123385-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01123385.html",
+      "title": "[菊屋素材集]エッチな英語文字集 vol.1（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-菊屋素材集-エッチな英語文字集-vol-1-rj01123385-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01123392-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01123392.html",
+      "title": "[菊屋素材集]エッチな擬音ブラシ vol.1（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-菊屋素材集-エッチな擬音ブラシ-vol-1-rj01123392-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01238071-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01238071.html",
+      "title": "【全491発!】真・効果音2!R18向けKU100素材パック（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-全491発-真-効果音2-r18向けku100素材パック-rj01238071-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01372402-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01372402.html",
+      "title": "【KU100】高級リゾートラブホテルで収録した効果音素材パック – 227音収録（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-ku100-高級リゾートラブホテルで収録した効果音素材パック-227音収録-rj01372402-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01611960-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01611960.html",
+      "title": "格安!商用利用も可能なR18音声素材第14弾:感音ルミ Full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第14弾-感音ルミ-full-ver-rj01611960-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj389755-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ389755.html",
+      "title": "格安!商用利用も可能なR18音声素材第一弾:琴音あかり full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第一弾-琴音あかり-full-ver-rj389755-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj391769-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ391769.html",
+      "title": "格安!商用利用も可能なR18音声素材第2弾:宮咲 ミヤ full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第2弾-宮咲-ミヤ-full-ver-rj391769-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj391835-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ391835.html",
+      "title": "【全186発!】これ一つでオーケー!R18向けバイノーラルKU100効果音最強素材パック（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-全186発-これ一つでオーケー-r18向けバイノーラルku100効果音最強素材パ-rj391835-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj402308-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ402308.html",
+      "title": "格安!商用利用も可能なR18音声素材第4弾:御上 サツキ full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第4弾-御上-サツキ-full-ver-rj402308-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj407749-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ407749.html",
+      "title": "格安!商用利用も可能なR18音声素材第5弾:朝比奈 ゆの full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第5弾-朝比奈-ゆの-full-ver-rj407749-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj416224-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ416224.html",
+      "title": "格安!商用利用も可能なR18音声素材第6弾:猫乃しろね Full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第6弾-猫乃しろね-full-ver-rj416224-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj420928-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ420928.html",
+      "title": "格安!商用利用も可能なR18音声素材第7弾:唯井 マリサ Full ver（体験版）",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 体験版（請確認作者條款；付費完整版另購）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-格安-商用利用も可能なr18音声素材第7弾-唯井-マリサ-full-ver-rj420928-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-residentrabbit-itch-io-resident-rabbits-vn-fem-sprite-01",
+      "url": "https://residentrabbit.itch.io/resident-rabbits-vn-fem-sprite-01",
+      "title": "Fem/Female Visual Novel Sprite Set 1",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal (Public Domain)",
+      "verdict": "ingested",
+      "pack_id": "eros-fem-vn-sprite-set-1",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-meirocircle-itch-io-fkb-nsfw",
+      "url": "https://meirocircle.itch.io/fkb-nsfw",
+      "title": "RPG MAKER Knight Battler Sprite (Nudity)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Meiro）",
+      "verdict": "ingested",
+      "pack_id": "meirocircle-knight-battler-nude",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-fahrenheitstudio-itch-io-amanda",
+      "url": "https://fahrenheitstudio.itch.io/amanda",
+      "title": "Amanda Sprites P1 (Adult/Nudity)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "條款待確認",
+      "verdict": "rejected-broken",
+      "pack_id": "fahrenheit-amanda-p1",
+      "verified_at": null
+    },
+    {
+      "id": "cand-cool-devil-gds-itch-io-agatha-sprites",
+      "url": "https://cool-devil-gds.itch.io/agatha-sprites",
+      "title": "Agatha Sprites",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認",
+      "verdict": "ingested",
+      "pack_id": "cool-devil-agatha",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-dejinyucu-itch-io-agustina-visual-novel-sprite",
+      "url": "https://dejinyucu.itch.io/agustina-visual-novel-sprite",
+      "title": "Agustina - Visual Novel Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "MIT",
+      "verdict": "ingested",
+      "pack_id": "dejinyucu-agustina-vn-sprite",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-breezy-the-sleazy-itch-io-visual-novel-sprites",
+      "url": "https://breezy-the-sleazy.itch.io/visual-novel-sprites",
+      "title": "Visual Novel Sprites!",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal",
+      "verdict": "ingested",
+      "pack_id": "breezy-visual-novel-sprites",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-re-caff-itch-io-heart-of-shadows",
+      "url": "https://re-caff.itch.io/heart-of-shadows",
+      "title": "Heart of Shadows - Free Character Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 ReCaff）",
+      "verdict": "ingested",
+      "pack_id": "recaff-heart-of-shadows",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-re-caff-itch-io-adria",
+      "url": "https://re-caff.itch.io/adria",
+      "title": "Adria - Free Character Sprite + CG",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名）",
+      "verdict": "ingested",
+      "pack_id": "recaff-adria",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-re-caff-itch-io-nora-the-windtalker",
+      "url": "https://re-caff.itch.io/nora-the-windtalker",
+      "title": "Nora The Windtalker - Character Sprite + CG",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 ReCaff）",
+      "verdict": "ingested",
+      "pack_id": "recaff-nora-windtalker",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-spicylyon-itch-io-exhibitionist-girl-pack",
+      "url": "https://spicylyon.itch.io/exhibitionist-girl-pack",
+      "title": "Exhibitionist Girl Pack",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "CC0 1.0 Universal",
+      "verdict": "ingested",
+      "pack_id": "spicylyon-exhibitionist-girl",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-c10udpng-itch-io-goth-nsfw-female-character",
+      "url": "https://c10udpng.itch.io/goth-nsfw-female-character",
+      "title": "Goth NSFW Female character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "作者明示可任意使用（無需署名）",
+      "verdict": "rejected-broken",
+      "pack_id": "c10udpng-goth-nsfw",
+      "verified_at": null
+    },
+    {
+      "id": "cand-lokianimations-itch-io-haneko",
+      "url": "https://lokianimations.itch.io/haneko",
+      "title": "Haneko - Animated Visual Novel Sprites",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用",
+      "verdict": "ingested",
+      "pack_id": "lokianimations-haneko",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-purapiedra-itch-io-nsfw-nude-girl-sprite-assets-gif-png",
+      "url": "https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png",
+      "title": "Free Nightclub Girls. Game Assets",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "僅標示免費，商用條款未明寫",
+      "verdict": "ingested",
+      "pack_id": "purapiedra-nightclub-girls-free",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites2",
+      "url": "https://lokiarts.itch.io/haneko-animated-visual-novel-sprites2",
+      "title": "Haneko - Animated Visual Novel Sprites 2",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用",
+      "verdict": "ingested",
+      "pack_id": "lokianimations-haneko-2",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites-3",
+      "url": "https://lokiarts.itch.io/haneko-animated-visual-novel-sprites-3",
+      "title": "Haneko - Animated Visual Novel Sprites 3",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用",
+      "verdict": "ingested",
+      "pack_id": "lokianimations-haneko-3",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-gurokitty-itch-io-neko-girl-sprite-censoreduncensored",
+      "url": "https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored",
+      "title": "Neko Girl Sprite (censored/uncensored)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認（PWYW，頁面未明寫商用）",
+      "verdict": "ingested",
+      "pack_id": "gurokitty-neko-girl",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01634272-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01634272.html",
+      "title": "【立ち絵素材R18】金髪ショートの魔法使い少女 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "體驗版可試用；產品版商用 OK（不可二次配布／AI 學習）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-kuusoubangaiichi-blonde-mage-r18-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01637333-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01637333.html",
+      "title": "【立ち絵素材】金髪ショートの魔法使い少女 フルセットPSDパック [空想番外地] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01637333-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01638524-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01638524.html",
+      "title": "【立ち絵素材R18】金髪ポニテ褐色肌の少女剣士 フルセットPSDパック [空想番外地] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01638524-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01644297-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01644297.html",
+      "title": "【立ち絵素材】金髪ポニテ褐色肌の少女剣士 フルセットPSDパック(表情14種・衣装5種) [空想番外地] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01644297-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01677496-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01677496.html",
+      "title": "エロ漫画で使える！えっちな描き文字素材集【吹き出し・台詞・擬音(2)】 [にゃんちぇると] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（產品版條款通常商用 OK，不可二次配布；請以作品頁為準）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01677496-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-meirocircle-itch-io-rpgmakerbaraspritepack",
+      "url": "https://meirocircle.itch.io/rpgmakerbaraspritepack",
+      "title": "RPG MAKER Base Sprites PACK - BARA Edition",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Meiro）",
+      "verdict": "ingested",
+      "pack_id": "meirocircle-bara-base-sprites",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol1-nsfw-vn-character-diana",
+      "url": "https://panditastudio.itch.io/assets-pack-vol1-nsfw-vn-character-diana",
+      "title": "Assets pack vol.1 - NSFW VN Character: Diana",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（免費層 FHD／內衣；完整 NSFW 需付費）",
+      "verdict": "ingested",
+      "pack_id": "pandita-diana-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol2-nsfw-vn-character-dulce",
+      "url": "https://panditastudio.itch.io/assets-pack-vol2-nsfw-vn-character-dulce",
+      "title": "Assets pack vol.2 - NSFW VN Character: Dulce",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（免費層；完整 NSFW 可能需付費）",
+      "verdict": "ingested",
+      "pack_id": "pandita-dulce-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol3-nsfw-vn-character-vanessa",
+      "url": "https://panditastudio.itch.io/assets-pack-vol3-nsfw-vn-character-vanessa",
+      "title": "Assets pack vol.3 - NSFW VN Character: Vanessa",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（免費層；完整 NSFW 可能需付費）",
+      "verdict": "ingested",
+      "pack_id": "pandita-vanessa-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol4-nsfw-vn-character-yuri",
+      "url": "https://panditastudio.itch.io/assets-pack-vol4-nsfw-vn-character-yuri",
+      "title": "Assets pack vol.4 - NSFW VN Character: Yuri",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（免費層；完整 NSFW 可能需付費）",
+      "verdict": "ingested",
+      "pack_id": "pandita-yuri-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol5-nsfw-vn-character-natasha",
+      "url": "https://panditastudio.itch.io/assets-pack-vol5-nsfw-vn-character-natasha",
+      "title": "Assets pack vol.5 - NSFW VN Character: Natasha",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（免費層；完整 NSFW 可能需付費）",
+      "verdict": "ingested",
+      "pack_id": "pandita-natasha-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol6-nsfw-vn-character-sheyla",
+      "url": "https://panditastudio.itch.io/assets-pack-vol6-nsfw-vn-character-sheyla",
+      "title": "Assets pack vol.6 - NSFW VN Character: Sheyla",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（免費層；完整 NSFW 可能需付費）",
+      "verdict": "ingested",
+      "pack_id": "pandita-sheyla-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-jitsukoan-itch-io-rpg-fantasy-girls-nsfw-edition",
+      "url": "https://jitsukoan.itch.io/rpg-fantasy-girls-nsfw-edition",
+      "title": "RPG Fantasy Girls I NSFW Edition",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "付費可商用（禁止轉售素材）",
+      "verdict": "rejected-paywall",
+      "pack_id": "jitsukoan-rpg-fantasy-girls-1-nsfw",
+      "verified_at": null
+    },
+    {
+      "id": "cand-jitsukoan-itch-io-rpg-fantasy-girls-ii-nsfw-edition",
+      "url": "https://jitsukoan.itch.io/rpg-fantasy-girls-ii-nsfw-edition",
+      "title": "RPG Fantasy Girls II NSFW Edition",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "付費可商用（禁止轉售素材）",
+      "verdict": "rejected-paywall",
+      "pack_id": "jitsukoan-rpg-fantasy-girls-2-nsfw",
+      "verified_at": null
+    },
+    {
+      "id": "cand-jitsukoan-itch-io-rpg-fantasy-girls-iii-nsfw-edition",
+      "url": "https://jitsukoan.itch.io/rpg-fantasy-girls-iii-nsfw-edition",
+      "title": "RPG Fantasy Girls III NSFW Edition",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "付費可商用（禁止轉售素材）",
+      "verdict": "rejected-paywall",
+      "pack_id": "jitsukoan-rpg-fantasy-girls-3-nsfw",
+      "verified_at": null
+    },
+    {
+      "id": "cand-jitsukoan-itch-io-rpg-fantasy-girls-iv-nsfw-edition",
+      "url": "https://jitsukoan.itch.io/rpg-fantasy-girls-iv-nsfw-edition",
+      "title": "RPG Fantasy Girls IV NSFW Edition",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "付費可商用（禁止轉售素材）",
+      "verdict": "rejected-paywall",
+      "pack_id": "jitsukoan-rpg-fantasy-girls-4-nsfw",
+      "verified_at": null
+    },
+    {
+      "id": "cand-vnparadise-itch-io-sam-the-tomboy-nsfw",
+      "url": "https://vnparadise.itch.io/sam-the-tomboy-nsfw",
+      "title": "Sam the Tomboy *NSFW* Animation Loop",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-sam-tomboy-nsfw-anim",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-zaphassets-itch-io-sam-the-tomboy",
+      "url": "https://zaphassets.itch.io/sam-the-tomboy",
+      "title": "Sam the Tomboy Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "zaphassets-sam-tomboy",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-jill-visual-novel-sprite-248-images",
+      "url": "https://quarkyifu.itch.io/jill-visual-novel-sprite-248-images",
+      "title": "Jill Visual Novel Sprite (Free 38 images)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金／無限制（完整 248 張需 $2）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-jill-vn-free",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-sherry-visual-novel-sprite-with-transparency-and-photoshop-psd",
+      "url": "https://quarkyifu.itch.io/sherry-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-n",
+      "title": "Sherry Visual Novel Character Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-sherry-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-jaywaugh7-itch-io-nsfw-visual-novel-sprite-jade",
+      "url": "https://jaywaugh7.itch.io/nsfw-visual-novel-sprite-jade",
+      "title": "NSFW - Visual Novel Sprite (Jade)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認",
+      "verdict": "ingested",
+      "pack_id": "jaywaugh7-jade-nsfw-vn",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-rilesu-itch-io-nsfw-green-girl-sprite",
+      "url": "https://rilesu.itch.io/nsfw-green-girl-sprite",
+      "title": "(NSFW) Green girl sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "條款待確認",
+      "verdict": "rejected-broken",
+      "pack_id": "rilesu-nsfw-green-girl",
+      "verified_at": null
+    },
+    {
+      "id": "cand-mindshifter-itch-io-basic-sprites-packagensfw",
+      "url": "https://mindshifter.itch.io/basic-sprites-packagensfw",
+      "title": "Basic Looseleaf Sprites Package (NSFW)",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認",
+      "verdict": "ingested",
+      "pack_id": "mindshifter-basic-sprites-nsfw",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-re-caff-itch-io-rondo-fantasy-mercenary",
+      "url": "https://re-caff.itch.io/rondo-fantasy-mercenary",
+      "title": "Rondo - the Mercenary",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 ReCaff；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "recaff-rondo-mercenary",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-hou-uoh-itch-io-nsfw-blue-haired-nursity-archive",
+      "url": "https://hou-uoh.itch.io/nsfw-blue-haired-nursity-archive",
+      "title": "NSFW blue haired Nursity archive - Free",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "條款待確認",
+      "verdict": "rejected-broken",
+      "pack_id": "hou-uoh-nursity-archive",
+      "verified_at": null
+    },
+    {
+      "id": "cand-lokianimations-itch-io-kunoichi-project-hinata-3",
+      "url": "https://lokianimations.itch.io/kunoichi-project-hinata-3",
+      "title": "Kunoichi Project •Hinata #3",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "lokianimations-hinata-3",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-sam-the-tomboy-nsfw-pack-1",
+      "url": "https://vnparadise.itch.io/sam-the-tomboy-nsfw-pack-1",
+      "title": "Sam the Tomboy! NSFW Pack 1",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-sam-nsfw-pack-1",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-sandra-the-spanish-teacher-vn-character",
+      "url": "https://vnparadise.itch.io/sandra-the-spanish-teacher-vn-character",
+      "title": "Sandra The Spanish Teacher! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-sandra-teacher",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-akane-the-sukeban-vn-character",
+      "url": "https://vnparadise.itch.io/akane-the-sukeban-vn-character",
+      "title": "Akane The Sukeban! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-akane-sukeban",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-jenna-the-ghoul",
+      "url": "https://vnparadise.itch.io/jenna-the-ghoul",
+      "title": "Jenna The Ghoul! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-jenna-ghoul",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-sonny-the-boxer-thigh-up-vn-character",
+      "url": "https://vnparadise.itch.io/sonny-the-boxer-thigh-up-vn-character",
+      "title": "Sonny The Boxer! Thigh up VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-sonny-boxer",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-nancy-the-survivor-vn-character",
+      "url": "https://vnparadise.itch.io/nancy-the-survivor-vn-character",
+      "title": "Nancy The Survivor! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-nancy-survivor",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01044146-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01044146.html",
+      "title": "立ち絵素材_大正ロマン風の青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01044146-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01046879-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01046879.html",
+      "title": "立ち絵素材_大正ロマン風の女性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01046879-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01048671-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01048671.html",
+      "title": "立ち絵素材_古風な服装の青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01048671-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01053781-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01053781.html",
+      "title": "立ち絵素材_白衣の青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01053781-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01057921-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01057921.html",
+      "title": "立ち絵素材_白衣の女性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01057921-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01060454-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01060454.html",
+      "title": "立ち絵素材_ナース風の女性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01060454-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01061797-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01061797.html",
+      "title": "立ち絵素材_Sっぽい青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01061797-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01062945-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01062945.html",
+      "title": "立ち絵素材_首輪をつけられた男 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01062945-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01063668-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01063668.html",
+      "title": "立ち絵素材_犬耳の青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01063668-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01064730-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01064730.html",
+      "title": "立ち絵素材_マグカップを持った青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01064730-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01066506-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01066506.html",
+      "title": "立ち絵素材_ぬいぐるみを抱える少女 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01066506-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01069086-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01069086.html",
+      "title": "立ち絵素材_体育座りの少年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01069086-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-kuminer-itch-io-unstable-harem",
+      "url": "https://kuminer.itch.io/unstable-harem",
+      "title": "Character Sprites -- Free -- NSFW",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用／非商用免費",
+      "verdict": "ingested",
+      "pack_id": "kuminer-character-sprites-nsfw",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-ruby1",
+      "url": "https://quarkyifu.itch.io/ruby1",
+      "title": "Ruby1 Visual Novel Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-ruby1",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-ruby3",
+      "url": "https://quarkyifu.itch.io/ruby3",
+      "title": "Ruby3 Visual Novel Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-ruby3",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-ruby4",
+      "url": "https://quarkyifu.itch.io/ruby4",
+      "title": "Ruby4 Visual Novel Sprite",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-ruby4",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officegirlblonde1",
+      "url": "https://quarkyifu.itch.io/officegirlblonde1",
+      "title": "OfficeGirlBlonde1",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officegirlblonde1",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officegirlblonde3",
+      "url": "https://quarkyifu.itch.io/officegirlblonde3",
+      "title": "OfficeGirlBlonde3",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示免權利金（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officegirlblonde3",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-whiteknightstudios-itch-io-2d-fpsside-scroll-sprites-dancer-3",
+      "url": "https://whiteknightstudios.itch.io/2d-fpsside-scroll-sprites-dancer-3",
+      "title": "FREE FPS/SIDE SCROLL SPRITES 2D \"DANCER 3\" DEMO",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DEMO 條款待確認",
+      "verdict": "ingested",
+      "pack_id": "whiteknight-dancer-3-demo",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-spritebase-itch-io-graphicset-spacediva",
+      "url": "https://spritebase.itch.io/graphicset-spacediva",
+      "title": "SpaceDiva",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認",
+      "verdict": "ingested",
+      "pack_id": "spritebase-spacediva",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-jitsukoan-itch-io-therealfusion-character-base",
+      "url": "https://jitsukoan.itch.io/therealfusion-character-base",
+      "title": "TheRealFusion Character Base",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可編輯／商用（以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "jitsukoan-therealfusion-character-base",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-harvey-the-survivor",
+      "url": "https://vnparadise.itch.io/harvey-the-survivor",
+      "title": "Harvey the Survivor! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-harvey-survivor",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-tanaka-the-schoolboy",
+      "url": "https://vnparadise.itch.io/tanaka-the-schoolboy",
+      "title": "Tanaka The Schoolboy! VN Character Asset",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-tanaka-schoolboy",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-derek-the-pe-teacher-vn-character",
+      "url": "https://vnparadise.itch.io/derek-the-pe-teacher-vn-character",
+      "title": "Derek The P.E. Teacher! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-derek-pe-teacher",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-yusuke-the-school-boy-vn-character",
+      "url": "https://vnparadise.itch.io/yusuke-the-school-boy-vn-character",
+      "title": "Yusuke The School Boy! VN Character",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-yusuke-schoolboy",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-himiko-the-schoolgirl",
+      "url": "https://vnparadise.itch.io/himiko-the-schoolgirl",
+      "title": "Himiko The Schoolgirl",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-himiko-schoolgirl",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-sayaka-the-school-girl",
+      "url": "https://vnparadise.itch.io/sayaka-the-school-girl",
+      "title": "Sayaka the School Girl",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-sayaka-schoolgirl",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-vnparadise-itch-io-tomoko-the-scoolgirl",
+      "url": "https://vnparadise.itch.io/tomoko-the-scoolgirl",
+      "title": "Tomoko The Scoolgirl!",
+      "site_id": "itch-io",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "作者明示可商用（需署名 Zaph Dev；以頁面為準）",
+      "verdict": "ingested",
+      "pack_id": "vnparadise-tomoko-schoolgirl",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01071158-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01071158.html",
+      "title": "立ち絵素材_チャイナ服風の少女(緑) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01071158-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01073117-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01073117.html",
+      "title": "立ち絵素材_チャイナ服風の青年(青) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01073117-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01075704-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01075704.html",
+      "title": "立ち絵素材_師範師匠風の老人 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01075704-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01077097-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01077097.html",
+      "title": "立ち絵素材_不憫そうな眼鏡の女子学生 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01077097-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01079144-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01079144.html",
+      "title": "立ち絵素材_ギャル風な女子高生(褐色) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01079144-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01081278-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01081278.html",
+      "title": "立ち絵素材_ブレザーの女子高生(黒髪ショート) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01081278-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01083873-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01083873.html",
+      "title": "立ち絵素材_浴衣の青年(紫) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01083873-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01085943-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01085943.html",
+      "title": "立ち絵素材_お祭り法被の青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01085943-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01087353-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01087353.html",
+      "title": "立ち絵素材_和装の少年(白髪) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01087353-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01089441-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01089441.html",
+      "title": "立ち絵素材_ドレスワンピの少女(ピンク) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01089441-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01090584-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01090584.html",
+      "title": "立ち絵素材_ドレスの女性(紫) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01090584-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01093976-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01093976.html",
+      "title": "立ち絵素材_ドレスの女性(黄色) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01093976-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01095075-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01095075.html",
+      "title": "立ち絵素材_使用人の女性(老女) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01095075-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01098342-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01098342.html",
+      "title": "立ち絵素材_使用人風の男性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01098342-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01100575-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01100575.html",
+      "title": "立ち絵素材_武器を持つメイドの少女 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01100575-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-angel-5",
+      "url": "https://quarkyifu.itch.io/angel-5",
+      "title": "angel-5",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-free-nsfw-cc0"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-blue-angel-visual-novel-browser-version",
+      "url": "https://quarkyifu.itch.io/blue-angel-visual-novel-browser-version",
+      "title": "blue-angel-visual-novel-browser-version",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-free-nsfw-cc0"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-rilesu-itch-io-nsfw-random-stuff",
+      "url": "https://rilesu.itch.io/nsfw-random-stuff",
+      "title": "nsfw-random-stuff",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw-sprites"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-gurokitty-itch-io-character-avatar-placeholders",
+      "url": "https://gurokitty.itch.io/character-avatar-placeholders",
+      "title": "character-avatar-placeholders",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw-sprites"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "ingested",
+      "pack_id": "itch-character-avatar-placeholders",
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01104199-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01104199.html",
+      "title": "立ち絵素材 胡散臭そうなおじさん(白スーツ) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01104199-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01106500-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01106500.html",
+      "title": "立ち絵素材_保安官風の男性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01106500-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01108574-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01108574.html",
+      "title": "立ち絵素材_コートの男性(オールバック) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01108574-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01111073-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01111073.html",
+      "title": "立ち絵素材_栗毛の少年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01111073-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01112179-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01112179.html",
+      "title": "立ち絵素材_金髪の少女 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01112179-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01115013-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01115013.html",
+      "title": "立ち絵素材_ぶかぶかの白衣の少年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01115013-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01117149-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01117149.html",
+      "title": "立ち絵素材_山ガール(ショートヘア) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01117149-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01119286-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01119286.html",
+      "title": "立ち絵素材_旅行鞄を持つ少女 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01119286-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01121374-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01121374.html",
+      "title": "立ち絵素材_冒険者風の女性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01121374-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01122419-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01122419.html",
+      "title": "立ち絵素材_軍人風の男性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01122419-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01123027-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01123027.html",
+      "title": "立ち絵素材_軍服風の青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01123027-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01126456-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01126456.html",
+      "title": "立ち絵素材_軍服風の青年(白) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01126456-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-static-itch-io-main",
+      "url": "https://static.itch.io/main",
+      "title": "main",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-static-itch-io-selectize",
+      "url": "https://static.itch.io/selectize",
+      "title": "selectize",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-static-itch-io-translations",
+      "url": "https://static.itch.io/translations",
+      "title": "translations",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-static-itch-io-lib",
+      "url": "https://static.itch.io/lib",
+      "title": "lib",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-static-itch-io-react",
+      "url": "https://static.itch.io/react",
+      "title": "react",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-static-itch-io-browse",
+      "url": "https://static.itch.io/browse",
+      "title": "browse",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-static-itch-io-images",
+      "url": "https://static.itch.io/images",
+      "title": "images",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-24",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-bunnightfury-itch-io-faye-artemis-vrc",
+      "url": "https://bunnightfury.itch.io/faye-artemis-vrc",
+      "title": "Faye Artemis Vrc",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-bunnightfury-itch-io-bigger-skullz-vrc",
+      "url": "https://bunnightfury.itch.io/bigger-skullz-vrc",
+      "title": "Bigger Skullz Vrc",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-kento-games-itch-io-ultimate-hentai-collection-volume-2-demo",
+      "url": "https://kento-games.itch.io/ultimate-hentai-collection-volume-2-demo",
+      "title": "Ultimate Hentai Collection Volume 2 Demo",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-xayrga-itch-io-easyovi-oviposition-shader",
+      "url": "https://xayrga.itch.io/easyovi-oviposition-shader",
+      "title": "Easyovi Oviposition Shader",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-forgetailfoundry-itch-io-krystalmodel",
+      "url": "https://forgetailfoundry.itch.io/krystalmodel",
+      "title": "Krystalmodel",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-bunnightfury-itch-io-rayne-champion-of-venus-vrc-avatar",
+      "url": "https://bunnightfury.itch.io/rayne-champion-of-venus-vrc-avatar",
+      "title": "Rayne Champion Of Venus Vrc Avatar",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-boisterousfox-itch-io-ankha-model-nsfw",
+      "url": "https://boisterousfox.itch.io/ankha-model-nsfw",
+      "title": "Ankha Model Nsfw",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-camseven-itch-io-mowtoof",
+      "url": "https://camseven.itch.io/mowtoof",
+      "title": "Mowtoof",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-hypnotrain-itch-io-ada-rendering-for-visual-novel",
+      "url": "https://hypnotrain.itch.io/ada-rendering-for-visual-novel",
+      "title": "ada-rendering-for-visual-novel",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "ingested",
+      "pack_id": "itch-ada-rendering-for-visual-novel",
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24"
+      }
+    },
+    {
+      "id": "cand-ravenholm-car-itch-io-mishuzoologistavatar",
+      "url": "https://ravenholm-car.itch.io/mishuzoologistavatar",
+      "title": "Mishuzoologistavatar",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-boisterousfox-itch-io-pinkie-pie-model-nsfw",
+      "url": "https://boisterousfox.itch.io/pinkie-pie-model-nsfw",
+      "title": "Pinkie Pie Model Nsfw",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-kadstd-itch-io-flashmepack",
+      "url": "https://kadstd.itch.io/flashmepack",
+      "title": "Flashmepack",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-boisterousfox-itch-io-toy-bonnie-model-nsfw-two",
+      "url": "https://boisterousfox.itch.io/toy-bonnie-model-nsfw-two",
+      "title": "Toy Bonnie Model Nsfw Two",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-24",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-24",
+        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01128566-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01128566.html",
+      "title": "立ち絵素材_セーターの青年(緑) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01128566-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01131693-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01131693.html",
+      "title": "立ち絵素材_メッシュの青年(黒) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01131693-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01134505-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01134505.html",
+      "title": "立ち絵素材ラフなスーツの男性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01134505-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01138224-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01138224.html",
+      "title": "立ち絵素材_眼鏡の青年(茶色ベスト) [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01138224-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01317317-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01317317.html",
+      "title": "立ち絵素材スキーウェアの青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01317317-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01322815-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01322815.html",
+      "title": "立ち絵素材耳当ての女性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01322815-trial",
+      "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01117858-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01117858.html",
+      "title": "サキュバスCRISIS [空想番外地] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [],
+      "found_at": "2026-07-24",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（空想番外地；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01117858-trial",
+      "verified_at": "2026-07-24"
+    }
+  ]
+}
