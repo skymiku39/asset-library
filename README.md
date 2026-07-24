@@ -20,6 +20,8 @@ cd asset-library
 uv sync
 uv run python -m unittest discover -s tests -v
 uv run python tools/audit_catalog.py
+# 公開 clone／CI（無素材二進位）請改用：
+# uv run python tools/audit_catalog.py --index-only
 ```
 
 選用：複製 `config/google_drive.example.json` → `config/google_drive.json` 以同步 `assets/` 到 Google 雲端（見下方）。

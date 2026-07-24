@@ -20,6 +20,8 @@ cd asset-library
 uv sync
 uv run python -m unittest discover -s tests -v
 uv run python tools/audit_catalog.py
+# Public clone / CI (no asset binaries):
+# uv run python tools/audit_catalog.py --index-only
 ```
 
 Optional: copy `config/google_drive.example.json` → `config/google_drive.json` to sync `assets/` via Google Drive (see the Chinese README for full steps).

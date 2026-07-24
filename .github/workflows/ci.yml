@@ -25,6 +25,8 @@ jobs:
 
       - name: Unit tests
         run: uv run python -m unittest discover -s tests -v
+        env:
+          CI: "true"
 
-      - name: Catalog audit
-        run: uv run python tools/audit_catalog.py
+      - name: Catalog audit (index-only)
+        run: uv run python tools/audit_catalog.py --index-only

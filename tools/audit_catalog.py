@@ -71,7 +71,7 @@ def style_map_for_type(data: dict, asset_type: str) -> dict[str, str]:
     return data.get(legacy.get(asset_type, ""), {})
 
 
-def audit(data: dict) -> list[str]:
+def audit(data: dict, *, require_asset_binaries: bool = True) -> list[str]:
     issues: list[str] = []
     packs: list[dict] = data["packs"]
     pack_ids = [p["id"] for p in packs]
@@ -115,26 +115,38 @@ def audit(data: dict) -> list[str]:
             if not lic_path:
                 issues.append(f"{pid}: missing SOURCE_LICENSE.md ({pack['status']})")
 
-        if pack["status"] == "downloaded" and not has_asset_files(pack):
-            issues.append(f"{pid}: status downloaded but no asset files in {pack_dest(pack)}")
+        if require_asset_binaries:
+            if pack["status"] == "downloaded" and not has_asset_files(pack):
+                issues.append(f"{pid}: status downloaded but no asset files in {pack_dest(pack)}")
 
-        if pack["status"] == "pending-manual-download" and has_asset_files(pack):
-            issues.append(
-                f"{pid}: has asset files but status is pending-manual-download "
-                f"(consider updating to downloaded)"
-            )
+            if pack["status"] == "pending-manual-download" and has_asset_files(pack):
+                issues.append(
+                    f"{pid}: has asset files but status is pending-manual-download "
+                    f"(consider updating to downloaded)"
+                )
 
     return issues
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Audit pack registry vs on-disk assets")
+    parser.add_argument(
+        "--index-only",
+        action="store_true",
+        help="Skip binary asset checks (for CI / public clone without downloaded files)",
+    )
+    args = parser.parse_args(argv)
+
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
     packs = data["packs"]
-    issues = audit(data)
+    issues = audit(data, require_asset_binaries=not args.index_only)
 
     print("=== AUDIT SUMMARY ===")
     print(f"packs: {len(packs)}")
     print(f"issues: {len(issues)}")
+    print(f"mode: {'index-only' if args.index_only else 'full'}")
     by_status = Counter(p["status"] for p in packs)
     for status, count in sorted(by_status.items()):
         print(f"  {status}: {count}")
