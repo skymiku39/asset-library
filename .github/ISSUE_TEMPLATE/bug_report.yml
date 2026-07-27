@@ -1,0 +1,35 @@
+name: Bug 回報（工具／CI）
+description: 下載腳本、稽核、catalog 或 CI 異常
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        請勿在此貼 API token 或本機絕對路徑。素材授權問題請改開「套件建議」或查 `SOURCE_LICENSE.md`。
+  - type: input
+    id: script
+    attributes:
+      label: 相關指令或檔案
+      placeholder: "例如：uv run python tools/itch_download.py ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 預期行為
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 實際行為
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 環境
+      placeholder: "OS、Python 版本、uv 版本"
+    validations:
+      required: false

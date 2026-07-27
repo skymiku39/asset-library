@@ -26,7 +26,7 @@ uv run python tools/audit_catalog.py
 
 選用：複製 `config/google_drive.example.json` → `config/google_drive.json` 以同步 `assets/` 到 Google 雲端（見下方）。
 
-貢獻方式見 [CONTRIBUTING.md](CONTRIBUTING.md)。
+貢獻方式見 [CONTRIBUTING.md](CONTRIBUTING.md)。安全回報見 [SECURITY.md](SECURITY.md)。
 
 ## 目錄結構（雙軸分類）
 

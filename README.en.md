@@ -26,7 +26,7 @@ uv run python tools/audit_catalog.py
 
 Optional: copy `config/google_drive.example.json` → `config/google_drive.json` to sync `assets/` via Google Drive (see the Chinese README for full steps).
 
-Contributing: [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributing: [CONTRIBUTING.md](CONTRIBUTING.md). Security: [SECURITY.md](SECURITY.md).
 
 ## Layout (two axes)
 

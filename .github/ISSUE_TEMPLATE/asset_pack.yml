@@ -1,0 +1,55 @@
+name: 套件建議／登錄
+description: 建議收錄新素材或更新既有套件資訊
+title: "[Pack] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        請提供**可公開**的來源連結與授權摘要。若為 18+ 內容請註明。
+  - type: input
+    id: url
+    attributes:
+      label: 來源 URL
+    validations:
+      required: true
+  - type: dropdown
+    id: asset_type
+    attributes:
+      label: 素材類型
+      options:
+        - playing-cards
+        - mahjong
+        - ui
+        - sound
+        - character
+        - vfx
+        - mixed
+        - adult-18plus
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: 授權分類（你的判斷）
+      options:
+        - 1-free-commercial
+        - 2-paid-commercial
+        - 3-license-unclear
+        - 4-free-noncommercial
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 授權／商用／署名說明
+      description: 請貼作者頁面原文或摘要
+    validations:
+      required: true
+  - type: checkboxes
+    id: downloadable
+    attributes:
+      label: 驗證
+      options:
+        - label: 我已確認該連結可下載或為有效商品頁
+          required: true

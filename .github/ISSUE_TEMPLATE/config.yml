@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 貢獻指南
+    url: https://github.com/skymiku39/asset-library/blob/master/CONTRIBUTING.md
+    about: 新增套件與開發流程
+  - name: 第三方素材授權
+    url: https://github.com/skymiku39/asset-library/blob/master/NOTICE.md
+    about: 倉庫 MIT 不涵蓋素材本體；請查各套件 SOURCE_LICENSE.md
