@@ -42,6 +42,7 @@
 | `q-dlsite-maker-spacedoughnut` | DLsite Maniax | maker_id:RG65654, スペースドーナツ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65654.html | 2026-07-24 | checked | maker profile 掃描清單：スペースドーナツ |
 | `q-dlsite-maker-tsukikage` | DLsite Maniax | maker_id:RG01051734, 月影 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01051734.html | 2026-07-24 | checked | maker profile 掃描清單：月影 |
 | `q-web-tulune-potat0-kuroi` | Web Search (general) | free, commercial, NSFW, visual novel, sprite, TuLune, Potat0Master | websearch:free mature teacher sprite itch + potat0master + kuroi-usagi VN | 2026-07-28 | checked | 發現 TuLune teacher／Potato starter／kuroi-usagi（非商用） |
+| `q-itch-quarkyifu-profile` | itch.io | Quark_Yifu, visual novel, sprite, free | https://quarkyifu.itch.io/ | 2026-07-28 | checked | 本輪新收 12；剩餘候選約 15 |
 
 ## 已確認／候選條目
 
@@ -235,6 +236,26 @@
 | `cand-quarkyifu-itch-io-beth-visual-novel-character-sprite-with-photoshop-files` | Beth Visual Novel Character Sprite With  | https://quarkyifu.itch.io/beth-visual-novel-character-sprite-with-photoshop-files | 已收錄到素材庫 | `quarkyifu-beth-visual-novel-character-sprite-with-` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-bicycle-26-image-transparent-background-set-for-visual-novel-d` | Bicycle 26 Image Transparent Background  | https://quarkyifu.itch.io/bicycle-26-image-transparent-background-set-for-visual-novel-detail | 已收錄到素材庫 | `quarkyifu-bicycle-26-image-transparent-background-` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-darline-visual-novel-character-sprite-with-photoshop-files` | Darline Visual Novel Character Sprite Wi | https://quarkyifu.itch.io/darline-visual-novel-character-sprite-with-photoshop-files | 已收錄到素材庫 | `quarkyifu-darline-visual-novel-character-sprite-wi` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-domino-visual-novel-character-with-transparency-and-photoshop-` | Domino Visual Novel Character With Trans | https://quarkyifu.itch.io/domino-visual-novel-character-with-transparency-and-photoshop-psd-file-for-visua | 已收錄到素材庫 | `quarkyifu-domino-visual-novel-character-with-transparen` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-frank-visual-novel-sprite-with-transparency-and-photoshop-psd-` | Frank Visual Novel Sprite With Transpare | https://quarkyifu.itch.io/frank-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no | 已收錄到素材庫 | `quarkyifu-frank-visual-novel-sprite-with-transparency-a` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-janice-visual-novel-character-sprite-with-photoshop-files` | janice-visual-novel-character-sprite-wit | https://quarkyifu.itch.io/janice-visual-novel-character-sprite-with-photoshop-files | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-jayne-visual-novel-sprite-with-transparency-and-photoshop-psd-` | Jayne Visual Novel Sprite With Transpare | https://quarkyifu.itch.io/jayne-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no | 已收錄到素材庫 | `quarkyifu-jayne-visual-novel-sprite-with-transparency-a` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-lady-tomoka-visual-novel-character-sprite-with-photoshop-files` | lady-tomoka-visual-novel-character-sprit | https://quarkyifu.itch.io/lady-tomoka-visual-novel-character-sprite-with-photoshop-files | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-mars1-male-visual-novel-sprite-with-transparency-and-photoshop` | Mars1 Male Visual Novel Sprite With Tran | https://quarkyifu.itch.io/mars1-male-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visu | 已收錄到素材庫 | `quarkyifu-mars1-male-visual-novel-sprite-with-transpare` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-mary-visual-novel-sprite-305-images` | mary-visual-novel-sprite-305-images | https://quarkyifu.itch.io/mary-visual-novel-sprite-305-images | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-nun-visual-novel-character-sprite-with-photoshop-file` | nun-visual-novel-character-sprite-with-p | https://quarkyifu.itch.io/nun-visual-novel-character-sprite-with-photoshop-file | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-officeboss1000` | Officeboss1000 | https://quarkyifu.itch.io/officeboss1000 | 已收錄到素材庫 | `quarkyifu-officeboss1000` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-officeboss2` | Officeboss2 | https://quarkyifu.itch.io/officeboss2 | 已收錄到素材庫 | `quarkyifu-officeboss2` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-officeboss2000` | Officeboss2000 | https://quarkyifu.itch.io/officeboss2000 | 已收錄到素材庫 | `quarkyifu-officeboss2000` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-officeboss3a` | Officeboss3A | https://quarkyifu.itch.io/officeboss3a | 已收錄到素材庫 | `quarkyifu-officeboss3a` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-officegirl1` | Officegirl1 | https://quarkyifu.itch.io/officegirl1 | 已收錄到素材庫 | `quarkyifu-officegirl1` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-officegirlblonde2` | Officegirlblonde2 | https://quarkyifu.itch.io/officegirlblonde2 | 已收錄到素材庫 | `quarkyifu-officegirlblonde2` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-robin-animated-alpha-movie-character` | Robin Animated Alpha Movie Character | https://quarkyifu.itch.io/robin-animated-alpha-movie-character | 已收錄到素材庫 | `quarkyifu-robin-animated-alpha-movie-character` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-ron-visual-novel-character-sprite-with-photoshop-files` | Ron Visual Novel Character Sprite With P | https://quarkyifu.itch.io/ron-visual-novel-character-sprite-with-photoshop-files | 已收錄到素材庫 | `quarkyifu-ron-visual-novel-character-sprite-with-photos` | http_ok, downloadable, 2026-07-28 |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01396104-html` | 立ち絵素材_白衣の中年男性 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01396104.html | 已收錄到素材庫 | `dlsite-rj01396104-trial` | http_ok, downloadable, 2026-07-28 |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01483230-html` | 立ち絵素材怪しい商社マンのおじさん [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01483230.html | 已收錄到素材庫 | `dlsite-rj01483230-trial` | http_ok, downloadable, 2026-07-28 |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01582651-html` | 立ち絵素材アロハのヤンキー青年 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01582651.html | 已收錄到素材庫 | `dlsite-rj01582651-trial` | http_ok, downloadable, 2026-07-28 |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01585864-html` | 立ち絵素材ロングコートの黒髪男性 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01585864.html | 已收錄到素材庫 | `dlsite-rj01585864-trial` | http_ok, downloadable, 2026-07-28 |
 
 ## 自動化驗證
 

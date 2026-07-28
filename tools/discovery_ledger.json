@@ -444,6 +444,23 @@
       "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "發現 TuLune teacher／Potato starter／kuroi-usagi（非商用）"
+    },
+    {
+      "id": "q-itch-quarkyifu-profile",
+      "site_id": "itch-io",
+      "url": "https://quarkyifu.itch.io/",
+      "keywords": [
+        "Quark_Yifu",
+        "visual novel",
+        "sprite",
+        "free"
+      ],
+      "filters": {
+        "author_profile": true
+      },
+      "last_checked": "2026-07-28",
+      "status": "checked",
+      "result_summary": "本輪新收 12；剩餘候選約 15"
     }
   ],
   "candidates": [
@@ -3221,6 +3238,410 @@
       "license_hint": "作者頁面標示免權利金／可自由使用（請覆核）",
       "verdict": "ingested",
       "pack_id": "quarkyifu-darline-visual-novel-character-sprite-wi",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-domino-visual-novel-character-with-transparency-and-photoshop-",
+      "url": "https://quarkyifu.itch.io/domino-visual-novel-character-with-transparency-and-photoshop-psd-file-for-visua",
+      "title": "Domino Visual Novel Character With Transparen",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-domino-visual-novel-character-with-transparen",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-frank-visual-novel-sprite-with-transparency-and-photoshop-psd-",
+      "url": "https://quarkyifu.itch.io/frank-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no",
+      "title": "Frank Visual Novel Sprite With Transparency A",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-frank-visual-novel-sprite-with-transparency-a",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-janice-visual-novel-character-sprite-with-photoshop-files",
+      "url": "https://quarkyifu.itch.io/janice-visual-novel-character-sprite-with-photoshop-files",
+      "title": "janice-visual-novel-character-sprite-with-pho",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "empty"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-jayne-visual-novel-sprite-with-transparency-and-photoshop-psd-",
+      "url": "https://quarkyifu.itch.io/jayne-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no",
+      "title": "Jayne Visual Novel Sprite With Transparency A",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-jayne-visual-novel-sprite-with-transparency-a",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
+      "url": "https://quarkyifu.itch.io/lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
+      "title": "lady-tomoka-visual-novel-character-sprite-wit",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "empty"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-mars1-male-visual-novel-sprite-with-transparency-and-photoshop",
+      "url": "https://quarkyifu.itch.io/mars1-male-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visu",
+      "title": "Mars1 Male Visual Novel Sprite With Transpare",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-mars1-male-visual-novel-sprite-with-transpare",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-mary-visual-novel-sprite-305-images",
+      "url": "https://quarkyifu.itch.io/mary-visual-novel-sprite-305-images",
+      "title": "mary-visual-novel-sprite-305-images",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "empty"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-nun-visual-novel-character-sprite-with-photoshop-file",
+      "url": "https://quarkyifu.itch.io/nun-visual-novel-character-sprite-with-photoshop-file",
+      "title": "nun-visual-novel-character-sprite-with-photos",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "empty"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officeboss1000",
+      "url": "https://quarkyifu.itch.io/officeboss1000",
+      "title": "Officeboss1000",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officeboss1000",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officeboss2",
+      "url": "https://quarkyifu.itch.io/officeboss2",
+      "title": "Officeboss2",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officeboss2",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officeboss2000",
+      "url": "https://quarkyifu.itch.io/officeboss2000",
+      "title": "Officeboss2000",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officeboss2000",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officeboss3a",
+      "url": "https://quarkyifu.itch.io/officeboss3a",
+      "title": "Officeboss3A",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officeboss3a",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officegirl1",
+      "url": "https://quarkyifu.itch.io/officegirl1",
+      "title": "Officegirl1",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officegirl1",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-officegirlblonde2",
+      "url": "https://quarkyifu.itch.io/officegirlblonde2",
+      "title": "Officegirlblonde2",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-officegirlblonde2",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-robin-animated-alpha-movie-character",
+      "url": "https://quarkyifu.itch.io/robin-animated-alpha-movie-character",
+      "title": "Robin Animated Alpha Movie Character",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-robin-animated-alpha-movie-character",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-ron-visual-novel-character-sprite-with-photoshop-files",
+      "url": "https://quarkyifu.itch.io/ron-visual-novel-character-sprite-with-photoshop-files",
+      "title": "Ron Visual Novel Character Sprite With Photos",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核各頁）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-ron-visual-novel-character-sprite-with-photos",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01396104-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01396104.html",
+      "title": "立ち絵素材_白衣の中年男性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [
+        "q-dlsite-maker-rg66647"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01396104-trial",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01483230-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01483230.html",
+      "title": "立ち絵素材怪しい商社マンのおじさん [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [
+        "q-dlsite-maker-rg66647"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01483230-trial",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01582651-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01582651.html",
+      "title": "立ち絵素材アロハのヤンキー青年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [
+        "q-dlsite-maker-rg66647"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01582651-trial",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01585864-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01585864.html",
+      "title": "立ち絵素材ロングコートの黒髪男性 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [
+        "q-dlsite-maker-rg66647"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01585864-trial",
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
