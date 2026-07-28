@@ -16,31 +16,31 @@
 
 | 查詢 ID | 網站 | 關鍵字／標籤 | 查詢網址 | 最近檢查 | 狀態 | 結果摘要 |
 |---------|------|--------------|----------|----------|------|----------|
-| `q-itch-free-nsfw-sprites` | itch.io | nsfw, sprites, free | https://itch.io/game-assets/free/tag-nsfw/tag-sprites | 2026-07-24 | checked | 免費 NSFW sprites 列表（約 80+） |
-| `q-itch-free-nsfw` | itch.io | nsfw, free | https://itch.io/game-assets/free/tag-nsfw | 2026-07-24 | checked | 免費 NSFW assets 總表 |
-| `q-itch-cc0-vn` | itch.io | cc0, visual novel, free | https://itch.io/game-assets/free/assets-cc0/genre-visual-novel | 2026-07-24 | checked | CC0 VN 素材列表 |
-| `q-itch-newest-free-nsfw` | itch.io | nsfw, free, newest | https://itch.io/game-assets/newest/free/tag-nsfw | 2026-07-24 | checked | 最新免費 NSFW（年齡牆可能擋爬蟲） |
-| `q-dlsite-kw-tachie-trial` | DLsite Maniax | 立ち絵素材, 体験版 | https://www.dlsite.com/maniax/fsr/=/keyword/%E7%AB%8B%E3%81%A1%E7%B5%B5%E7%B4%A0%E6%9D%90%20%E4%BD%93%E9%A8%93%E7%89%88 | 2026-07-24 | blocked | 關鍵字搜尋常回 HTTP 403 |
-| `q-dlsite-maker-morinooku` | DLsite Maniax | maker_id:RG29726, 森の奥の隠れ里 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG29726.html | 2026-07-24 | checked | 作者頁掃描；多套立繪 trial 已收 |
-| `q-dlsite-maker-raiko` | DLsite Maniax | maker_id:RG66647, 立ち絵素材RAIKO | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG66647.html | 2026-07-24 | checked | RAIKO 立繪 trial 分批收錄中 |
-| `q-dlsite-maker-kuusou` | DLsite Maniax | maker_id:RG01010253, 空想番外地 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01010253.html | 2026-07-24 | checked | 空想番外地 R18 立繪 trial |
-| `q-dlsite-maker-snow` | DLsite Maniax | maker_id:RG01012324, Snow Material | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01012324.html | 2026-07-24 | checked | Snow Material；部分作品無 trial |
-| `q-web-free-nsfw-cc0` | Web Search (general) | itch.io, free, NSFW, CC0, visual novel, sprite | websearch:itch.io free NSFW CC0 visual novel sprite | 2026-07-24 | checked | 用於發現 SpicyLyon／Eros／Leaflet／Kuminer 等 |
-| `q-itch-free-nsfw-tag-adult` | itch.io | adult, sprites, free | https://itch.io/game-assets/free/tag-adult/tag-sprites | 2026-07-24 | failed | HTTP Error 403: Forbidden |
-| `q-dlsite-maker-nyancheruto` | DLsite Maniax | maker_id:RG01039776, にゃんちぇると | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01039776.html | 2026-07-24 | checked | maker profile 掃描清單：にゃんちぇると |
-| `q-dlsite-maker-fattyu` | DLsite Maniax | maker_id:RG61015, ふぁっちゅ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG61015.html | 2026-07-24 | checked | maker profile 掃描清單：ふぁっちゅ |
-| `q-dlsite-maker-pincree` | DLsite Maniax | maker_id:RG65563, Pincree | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65563.html | 2026-07-24 | checked | maker profile 掃描清單：Pincree |
-| `q-dlsite-maker-wizpack` | DLsite Maniax | maker_id:RG01003985, 素材WIZPACK | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01003985.html | 2026-07-24 | checked | maker profile 掃描清單：素材WIZPACK |
-| `q-dlsite-maker-ramuniku` | DLsite Maniax | maker_id:RG01062657, らむにくの素材屋さん | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01062657.html | 2026-07-24 | checked | maker profile 掃描清單：らむにくの素材屋さん |
-| `q-dlsite-maker-reigasou` | DLsite Maniax | maker_id:RG63073, れいが荘素材専門店 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG63073.html | 2026-07-24 | checked | maker profile 掃描清單：れいが荘素材専門店 |
-| `q-dlsite-maker-kinokoru` | DLsite Maniax | maker_id:RG44045, キノコル | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG44045.html | 2026-07-24 | checked | maker profile 掃描清單：キノコル |
-| `q-dlsite-maker-bazuneko` | DLsite Maniax | maker_id:RG53789, バズ猫工務店 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG53789.html | 2026-07-24 | checked | maker profile 掃描清單：バズ猫工務店 |
-| `q-dlsite-maker-nozu` | DLsite Maniax | maker_id:RG01045611, 乃図制作所 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01045611.html | 2026-07-24 | checked | maker profile 掃描清單：乃図制作所 |
-| `q-dlsite-maker-kikunii` | DLsite Maniax | maker_id:RG27887, 菊にぃ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG27887.html | 2026-07-24 | checked | maker profile 掃描清單：菊にぃ |
-| `q-dlsite-maker-waifukoubou` | DLsite Maniax | maker_id:RG01075080, WaifuKoubou | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01075080.html | 2026-07-24 | checked | maker profile 掃描清單：WaifuKoubou |
-| `q-dlsite-maker-mashiro-lab` | DLsite Maniax | maker_id:RG01066181, Mashiro Lab. | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01066181.html | 2026-07-24 | checked | maker profile 掃描清單：Mashiro Lab. |
-| `q-dlsite-maker-spacedoughnut` | DLsite Maniax | maker_id:RG65654, スペースドーナツ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65654.html | 2026-07-24 | checked | maker profile 掃描清單：スペースドーナツ |
-| `q-dlsite-maker-tsukikage` | DLsite Maniax | maker_id:RG01051734, 月影 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01051734.html | 2026-07-24 | checked | maker profile 掃描清單：月影 |
+| `q-itch-free-nsfw-sprites` | itch.io | nsfw, sprites, free | https://itch.io/game-assets/free/tag-nsfw/tag-sprites | 2026-07-28 | checked | 免費 NSFW sprites 列表（約 80+） |
+| `q-itch-free-nsfw` | itch.io | nsfw, free | https://itch.io/game-assets/free/tag-nsfw | 2026-07-28 | checked | 免費 NSFW assets 總表 |
+| `q-itch-cc0-vn` | itch.io | cc0, visual novel, free | https://itch.io/game-assets/free/assets-cc0/genre-visual-novel | 2026-07-28 | checked | CC0 VN 素材列表 |
+| `q-itch-newest-free-nsfw` | itch.io | nsfw, free, newest | https://itch.io/game-assets/newest/free/tag-nsfw | 2026-07-28 | checked | 最新免費 NSFW（年齡牆可能擋爬蟲） |
+| `q-dlsite-kw-tachie-trial` | DLsite Maniax | 立ち絵素材, 体験版 | https://www.dlsite.com/maniax/fsr/=/keyword/%E7%AB%8B%E3%81%A1%E7%B5%B5%E7%B4%A0%E6%9D%90%20%E4%BD%93%E9%A8%93%E7%89%88 | 2026-07-28 | blocked | 關鍵字搜尋常回 HTTP 403 |
+| `q-dlsite-maker-morinooku` | DLsite Maniax | maker_id:RG29726, 森の奥の隠れ里 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG29726.html | 2026-07-28 | checked | 作者頁掃描；多套立繪 trial 已收 |
+| `q-dlsite-maker-raiko` | DLsite Maniax | maker_id:RG66647, 立ち絵素材RAIKO | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG66647.html | 2026-07-28 | checked | RAIKO 立繪 trial 分批收錄中 |
+| `q-dlsite-maker-kuusou` | DLsite Maniax | maker_id:RG01010253, 空想番外地 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01010253.html | 2026-07-28 | checked | 空想番外地 R18 立繪 trial |
+| `q-dlsite-maker-snow` | DLsite Maniax | maker_id:RG01012324, Snow Material | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01012324.html | 2026-07-28 | checked | Snow Material；部分作品無 trial |
+| `q-web-free-nsfw-cc0` | Web Search (general) | itch.io, free, NSFW, CC0, visual novel, sprite | websearch:itch.io free NSFW CC0 visual novel sprite | 2026-07-28 | checked | 用於發現 SpicyLyon／Eros／Leaflet／Kuminer 等 |
+| `q-itch-free-nsfw-tag-adult` | itch.io | adult, sprites, free | https://itch.io/game-assets/free/tag-adult/tag-sprites | 2026-07-28 | failed | HTTP Error 403: Forbidden |
+| `q-dlsite-maker-nyancheruto` | DLsite Maniax | maker_id:RG01039776, にゃんちぇると | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01039776.html | 2026-07-28 | checked | maker profile 掃描清單：にゃんちぇると |
+| `q-dlsite-maker-fattyu` | DLsite Maniax | maker_id:RG61015, ふぁっちゅ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG61015.html | 2026-07-28 | checked | maker profile 掃描清單：ふぁっちゅ |
+| `q-dlsite-maker-pincree` | DLsite Maniax | maker_id:RG65563, Pincree | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65563.html | 2026-07-28 | checked | maker profile 掃描清單：Pincree |
+| `q-dlsite-maker-wizpack` | DLsite Maniax | maker_id:RG01003985, 素材WIZPACK | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01003985.html | 2026-07-28 | checked | maker profile 掃描清單：素材WIZPACK |
+| `q-dlsite-maker-ramuniku` | DLsite Maniax | maker_id:RG01062657, らむにくの素材屋さん | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01062657.html | 2026-07-28 | checked | maker profile 掃描清單：らむにくの素材屋さん |
+| `q-dlsite-maker-reigasou` | DLsite Maniax | maker_id:RG63073, れいが荘素材専門店 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG63073.html | 2026-07-28 | checked | maker profile 掃描清單：れいが荘素材専門店 |
+| `q-dlsite-maker-kinokoru` | DLsite Maniax | maker_id:RG44045, キノコル | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG44045.html | 2026-07-28 | checked | maker profile 掃描清單：キノコル |
+| `q-dlsite-maker-bazuneko` | DLsite Maniax | maker_id:RG53789, バズ猫工務店 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG53789.html | 2026-07-28 | checked | maker profile 掃描清單：バズ猫工務店 |
+| `q-dlsite-maker-nozu` | DLsite Maniax | maker_id:RG01045611, 乃図制作所 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01045611.html | 2026-07-28 | checked | maker profile 掃描清單：乃図制作所 |
+| `q-dlsite-maker-kikunii` | DLsite Maniax | maker_id:RG27887, 菊にぃ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG27887.html | 2026-07-28 | checked | maker profile 掃描清單：菊にぃ |
+| `q-dlsite-maker-waifukoubou` | DLsite Maniax | maker_id:RG01075080, WaifuKoubou | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01075080.html | 2026-07-28 | checked | maker profile 掃描清單：WaifuKoubou |
+| `q-dlsite-maker-mashiro-lab` | DLsite Maniax | maker_id:RG01066181, Mashiro Lab. | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01066181.html | 2026-07-28 | checked | maker profile 掃描清單：Mashiro Lab. |
+| `q-dlsite-maker-spacedoughnut` | DLsite Maniax | maker_id:RG65654, スペースドーナツ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65654.html | 2026-07-28 | checked | maker profile 掃描清單：スペースドーナツ |
+| `q-dlsite-maker-tsukikage` | DLsite Maniax | maker_id:RG01051734, 月影 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01051734.html | 2026-07-28 | checked | maker profile 掃描清單：月影 |
 | `q-web-tulune-potat0-kuroi` | Web Search (general) | free, commercial, NSFW, visual novel, sprite, TuLune, Potat0Master | websearch:free mature teacher sprite itch + potat0master + kuroi-usagi VN | 2026-07-28 | checked | 發現 TuLune teacher／Potato starter／kuroi-usagi（非商用） |
 | `q-itch-quarkyifu-profile` | itch.io | Quark_Yifu, visual novel, sprite, free | https://quarkyifu.itch.io/ | 2026-07-28 | checked | 本輪新收 12；剩餘候選約 15 |
 | `q-web-prometheus-doublefree` | Web Search (general) | Prometheus Pictures, Aria, DoubleFree, CC0, free commercial | websearch:prometheus pictures aria sprite + doublefree mr fuffington CC0 | 2026-07-28 | checked | 新發現 Aria 表情包與 CC0 貓立繪 |
@@ -70,11 +70,11 @@
 | `cand-www-dlsite-com-maniax-work-product-id-rj245095-html` | 2D characters pack JRPG HEROINES R（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ245095.html | 已收錄到素材庫 | `dlsite-morinooku-heroines-r-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj245098-html` | 2D characters pack JRPG HEROINES A（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ245098.html | 已收錄到素材庫 | `dlsite-morinooku-heroines-a-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01631094-html` | えっちな描き文字素材集（体験版） | https://www.dlsite.com/maniax/work/=/product_id/RJ01631094.html | 已收錄到素材庫 | `dlsite-nyancheruto-draw-text-trial` | — |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01464606-html` | 全クリエイターの皆様のための立ち絵素材〜総集編1〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html | 需付費／登入牆 | `dlsite-fatchu-standing-total-1` | fail: catalog-only paid product; not free download |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01516580-html` | 全クリエイターの皆様のための立ち絵素材〜総集編2〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html | 需付費／登入牆 | `dlsite-fatchu-standing-total-2` | fail: catalog-only paid product; not free download |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01572623-html` | 擬音素材集 お試し版（成人向けOK） | https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html | 需付費／登入牆 | `dlsite-fatchu-onomatopoeia-trial` | fail: catalog-only paid product; not free download |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01385427-html` | R18ゲーム用ボイス素材【おっとり敬語お姉さん】 | https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html | 需付費／登入牆 | `dlsite-familia-voice-oneesan` | fail: catalog-only paid product; not free download |
-| `cand-www-dlsite-com-maniax-work-product-id-rj01585745-html` | エロ漫画で使える！えっちな吹き出し素材集 | https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html | 需付費／登入牆 | `dlsite-nyancheru-speech-bubble` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01464606-html` | 全クリエイターの皆様のための立ち絵素材〜総集編1〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01464606.html | 待確認 | `dlsite-fatchu-standing-total-1` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01516580-html` | 全クリエイターの皆様のための立ち絵素材〜総集編2〜 | https://www.dlsite.com/maniax/work/=/product_id/RJ01516580.html | 待確認 | `dlsite-fatchu-standing-total-2` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01572623-html` | 擬音素材集 お試し版（成人向けOK） | https://www.dlsite.com/maniax/work/=/product_id/RJ01572623.html | 待確認 | `dlsite-fatchu-onomatopoeia-trial` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01385427-html` | R18ゲーム用ボイス素材【おっとり敬語お姉さん】 | https://www.dlsite.com/maniax/work/=/product_id/RJ01385427.html | 待確認 | `dlsite-familia-voice-oneesan` | fail: catalog-only paid product; not free download |
+| `cand-www-dlsite-com-maniax-work-product-id-rj01585745-html` | エロ漫画で使える！えっちな吹き出し素材集 | https://www.dlsite.com/maniax/work/=/product_id/RJ01585745.html | 待確認 | `dlsite-nyancheru-speech-bubble` | fail: catalog-only paid product; not free download |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01006109-html` | 格安!商用利用も可能なR18音声素材第8弾:龍涎 にこみ Full ver（体験 | https://www.dlsite.com/maniax/work/=/product_id/RJ01006109.html | 已收錄到素材庫 | `dlsite-格安-商用利用も可能なr18音声素材第8弾-龍涎-にこみ-full-ver-rj01006109-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01037100-html` | 格安!商用利用も可能なR18音声素材第9弾: 北上 つばさ Full ver（体 | https://www.dlsite.com/maniax/work/=/product_id/RJ01037100.html | 已收錄到素材庫 | `dlsite-格安-商用利用も可能なr18音声素材第9弾-北上-つばさ-full-ver-rj01037100-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01078386-html` | 格安!商用利用も可能なR18音声素材第10弾: 片桐秋 Full ver（体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01078386.html | 已收錄到素材庫 | `dlsite-格安-商用利用も可能なr18音声素材第10弾-片桐秋-full-ver-rj01078386-trial` | — |
@@ -185,8 +185,8 @@
 | `cand-www-dlsite-com-maniax-work-product-id-rj01100575-html` | 立ち絵素材_武器を持つメイドの少女 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01100575.html | 已收錄到素材庫 | `dlsite-rj01100575-trial` | — |
 | `cand-quarkyifu-itch-io-angel-5` | angel-5 | https://quarkyifu.itch.io/angel-5 | 連結失效或無法下載 | `—` | fail: download failed |
 | `cand-quarkyifu-itch-io-blue-angel-visual-novel-browser-version` | blue-angel-visual-novel-browser-version | https://quarkyifu.itch.io/blue-angel-visual-novel-browser-version | 連結失效或無法下載 | `—` | fail: download failed |
-| `cand-rilesu-itch-io-nsfw-random-stuff` | nsfw-random-stuff | https://rilesu.itch.io/nsfw-random-stuff | 連結失效或無法下載 | `—` | fail: download failed |
-| `cand-gurokitty-itch-io-character-avatar-placeholders` | Character Avatar Placeholders | https://gurokitty.itch.io/character-avatar-placeholders | 已收錄到素材庫 | `itch-character-avatar-placeholders` | http_ok, downloadable, 2026-07-28 |
+| `cand-rilesu-itch-io-nsfw-random-stuff` | nsfw-random-stuff | https://rilesu.itch.io/nsfw-random-stuff | 需付費／登入牆 | `—` | fail: paid price>0 |
+| `cand-gurokitty-itch-io-character-avatar-placeholders` | Character Avatar Placeholders | https://gurokitty.itch.io/character-avatar-placeholders | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01104199-html` | 立ち絵素材 胡散臭そうなおじさん(白スーツ) [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01104199.html | 已收錄到素材庫 | `dlsite-rj01104199-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01106500-html` | 立ち絵素材_保安官風の男性 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01106500.html | 已收錄到素材庫 | `dlsite-rj01106500-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01108574-html` | 立ち絵素材_コートの男性(オールバック) [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01108574.html | 已收錄到素材庫 | `dlsite-rj01108574-trial` | — |
@@ -210,15 +210,15 @@
 | `cand-bunnightfury-itch-io-bigger-skullz-vrc` | Bigger Skullz Vrc | https://bunnightfury.itch.io/bigger-skullz-vrc | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
 | `cand-kento-games-itch-io-ultimate-hentai-collection-volume-2-demo` | Ultimate Hentai Collection Volume 2 Demo | https://kento-games.itch.io/ultimate-hentai-collection-volume-2-demo | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
 | `cand-xayrga-itch-io-easyovi-oviposition-shader` | Easyovi Oviposition Shader | https://xayrga.itch.io/easyovi-oviposition-shader | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-forgetailfoundry-itch-io-krystalmodel` | Krystalmodel | https://forgetailfoundry.itch.io/krystalmodel | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
+| `cand-forgetailfoundry-itch-io-krystalmodel` | krystalmodel | https://forgetailfoundry.itch.io/krystalmodel | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
 | `cand-bunnightfury-itch-io-rayne-champion-of-venus-vrc-avatar` | Rayne Champion Of Venus Vrc Avatar | https://bunnightfury.itch.io/rayne-champion-of-venus-vrc-avatar | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-boisterousfox-itch-io-ankha-model-nsfw` | Ankha Model Nsfw | https://boisterousfox.itch.io/ankha-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-camseven-itch-io-mowtoof` | Mowtoof | https://camseven.itch.io/mowtoof | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
+| `cand-boisterousfox-itch-io-ankha-model-nsfw` | ankha-model-nsfw | https://boisterousfox.itch.io/ankha-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-camseven-itch-io-mowtoof` | mowtoof | https://camseven.itch.io/mowtoof | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
 | `cand-hypnotrain-itch-io-ada-rendering-for-visual-novel` | Ada Rendering For Visual Novel | https://hypnotrain.itch.io/ada-rendering-for-visual-novel | 已收錄到素材庫 | `itch-ada-rendering-for-visual-novel` | http_ok, downloadable, 2026-07-24 |
-| `cand-ravenholm-car-itch-io-mishuzoologistavatar` | Mishuzoologistavatar | https://ravenholm-car.itch.io/mishuzoologistavatar | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-boisterousfox-itch-io-pinkie-pie-model-nsfw` | Pinkie Pie Model Nsfw | https://boisterousfox.itch.io/pinkie-pie-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-kadstd-itch-io-flashmepack` | Flashmepack | https://kadstd.itch.io/flashmepack | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
-| `cand-boisterousfox-itch-io-toy-bonnie-model-nsfw-two` | Toy Bonnie Model Nsfw Two | https://boisterousfox.itch.io/toy-bonnie-model-nsfw-two | 非素材（遊戲／工具等） | `—` | fail: not a 2D/VN game asset (VRC/model/shader/game) |
+| `cand-ravenholm-car-itch-io-mishuzoologistavatar` | mishuzoologistavatar | https://ravenholm-car.itch.io/mishuzoologistavatar | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-boisterousfox-itch-io-pinkie-pie-model-nsfw` | pinkie-pie-model-nsfw | https://boisterousfox.itch.io/pinkie-pie-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-kadstd-itch-io-flashmepack` | flashmepack | https://kadstd.itch.io/flashmepack | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-boisterousfox-itch-io-toy-bonnie-model-nsfw-two` | toy-bonnie-model-nsfw-two | https://boisterousfox.itch.io/toy-bonnie-model-nsfw-two | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01128566-html` | 立ち絵素材_セーターの青年(緑) [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01128566.html | 已收錄到素材庫 | `dlsite-rj01128566-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01131693-html` | 立ち絵素材_メッシュの青年(黒) [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01131693.html | 已收錄到素材庫 | `dlsite-rj01131693-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01134505-html` | 立ち絵素材ラフなスーツの男性 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01134505.html | 已收錄到素材庫 | `dlsite-rj01134505-trial` | — |
@@ -239,12 +239,12 @@
 | `cand-quarkyifu-itch-io-darline-visual-novel-character-sprite-with-photoshop-files` | Darline Visual Novel Character Sprite Wi | https://quarkyifu.itch.io/darline-visual-novel-character-sprite-with-photoshop-files | 已收錄到素材庫 | `quarkyifu-darline-visual-novel-character-sprite-wi` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-domino-visual-novel-character-with-transparency-and-photoshop-` | Domino Visual Novel Character With Trans | https://quarkyifu.itch.io/domino-visual-novel-character-with-transparency-and-photoshop-psd-file-for-visua | 已收錄到素材庫 | `quarkyifu-domino-visual-novel-character-with-transparen` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-frank-visual-novel-sprite-with-transparency-and-photoshop-psd-` | Frank Visual Novel Sprite With Transpare | https://quarkyifu.itch.io/frank-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no | 已收錄到素材庫 | `quarkyifu-frank-visual-novel-sprite-with-transparency-a` | http_ok, downloadable, 2026-07-28 |
-| `cand-quarkyifu-itch-io-janice-visual-novel-character-sprite-with-photoshop-files` | Janice Visual Novel Character Sprite Wit | https://quarkyifu.itch.io/janice-visual-novel-character-sprite-with-photoshop-files | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-janice-visual-novel-character-sprite-with-photoshop-files` | janice-visual-novel-character-sprite-wit | https://quarkyifu.itch.io/janice-visual-novel-character-sprite-with-photoshop-files | 需付費／登入牆 | `—` | fail: paid price>0 |
 | `cand-quarkyifu-itch-io-jayne-visual-novel-sprite-with-transparency-and-photoshop-psd-` | Jayne Visual Novel Sprite With Transpare | https://quarkyifu.itch.io/jayne-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no | 已收錄到素材庫 | `quarkyifu-jayne-visual-novel-sprite-with-transparency-a` | http_ok, downloadable, 2026-07-28 |
-| `cand-quarkyifu-itch-io-lady-tomoka-visual-novel-character-sprite-with-photoshop-files` | Lady Tomoka Visual Novel Character Sprit | https://quarkyifu.itch.io/lady-tomoka-visual-novel-character-sprite-with-photoshop-files | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-lady-tomoka-visual-novel-character-sprite-with-photoshop-files` | lady-tomoka-visual-novel-character-sprit | https://quarkyifu.itch.io/lady-tomoka-visual-novel-character-sprite-with-photoshop-files | 需付費／登入牆 | `—` | fail: paid price>0 |
 | `cand-quarkyifu-itch-io-mars1-male-visual-novel-sprite-with-transparency-and-photoshop` | Mars1 Male Visual Novel Sprite With Tran | https://quarkyifu.itch.io/mars1-male-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visu | 已收錄到素材庫 | `quarkyifu-mars1-male-visual-novel-sprite-with-transpare` | http_ok, downloadable, 2026-07-28 |
-| `cand-quarkyifu-itch-io-mary-visual-novel-sprite-305-images` | Mary Visual Novel Sprite 305 Images | https://quarkyifu.itch.io/mary-visual-novel-sprite-305-images | 連結失效或無法下載 | `—` | fail: empty |
-| `cand-quarkyifu-itch-io-nun-visual-novel-character-sprite-with-photoshop-file` | Nun Visual Novel Character Sprite With P | https://quarkyifu.itch.io/nun-visual-novel-character-sprite-with-photoshop-file | 連結失效或無法下載 | `—` | fail: empty |
+| `cand-quarkyifu-itch-io-mary-visual-novel-sprite-305-images` | mary-visual-novel-sprite-305-images | https://quarkyifu.itch.io/mary-visual-novel-sprite-305-images | 需付費／登入牆 | `—` | fail: paid price>0 |
+| `cand-quarkyifu-itch-io-nun-visual-novel-character-sprite-with-photoshop-file` | nun-visual-novel-character-sprite-with-p | https://quarkyifu.itch.io/nun-visual-novel-character-sprite-with-photoshop-file | 需付費／登入牆 | `—` | fail: paid price>0 |
 | `cand-quarkyifu-itch-io-officeboss1000` | Officeboss1000 | https://quarkyifu.itch.io/officeboss1000 | 已收錄到素材庫 | `quarkyifu-officeboss1000` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-officeboss2` | Officeboss2 | https://quarkyifu.itch.io/officeboss2 | 已收錄到素材庫 | `quarkyifu-officeboss2` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-officeboss2000` | Officeboss2000 | https://quarkyifu.itch.io/officeboss2000 | 已收錄到素材庫 | `quarkyifu-officeboss2000` | http_ok, downloadable, 2026-07-28 |
@@ -274,6 +274,53 @@
 | `cand-quarkyifu-itch-io-visual-novel-backgrounds-office-bg-set` | Visual Novel Backgrounds Office Bg Set | https://quarkyifu.itch.io/visual-novel-backgrounds-office-bg-set | 已收錄到素材庫 | `quarkyifu-visual-novel-backgrounds-office-bg-set` | http_ok, downloadable, 2026-07-28 |
 | `cand-quarkyifu-itch-io-visual-novel-characters-dawn-office` | Visual Novel Characters Dawn Office | https://quarkyifu.itch.io/visual-novel-characters-dawn-office | 已收錄到素材庫 | `quarkyifu-visual-novel-characters-dawn-office` | http_ok, downloadable, 2026-07-28 |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01618020-html` | 立ち絵素材_ふわふわ系少年 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01618020.html | 已收錄到素材庫 | `dlsite-rj01618020-trial` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-visual-novel-png-characters-adam-office` | Adam Office - Visual Novel PNG Character | https://quarkyifu.itch.io/visual-novel-png-characters-adam-office | 已收錄到素材庫 | `quarkyifu-adam-office` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-waitress-visual-novel-character-sprite-with-photoshop-file` | Waitress - Visual Novel Character Sprite | https://quarkyifu.itch.io/waitress-visual-novel-character-sprite-with-photoshop-file | 已收錄到素材庫 | `quarkyifu-waitress` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-raina` | Raina | https://quarkyifu.itch.io/raina | 已收錄到素材庫 | `quarkyifu-raina` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-visual-novel-pre-made-scenes-free-592-scene-set` | Visual Novel Pre-Made Scenes Free 592 Sc | https://quarkyifu.itch.io/visual-novel-pre-made-scenes-free-592-scene-set | 已收錄到素材庫 | `quarkyifu-premade-scenes-592` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-assorted-animal-animations` | Assorted Animal Animations | https://quarkyifu.itch.io/assorted-animal-animations | 已收錄到素材庫 | `quarkyifu-assorted-animal-animations` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-robot-action-animation-set` | Robot Action Animation Set | https://quarkyifu.itch.io/robot-action-animation-set | 已收錄到素材庫 | `quarkyifu-robot-action-animation-set` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-cat-driving-tank-animations` | Cat Driving Tank Animations | https://quarkyifu.itch.io/cat-driving-tank-animations | 已收錄到素材庫 | `quarkyifu-cat-driving-tank-animations` | http_ok, downloadable, 2026-07-28 |
+| `cand-panditastudio-itch-io-assets-pack-vol7-nsfw-vn-character` | assets-pack-vol7-nsfw-vn-character | https://panditastudio.itch.io/assets-pack-vol7-nsfw-vn-character | 連結失效或無法下載 | `—` | fail: HTTP 404 |
+| `cand-breezy-the-sleazy-itch-io-free-nsfw-assets` | free-nsfw-assets | https://breezy-the-sleazy.itch.io/free-nsfw-assets | 連結失效或無法下載 | `—` | fail: HTTP 404 |
+| `cand-chisech-itch-io-aedan` | aedan | https://chisech.itch.io/aedan | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-chisech-itch-io-mast` | mast | https://chisech.itch.io/mast | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-chisech-itch-io-rona` | rona | https://chisech.itch.io/rona | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-boisterousfox-itch-io-judy-hopps-model-nsfw` | judy-hopps-model-nsfw | https://boisterousfox.itch.io/judy-hopps-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-daturista-itch-io-parafernalha` | parafernalha | https://daturista.itch.io/parafernalha | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-tanuki-coffy-games-itch-io-chiku-mc-v-01` | chiku-mc-v-01 | https://tanuki-coffy-games.itch.io/chiku-mc-v-01 | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-corkthehyena-itch-io-addonthedragonbycork` | addonthedragonbycork | https://corkthehyena.itch.io/addonthedragonbycork | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-camseven-itch-io-coola` | coola | https://camseven.itch.io/coola | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-tanuki-coffy-games-itch-io-fexa-mc-v001` | fexa-mc-v001 | https://tanuki-coffy-games.itch.io/fexa-mc-v001 | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-pinkgrail-itch-io-maiden-id-love-to-f-the-goddesss-new-clothes` | maiden-id-love-to-f-the-goddesss-new-clo | https://pinkgrail.itch.io/maiden-id-love-to-f-the-goddesss-new-clothes | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-chisech-itch-io-mariana` | mariana | https://chisech.itch.io/mariana | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-boisterousfox-itch-io-toy-bonnie-model-nsfw` | toy-bonnie-model-nsfw | https://boisterousfox.itch.io/toy-bonnie-model-nsfw | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-chisech-itch-io-chisuka` | chisuka | https://chisech.itch.io/chisuka | 非素材（遊戲／工具等） | `—` | fail: 3d/vrc/model not in scope |
+| `cand-leafletgames-itch-io-alleycam` | alleycam | https://leafletgames.itch.io/alleycam | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-amber` | amber | https://leafletgames.itch.io/amber | 連結失效或無法下載 | `—` | fail: download failed |
+| `cand-leafletgames-itch-io-an-overwhelming-burst-of-freshness` | an-overwhelming-burst-of-freshness | https://leafletgames.itch.io/an-overwhelming-burst-of-freshness | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-aqua-puzzle-slider` | aqua-puzzle-slider | https://leafletgames.itch.io/aqua-puzzle-slider | 連結失效或無法下載 | `—` | fail: download failed |
+| `cand-leafletgames-itch-io-black-ink-sands` | black-ink-sands | https://leafletgames.itch.io/black-ink-sands | 連結失效或無法下載 | `—` | fail: download failed |
+| `cand-leafletgames-itch-io-censorcore` | censorcore | https://leafletgames.itch.io/censorcore | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-chocolot` | chocolot | https://leafletgames.itch.io/chocolot | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-desert-run` | desert-run | https://leafletgames.itch.io/desert-run | 連結失效或無法下載 | `—` | fail: download failed |
+| `cand-leafletgames-itch-io-dryad-pollination` | dryad-pollination | https://leafletgames.itch.io/dryad-pollination | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-enchanting-the-girl` | enchanting-the-girl | https://leafletgames.itch.io/enchanting-the-girl | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-eternal-autumn` | eternal-autumn | https://leafletgames.itch.io/eternal-autumn | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-free-anime-sprites` | free-anime-sprites | https://leafletgames.itch.io/free-anime-sprites | 已收錄到素材庫 | `leafletgames-free-anime-sprites` | http_ok, downloadable, 2026-07-28 |
+| `cand-leafletgames-itch-io-free-sprites-5` | free-sprites-5 | https://leafletgames.itch.io/free-sprites-5 | 已收錄到素材庫 | `leafletgames-free-sprites-5` | http_ok, downloadable, 2026-07-28 |
+| `cand-leafletgames-itch-io-glitter-amnesia` | glitter-amnesia | https://leafletgames.itch.io/glitter-amnesia | 連結失效或無法下載 | `—` | fail: download failed |
+| `cand-leafletgames-itch-io-golden-rose` | golden-rose | https://leafletgames.itch.io/golden-rose | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-i-met-her-at-the-farm` | i-met-her-at-the-farm | https://leafletgames.itch.io/i-met-her-at-the-farm | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-i-sense-you` | i-sense-you | https://leafletgames.itch.io/i-sense-you | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-ice-skating-heaven` | ice-skating-heaven | https://leafletgames.itch.io/ice-skating-heaven | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-iceice` | iceice | https://leafletgames.itch.io/iceice | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-limin-inc` | limin-inc | https://leafletgames.itch.io/limin-inc | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-lizzie-lesbian-vampire-hunter` | lizzie-lesbian-vampire-hunter | https://leafletgames.itch.io/lizzie-lesbian-vampire-hunter | 需付費／登入牆 | `—` | fail: paid 1.00 |
+| `cand-leafletgames-itch-io-mermaid-adventure-talp` | mermaid-adventure-talp | https://leafletgames.itch.io/mermaid-adventure-talp | 連結失效或無法下載 | `—` | fail: download failed |
+| `cand-leafletgames-itch-io-mushroom-minder` | mushroom-minder | https://leafletgames.itch.io/mushroom-minder | 非素材（遊戲／工具等） | `—` | fail: game build not asset pack |
+| `cand-leafletgames-itch-io-new-neighbors-for-christmas` | new-neighbors-for-christmas | https://leafletgames.itch.io/new-neighbors-for-christmas | 需付費／登入牆 | `—` | fail: paid 2.99 |
+| `cand-leafletgames-itch-io-orange` | orange | https://leafletgames.itch.io/orange | 連結失效或無法下載 | `—` | fail: download failed |
 
 ## 自動化驗證
 

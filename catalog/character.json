@@ -345,6 +345,39 @@
       "status": "downloaded",
       "style": "anime-2d",
       "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-visual-novel-backgrounds-office-bg-set"
+    },
+    {
+      "id": "quarkyifu-assorted-animal-animations",
+      "name": "Assorted Animal Animations",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/assorted-animal-animations",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-assorted-animal-animations"
+    },
+    {
+      "id": "quarkyifu-robot-action-animation-set",
+      "name": "Robot Action Animation Set",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/robot-action-animation-set",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-robot-action-animation-set"
+    },
+    {
+      "id": "quarkyifu-cat-driving-tank-animations",
+      "name": "Cat Driving Tank Animations",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/cat-driving-tank-animations",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-cat-driving-tank-animations"
     }
   ],
   "styles": {

@@ -40,7 +40,7 @@
           "sprites"
         ]
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "免費 NSFW sprites 列表（約 80+）"
     },
@@ -58,7 +58,7 @@
           "nsfw"
         ]
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "免費 NSFW assets 總表"
     },
@@ -76,7 +76,7 @@
         "license": "cc0",
         "genre": "visual-novel"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "CC0 VN 素材列表"
     },
@@ -96,7 +96,7 @@
         ],
         "sort": "newest"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "最新免費 NSFW（年齡牆可能擋爬蟲）"
     },
@@ -111,7 +111,7 @@
       "filters": {
         "keyword_search": true
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "blocked",
       "result_summary": "關鍵字搜尋常回 HTTP 403"
     },
@@ -126,7 +126,7 @@
       "filters": {
         "maker_id": "RG29726"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "作者頁掃描；多套立繪 trial 已收"
     },
@@ -141,7 +141,7 @@
       "filters": {
         "maker_id": "RG66647"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "RAIKO 立繪 trial 分批收錄中"
     },
@@ -156,7 +156,7 @@
       "filters": {
         "maker_id": "RG01010253"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "空想番外地 R18 立繪 trial"
     },
@@ -171,7 +171,7 @@
       "filters": {
         "maker_id": "RG01012324"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "Snow Material；部分作品無 trial"
     },
@@ -190,7 +190,7 @@
       "filters": {
         "engine": "web-search"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "用於發現 SpicyLyon／Eros／Leaflet／Kuminer 等"
     },
@@ -211,7 +211,7 @@
           "free"
         ]
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "failed",
       "result_summary": "HTTP Error 403: Forbidden"
     },
@@ -226,7 +226,7 @@
       "filters": {
         "maker_id": "RG01039776"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：にゃんちぇると"
     },
@@ -241,7 +241,7 @@
       "filters": {
         "maker_id": "RG61015"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：ふぁっちゅ"
     },
@@ -256,7 +256,7 @@
       "filters": {
         "maker_id": "RG65563"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：Pincree"
     },
@@ -271,7 +271,7 @@
       "filters": {
         "maker_id": "RG01003985"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：素材WIZPACK"
     },
@@ -286,7 +286,7 @@
       "filters": {
         "maker_id": "RG01062657"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：らむにくの素材屋さん"
     },
@@ -301,7 +301,7 @@
       "filters": {
         "maker_id": "RG63073"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：れいが荘素材専門店"
     },
@@ -316,7 +316,7 @@
       "filters": {
         "maker_id": "RG44045"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：キノコル"
     },
@@ -331,7 +331,7 @@
       "filters": {
         "maker_id": "RG53789"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：バズ猫工務店"
     },
@@ -346,7 +346,7 @@
       "filters": {
         "maker_id": "RG01045611"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：乃図制作所"
     },
@@ -361,7 +361,7 @@
       "filters": {
         "maker_id": "RG27887"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：菊にぃ"
     },
@@ -376,7 +376,7 @@
       "filters": {
         "maker_id": "RG01075080"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：WaifuKoubou"
     },
@@ -391,7 +391,7 @@
       "filters": {
         "maker_id": "RG01066181"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：Mashiro Lab."
     },
@@ -406,7 +406,7 @@
       "filters": {
         "maker_id": "RG65654"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：スペースドーナツ"
     },
@@ -421,7 +421,7 @@
       "filters": {
         "maker_id": "RG01051734"
       },
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：月影"
     },
@@ -767,12 +767,12 @@
       "title": "全クリエイターの皆様のための立ち絵素材〜総集編1〜",
       "site_id": "dlsite-maniax",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（作者明示可商用）",
-      "verdict": "rejected-paywall",
+      "verdict": "pending",
       "pack_id": "dlsite-fatchu-standing-total-1",
-      "verified_at": "2026-07-24",
+      "verified_at": null,
       "verify": {
         "http_ok": true,
         "downloadable": false,
@@ -786,12 +786,12 @@
       "title": "全クリエイターの皆様のための立ち絵素材〜総集編2〜",
       "site_id": "dlsite-maniax",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（作者明示可商用）",
-      "verdict": "rejected-paywall",
+      "verdict": "pending",
       "pack_id": "dlsite-fatchu-standing-total-2",
-      "verified_at": "2026-07-24",
+      "verified_at": null,
       "verify": {
         "http_ok": true,
         "downloadable": false,
@@ -805,12 +805,12 @@
       "title": "擬音素材集 お試し版（成人向けOK）",
       "site_id": "dlsite-maniax",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（作者明示商用・成人向けOK）",
-      "verdict": "rejected-paywall",
+      "verdict": "pending",
       "pack_id": "dlsite-fatchu-onomatopoeia-trial",
-      "verified_at": "2026-07-24",
+      "verified_at": null,
       "verify": {
         "http_ok": true,
         "downloadable": false,
@@ -824,12 +824,12 @@
       "title": "R18ゲーム用ボイス素材【おっとり敬語お姉さん】",
       "site_id": "dlsite-maniax",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "DLsite 購買授權（商業利用可）",
-      "verdict": "rejected-paywall",
+      "verdict": "pending",
       "pack_id": "dlsite-familia-voice-oneesan",
-      "verified_at": "2026-07-24",
+      "verified_at": null,
       "verify": {
         "http_ok": true,
         "downloadable": false,
@@ -843,12 +843,12 @@
       "title": "エロ漫画で使える！えっちな吹き出し素材集",
       "site_id": "dlsite-maniax",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "DLsite 購買授權",
-      "verdict": "rejected-paywall",
+      "verdict": "pending",
       "pack_id": "dlsite-nyancheru-speech-bubble",
-      "verified_at": "2026-07-24",
+      "verified_at": null,
       "verify": {
         "http_ok": true,
         "downloadable": false,
@@ -1109,7 +1109,7 @@
       "title": "Amanda Sprites P1 (Adult/Nudity)",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "條款待確認",
       "verdict": "rejected-broken",
@@ -1213,7 +1213,7 @@
       "title": "Goth NSFW Female character",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "作者明示可任意使用（無需署名）",
       "verdict": "rejected-broken",
@@ -1459,7 +1459,7 @@
       "title": "RPG Fantasy Girls I NSFW Edition",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "付費可商用（禁止轉售素材）",
       "verdict": "rejected-paywall",
@@ -1472,7 +1472,7 @@
       "title": "RPG Fantasy Girls II NSFW Edition",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "付費可商用（禁止轉售素材）",
       "verdict": "rejected-paywall",
@@ -1485,7 +1485,7 @@
       "title": "RPG Fantasy Girls III NSFW Edition",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "付費可商用（禁止轉售素材）",
       "verdict": "rejected-paywall",
@@ -1498,7 +1498,7 @@
       "title": "RPG Fantasy Girls IV NSFW Edition",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "付費可商用（禁止轉售素材）",
       "verdict": "rejected-paywall",
@@ -1582,7 +1582,7 @@
       "title": "(NSFW) Green girl sprite",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "條款待確認",
       "verdict": "rejected-broken",
@@ -1627,7 +1627,7 @@
       "title": "NSFW blue haired Nursity archive - Free",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
       "license_hint": "條款待確認",
       "verdict": "rejected-broken",
@@ -2344,19 +2344,19 @@
       "title": "nsfw-random-stuff",
       "site_id": "itch-io",
       "query_ids": [
-        "q-itch-free-nsfw-sprites"
+        "q-itch-quarkyifu-profile"
       ],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "",
-      "verdict": "rejected-broken",
+      "license_hint": "paid",
+      "verdict": "rejected-paywall",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": false,
-        "last_verify_at": "2026-07-24",
-        "error": "download failed"
+        "last_verify_at": "2026-07-28",
+        "error": "paid price>0"
       }
     },
     {
@@ -2366,16 +2366,17 @@
       "site_id": "itch-io",
       "query_ids": [],
       "found_at": "2026-07-28",
-      "downloadable": true,
+      "downloadable": false,
       "license_hint": "作者頁明示 Everything on my page you can use commercially",
-      "verdict": "ingested",
-      "pack_id": "itch-character-avatar-placeholders",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
         "last_verify_at": "2026-07-28",
-        "license_review": "upgraded-gurokitty-profile"
+        "license_review": "upgraded-gurokitty-profile",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
@@ -2768,22 +2769,22 @@
     {
       "id": "cand-forgetailfoundry-itch-io-krystalmodel",
       "url": "https://forgetailfoundry.itch.io/krystalmodel",
-      "title": "Krystalmodel",
+      "title": "krystalmodel",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
@@ -2810,43 +2811,43 @@
     {
       "id": "cand-boisterousfox-itch-io-ankha-model-nsfw",
       "url": "https://boisterousfox.itch.io/ankha-model-nsfw",
-      "title": "Ankha Model Nsfw",
+      "title": "ankha-model-nsfw",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
       "id": "cand-camseven-itch-io-mowtoof",
       "url": "https://camseven.itch.io/mowtoof",
-      "title": "Mowtoof",
+      "title": "mowtoof",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
@@ -2871,85 +2872,85 @@
     {
       "id": "cand-ravenholm-car-itch-io-mishuzoologistavatar",
       "url": "https://ravenholm-car.itch.io/mishuzoologistavatar",
-      "title": "Mishuzoologistavatar",
+      "title": "mishuzoologistavatar",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
       "id": "cand-boisterousfox-itch-io-pinkie-pie-model-nsfw",
       "url": "https://boisterousfox.itch.io/pinkie-pie-model-nsfw",
-      "title": "Pinkie Pie Model Nsfw",
+      "title": "pinkie-pie-model-nsfw",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
       "id": "cand-kadstd-itch-io-flashmepack",
       "url": "https://kadstd.itch.io/flashmepack",
-      "title": "Flashmepack",
+      "title": "flashmepack",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
       "id": "cand-boisterousfox-itch-io-toy-bonnie-model-nsfw-two",
       "url": "https://boisterousfox.itch.io/toy-bonnie-model-nsfw-two",
-      "title": "Toy Bonnie Model Nsfw Two",
+      "title": "toy-bonnie-model-nsfw-two",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-free-nsfw"
       ],
-      "found_at": "2026-07-24",
-      "downloadable": true,
-      "license_hint": "",
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
       "verdict": "rejected-non-asset",
       "pack_id": null,
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24",
-        "error": "not a 2D/VN game asset (VRC/model/shader/game)"
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
       }
     },
     {
@@ -3306,22 +3307,22 @@
     {
       "id": "cand-quarkyifu-itch-io-janice-visual-novel-character-sprite-with-photoshop-files",
       "url": "https://quarkyifu.itch.io/janice-visual-novel-character-sprite-with-photoshop-files",
-      "title": "Janice Visual Novel Character Sprite With Photos",
+      "title": "janice-visual-novel-character-sprite-with-photoshop-files",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
-      "verdict": "rejected-broken",
+      "license_hint": "paid",
+      "verdict": "rejected-paywall",
       "pack_id": null,
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": false,
         "last_verify_at": "2026-07-28",
-        "error": "empty"
+        "error": "paid price>0"
       }
     },
     {
@@ -3347,22 +3348,22 @@
     {
       "id": "cand-quarkyifu-itch-io-lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
       "url": "https://quarkyifu.itch.io/lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
-      "title": "Lady Tomoka Visual Novel Character Sprite With P",
+      "title": "lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
-      "verdict": "rejected-broken",
+      "license_hint": "paid",
+      "verdict": "rejected-paywall",
       "pack_id": null,
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": false,
         "last_verify_at": "2026-07-28",
-        "error": "empty"
+        "error": "paid price>0"
       }
     },
     {
@@ -3388,43 +3389,43 @@
     {
       "id": "cand-quarkyifu-itch-io-mary-visual-novel-sprite-305-images",
       "url": "https://quarkyifu.itch.io/mary-visual-novel-sprite-305-images",
-      "title": "Mary Visual Novel Sprite 305 Images",
+      "title": "mary-visual-novel-sprite-305-images",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
-      "verdict": "rejected-broken",
+      "license_hint": "paid",
+      "verdict": "rejected-paywall",
       "pack_id": null,
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": false,
         "last_verify_at": "2026-07-28",
-        "error": "empty"
+        "error": "paid price>0"
       }
     },
     {
       "id": "cand-quarkyifu-itch-io-nun-visual-novel-character-sprite-with-photoshop-file",
       "url": "https://quarkyifu.itch.io/nun-visual-novel-character-sprite-with-photoshop-file",
-      "title": "Nun Visual Novel Character Sprite With Photoshop",
+      "title": "nun-visual-novel-character-sprite-with-photoshop-file",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
-      "verdict": "rejected-broken",
+      "license_hint": "paid",
+      "verdict": "rejected-paywall",
       "pack_id": null,
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": false,
         "last_verify_at": "2026-07-28",
-        "error": "empty"
+        "error": "paid price>0"
       }
     },
     {
@@ -4005,6 +4006,984 @@
         "http_ok": true,
         "downloadable": true,
         "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-visual-novel-png-characters-adam-office",
+      "url": "https://quarkyifu.itch.io/visual-novel-png-characters-adam-office",
+      "title": "Adam Office - Visual Novel PNG Characters",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-adam-office",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-waitress-visual-novel-character-sprite-with-photoshop-file",
+      "url": "https://quarkyifu.itch.io/waitress-visual-novel-character-sprite-with-photoshop-file",
+      "title": "Waitress - Visual Novel Character Sprite",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-waitress",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-raina",
+      "url": "https://quarkyifu.itch.io/raina",
+      "title": "Raina",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-raina",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-visual-novel-pre-made-scenes-free-592-scene-set",
+      "url": "https://quarkyifu.itch.io/visual-novel-pre-made-scenes-free-592-scene-set",
+      "title": "Visual Novel Pre-Made Scenes Free 592 Scene Set",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-premade-scenes-592",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-assorted-animal-animations",
+      "url": "https://quarkyifu.itch.io/assorted-animal-animations",
+      "title": "Assorted Animal Animations",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-assorted-animal-animations",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-robot-action-animation-set",
+      "url": "https://quarkyifu.itch.io/robot-action-animation-set",
+      "title": "Robot Action Animation Set",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-robot-action-animation-set",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-cat-driving-tank-animations",
+      "url": "https://quarkyifu.itch.io/cat-driving-tank-animations",
+      "title": "Cat Driving Tank Animations",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-cat-driving-tank-animations",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-panditastudio-itch-io-assets-pack-vol7-nsfw-vn-character",
+      "url": "https://panditastudio.itch.io/assets-pack-vol7-nsfw-vn-character",
+      "title": "assets-pack-vol7-nsfw-vn-character",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw-sprites"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": false,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "HTTP 404"
+      }
+    },
+    {
+      "id": "cand-breezy-the-sleazy-itch-io-free-nsfw-assets",
+      "url": "https://breezy-the-sleazy.itch.io/free-nsfw-assets",
+      "title": "free-nsfw-assets",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw-sprites"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": false,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "HTTP 404"
+      }
+    },
+    {
+      "id": "cand-chisech-itch-io-aedan",
+      "url": "https://chisech.itch.io/aedan",
+      "title": "aedan",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-chisech-itch-io-mast",
+      "url": "https://chisech.itch.io/mast",
+      "title": "mast",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-chisech-itch-io-rona",
+      "url": "https://chisech.itch.io/rona",
+      "title": "rona",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-boisterousfox-itch-io-judy-hopps-model-nsfw",
+      "url": "https://boisterousfox.itch.io/judy-hopps-model-nsfw",
+      "title": "judy-hopps-model-nsfw",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-daturista-itch-io-parafernalha",
+      "url": "https://daturista.itch.io/parafernalha",
+      "title": "parafernalha",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-tanuki-coffy-games-itch-io-chiku-mc-v-01",
+      "url": "https://tanuki-coffy-games.itch.io/chiku-mc-v-01",
+      "title": "chiku-mc-v-01",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-corkthehyena-itch-io-addonthedragonbycork",
+      "url": "https://corkthehyena.itch.io/addonthedragonbycork",
+      "title": "addonthedragonbycork",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-camseven-itch-io-coola",
+      "url": "https://camseven.itch.io/coola",
+      "title": "coola",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-tanuki-coffy-games-itch-io-fexa-mc-v001",
+      "url": "https://tanuki-coffy-games.itch.io/fexa-mc-v001",
+      "title": "fexa-mc-v001",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-pinkgrail-itch-io-maiden-id-love-to-f-the-goddesss-new-clothes",
+      "url": "https://pinkgrail.itch.io/maiden-id-love-to-f-the-goddesss-new-clothes",
+      "title": "maiden-id-love-to-f-the-goddesss-new-clothes",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-chisech-itch-io-mariana",
+      "url": "https://chisech.itch.io/mariana",
+      "title": "mariana",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-boisterousfox-itch-io-toy-bonnie-model-nsfw",
+      "url": "https://boisterousfox.itch.io/toy-bonnie-model-nsfw",
+      "title": "toy-bonnie-model-nsfw",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-chisech-itch-io-chisuka",
+      "url": "https://chisech.itch.io/chisuka",
+      "title": "chisuka",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-free-nsfw"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "條款待確認（本輪自動發現）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "3d/vrc/model not in scope"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-alleycam",
+      "url": "https://leafletgames.itch.io/alleycam",
+      "title": "alleycam",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-amber",
+      "url": "https://leafletgames.itch.io/amber",
+      "title": "amber",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-an-overwhelming-burst-of-freshness",
+      "url": "https://leafletgames.itch.io/an-overwhelming-burst-of-freshness",
+      "title": "an-overwhelming-burst-of-freshness",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-aqua-puzzle-slider",
+      "url": "https://leafletgames.itch.io/aqua-puzzle-slider",
+      "title": "aqua-puzzle-slider",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-black-ink-sands",
+      "url": "https://leafletgames.itch.io/black-ink-sands",
+      "title": "black-ink-sands",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-censorcore",
+      "url": "https://leafletgames.itch.io/censorcore",
+      "title": "censorcore",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-chocolot",
+      "url": "https://leafletgames.itch.io/chocolot",
+      "title": "chocolot",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-desert-run",
+      "url": "https://leafletgames.itch.io/desert-run",
+      "title": "desert-run",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-dryad-pollination",
+      "url": "https://leafletgames.itch.io/dryad-pollination",
+      "title": "dryad-pollination",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-enchanting-the-girl",
+      "url": "https://leafletgames.itch.io/enchanting-the-girl",
+      "title": "enchanting-the-girl",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-eternal-autumn",
+      "url": "https://leafletgames.itch.io/eternal-autumn",
+      "title": "eternal-autumn",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-free-anime-sprites",
+      "url": "https://leafletgames.itch.io/free-anime-sprites",
+      "title": "free-anime-sprites",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "leafletgames-free-anime-sprites",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-free-sprites-5",
+      "url": "https://leafletgames.itch.io/free-sprites-5",
+      "title": "free-sprites-5",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "leafletgames-free-sprites-5",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-glitter-amnesia",
+      "url": "https://leafletgames.itch.io/glitter-amnesia",
+      "title": "glitter-amnesia",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-golden-rose",
+      "url": "https://leafletgames.itch.io/golden-rose",
+      "title": "golden-rose",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-i-met-her-at-the-farm",
+      "url": "https://leafletgames.itch.io/i-met-her-at-the-farm",
+      "title": "i-met-her-at-the-farm",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-i-sense-you",
+      "url": "https://leafletgames.itch.io/i-sense-you",
+      "title": "i-sense-you",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-ice-skating-heaven",
+      "url": "https://leafletgames.itch.io/ice-skating-heaven",
+      "title": "ice-skating-heaven",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-iceice",
+      "url": "https://leafletgames.itch.io/iceice",
+      "title": "iceice",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-limin-inc",
+      "url": "https://leafletgames.itch.io/limin-inc",
+      "title": "limin-inc",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-lizzie-lesbian-vampire-hunter",
+      "url": "https://leafletgames.itch.io/lizzie-lesbian-vampire-hunter",
+      "title": "lizzie-lesbian-vampire-hunter",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "price=1.00",
+      "verdict": "rejected-paywall",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "paid 1.00"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-mermaid-adventure-talp",
+      "url": "https://leafletgames.itch.io/mermaid-adventure-talp",
+      "title": "mermaid-adventure-talp",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-mushroom-minder",
+      "url": "https://leafletgames.itch.io/mushroom-minder",
+      "title": "mushroom-minder",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "作者頁面通常標示可商用／CC0／免權利金（請覆核）",
+      "verdict": "rejected-non-asset",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "error": "game build not asset pack"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-new-neighbors-for-christmas",
+      "url": "https://leafletgames.itch.io/new-neighbors-for-christmas",
+      "title": "new-neighbors-for-christmas",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "price=2.99",
+      "verdict": "rejected-paywall",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "paid 2.99"
+      }
+    },
+    {
+      "id": "cand-leafletgames-itch-io-orange",
+      "url": "https://leafletgames.itch.io/orange",
+      "title": "orange",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-known-authors"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": false,
+      "license_hint": "",
+      "verdict": "rejected-broken",
+      "pack_id": null,
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": false,
+        "last_verify_at": "2026-07-28",
+        "error": "download failed"
       }
     }
   ]

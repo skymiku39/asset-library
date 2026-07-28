@@ -79,6 +79,13 @@ def extract_itch_links(html: str) -> list[str]:
         "shader",
         "unitypackage",
         "demo",
+        "model",
+        "models",
+        "fbx",
+        "blend",
+        "mmd",
+        "vrchat",
+        "addon",
     }
     out: list[str] = []
     seen: set[str] = set()
@@ -90,7 +97,9 @@ def extract_itch_links(html: str) -> list[str]:
         tokens = set(slug_l.split("-"))
         if tokens & skip_slug_tokens:
             continue
-        if "vrc" in slug_l:  # compound like foo-vrc-bar
+        if "vrc" in slug_l or "vrchat" in slug_l or "avatar" in slug_l:
+            continue
+        if re.search(r"(^|-)(model|models|fbx|blend|mmd)(-|$)", slug_l):
             continue
         u = f"https://{host_l}.itch.io/{slug_l}"
         if u in seen:
@@ -113,6 +122,21 @@ def has_files(dest: Path) -> bool:
         p.is_file() and p.name not in {"SOURCE_LICENSE.md", "README.md"}
         for p in dest.rglob("*")
     )
+
+
+def looks_like_game_build(dest: Path) -> bool:
+    """Reject Ren'Py / Unity / executable game dumps mistaken for asset packs."""
+    files = [p for p in dest.rglob("*") if p.is_file() and p.name not in {"SOURCE_LICENSE.md", "README.md"}]
+    if not files:
+        return False
+    exts = {p.suffix.lower() for p in files}
+    if exts & {".rpy", ".rpyc", ".pyo", ".exe", ".apk"}:
+        return True
+    if exts <= {".bin"} or (len(files) <= 2 and ".bin" in exts):
+        return True
+    n_engine = sum(1 for p in files if p.suffix.lower() in {".pyo", ".pyc", ".rpy", ".rpyc", ".dll", ".js"})
+    n_img = sum(1 for p in files if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".psd"})
+    return n_engine > 50 and n_img < 250
 
 
 MAKER_SCAN = [
@@ -252,12 +276,8 @@ def main() -> int:
 
     # also try a few curated new URLs
     curated = [
-        ("q-web-free-nsfw-cc0", "https://quarkyifu.itch.io/angel-5"),
-        ("q-web-free-nsfw-cc0", "https://quarkyifu.itch.io/blue-angel-visual-novel-browser-version"),
-        ("q-itch-free-nsfw-sprites", "https://rilesu.itch.io/nsfw-random-stuff"),
-        ("q-itch-free-nsfw-sprites", "https://panditastudio.itch.io/assets-pack-vol7-nsfw-vn-character"),
-        ("q-itch-free-nsfw-sprites", "https://jitsukoan.itch.io/rpg-fantasy-girls-v-nsfw-edition"),
-        ("q-web-free-nsfw-cc0", "https://breezy-the-sleazy.itch.io/free-nsfw-assets"),
+        ("q-web-free-nsfw-cc0", "https://quarkyifu.itch.io/visual-novel-png-characters-adam-office"),
+        ("q-itch-free-nsfw-sprites", "https://leafletgames.itch.io/free-sprites-4-nudity"),
     ]
     for qid, link in curated:
         if link.rstrip("/").lower() not in known:
@@ -322,6 +342,37 @@ def main() -> int:
             )
             log("itch_fail", {"url": link})
             print("FAIL", link)
+            continue
+
+        if looks_like_game_build(dest):
+            failed += 1
+            import shutil
+
+            shutil.rmtree(dest, ignore_errors=True)
+            ensure_candidate(
+                ledger,
+                {
+                    "id": cid,
+                    "url": link,
+                    "title": slug,
+                    "site_id": "itch-io",
+                    "query_ids": [qid],
+                    "found_at": today(),
+                    "downloadable": True,
+                    "license_hint": "",
+                    "verdict": "rejected-non-asset",
+                    "pack_id": None,
+                    "verified_at": today(),
+                    "verify": {
+                        "http_ok": True,
+                        "downloadable": True,
+                        "last_verify_at": today(),
+                        "error": "game build not asset pack",
+                    },
+                },
+            )
+            log("itch_non_asset", {"url": link})
+            print("NON_ASSET", link)
             continue
 
         pack_id = folder

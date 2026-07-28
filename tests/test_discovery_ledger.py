@@ -121,9 +121,24 @@ class AdultDiscoveryFilterTest(unittest.TestCase):
         https://bunnightfury.itch.io/faye-artemis-vrc
         https://leafletgames.itch.io/free-sprites-4-nudity
         https://kento-games.itch.io/foo-demo
+        https://boisterousfox.itch.io/ankha-model-nsfw
+        https://someone.itch.io/cool-avatar-pack
         """
         got = discovery_run_mod.extract_itch_links(html)
         self.assertEqual(got, ["https://leafletgames.itch.io/free-sprites-4-nudity"])
+
+    def test_looks_like_game_build_detects_renpy(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "game").mkdir()
+            (root / "game" / "script.rpy").write_text("label start:\n    return\n", encoding="utf-8")
+            (root / "game" / "a.png").write_bytes(b"x")
+            self.assertTrue(discovery_run_mod.looks_like_game_build(root))
+            asset_only = root / "sprites"
+            asset_only.mkdir()
+            (asset_only / "a.png").write_bytes(b"x")
+            (asset_only / "b.png").write_bytes(b"x")
+            self.assertFalse(discovery_run_mod.looks_like_game_build(asset_only))
 
 
 if __name__ == "__main__":
