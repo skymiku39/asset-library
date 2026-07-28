@@ -2137,7 +2137,7 @@
       "source_url": "https://niborset66.itch.io/pixel-nude",
       "commercial": "待確認",
       "attribution": "待確認",
-      "note": "3 組像素裸體角色 PNG（64／128／6500px）；使用前請確認授權；2026-07-24 覆核仍 unclear：僅寫 freebie／多專案可用，未明示商用",
+      "note": "3 組像素裸體角色 PNG（64／128／6500px）；使用前請確認授權；2026-07-24 覆核仍 unclear：僅寫 freebie／多專案可用，未明示商用；2026-07-28 再覆核仍 unclear：僅 freebie／multiple projects，未明示商用",
       "status": "downloaded"
     },
     {
@@ -2887,7 +2887,7 @@
       "source_url": "https://cool-devil-gds.itch.io/agatha-sprites",
       "commercial": "待確認",
       "attribution": "待確認",
-      "note": "Agatha sprite 包；使用前請確認授權；2026-07-24 覆核仍 unclear：僅免費著衣；內衣／裸體系付費；無商用條款",
+      "note": "Agatha sprite 包；使用前請確認授權；2026-07-24 覆核仍 unclear：僅免費著衣；內衣／裸體系付費；無商用條款；2026-07-28 再覆核仍 unclear：著衣免費、內衣／裸體付費；頁面無商用條款",
       "status": "downloaded"
     },
     {
@@ -3061,13 +3061,13 @@
       "name": "Neko Girl Sprite (censored/uncensored)",
       "asset_type": "adult-18plus",
       "style": "vn-sprite",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認（PWYW，頁面未明寫商用）",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示 Everything on my page you can use commercially",
       "author": "gurokitty",
       "source_url": "https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored",
-      "commercial": "待確認",
-      "attribution": "待確認",
-      "note": "貓耳女孩立繪；有打碼／無打碼兩版 PNG；2026-07-24 覆核仍 unclear：PWYW 無授權條款文字",
+      "commercial": "允許",
+      "attribution": "不強制",
+      "note": "貓耳女孩立繪；有打碼／無打碼兩版 PNG；2026-07-24 覆核仍 unclear：PWYW 無授權條款文字；2026-07-28 覆核：gurokitty.itch.io 作者簡介明文可商用",
       "status": "downloaded"
     },
     {
@@ -4201,13 +4201,13 @@
       "name": "Character Avatar Placeholders",
       "asset_type": "adult-18plus",
       "style": "vn-sprite",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認（本輪自動發現）",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示 Everything on my page you can use commercially",
       "author": "gurokitty",
       "source_url": "https://gurokitty.itch.io/character-avatar-placeholders",
-      "commercial": "待確認",
-      "attribution": "依來源頁",
-      "note": "auto-discovered via q-itch-free-nsfw-sprites；2026-07-24 覆核仍 unclear：placeholder 用途說明，無商用條款",
+      "commercial": "允許",
+      "attribution": "不強制",
+      "note": "auto-discovered via q-itch-free-nsfw-sprites；2026-07-24 覆核仍 unclear：placeholder 用途說明，無商用條款；2026-07-28 覆核：gurokitty.itch.io 作者簡介明文可商用",
       "status": "downloaded"
     },
     {
@@ -4508,6 +4508,51 @@
       "commercial": "體驗版可評估；產品版多為商用可",
       "attribution": "依作品頁",
       "note": "maker=RG01010253",
+      "status": "downloaded"
+    },
+    {
+      "id": "gurokitty-female-sprite-expressions",
+      "folder": "gurokitty-female-sprite-expressions",
+      "name": "female sprite (censored/uncensored)",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示可商用（gurokitty.itch.io）",
+      "author": "gurokitty",
+      "source_url": "https://gurokitty.itch.io/femalesprite-wdifferent-expressions",
+      "commercial": "允許",
+      "attribution": "不強制",
+      "note": "2026-07-28 續收；作者簡介 Everything on my page you can use commercially",
+      "status": "downloaded"
+    },
+    {
+      "id": "gurokitty-cybernetic-girl",
+      "folder": "gurokitty-cybernetic-girl",
+      "name": "Cybernetic Girl Sprite",
+      "asset_type": "adult-18plus",
+      "style": "vn-sprite",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示可商用（gurokitty.itch.io）",
+      "author": "gurokitty",
+      "source_url": "https://gurokitty.itch.io/cybernetic-girl-sprite-w-facial-expressions",
+      "commercial": "允許",
+      "attribution": "不強制",
+      "note": "2026-07-28 續收；作者簡介 Everything on my page you can use commercially",
+      "status": "downloaded"
+    },
+    {
+      "id": "gurokitty-ghost-girl",
+      "folder": "gurokitty-ghost-girl",
+      "name": "Busty Ghost Girl Sprite",
+      "asset_type": "adult-18plus",
+      "style": "pixel-art",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示可商用（gurokitty.itch.io）",
+      "author": "gurokitty",
+      "source_url": "https://gurokitty.itch.io/ghost-girl-pixel-sprite",
+      "commercial": "允許",
+      "attribution": "不強制",
+      "note": "2026-07-28 續收；作者簡介 Everything on my page you can use commercially",
       "status": "downloaded"
     }
   ],

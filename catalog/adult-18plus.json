@@ -1,6 +1,6 @@
 {
   "category": "adult-18plus",
-  "updated": "2026-07-24",
+  "updated": "2026-07-28",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -684,12 +684,12 @@
       "id": "gurokitty-neko-girl",
       "name": "Neko Girl Sprite (censored/uncensored)",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認（PWYW，頁面未明寫商用）",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示 Everything on my page you can use commercially",
       "source_url": "https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored",
       "status": "downloaded",
       "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/gurokitty-neko-girl"
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/gurokitty-neko-girl"
     },
     {
       "id": "dlsite-kuusoubangaiichi-blonde-mage-r18-trial",
@@ -1514,12 +1514,12 @@
       "id": "itch-character-avatar-placeholders",
       "name": "Character Avatar Placeholders",
       "asset_type": "adult-18plus",
-      "license_category": "3-license-unclear",
-      "license": "條款待確認（本輪自動發現）",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示 Everything on my page you can use commercially",
       "source_url": "https://gurokitty.itch.io/character-avatar-placeholders",
       "status": "downloaded",
       "style": "vn-sprite",
-      "local_path": "assets/3-license-unclear/adult-18plus/vn-sprite/itch-character-avatar-placeholders"
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/itch-character-avatar-placeholders"
     },
     {
       "id": "dlsite-rj01104199-trial",
@@ -1740,6 +1740,39 @@
       "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01117858-trial"
+    },
+    {
+      "id": "gurokitty-female-sprite-expressions",
+      "name": "female sprite (censored/uncensored)",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示可商用（gurokitty.itch.io）",
+      "source_url": "https://gurokitty.itch.io/femalesprite-wdifferent-expressions",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/gurokitty-female-sprite-expressions"
+    },
+    {
+      "id": "gurokitty-cybernetic-girl",
+      "name": "Cybernetic Girl Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示可商用（gurokitty.itch.io）",
+      "source_url": "https://gurokitty.itch.io/cybernetic-girl-sprite-w-facial-expressions",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/gurokitty-cybernetic-girl"
+    },
+    {
+      "id": "gurokitty-ghost-girl",
+      "name": "Busty Ghost Girl Sprite",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁明示可商用（gurokitty.itch.io）",
+      "source_url": "https://gurokitty.itch.io/ghost-girl-pixel-sprite",
+      "status": "downloaded",
+      "style": "pixel-art",
+      "local_path": "assets/1-free-commercial/adult-18plus/pixel-art/gurokitty-ghost-girl"
     }
   ],
   "styles": {

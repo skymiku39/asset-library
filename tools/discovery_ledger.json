@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-07-24",
+  "updated": "2026-07-28",
   "scope": "adult-18plus",
   "purpose": "記錄已查詢網站、關鍵字／篩選條件、候選與已確認條目，供後續自動化驗證",
   "sites": [
@@ -1229,12 +1229,18 @@
       "title": "Neko Girl Sprite (censored/uncensored)",
       "site_id": "itch-io",
       "query_ids": [],
-      "found_at": "2026-07-24",
+      "found_at": "2026-07-28",
       "downloadable": true,
-      "license_hint": "條款待確認（PWYW，頁面未明寫商用）",
+      "license_hint": "作者頁明示 Everything on my page you can use commercially",
       "verdict": "ingested",
       "pack_id": "gurokitty-neko-girl",
-      "verified_at": "2026-07-24"
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28",
+        "license_review": "upgraded-gurokitty-profile"
+      }
     },
     {
       "id": "cand-www-dlsite-com-maniax-work-product-id-rj01634272-html",
@@ -2301,21 +2307,20 @@
     {
       "id": "cand-gurokitty-itch-io-character-avatar-placeholders",
       "url": "https://gurokitty.itch.io/character-avatar-placeholders",
-      "title": "character-avatar-placeholders",
+      "title": "Character Avatar Placeholders",
       "site_id": "itch-io",
-      "query_ids": [
-        "q-itch-free-nsfw-sprites"
-      ],
-      "found_at": "2026-07-24",
+      "query_ids": [],
+      "found_at": "2026-07-28",
       "downloadable": true,
-      "license_hint": "條款待確認（本輪自動發現）",
+      "license_hint": "作者頁明示 Everything on my page you can use commercially",
       "verdict": "ingested",
       "pack_id": "itch-character-avatar-placeholders",
-      "verified_at": "2026-07-24",
+      "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
         "downloadable": true,
-        "last_verify_at": "2026-07-24"
+        "last_verify_at": "2026-07-28",
+        "license_review": "upgraded-gurokitty-profile"
       }
     },
     {
@@ -2982,6 +2987,66 @@
       "verdict": "ingested",
       "pack_id": "dlsite-rj01117858-trial",
       "verified_at": "2026-07-24"
+    },
+    {
+      "id": "cand-gurokitty-itch-io-femalesprite-wdifferent-expressions",
+      "url": "https://gurokitty.itch.io/femalesprite-wdifferent-expressions",
+      "title": "female sprite (censored/uncensored)",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-free-nsfw-cc0"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁明示可商用（gurokitty.itch.io）",
+      "verdict": "ingested",
+      "pack_id": "gurokitty-female-sprite-expressions",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-gurokitty-itch-io-cybernetic-girl-sprite-w-facial-expressions",
+      "url": "https://gurokitty.itch.io/cybernetic-girl-sprite-w-facial-expressions",
+      "title": "Cybernetic Girl Sprite",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-free-nsfw-cc0"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁明示可商用（gurokitty.itch.io）",
+      "verdict": "ingested",
+      "pack_id": "gurokitty-cybernetic-girl",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-gurokitty-itch-io-ghost-girl-pixel-sprite",
+      "url": "https://gurokitty.itch.io/ghost-girl-pixel-sprite",
+      "title": "Busty Ghost Girl Sprite",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-free-nsfw-cc0"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁明示可商用（gurokitty.itch.io）",
+      "verdict": "ingested",
+      "pack_id": "gurokitty-ghost-girl",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 # 18+ 素材搜尋履歷（Discovery Ledger）
 
-> 更新：2026-07-24｜機器可讀：`tools/discovery_ledger.json`
+> 更新：2026-07-28｜機器可讀：`tools/discovery_ledger.json`
 
 記錄已查詢網站、關鍵字／篩選條件、候選與已確認條目，供後續自動化驗證
 
@@ -104,7 +104,7 @@
 | `cand-purapiedra-itch-io-nsfw-nude-girl-sprite-assets-gif-png` | Free Nightclub Girls. Game Assets | https://purapiedra.itch.io/nsfw-nude-girl-sprite-assets-gif-png | 已收錄到素材庫 | `purapiedra-nightclub-girls-free` | http_ok, downloadable, 2026-07-24 |
 | `cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites2` | Haneko - Animated Visual Novel Sprites 2 | https://lokiarts.itch.io/haneko-animated-visual-novel-sprites2 | 已收錄到素材庫 | `lokianimations-haneko-2` | — |
 | `cand-lokiarts-itch-io-haneko-animated-visual-novel-sprites-3` | Haneko - Animated Visual Novel Sprites 3 | https://lokiarts.itch.io/haneko-animated-visual-novel-sprites-3 | 已收錄到素材庫 | `lokianimations-haneko-3` | — |
-| `cand-gurokitty-itch-io-neko-girl-sprite-censoreduncensored` | Neko Girl Sprite (censored/uncensored) | https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored | 已收錄到素材庫 | `gurokitty-neko-girl` | — |
+| `cand-gurokitty-itch-io-neko-girl-sprite-censoreduncensored` | Neko Girl Sprite (censored/uncensored) | https://gurokitty.itch.io/neko-girl-sprite-censoreduncensored | 已收錄到素材庫 | `gurokitty-neko-girl` | http_ok, downloadable, 2026-07-28 |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01634272-html` | 【立ち絵素材R18】金髪ショートの魔法使い少女 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01634272.html | 已收錄到素材庫 | `dlsite-kuusoubangaiichi-blonde-mage-r18-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01637333-html` | 【立ち絵素材】金髪ショートの魔法使い少女 フルセットPSDパック [空想番外地] | https://www.dlsite.com/maniax/work/=/product_id/RJ01637333.html | 已收錄到素材庫 | `dlsite-rj01637333-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01638524-html` | 【立ち絵素材R18】金髪ポニテ褐色肌の少女剣士 フルセットPSDパック [空想番 | https://www.dlsite.com/maniax/work/=/product_id/RJ01638524.html | 已收錄到素材庫 | `dlsite-rj01638524-trial` | — |
@@ -183,7 +183,7 @@
 | `cand-quarkyifu-itch-io-angel-5` | angel-5 | https://quarkyifu.itch.io/angel-5 | 連結失效或無法下載 | `—` | fail: download failed |
 | `cand-quarkyifu-itch-io-blue-angel-visual-novel-browser-version` | blue-angel-visual-novel-browser-version | https://quarkyifu.itch.io/blue-angel-visual-novel-browser-version | 連結失效或無法下載 | `—` | fail: download failed |
 | `cand-rilesu-itch-io-nsfw-random-stuff` | nsfw-random-stuff | https://rilesu.itch.io/nsfw-random-stuff | 連結失效或無法下載 | `—` | fail: download failed |
-| `cand-gurokitty-itch-io-character-avatar-placeholders` | character-avatar-placeholders | https://gurokitty.itch.io/character-avatar-placeholders | 已收錄到素材庫 | `itch-character-avatar-placeholders` | http_ok, downloadable, 2026-07-24 |
+| `cand-gurokitty-itch-io-character-avatar-placeholders` | Character Avatar Placeholders | https://gurokitty.itch.io/character-avatar-placeholders | 已收錄到素材庫 | `itch-character-avatar-placeholders` | http_ok, downloadable, 2026-07-28 |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01104199-html` | 立ち絵素材 胡散臭そうなおじさん(白スーツ) [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01104199.html | 已收錄到素材庫 | `dlsite-rj01104199-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01106500-html` | 立ち絵素材_保安官風の男性 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01106500.html | 已收錄到素材庫 | `dlsite-rj01106500-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01108574-html` | 立ち絵素材_コートの男性(オールバック) [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01108574.html | 已收錄到素材庫 | `dlsite-rj01108574-trial` | — |
@@ -223,6 +223,9 @@
 | `cand-www-dlsite-com-maniax-work-product-id-rj01317317-html` | 立ち絵素材スキーウェアの青年 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01317317.html | 已收錄到素材庫 | `dlsite-rj01317317-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01322815-html` | 立ち絵素材耳当ての女性 [立ち絵素材RAIKO] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01322815.html | 已收錄到素材庫 | `dlsite-rj01322815-trial` | — |
 | `cand-www-dlsite-com-maniax-work-product-id-rj01117858-html` | サキュバスCRISIS [空想番外地] 体験版 | https://www.dlsite.com/maniax/work/=/product_id/RJ01117858.html | 已收錄到素材庫 | `dlsite-rj01117858-trial` | — |
+| `cand-gurokitty-itch-io-femalesprite-wdifferent-expressions` | female sprite (censored/uncensored) | https://gurokitty.itch.io/femalesprite-wdifferent-expressions | 已收錄到素材庫 | `gurokitty-female-sprite-expressions` | http_ok, downloadable, 2026-07-28 |
+| `cand-gurokitty-itch-io-cybernetic-girl-sprite-w-facial-expressions` | Cybernetic Girl Sprite | https://gurokitty.itch.io/cybernetic-girl-sprite-w-facial-expressions | 已收錄到素材庫 | `gurokitty-cybernetic-girl` | http_ok, downloadable, 2026-07-28 |
+| `cand-gurokitty-itch-io-ghost-girl-pixel-sprite` | Busty Ghost Girl Sprite | https://gurokitty.itch.io/ghost-girl-pixel-sprite | 已收錄到素材庫 | `gurokitty-ghost-girl` | http_ok, downloadable, 2026-07-28 |
 
 ## 自動化驗證
 

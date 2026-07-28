@@ -11,10 +11,10 @@
 | 授權條款 | Name Your Own Price（$0）；條款未明示 |
 | 作者 | Niborset66 |
 | 來源網址 | https://niborset66.itch.io/pixel-nude |
-| 收錄日期 | 2026-07-24 |
+| 收錄日期 | 2026-07-28 |
 | 商用 | 待確認 |
 | 署名 | 待確認 |
-| 備註 | 3 組像素裸體角色 PNG（64／128／6500px）；使用前請確認授權；2026-07-24 覆核仍 unclear：僅寫 freebie／多專案可用，未明示商用 |
+| 備註 | 3 組像素裸體角色 PNG（64／128／6500px）；使用前請確認授權；2026-07-24 覆核仍 unclear：僅寫 freebie／多專案可用，未明示商用；2026-07-28 再覆核仍 unclear：僅 freebie／multiple projects，未明示商用 |
 
 ## 授權摘要
 
