@@ -1,6 +1,6 @@
 {
   "category": "character",
-  "updated": "2026-07-14",
+  "updated": "2026-07-28",
   "asset_types": {
     "playing-cards": "撲克牌",
     "mahjong": "麻將",
@@ -224,6 +224,28 @@
       "status": "downloaded",
       "style": "vector-flat",
       "local_path": "assets/3-license-unclear/character/vector-flat/bullseye-avatar-pack"
+    },
+    {
+      "id": "potat0master-vn-starter-bundle",
+      "name": "Free Character Sprites for Visual Novels Starter Bundle",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "Royalty-Free；可商用；禁止轉售／再散布素材",
+      "source_url": "https://potat0master.itch.io/character-sprites-for-visual-novels-starter-bundle",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/potat0master-vn-starter-bundle"
+    },
+    {
+      "id": "quarkyifu-bicycle-26-image-transparent-background-",
+      "name": "Bicycle Transparent Background Set for Visual Novel",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/bicycle-26-image-transparent-background-set-for-visual-novel-detail",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-bicycle-26-image-transparent-background-"
     }
   ],
   "styles": {

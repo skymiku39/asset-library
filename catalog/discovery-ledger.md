@@ -41,6 +41,7 @@
 | `q-dlsite-maker-mashiro-lab` | DLsite Maniax | maker_id:RG01066181, Mashiro Lab. | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01066181.html | 2026-07-24 | checked | maker profile 掃描清單：Mashiro Lab. |
 | `q-dlsite-maker-spacedoughnut` | DLsite Maniax | maker_id:RG65654, スペースドーナツ | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG65654.html | 2026-07-24 | checked | maker profile 掃描清單：スペースドーナツ |
 | `q-dlsite-maker-tsukikage` | DLsite Maniax | maker_id:RG01051734, 月影 | https://www.dlsite.com/maniax/circle/profile/=/maker_id/RG01051734.html | 2026-07-24 | checked | maker profile 掃描清單：月影 |
+| `q-web-tulune-potat0-kuroi` | Web Search (general) | free, commercial, NSFW, visual novel, sprite, TuLune, Potat0Master | websearch:free mature teacher sprite itch + potat0master + kuroi-usagi VN | 2026-07-28 | checked | 發現 TuLune teacher／Potato starter／kuroi-usagi（非商用） |
 
 ## 已確認／候選條目
 
@@ -226,6 +227,14 @@
 | `cand-gurokitty-itch-io-femalesprite-wdifferent-expressions` | female sprite (censored/uncensored) | https://gurokitty.itch.io/femalesprite-wdifferent-expressions | 已收錄到素材庫 | `gurokitty-female-sprite-expressions` | http_ok, downloadable, 2026-07-28 |
 | `cand-gurokitty-itch-io-cybernetic-girl-sprite-w-facial-expressions` | Cybernetic Girl Sprite | https://gurokitty.itch.io/cybernetic-girl-sprite-w-facial-expressions | 已收錄到素材庫 | `gurokitty-cybernetic-girl` | http_ok, downloadable, 2026-07-28 |
 | `cand-gurokitty-itch-io-ghost-girl-pixel-sprite` | Busty Ghost Girl Sprite | https://gurokitty.itch.io/ghost-girl-pixel-sprite | 已收錄到素材庫 | `gurokitty-ghost-girl` | http_ok, downloadable, 2026-07-28 |
+| `cand-tulune2204-itch-io-free-mature-teacher-starter-kit-2d-anime-sprite-background` | [FREE] Mature Teacher Starter Kit | https://tulune2204.itch.io/free-mature-teacher-starter-kit-2d-anime-sprite-background | 已收錄到素材庫 | `tulune-mature-teacher-starter` | http_ok, downloadable, 2026-07-28 |
+| `cand-potat0master-itch-io-character-sprites-for-visual-novels-starter-bundle` | Free Character Sprites for Visual Novels | https://potat0master.itch.io/character-sprites-for-visual-novels-starter-bundle | 已收錄到素材庫 | `potat0master-vn-starter-bundle` | http_ok, downloadable, 2026-07-28 |
+| `cand-kuroi-usagi-itch-io-free-visual-novel-art-assets` | JR Free VN Anime-style Sprites & Backgro | https://kuroi-usagi.itch.io/free-visual-novel-art-assets | 已收錄到素材庫 | `kuroi-usagi-free-vn-art` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-aria-visual-novel-sprite-wpsd-file-for-visual-novel` | Aria Visual Novel Sprite Wpsd File For V | https://quarkyifu.itch.io/aria-visual-novel-sprite-wpsd-file-for-visual-novel | 已收錄到素材庫 | `quarkyifu-aria-visual-novel-sprite-wpsd-file-for-v` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-aries-visual-novel-sprite-with-transparency-and-photoshop-psd-` | Aries Visual Novel Sprite With Transpare | https://quarkyifu.itch.io/aries-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no | 已收錄到素材庫 | `quarkyifu-aries-visual-novel-sprite-with-transpare` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-beth-visual-novel-character-sprite-with-photoshop-files` | Beth Visual Novel Character Sprite With  | https://quarkyifu.itch.io/beth-visual-novel-character-sprite-with-photoshop-files | 已收錄到素材庫 | `quarkyifu-beth-visual-novel-character-sprite-with-` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-bicycle-26-image-transparent-background-set-for-visual-novel-d` | Bicycle 26 Image Transparent Background  | https://quarkyifu.itch.io/bicycle-26-image-transparent-background-set-for-visual-novel-detail | 已收錄到素材庫 | `quarkyifu-bicycle-26-image-transparent-background-` | http_ok, downloadable, 2026-07-28 |
+| `cand-quarkyifu-itch-io-darline-visual-novel-character-sprite-with-photoshop-files` | Darline Visual Novel Character Sprite Wi | https://quarkyifu.itch.io/darline-visual-novel-character-sprite-with-photoshop-files | 已收錄到素材庫 | `quarkyifu-darline-visual-novel-character-sprite-wi` | http_ok, downloadable, 2026-07-28 |
 
 ## 自動化驗證
 

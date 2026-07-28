@@ -1773,6 +1773,72 @@
       "status": "downloaded",
       "style": "pixel-art",
       "local_path": "assets/1-free-commercial/adult-18plus/pixel-art/gurokitty-ghost-girl"
+    },
+    {
+      "id": "tulune-mature-teacher-starter",
+      "name": "[FREE] Mature Teacher Starter Kit",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者明示可個人與商用（建議署名）",
+      "source_url": "https://tulune2204.itch.io/free-mature-teacher-starter-kit-2d-anime-sprite-background",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/tulune-mature-teacher-starter"
+    },
+    {
+      "id": "kuroi-usagi-free-vn-art",
+      "name": "JR Free VN Anime-style Sprites & Backgrounds",
+      "asset_type": "adult-18plus",
+      "license_category": "4-free-noncommercial",
+      "license": "免費但禁止商用／付費成品／付費牆；需署名原畫師",
+      "source_url": "https://kuroi-usagi.itch.io/free-visual-novel-art-assets",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/4-free-noncommercial/adult-18plus/vn-sprite/kuroi-usagi-free-vn-art"
+    },
+    {
+      "id": "quarkyifu-aria-visual-novel-sprite-wpsd-file-for-v",
+      "name": "Aria Visual Novel Sprite Wpsd File For Visual Novel",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/aria-visual-novel-sprite-wpsd-file-for-visual-novel",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-aria-visual-novel-sprite-wpsd-file-for-v"
+    },
+    {
+      "id": "quarkyifu-aries-visual-novel-sprite-with-transpare",
+      "name": "Aries Visual Novel Sprite With Transparency And Photoshop Psd File For Visual No",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/aries-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-aries-visual-novel-sprite-with-transpare"
+    },
+    {
+      "id": "quarkyifu-beth-visual-novel-character-sprite-with-",
+      "name": "Beth Visual Novel Character Sprite With Photoshop Files",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/beth-visual-novel-character-sprite-with-photoshop-files",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-beth-visual-novel-character-sprite-with-"
+    },
+    {
+      "id": "quarkyifu-darline-visual-novel-character-sprite-wi",
+      "name": "Darline Visual Novel Character Sprite With Photoshop Files",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "source_url": "https://quarkyifu.itch.io/darline-visual-novel-character-sprite-with-photoshop-files",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-darline-visual-novel-character-sprite-wi"
     }
   ],
   "styles": {

@@ -424,6 +424,26 @@
       "last_checked": "2026-07-24",
       "status": "checked",
       "result_summary": "maker profile 掃描清單：月影"
+    },
+    {
+      "id": "q-web-tulune-potat0-kuroi",
+      "site_id": "web-search",
+      "url": "websearch:free mature teacher sprite itch + potat0master + kuroi-usagi VN",
+      "keywords": [
+        "free",
+        "commercial",
+        "NSFW",
+        "visual novel",
+        "sprite",
+        "TuLune",
+        "Potat0Master"
+      ],
+      "filters": {
+        "engine": "web-search"
+      },
+      "last_checked": "2026-07-28",
+      "status": "checked",
+      "result_summary": "發現 TuLune teacher／Potato starter／kuroi-usagi（非商用）"
     }
   ],
   "candidates": [
@@ -3041,6 +3061,166 @@
       "license_hint": "作者頁明示可商用（gurokitty.itch.io）",
       "verdict": "ingested",
       "pack_id": "gurokitty-ghost-girl",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-tulune2204-itch-io-free-mature-teacher-starter-kit-2d-anime-sprite-background",
+      "url": "https://tulune2204.itch.io/free-mature-teacher-starter-kit-2d-anime-sprite-background",
+      "title": "[FREE] Mature Teacher Starter Kit",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者明示可個人與商用（建議署名）",
+      "verdict": "ingested",
+      "pack_id": "tulune-mature-teacher-starter",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-potat0master-itch-io-character-sprites-for-visual-novels-starter-bundle",
+      "url": "https://potat0master.itch.io/character-sprites-for-visual-novels-starter-bundle",
+      "title": "Free Character Sprites for Visual Novels Starter Bundle",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "Royalty-Free；可商用；禁止轉售／再散布素材",
+      "verdict": "ingested",
+      "pack_id": "potat0master-vn-starter-bundle",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-kuroi-usagi-itch-io-free-visual-novel-art-assets",
+      "url": "https://kuroi-usagi.itch.io/free-visual-novel-art-assets",
+      "title": "JR Free VN Anime-style Sprites & Backgrounds",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "免費但禁止商用／付費成品／付費牆；需署名原畫師",
+      "verdict": "ingested",
+      "pack_id": "kuroi-usagi-free-vn-art",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-aria-visual-novel-sprite-wpsd-file-for-visual-novel",
+      "url": "https://quarkyifu.itch.io/aria-visual-novel-sprite-wpsd-file-for-visual-novel",
+      "title": "Aria Visual Novel Sprite Wpsd File For Visual Novel",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-aria-visual-novel-sprite-wpsd-file-for-v",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-aries-visual-novel-sprite-with-transparency-and-photoshop-psd-",
+      "url": "https://quarkyifu.itch.io/aries-visual-novel-sprite-with-transparency-and-photoshop-psd-file-for-visual-no",
+      "title": "Aries Visual Novel Sprite With Transparency And Photoshop Psd File For Visual No",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-aries-visual-novel-sprite-with-transpare",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-beth-visual-novel-character-sprite-with-photoshop-files",
+      "url": "https://quarkyifu.itch.io/beth-visual-novel-character-sprite-with-photoshop-files",
+      "title": "Beth Visual Novel Character Sprite With Photoshop Files",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-beth-visual-novel-character-sprite-with-",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-bicycle-26-image-transparent-background-set-for-visual-novel-d",
+      "url": "https://quarkyifu.itch.io/bicycle-26-image-transparent-background-set-for-visual-novel-detail",
+      "title": "Bicycle 26 Image Transparent Background Set For Visual Novel Detail",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-bicycle-26-image-transparent-background-",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-darline-visual-novel-character-sprite-with-photoshop-files",
+      "url": "https://quarkyifu.itch.io/darline-visual-novel-character-sprite-with-photoshop-files",
+      "title": "Darline Visual Novel Character Sprite With Photoshop Files",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-tulune-potat0-kuroi"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者頁面標示免權利金／可自由使用（請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-darline-visual-novel-character-sprite-wi",
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
