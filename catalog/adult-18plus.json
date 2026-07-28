@@ -2015,6 +2015,94 @@
       "status": "downloaded",
       "style": "vn-sprite",
       "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01585864-trial"
+    },
+    {
+      "id": "quarkyifu-ruby2",
+      "name": "Ruby2",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/ruby2",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-ruby2"
+    },
+    {
+      "id": "quarkyifu-ruby5",
+      "name": "Ruby5",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/ruby5",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-ruby5"
+    },
+    {
+      "id": "quarkyifu-sara-vn-character-sprite-for-renpytyranobuilder",
+      "name": "Sara Vn Character Sprite For Renpytyranobuilder",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/sara-vn-character-sprite-for-renpytyranobuilder",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-sara-vn-character-sprite-for-renpytyranobuilder"
+    },
+    {
+      "id": "quarkyifu-simon-visual-novel-character-sprite-with-photosh",
+      "name": "Simon Visual Novel Character Sprite With Photosh",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/simon-visual-novel-character-sprite-with-photoshop-files",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-simon-visual-novel-character-sprite-with-photosh"
+    },
+    {
+      "id": "quarkyifu-succubus-free-visual-novel-character-170-image-s",
+      "name": "Succubus Free Visual Novel Character 170 Image S",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/succubus-free-visual-novel-character-170-image-set",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-succubus-free-visual-novel-character-170-image-s"
+    },
+    {
+      "id": "quarkyifu-tom-visual-novel-sprite-143-images",
+      "name": "Tom Visual Novel Sprite 143 Images",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/tom-visual-novel-sprite-143-images",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-tom-visual-novel-sprite-143-images"
+    },
+    {
+      "id": "quarkyifu-visual-novel-characters-dawn-office",
+      "name": "Visual Novel Characters Dawn Office",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/visual-novel-characters-dawn-office",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/quarkyifu-visual-novel-characters-dawn-office"
+    },
+    {
+      "id": "dlsite-rj01618020-trial",
+      "name": "立ち絵素材_ふわふわ系少年 [立ち絵素材RAIKO] 体験版",
+      "asset_type": "adult-18plus",
+      "license_category": "1-free-commercial",
+      "license": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "source_url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01618020.html",
+      "status": "downloaded",
+      "style": "vn-sprite",
+      "local_path": "assets/1-free-commercial/adult-18plus/vn-sprite/dlsite-rj01618020-trial"
     }
   ],
   "styles": {

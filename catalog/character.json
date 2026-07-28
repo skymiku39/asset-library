@@ -246,6 +246,105 @@
       "status": "downloaded",
       "style": "anime-2d",
       "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-bicycle-26-image-transparent-background-"
+    },
+    {
+      "id": "doublefree-mr-fuffington",
+      "name": "Mr Fuffington - Free Cat Sprite (CC0)",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "CC0",
+      "source_url": "https://doublefree.itch.io/mr-fuffington",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/doublefree-mr-fuffington"
+    },
+    {
+      "id": "prometheus-aria-shyness",
+      "name": "Aria Shyness Sprite Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "免費可商用（建議署名）",
+      "source_url": "https://prometheus-pictures.itch.io/aria-shyness-sprite-pack-free-blushing-embarrassed-flustered-character-for-vis",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/prometheus-aria-shyness"
+    },
+    {
+      "id": "prometheus-aria-emotional",
+      "name": "Aria Emotional Sprite Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "免費可商用（建議署名）",
+      "source_url": "https://prometheus-pictures.itch.io/ariaemotional-sprite-pack-free-complete-character-collection-for-visual-novels-d",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/prometheus-aria-emotional"
+    },
+    {
+      "id": "prometheus-aria-happy",
+      "name": "Free College Romance Character – Aria Happy Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "免費可商用（建議署名）",
+      "source_url": "https://prometheus-pictures.itch.io/free-college-romance-character-aria-sprite-pack-for-visual-novels-dating-sims",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/prometheus-aria-happy"
+    },
+    {
+      "id": "prometheus-aria-sad",
+      "name": "Aria Sad Emotion Sprite Pack",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "免費可商用（建議署名）",
+      "source_url": "https://prometheus-pictures.itch.io/aria-sad-emotion-sprite-pack-free-visual-novel-asset-for-renpy-dating-sims-and-r",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/prometheus-aria-sad"
+    },
+    {
+      "id": "quarkyifu-love-hotel-anime-background-set",
+      "name": "Love Hotel Anime Background Set",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/love-hotel-anime-background-set",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-love-hotel-anime-background-set"
+    },
+    {
+      "id": "quarkyifu-prison-cells-background-image-set",
+      "name": "Prison Cells Background Image Set",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/prison-cells-background-image-set",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-prison-cells-background-image-set"
+    },
+    {
+      "id": "quarkyifu-visual-novel-backgrounds-431-mage-bg-set",
+      "name": "Visual Novel Backgrounds 431 Mage Bg Set",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/visual-novel-backgrounds-431-mage-bg-set",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-visual-novel-backgrounds-431-mage-bg-set"
+    },
+    {
+      "id": "quarkyifu-visual-novel-backgrounds-office-bg-set",
+      "name": "Visual Novel Backgrounds Office Bg Set",
+      "asset_type": "character",
+      "license_category": "1-free-commercial",
+      "license": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "source_url": "https://quarkyifu.itch.io/visual-novel-backgrounds-office-bg-set",
+      "status": "downloaded",
+      "style": "anime-2d",
+      "local_path": "assets/1-free-commercial/character/anime-2d/quarkyifu-visual-novel-backgrounds-office-bg-set"
     }
   ],
   "styles": {

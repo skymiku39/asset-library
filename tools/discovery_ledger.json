@@ -461,6 +461,24 @@
       "last_checked": "2026-07-28",
       "status": "checked",
       "result_summary": "本輪新收 12；剩餘候選約 15"
+    },
+    {
+      "id": "q-web-prometheus-doublefree",
+      "site_id": "web-search",
+      "url": "websearch:prometheus pictures aria sprite + doublefree mr fuffington CC0",
+      "keywords": [
+        "Prometheus Pictures",
+        "Aria",
+        "DoubleFree",
+        "CC0",
+        "free commercial"
+      ],
+      "filters": {
+        "engine": "web-search"
+      },
+      "last_checked": "2026-07-28",
+      "status": "checked",
+      "result_summary": "新發現 Aria 表情包與 CC0 貓立繪"
     }
   ],
   "candidates": [
@@ -3288,14 +3306,14 @@
     {
       "id": "cand-quarkyifu-itch-io-janice-visual-novel-character-sprite-with-photoshop-files",
       "url": "https://quarkyifu.itch.io/janice-visual-novel-character-sprite-with-photoshop-files",
-      "title": "janice-visual-novel-character-sprite-with-pho",
+      "title": "Janice Visual Novel Character Sprite With Photos",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "",
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
       "verdict": "rejected-broken",
       "pack_id": null,
       "verified_at": "2026-07-28",
@@ -3329,14 +3347,14 @@
     {
       "id": "cand-quarkyifu-itch-io-lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
       "url": "https://quarkyifu.itch.io/lady-tomoka-visual-novel-character-sprite-with-photoshop-files",
-      "title": "lady-tomoka-visual-novel-character-sprite-wit",
+      "title": "Lady Tomoka Visual Novel Character Sprite With P",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "",
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
       "verdict": "rejected-broken",
       "pack_id": null,
       "verified_at": "2026-07-28",
@@ -3370,14 +3388,14 @@
     {
       "id": "cand-quarkyifu-itch-io-mary-visual-novel-sprite-305-images",
       "url": "https://quarkyifu.itch.io/mary-visual-novel-sprite-305-images",
-      "title": "mary-visual-novel-sprite-305-images",
+      "title": "Mary Visual Novel Sprite 305 Images",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "",
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
       "verdict": "rejected-broken",
       "pack_id": null,
       "verified_at": "2026-07-28",
@@ -3391,14 +3409,14 @@
     {
       "id": "cand-quarkyifu-itch-io-nun-visual-novel-character-sprite-with-photoshop-file",
       "url": "https://quarkyifu.itch.io/nun-visual-novel-character-sprite-with-photoshop-file",
-      "title": "nun-visual-novel-character-sprite-with-photos",
+      "title": "Nun Visual Novel Character Sprite With Photoshop",
       "site_id": "itch-io",
       "query_ids": [
         "q-itch-quarkyifu-profile"
       ],
       "found_at": "2026-07-28",
       "downloadable": false,
-      "license_hint": "",
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
       "verdict": "rejected-broken",
       "pack_id": null,
       "verified_at": "2026-07-28",
@@ -3642,6 +3660,346 @@
       "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
       "verdict": "ingested",
       "pack_id": "dlsite-rj01585864-trial",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-doublefree-itch-io-mr-fuffington",
+      "url": "https://doublefree.itch.io/mr-fuffington",
+      "title": "Mr Fuffington - Free Cat Sprite (CC0)",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-prometheus-doublefree"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "CC0",
+      "verdict": "ingested",
+      "pack_id": "doublefree-mr-fuffington",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-prometheus-pictures-itch-io-aria-shyness-sprite-pack-free-blushing-embarrassed-f",
+      "url": "https://prometheus-pictures.itch.io/aria-shyness-sprite-pack-free-blushing-embarrassed-flustered-character-for-vis",
+      "title": "Aria Shyness Sprite Pack",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-prometheus-doublefree"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "免費可商用（建議署名）",
+      "verdict": "ingested",
+      "pack_id": "prometheus-aria-shyness",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-prometheus-pictures-itch-io-ariaemotional-sprite-pack-free-complete-character-co",
+      "url": "https://prometheus-pictures.itch.io/ariaemotional-sprite-pack-free-complete-character-collection-for-visual-novels-d",
+      "title": "Aria Emotional Sprite Pack",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-prometheus-doublefree"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "免費可商用（建議署名）",
+      "verdict": "ingested",
+      "pack_id": "prometheus-aria-emotional",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-prometheus-pictures-itch-io-free-college-romance-character-aria-sprite-pack-for-",
+      "url": "https://prometheus-pictures.itch.io/free-college-romance-character-aria-sprite-pack-for-visual-novels-dating-sims",
+      "title": "Free College Romance Character – Aria Happy Pack",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-prometheus-doublefree"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "免費可商用（建議署名）",
+      "verdict": "ingested",
+      "pack_id": "prometheus-aria-happy",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-prometheus-pictures-itch-io-aria-sad-emotion-sprite-pack-free-visual-novel-asset",
+      "url": "https://prometheus-pictures.itch.io/aria-sad-emotion-sprite-pack-free-visual-novel-asset-for-renpy-dating-sims-and-r",
+      "title": "Aria Sad Emotion Sprite Pack",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-web-prometheus-doublefree"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "免費可商用（建議署名）",
+      "verdict": "ingested",
+      "pack_id": "prometheus-aria-sad",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-love-hotel-anime-background-set",
+      "url": "https://quarkyifu.itch.io/love-hotel-anime-background-set",
+      "title": "Love Hotel Anime Background Set",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-love-hotel-anime-background-set",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-prison-cells-background-image-set",
+      "url": "https://quarkyifu.itch.io/prison-cells-background-image-set",
+      "title": "Prison Cells Background Image Set",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-prison-cells-background-image-set",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-ruby2",
+      "url": "https://quarkyifu.itch.io/ruby2",
+      "title": "Ruby2",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-ruby2",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-ruby5",
+      "url": "https://quarkyifu.itch.io/ruby5",
+      "title": "Ruby5",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-ruby5",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-sara-vn-character-sprite-for-renpytyranobuilder",
+      "url": "https://quarkyifu.itch.io/sara-vn-character-sprite-for-renpytyranobuilder",
+      "title": "Sara Vn Character Sprite For Renpytyranobuilder",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-sara-vn-character-sprite-for-renpytyranobuilder",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-simon-visual-novel-character-sprite-with-photoshop-files",
+      "url": "https://quarkyifu.itch.io/simon-visual-novel-character-sprite-with-photoshop-files",
+      "title": "Simon Visual Novel Character Sprite With Photosh",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-simon-visual-novel-character-sprite-with-photosh",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-succubus-free-visual-novel-character-170-image-set",
+      "url": "https://quarkyifu.itch.io/succubus-free-visual-novel-character-170-image-set",
+      "title": "Succubus Free Visual Novel Character 170 Image S",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-succubus-free-visual-novel-character-170-image-s",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-tom-visual-novel-sprite-143-images",
+      "url": "https://quarkyifu.itch.io/tom-visual-novel-sprite-143-images",
+      "title": "Tom Visual Novel Sprite 143 Images",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-tom-visual-novel-sprite-143-images",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-visual-novel-backgrounds-431-mage-bg-set",
+      "url": "https://quarkyifu.itch.io/visual-novel-backgrounds-431-mage-bg-set",
+      "title": "Visual Novel Backgrounds 431 Mage Bg Set",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-visual-novel-backgrounds-431-mage-bg-set",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-visual-novel-backgrounds-office-bg-set",
+      "url": "https://quarkyifu.itch.io/visual-novel-backgrounds-office-bg-set",
+      "title": "Visual Novel Backgrounds Office Bg Set",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-visual-novel-backgrounds-office-bg-set",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-quarkyifu-itch-io-visual-novel-characters-dawn-office",
+      "url": "https://quarkyifu.itch.io/visual-novel-characters-dawn-office",
+      "title": "Visual Novel Characters Dawn Office",
+      "site_id": "itch-io",
+      "query_ids": [
+        "q-itch-quarkyifu-profile"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "作者標示免權利金／可自由使用（Quark_Yifu；請覆核）",
+      "verdict": "ingested",
+      "pack_id": "quarkyifu-visual-novel-characters-dawn-office",
+      "verified_at": "2026-07-28",
+      "verify": {
+        "http_ok": true,
+        "downloadable": true,
+        "last_verify_at": "2026-07-28"
+      }
+    },
+    {
+      "id": "cand-www-dlsite-com-maniax-work-product-id-rj01618020-html",
+      "url": "https://www.dlsite.com/maniax/work/=/product_id/RJ01618020.html",
+      "title": "立ち絵素材_ふわふわ系少年 [立ち絵素材RAIKO] 体験版",
+      "site_id": "dlsite-maniax",
+      "query_ids": [
+        "q-dlsite-maker-raiko"
+      ],
+      "found_at": "2026-07-28",
+      "downloadable": true,
+      "license_hint": "DLsite 體驗版（立ち絵素材RAIKO；產品版條款請核對）",
+      "verdict": "ingested",
+      "pack_id": "dlsite-rj01618020-trial",
       "verified_at": "2026-07-28",
       "verify": {
         "http_ok": true,
